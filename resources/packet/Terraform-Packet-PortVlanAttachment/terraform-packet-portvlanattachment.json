@@ -1,6 +1,6 @@
 {
     "typeName": "Terraform::Packet::PortVlanAttachment",
-    "description": "Provides a resource to attach device ports to VLANs.\n\nDevice and VLAN must be in the same facility.\n\nIf you need this resource to add the port back to bond on removal, set `force_bond = true`.\n\nTo learn more about Layer 2 networking in Packet, refer to\n* https://www.packet.com/resources/guides/layer-2-configurations/ \n* https://www.packet.com/developers/docs/network/advanced/layer-2/",
+    "description": "Provides a resource to attach device ports to VLANs.\n\nDevice and VLAN must be in the same facility.\n\nIf you need this resource to add the port back to bond on removal, set `force_bond = true`.\n\nTo learn more about Layer 2 networking in Packet, refer to\n\n* https://www.packet.com/resources/guides/layer-2-configurations/ \n* https://www.packet.com/developers/docs/network/advanced/layer-2/",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
     "definitions": {},
     "properties": {

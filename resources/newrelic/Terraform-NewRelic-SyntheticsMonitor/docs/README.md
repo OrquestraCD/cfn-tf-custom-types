@@ -1,6 +1,6 @@
 # Terraform::NewRelic::SyntheticsMonitor
 
-CloudFormation equivalent of newrelic_synthetics_monitor
+Use this resource to create, update, and delete a synthetics monitor in New Relic.
 
 ## Syntax
 
@@ -50,6 +50,9 @@ Properties:
 
 #### BypassHeadRequest
 
+Bypass HEAD request.
+* `treat_redirect_as_failure` - (Optional) Fail the monitor check if redirected.
+
 _Required_: No
 
 _Type_: Boolean
@@ -57,6 +60,11 @@ _Type_: Boolean
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Frequency
+
+The interval (in minutes) at which this monitor should run.
+* `status` - (Required) The monitor status (i.e. `ENABLED`, `MUTED`, `DISABLED`).
+* `locations` - (Required) The locations in which this monitor should be run.
+* `sla_threshold` - (Optional) The base threshold for the SLA report.
 
 _Required_: Yes
 
@@ -66,6 +74,9 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Locations
 
+The locations in which this monitor should be run.
+* `sla_threshold` - (Optional) The base threshold for the SLA report.
+
 _Required_: Yes
 
 _Type_: List of String
@@ -73,6 +84,13 @@ _Type_: List of String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Name
+
+The title of this monitor.
+* `type` - (Required) The monitor type. Valid values are `SIMPLE`, `BROWSER`, `SCRIPT_BROWSER`, and `SCRIPT_API`.
+* `frequency` - (Required) The interval (in minutes) at which this monitor should run.
+* `status` - (Required) The monitor status (i.e. `ENABLED`, `MUTED`, `DISABLED`).
+* `locations` - (Required) The locations in which this monitor should be run.
+* `sla_threshold` - (Optional) The base threshold for the SLA report.
 
 _Required_: Yes
 
@@ -82,6 +100,8 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### SlaThreshold
 
+The base threshold for the SLA report.
+
 _Required_: No
 
 _Type_: Double
@@ -89,6 +109,10 @@ _Type_: Double
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Status
+
+The monitor status (i.e. `ENABLED`, `MUTED`, `DISABLED`).
+* `locations` - (Required) The locations in which this monitor should be run.
+* `sla_threshold` - (Optional) The base threshold for the SLA report.
 
 _Required_: Yes
 
@@ -98,6 +122,8 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### TreatRedirectAsFailure
 
+Fail the monitor check if redirected.
+
 _Required_: No
 
 _Type_: Boolean
@@ -105,6 +131,12 @@ _Type_: Boolean
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Type
+
+The monitor type. Valid values are `SIMPLE`, `BROWSER`, `SCRIPT_BROWSER`, and `SCRIPT_API`.
+* `frequency` - (Required) The interval (in minutes) at which this monitor should run.
+* `status` - (Required) The monitor status (i.e. `ENABLED`, `MUTED`, `DISABLED`).
+* `locations` - (Required) The locations in which this monitor should be run.
+* `sla_threshold` - (Optional) The base threshold for the SLA report.
 
 _Required_: Yes
 
@@ -114,6 +146,10 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Uri
 
+The URI for the monitor to hit.
+* `validation_string` - (Optional) The string to validate against in the response.
+* `verify_ssl` - (Optional) Verify SSL.
+
 _Required_: No
 
 _Type_: String
@@ -122,6 +158,9 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### ValidationString
 
+The string to validate against in the response.
+* `verify_ssl` - (Optional) Verify SSL.
+
 _Required_: No
 
 _Type_: String
@@ -129,6 +168,8 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### VerifySsl
+
+Verify SSL.
 
 _Required_: No
 

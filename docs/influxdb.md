@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you may optionally create an AWS Secrets Manager secret with the name **terraform/influxdb**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you may optionally create an AWS Secrets Manager secret with the name **terraform/influxdb**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * ``url`` - (Optional) The root URL of a InfluxDB server. Defaults to
   `http://localhost:8086/`.

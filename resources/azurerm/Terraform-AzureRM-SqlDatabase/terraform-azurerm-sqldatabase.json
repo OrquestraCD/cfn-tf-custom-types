@@ -8,20 +8,16 @@
             "additionalProperties": false,
             "properties": {
                 "RetentionInDays": {
-                    "type": "number",
-                    "description": "Specifies the number of days to retain logs for in the storage account."
+                    "type": "number"
                 },
                 "StorageAccountAccessKey": {
-                    "type": "string",
-                    "description": "Specifies the access key to use for the auditing storage account."
+                    "type": "string"
                 },
                 "StorageAccountAccessKeyIsSecondary": {
-                    "type": "boolean",
-                    "description": "Specifies whether `storage_account_access_key` value is the storage's secondary key."
+                    "type": "boolean"
                 },
                 "StorageEndpoint": {
-                    "type": "string",
-                    "description": "Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net)."
+                    "type": "string"
                 }
             },
             "required": [

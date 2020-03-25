@@ -38,6 +38,7 @@ class ResourceModel(BaseResourceModel):
     tfcfnid: Optional[str]
     Description: Optional[str]
     Id: Optional[str]
+    IgnoreMembers: Optional[bool]
     Name: Optional[str]
     Member: Optional[Sequence["_Member"]]
 
@@ -52,6 +53,7 @@ class ResourceModel(BaseResourceModel):
             tfcfnid=json_data.get("tfcfnid"),
             Description=json_data.get("Description"),
             Id=json_data.get("Id"),
+            IgnoreMembers=json_data.get("IgnoreMembers"),
             Name=json_data.get("Name"),
             Member=json_data.get("Member"),
         )

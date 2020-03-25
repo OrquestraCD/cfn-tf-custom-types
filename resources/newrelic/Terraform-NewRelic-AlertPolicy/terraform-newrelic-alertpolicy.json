@@ -1,6 +1,6 @@
 {
     "typeName": "Terraform::NewRelic::AlertPolicy",
-    "description": "CloudFormation equivalent of newrelic_alert_policy",
+    "description": "Use this resource to create and manage New Relic alert policies.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
     "definitions": {},
     "properties": {
@@ -13,7 +13,8 @@
             "insertionOrder": false,
             "items": {
                 "type": "number"
-            }
+            },
+            "description": "An array of channel IDs (integers) to assign to the policy. Adding or removing channel IDs from this array will result in a new alert policy resource being created and the old one being destroyed. Also note that channel IDs _cannot_ be imported via `terraform import` (see [Import](#import) for info)."
         },
         "CreatedAt": {
             "type": "string"
@@ -22,10 +23,12 @@
             "type": "string"
         },
         "IncidentPreference": {
-            "type": "string"
+            "type": "string",
+            "description": "The rollup strategy for the policy.  Options include: `PER_POLICY`, `PER_CONDITION`, or `PER_CONDITION_AND_TARGET`.  The default is `PER_POLICY`.\n* `channel_ids` - (Optional) An array of channel IDs (integers) to assign to the policy. Adding or removing channel IDs from this array will result in a new alert policy resource being created and the old one being destroyed. Also note that channel IDs _cannot_ be imported via `terraform import` (see [Import](#import) for info)."
         },
         "Name": {
-            "type": "string"
+            "type": "string",
+            "description": "The name of the policy.\n* `incident_preference` - (Optional) The rollup strategy for the policy.  Options include: `PER_POLICY`, `PER_CONDITION`, or `PER_CONDITION_AND_TARGET`.  The default is `PER_POLICY`.\n* `channel_ids` - (Optional) An array of channel IDs (integers) to assign to the policy. Adding or removing channel IDs from this array will result in a new alert policy resource being created and the old one being destroyed. Also note that channel IDs _cannot_ be imported via `terraform import` (see [Import](#import) for info)."
         },
         "UpdatedAt": {
             "type": "string"

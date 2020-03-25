@@ -34,6 +34,12 @@ Properties:
 
 #### Category
 
+A string representing the label key/category.
+* `name` - (Required) A string that will be assigned to the label.
+* `links` - (Required) The resources to which label should be assigned to. At least one of the following attributes must be set.
+* `applications` - An array of application IDs.
+* `servers` - An array of server IDs.
+
 _Required_: Yes
 
 _Type_: String
@@ -41,6 +47,11 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Name
+
+A string that will be assigned to the label.
+* `links` - (Required) The resources to which label should be assigned to. At least one of the following attributes must be set.
+* `applications` - An array of application IDs.
+* `servers` - An array of server IDs.
 
 _Required_: Yes
 

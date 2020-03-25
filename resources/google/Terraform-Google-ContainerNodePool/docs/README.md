@@ -29,6 +29,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#management" title="Management">Management</a>" : <i>[ <a href="management.md">Management</a>, ... ]</i>,
         "<a href="#nodeconfig" title="NodeConfig">NodeConfig</a>" : <i>[ <a href="nodeconfig.md">NodeConfig</a>, ... ]</i>,
         "<a href="#timeouts" title="Timeouts">Timeouts</a>" : <i><a href="timeouts.md">Timeouts</a></i>,
+        "<a href="#upgradesettings" title="UpgradeSettings">UpgradeSettings</a>" : <i>[ <a href="upgradesettings.md">UpgradeSettings</a>, ... ]</i>,
         "<a href="#sandboxconfig" title="SandboxConfig">SandboxConfig</a>" : <i>[ <a href="sandboxconfig.md">SandboxConfig</a>, ... ]</i>,
         "<a href="#shieldedinstanceconfig" title="ShieldedInstanceConfig">ShieldedInstanceConfig</a>" : <i>[ <a href="shieldedinstanceconfig.md">ShieldedInstanceConfig</a>, ... ]</i>,
         "<a href="#workloadmetadataconfig" title="WorkloadMetadataConfig">WorkloadMetadataConfig</a>" : <i>[ <a href="workloadmetadataconfig.md">WorkloadMetadataConfig</a>, ... ]</i>
@@ -59,6 +60,8 @@ Properties:
     <a href="#nodeconfig" title="NodeConfig">NodeConfig</a>: <i>
       - <a href="nodeconfig.md">NodeConfig</a></i>
     <a href="#timeouts" title="Timeouts">Timeouts</a>: <i><a href="timeouts.md">Timeouts</a></i>
+    <a href="#upgradesettings" title="UpgradeSettings">UpgradeSettings</a>: <i>
+      - <a href="upgradesettings.md">UpgradeSettings</a></i>
     <a href="#sandboxconfig" title="SandboxConfig">SandboxConfig</a>: <i>
       - <a href="sandboxconfig.md">SandboxConfig</a></i>
     <a href="#shieldedinstanceconfig" title="ShieldedInstanceConfig">ShieldedInstanceConfig</a>: <i>
@@ -219,6 +222,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: <a href="timeouts.md">Timeouts</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### UpgradeSettings
+
+_Required_: No
+
+_Type_: List of <a href="upgradesettings.md">UpgradeSettings</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

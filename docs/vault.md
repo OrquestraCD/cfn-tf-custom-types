@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/vault**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/vault**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `path` - (Required) The login path of the auth backend. For example, login with
   approle by setting this path to `auth/approle/login`. Additionally, some mounts use parameters

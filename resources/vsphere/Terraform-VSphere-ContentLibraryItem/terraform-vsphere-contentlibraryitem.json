@@ -1,0 +1,79 @@
+{
+    "typeName": "Terraform::VSphere::ContentLibraryItem",
+    "description": "The `vsphere_content_library_item` resource can be used to create items in a Content Library. Each item can contain \nmultiple files. Each `file_url` must be accessible from the vSphere environment as it will be downloaded from the\nspecified location and stored on the Content Library's storage backing.\n\nTo make a `content_library_item` a functioning template, the template must be in OVF format. The .ovf and .vmdk\nfile(s) can then be set as the `file_url` list.",
+    "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "definitions": {},
+    "properties": {
+        "tfcfnid": {
+            "description": "Internal identifier for tracking resource changes. Do not use.",
+            "type": "string"
+        },
+        "Description": {
+            "type": "string",
+            "description": "A description for the item."
+        },
+        "FileUrl": {
+            "type": "array",
+            "insertionOrder": true,
+            "items": {
+                "type": "string"
+            },
+            "description": "A list of files to download for the Content Library item."
+        },
+        "Id": {
+            "type": "string"
+        },
+        "LibraryId": {
+            "type": "string",
+            "description": "The ID of the Content Library the item should be created in."
+        },
+        "Name": {
+            "type": "string",
+            "description": "The name of the item to be created in the Content Library."
+        },
+        "Type": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "FileUrl",
+        "LibraryId",
+        "Name"
+    ],
+    "readOnlyProperties": [
+        "/properties/tfcfnid",
+        "/properties/Id"
+    ],
+    "primaryIdentifier": [
+        "/properties/tfcfnid"
+    ],
+    "handlers": {
+        "create": {
+            "permissions": [
+                "s3:PutObject",
+                "secretsmanager:GetSecretValue"
+            ]
+        },
+        "read": {
+            "permissions": []
+        },
+        "update": {
+            "permissions": [
+                "s3:GetObject",
+                "s3:PutObject",
+                "secretsmanager:GetSecretValue"
+            ]
+        },
+        "delete": {
+            "permissions": [
+                "s3:GetObject",
+                "s3:DeleteObject",
+                "secretsmanager:GetSecretValue"
+            ]
+        },
+        "list": {
+            "permissions": []
+        }
+    }
+}

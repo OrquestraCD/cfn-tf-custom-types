@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you may optionally create an AWS Secrets Manager secret with the name **terraform/cloudstack**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you may optionally create an AWS Secrets Manager secret with the name **terraform/cloudstack**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `api_url` - (Optional) This is the CloudStack API URL.
 

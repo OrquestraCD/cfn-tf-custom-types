@@ -1,6 +1,6 @@
 # Terraform::NewRelic::InfraAlertCondition
 
-CloudFormation equivalent of newrelic_infra_alert_condition
+Use this resource to create and manage Infrastructure alert conditions in New Relic.
 
 ## Syntax
 
@@ -57,6 +57,16 @@ Properties:
 
 #### Comparison
 
+The operator used to evaluate the threshold value.  Valid values are `above`, `below`, and `equal`.  Supported by the `infra_metric` and `infra_process_running` condition types.
+* `critical` - (Required) Identifies the threshold parameters for opening a critical alert violation. See [Thresholds](#thresholds) below for details.
+* `warning` - (Optional) Identifies the threshold parameters for opening a warning alert violation. See [Thresholds](#thresholds) below for details.
+* `enabled` - (Optional) Whether the condition is turned on or off.  Valid values are `true` and `false`.  Defaults to `true`.
+* `where` - (Optional) If applicable, this identifies any Infrastructure host filters used; for example: `hostname LIKE '%cassandra%'`.
+* `process_where` - (Optional) Any filters applied to processes; for example: `commandName = 'java'`.  Supported by the `infra_process_running` condition type.
+* `integration_provider` - (Optional) For alerts on integrations, use this instead of `event`.  Supported by the `infra_metric` condition type.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
+
 _Required_: No
 
 _Type_: String
@@ -64,6 +74,13 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Enabled
+
+Whether the condition is turned on or off.  Valid values are `true` and `false`.  Defaults to `true`.
+* `where` - (Optional) If applicable, this identifies any Infrastructure host filters used; for example: `hostname LIKE '%cassandra%'`.
+* `process_where` - (Optional) Any filters applied to processes; for example: `commandName = 'java'`.  Supported by the `infra_process_running` condition type.
+* `integration_provider` - (Optional) For alerts on integrations, use this instead of `event`.  Supported by the `infra_metric` condition type.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
 
 _Required_: No
 
@@ -73,6 +90,18 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Event
 
+The metric event; for example, `SystemSample` or `StorageSample`.  Supported by the `infra_metric` condition type.
+* `select` - (Required) The attribute name to identify the metric being targeted; for example, `cpuPercent`, `diskFreePercent`, or `memoryResidentSizeBytes`.  The underlying API will automatically populate this value for Infrastructure integrations (for example `diskFreePercent`), so make sure to explicitly include this value to avoid diff issues.  Supported by the `infra_metric` condition type.
+* `comparison` - (Required) The operator used to evaluate the threshold value.  Valid values are `above`, `below`, and `equal`.  Supported by the `infra_metric` and `infra_process_running` condition types.
+* `critical` - (Required) Identifies the threshold parameters for opening a critical alert violation. See [Thresholds](#thresholds) below for details.
+* `warning` - (Optional) Identifies the threshold parameters for opening a warning alert violation. See [Thresholds](#thresholds) below for details.
+* `enabled` - (Optional) Whether the condition is turned on or off.  Valid values are `true` and `false`.  Defaults to `true`.
+* `where` - (Optional) If applicable, this identifies any Infrastructure host filters used; for example: `hostname LIKE '%cassandra%'`.
+* `process_where` - (Optional) Any filters applied to processes; for example: `commandName = 'java'`.  Supported by the `infra_process_running` condition type.
+* `integration_provider` - (Optional) For alerts on integrations, use this instead of `event`.  Supported by the `infra_metric` condition type.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
+
 _Required_: No
 
 _Type_: String
@@ -80,6 +109,10 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### IntegrationProvider
+
+For alerts on integrations, use this instead of `event`.  Supported by the `infra_metric` condition type.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
 
 _Required_: No
 
@@ -89,6 +122,20 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Name
 
+The Infrastructure alert condition's name.
+* `type` - (Required) The type of Infrastructure alert condition.  Valid values are  `infra_process_running`, `infra_metric`, and `infra_host_not_reporting`.
+* `event` - (Required) The metric event; for example, `SystemSample` or `StorageSample`.  Supported by the `infra_metric` condition type.
+* `select` - (Required) The attribute name to identify the metric being targeted; for example, `cpuPercent`, `diskFreePercent`, or `memoryResidentSizeBytes`.  The underlying API will automatically populate this value for Infrastructure integrations (for example `diskFreePercent`), so make sure to explicitly include this value to avoid diff issues.  Supported by the `infra_metric` condition type.
+* `comparison` - (Required) The operator used to evaluate the threshold value.  Valid values are `above`, `below`, and `equal`.  Supported by the `infra_metric` and `infra_process_running` condition types.
+* `critical` - (Required) Identifies the threshold parameters for opening a critical alert violation. See [Thresholds](#thresholds) below for details.
+* `warning` - (Optional) Identifies the threshold parameters for opening a warning alert violation. See [Thresholds](#thresholds) below for details.
+* `enabled` - (Optional) Whether the condition is turned on or off.  Valid values are `true` and `false`.  Defaults to `true`.
+* `where` - (Optional) If applicable, this identifies any Infrastructure host filters used; for example: `hostname LIKE '%cassandra%'`.
+* `process_where` - (Optional) Any filters applied to processes; for example: `commandName = 'java'`.  Supported by the `infra_process_running` condition type.
+* `integration_provider` - (Optional) For alerts on integrations, use this instead of `event`.  Supported by the `infra_metric` condition type.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
+
 _Required_: Yes
 
 _Type_: String
@@ -96,6 +143,21 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### PolicyId
+
+The ID of the alert policy where this condition should be used.
+* `name` - (Required) The Infrastructure alert condition's name.
+* `type` - (Required) The type of Infrastructure alert condition.  Valid values are  `infra_process_running`, `infra_metric`, and `infra_host_not_reporting`.
+* `event` - (Required) The metric event; for example, `SystemSample` or `StorageSample`.  Supported by the `infra_metric` condition type.
+* `select` - (Required) The attribute name to identify the metric being targeted; for example, `cpuPercent`, `diskFreePercent`, or `memoryResidentSizeBytes`.  The underlying API will automatically populate this value for Infrastructure integrations (for example `diskFreePercent`), so make sure to explicitly include this value to avoid diff issues.  Supported by the `infra_metric` condition type.
+* `comparison` - (Required) The operator used to evaluate the threshold value.  Valid values are `above`, `below`, and `equal`.  Supported by the `infra_metric` and `infra_process_running` condition types.
+* `critical` - (Required) Identifies the threshold parameters for opening a critical alert violation. See [Thresholds](#thresholds) below for details.
+* `warning` - (Optional) Identifies the threshold parameters for opening a warning alert violation. See [Thresholds](#thresholds) below for details.
+* `enabled` - (Optional) Whether the condition is turned on or off.  Valid values are `true` and `false`.  Defaults to `true`.
+* `where` - (Optional) If applicable, this identifies any Infrastructure host filters used; for example: `hostname LIKE '%cassandra%'`.
+* `process_where` - (Optional) Any filters applied to processes; for example: `commandName = 'java'`.  Supported by the `infra_process_running` condition type.
+* `integration_provider` - (Optional) For alerts on integrations, use this instead of `event`.  Supported by the `infra_metric` condition type.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
 
 _Required_: Yes
 
@@ -105,6 +167,11 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### ProcessWhere
 
+Any filters applied to processes; for example: `commandName = 'java'`.  Supported by the `infra_process_running` condition type.
+* `integration_provider` - (Optional) For alerts on integrations, use this instead of `event`.  Supported by the `infra_metric` condition type.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
+
 _Required_: No
 
 _Type_: String
@@ -112,6 +179,9 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### RunbookUrl
+
+Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
 
 _Required_: No
 
@@ -121,6 +191,17 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Select
 
+The attribute name to identify the metric being targeted; for example, `cpuPercent`, `diskFreePercent`, or `memoryResidentSizeBytes`.  The underlying API will automatically populate this value for Infrastructure integrations (for example `diskFreePercent`), so make sure to explicitly include this value to avoid diff issues.  Supported by the `infra_metric` condition type.
+* `comparison` - (Required) The operator used to evaluate the threshold value.  Valid values are `above`, `below`, and `equal`.  Supported by the `infra_metric` and `infra_process_running` condition types.
+* `critical` - (Required) Identifies the threshold parameters for opening a critical alert violation. See [Thresholds](#thresholds) below for details.
+* `warning` - (Optional) Identifies the threshold parameters for opening a warning alert violation. See [Thresholds](#thresholds) below for details.
+* `enabled` - (Optional) Whether the condition is turned on or off.  Valid values are `true` and `false`.  Defaults to `true`.
+* `where` - (Optional) If applicable, this identifies any Infrastructure host filters used; for example: `hostname LIKE '%cassandra%'`.
+* `process_where` - (Optional) Any filters applied to processes; for example: `commandName = 'java'`.  Supported by the `infra_process_running` condition type.
+* `integration_provider` - (Optional) For alerts on integrations, use this instead of `event`.  Supported by the `infra_metric` condition type.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
+
 _Required_: No
 
 _Type_: String
@@ -128,6 +209,19 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Type
+
+The type of Infrastructure alert condition.  Valid values are  `infra_process_running`, `infra_metric`, and `infra_host_not_reporting`.
+* `event` - (Required) The metric event; for example, `SystemSample` or `StorageSample`.  Supported by the `infra_metric` condition type.
+* `select` - (Required) The attribute name to identify the metric being targeted; for example, `cpuPercent`, `diskFreePercent`, or `memoryResidentSizeBytes`.  The underlying API will automatically populate this value for Infrastructure integrations (for example `diskFreePercent`), so make sure to explicitly include this value to avoid diff issues.  Supported by the `infra_metric` condition type.
+* `comparison` - (Required) The operator used to evaluate the threshold value.  Valid values are `above`, `below`, and `equal`.  Supported by the `infra_metric` and `infra_process_running` condition types.
+* `critical` - (Required) Identifies the threshold parameters for opening a critical alert violation. See [Thresholds](#thresholds) below for details.
+* `warning` - (Optional) Identifies the threshold parameters for opening a warning alert violation. See [Thresholds](#thresholds) below for details.
+* `enabled` - (Optional) Whether the condition is turned on or off.  Valid values are `true` and `false`.  Defaults to `true`.
+* `where` - (Optional) If applicable, this identifies any Infrastructure host filters used; for example: `hostname LIKE '%cassandra%'`.
+* `process_where` - (Optional) Any filters applied to processes; for example: `commandName = 'java'`.  Supported by the `infra_process_running` condition type.
+* `integration_provider` - (Optional) For alerts on integrations, use this instead of `event`.  Supported by the `infra_metric` condition type.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
 
 _Required_: Yes
 
@@ -137,6 +231,8 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### ViolationCloseTimer
 
+Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
+
 _Required_: No
 
 _Type_: Double
@@ -144,6 +240,12 @@ _Type_: Double
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Where
+
+If applicable, this identifies any Infrastructure host filters used; for example: `hostname LIKE '%cassandra%'`.
+* `process_where` - (Optional) Any filters applied to processes; for example: `commandName = 'java'`.  Supported by the `infra_process_running` condition type.
+* `integration_provider` - (Optional) For alerts on integrations, use this instead of `event`.  Supported by the `infra_metric` condition type.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `violation_close_timer` - (Optional) Determines how much time will pass before a violation is automatically closed. Setting the time limit to 0 prevents a violation from being force-closed.
 
 _Required_: No
 

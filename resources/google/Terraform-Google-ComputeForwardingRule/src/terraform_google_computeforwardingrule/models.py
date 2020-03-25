@@ -37,6 +37,7 @@ class ResourceHandlerRequest(BaseResourceHandlerRequest):
 class ResourceModel(BaseResourceModel):
     tfcfnid: Optional[str]
     AllPorts: Optional[bool]
+    AllowGlobalAccess: Optional[bool]
     BackendService: Optional[str]
     CreationTimestamp: Optional[str]
     Description: Optional[str]
@@ -69,6 +70,7 @@ class ResourceModel(BaseResourceModel):
         return cls(
             tfcfnid=json_data.get("tfcfnid"),
             AllPorts=json_data.get("AllPorts"),
+            AllowGlobalAccess=json_data.get("AllowGlobalAccess"),
             BackendService=json_data.get("BackendService"),
             CreationTimestamp=json_data.get("CreationTimestamp"),
             Description=json_data.get("Description"),

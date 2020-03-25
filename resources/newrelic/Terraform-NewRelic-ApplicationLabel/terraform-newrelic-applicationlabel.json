@@ -31,13 +31,15 @@
             "type": "string"
         },
         "Category": {
-            "type": "string"
+            "type": "string",
+            "description": "A string representing the label key/category.\n* `name` - (Required) A string that will be assigned to the label.\n* `links` - (Required) The resources to which label should be assigned to. At least one of the following attributes must be set.\n* `applications` - An array of application IDs.\n* `servers` - An array of server IDs."
         },
         "Id": {
             "type": "string"
         },
         "Name": {
-            "type": "string"
+            "type": "string",
+            "description": "A string that will be assigned to the label.\n* `links` - (Required) The resources to which label should be assigned to. At least one of the following attributes must be set.\n* `applications` - An array of application IDs.\n* `servers` - An array of server IDs."
         },
         "Links": {
             "type": "array",

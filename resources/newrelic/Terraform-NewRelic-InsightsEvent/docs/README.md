@@ -1,6 +1,6 @@
 # Terraform::NewRelic::InsightsEvent
 
-CloudFormation equivalent of newrelic_insights_event
+Use this resource to create one or more Insights events during a terraform run.
 
 ## Syntax
 

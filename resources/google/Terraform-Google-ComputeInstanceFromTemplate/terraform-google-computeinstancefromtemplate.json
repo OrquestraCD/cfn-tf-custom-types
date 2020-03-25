@@ -248,6 +248,9 @@
         "CpuPlatform": {
             "type": "string"
         },
+        "CurrentStatus": {
+            "type": "string"
+        },
         "DeletionProtection": {
             "type": "boolean"
         },
@@ -459,6 +462,7 @@
     "readOnlyProperties": [
         "/properties/tfcfnid",
         "/properties/CpuPlatform",
+        "/properties/CurrentStatus",
         "/properties/Id",
         "/properties/InstanceId",
         "/properties/LabelFingerprint",

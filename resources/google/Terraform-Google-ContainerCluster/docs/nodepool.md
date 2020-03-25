@@ -16,7 +16,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "<a href="#version" title="Version">Version</a>" : <i>String</i>,
     "<a href="#autoscaling" title="Autoscaling">Autoscaling</a>" : <i>[ <a href="nodepool-autoscaling.md">Autoscaling</a>, ... ]</i>,
     "<a href="#management" title="Management">Management</a>" : <i>[ <a href="nodepool-management.md">Management</a>, ... ]</i>,
-    "<a href="#nodeconfig" title="NodeConfig">NodeConfig</a>" : <i>[ <a href="nodepool-nodeconfig.md">NodeConfig</a>, ... ]</i>
+    "<a href="#nodeconfig" title="NodeConfig">NodeConfig</a>" : <i>[ <a href="nodepool-nodeconfig.md">NodeConfig</a>, ... ]</i>,
+    "<a href="#upgradesettings" title="UpgradeSettings">UpgradeSettings</a>" : <i>[ <a href="nodepool-upgradesettings.md">UpgradeSettings</a>, ... ]</i>
 }
 </pre>
 
@@ -35,6 +36,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
       - <a href="nodepool-management.md">Management</a></i>
 <a href="#nodeconfig" title="NodeConfig">NodeConfig</a>: <i>
       - <a href="nodepool-nodeconfig.md">NodeConfig</a></i>
+<a href="#upgradesettings" title="UpgradeSettings">UpgradeSettings</a>: <i>
+      - <a href="nodepool-upgradesettings.md">UpgradeSettings</a></i>
 </pre>
 
 ## Properties
@@ -108,6 +111,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: List of <a href="nodepool-nodeconfig.md">NodeConfig</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### UpgradeSettings
+
+_Required_: No
+
+_Type_: List of <a href="nodepool-upgradesettings.md">UpgradeSettings</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

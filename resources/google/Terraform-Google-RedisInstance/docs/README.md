@@ -27,6 +27,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "Properties" : {
         "<a href="#alternativelocationid" title="AlternativeLocationId">AlternativeLocationId</a>" : <i>String</i>,
         "<a href="#authorizednetwork" title="AuthorizedNetwork">AuthorizedNetwork</a>" : <i>String</i>,
+        "<a href="#connectmode" title="ConnectMode">ConnectMode</a>" : <i>String</i>,
         "<a href="#displayname" title="DisplayName">DisplayName</a>" : <i>String</i>,
         "<a href="#labels" title="Labels">Labels</a>" : <i>[ <a href="labels.md">Labels</a>, ... ]</i>,
         "<a href="#locationid" title="LocationId">LocationId</a>" : <i>String</i>,
@@ -50,6 +51,7 @@ Type: Terraform::Google::RedisInstance
 Properties:
     <a href="#alternativelocationid" title="AlternativeLocationId">AlternativeLocationId</a>: <i>String</i>
     <a href="#authorizednetwork" title="AuthorizedNetwork">AuthorizedNetwork</a>: <i>String</i>
+    <a href="#connectmode" title="ConnectMode">ConnectMode</a>: <i>String</i>
     <a href="#displayname" title="DisplayName">DisplayName</a>: <i>String</i>
     <a href="#labels" title="Labels">Labels</a>: <i>
       - <a href="labels.md">Labels</a></i>
@@ -77,6 +79,14 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### AuthorizedNetwork
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### ConnectMode
 
 _Required_: No
 

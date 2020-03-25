@@ -1,6 +1,6 @@
 # Terraform::NewRelic::AlertPolicyChannel
 
-CloudFormation equivalent of newrelic_alert_policy_channel
+Use this resource to map alert policies to alert channels in New Relic.
 
 ## Syntax
 
@@ -34,6 +34,8 @@ Properties:
 
 #### ChannelId
 
+**Deprecated!** (Optional\*) The ID of the channel. Please use the `channel_ids` argument instead.
+
 _Required_: No
 
 _Type_: Double
@@ -42,6 +44,9 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### ChannelIds
 
+Array of channel IDs to apply to the specified policy. We recommended sorting channel IDs in ascending order to avoid drift your Terraform state.
+- `channel_id` - **Deprecated!** (Optional\*) The ID of the channel. Please use the `channel_ids` argument instead.
+
 _Required_: No
 
 _Type_: List of Double
@@ -49,6 +54,10 @@ _Type_: List of Double
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### PolicyId
+
+The ID of the policy.
+- `channel_ids` - (Optional\*) Array of channel IDs to apply to the specified policy. We recommended sorting channel IDs in ascending order to avoid drift your Terraform state.
+- `channel_id` - **Deprecated!** (Optional\*) The ID of the channel. Please use the `channel_ids` argument instead.
 
 _Required_: Yes
 

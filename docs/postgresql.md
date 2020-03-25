@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/postgresql**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/postgresql**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `host` - (Required) The address for the postgresql server connection.
 * `port` - (Optional) The port for the postgresql server connection. The default is `5432`.

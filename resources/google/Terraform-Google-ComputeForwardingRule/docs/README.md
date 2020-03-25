@@ -28,6 +28,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "Type" : "Terraform::Google::ComputeForwardingRule",
     "Properties" : {
         "<a href="#allports" title="AllPorts">AllPorts</a>" : <i>Boolean</i>,
+        "<a href="#allowglobalaccess" title="AllowGlobalAccess">AllowGlobalAccess</a>" : <i>Boolean</i>,
         "<a href="#backendservice" title="BackendService">BackendService</a>" : <i>String</i>,
         "<a href="#description" title="Description">Description</a>" : <i>String</i>,
         "<a href="#ipaddress" title="IpAddress">IpAddress</a>" : <i>String</i>,
@@ -55,6 +56,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 Type: Terraform::Google::ComputeForwardingRule
 Properties:
     <a href="#allports" title="AllPorts">AllPorts</a>: <i>Boolean</i>
+    <a href="#allowglobalaccess" title="AllowGlobalAccess">AllowGlobalAccess</a>: <i>Boolean</i>
     <a href="#backendservice" title="BackendService">BackendService</a>: <i>String</i>
     <a href="#description" title="Description">Description</a>: <i>String</i>
     <a href="#ipaddress" title="IpAddress">IpAddress</a>: <i>String</i>
@@ -78,6 +80,14 @@ Properties:
 ## Properties
 
 #### AllPorts
+
+_Required_: No
+
+_Type_: Boolean
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### AllowGlobalAccess
 
 _Required_: No
 

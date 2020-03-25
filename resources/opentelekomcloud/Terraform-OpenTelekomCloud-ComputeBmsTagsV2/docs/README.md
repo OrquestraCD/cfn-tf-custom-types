@@ -1,6 +1,6 @@
 # Terraform::OpenTelekomCloud::ComputeBmsTagsV2
 
-CloudFormation equivalent of opentelekomcloud_compute_bms_tags_v2
+Used to add tags to a BMS.
 
 ## Syntax
 

@@ -81,6 +81,7 @@ class ResourceModel(BaseResourceModel):
     NestedHvEnabled: Optional[bool]
     NumCoresPerSocket: Optional[float]
     NumCpus: Optional[float]
+    PoweronTimeout: Optional[float]
     RebootRequired: Optional[bool]
     ResourcePoolId: Optional[str]
     RunToolsScriptsAfterPowerOn: Optional[bool]
@@ -166,6 +167,7 @@ class ResourceModel(BaseResourceModel):
             NestedHvEnabled=json_data.get("NestedHvEnabled"),
             NumCoresPerSocket=json_data.get("NumCoresPerSocket"),
             NumCpus=json_data.get("NumCpus"),
+            PoweronTimeout=json_data.get("PoweronTimeout"),
             RebootRequired=json_data.get("RebootRequired"),
             ResourcePoolId=json_data.get("ResourcePoolId"),
             RunToolsScriptsAfterPowerOn=json_data.get("RunToolsScriptsAfterPowerOn"),
@@ -274,6 +276,8 @@ _Cdrom = Cdrom
 @dataclass
 class Clone:
     LinkedClone: Optional[bool]
+    OvfNetworkMap: Optional[Sequence["_OvfNetworkMap"]]
+    OvfStorageMap: Optional[Sequence["_OvfStorageMap"]]
     TemplateUuid: Optional[str]
     Timeout: Optional[float]
     Customize: Optional[Sequence["_Customize"]]
@@ -287,6 +291,8 @@ class Clone:
             return None
         return cls(
             LinkedClone=json_data.get("LinkedClone"),
+            OvfNetworkMap=json_data.get("OvfNetworkMap"),
+            OvfStorageMap=json_data.get("OvfStorageMap"),
             TemplateUuid=json_data.get("TemplateUuid"),
             Timeout=json_data.get("Timeout"),
             Customize=json_data.get("Customize"),
@@ -295,6 +301,50 @@ class Clone:
 
 # work around possible type aliasing issues when variable has same name as a model
 _Clone = Clone
+
+
+@dataclass
+class OvfNetworkMap:
+    MapKey: Optional[str]
+    MapValue: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_OvfNetworkMap"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_OvfNetworkMap"]:
+        if not json_data:
+            return None
+        return cls(
+            MapKey=json_data.get("MapKey"),
+            MapValue=json_data.get("MapValue"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_OvfNetworkMap = OvfNetworkMap
+
+
+@dataclass
+class OvfStorageMap:
+    MapKey: Optional[str]
+    MapValue: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_OvfStorageMap"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_OvfStorageMap"]:
+        if not json_data:
+            return None
+        return cls(
+            MapKey=json_data.get("MapKey"),
+            MapValue=json_data.get("MapValue"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_OvfStorageMap = OvfStorageMap
 
 
 @dataclass

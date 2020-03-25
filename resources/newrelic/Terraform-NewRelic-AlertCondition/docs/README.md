@@ -1,6 +1,6 @@
 # Terraform::NewRelic::AlertCondition
 
-CloudFormation equivalent of newrelic_alert_condition
+Use this resource to create and manage alert conditions for APM, Browser, and Mobile in New Relic.
 
 ## Syntax
 
@@ -55,6 +55,15 @@ Properties:
 
 #### ConditionScope
 
+`application` or `instance`.  Choose `application` for most scenarios.  If you are using the JVM plugin in New Relic, the `instance` setting allows your condition to trigger [for specific app instances](https://docs.newrelic.com/docs/alerts/new-relic-alerts/defining-conditions/scope-alert-thresholds-specific-instances).
+* `enabled` - (Optional) Whether the condition is enabled or not. Defaults to true.
+* `gc_metric` - (Optional) A valid Garbage Collection metric e.g. `GC/G1 Young Generation`.
+* `violation_close_timer` - (Optional) Automatically close instance-based violations, including JVM health metric violations, after the number of hours specified. Must be: `1`, `2`, `4`, `8`, `12` or `24`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+* `user_defined_metric` - (Optional) A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
+
 _Required_: No
 
 _Type_: String
@@ -62,6 +71,14 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Enabled
+
+Whether the condition is enabled or not. Defaults to true.
+* `gc_metric` - (Optional) A valid Garbage Collection metric e.g. `GC/G1 Young Generation`.
+* `violation_close_timer` - (Optional) Automatically close instance-based violations, including JVM health metric violations, after the number of hours specified. Must be: `1`, `2`, `4`, `8`, `12` or `24`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+* `user_defined_metric` - (Optional) A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
 
 _Required_: No
 
@@ -71,6 +88,54 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Entities
 
+The instance IDs associated with this condition.
+* `metric` - (Required) The metric field accepts parameters based on the `type` set. One of these metrics based on `type`:
+* `apm_app_metric`
+* `apdex`
+* `error_percentage`
+* `response_time_background`
+* `response_time_web`
+* `throughput_background`
+* `throughput_web`
+* `user_defined`
+* `apm_kt_metric`
+* `apdex`
+* `error_count`
+* `error_percentage`
+* `response_time`
+* `throughput`
+* `browser_metric`
+* `ajax_response_time`
+* `ajax_throughput`
+* `dom_processing`
+* `end_user_apdex`
+* `network`
+* `page_rendering`
+* `page_view_throughput`
+* `page_views_with_js_errors`
+* `request_queuing`
+* `total_page_load`
+* `user_defined`
+* `web_application`
+* `mobile_metric`
+* `database`
+* `images`
+* `json`
+* `mobile_crash_rate`
+* `network_error_percentage`
+* `network`
+* `status_error_percentage`
+* `user_defined`
+* `view_loading`
+* `condition_scope` - (Required for some types) `application` or `instance`.  Choose `application` for most scenarios.  If you are using the JVM plugin in New Relic, the `instance` setting allows your condition to trigger [for specific app instances](https://docs.newrelic.com/docs/alerts/new-relic-alerts/defining-conditions/scope-alert-thresholds-specific-instances).
+* `enabled` - (Optional) Whether the condition is enabled or not. Defaults to true.
+* `gc_metric` - (Optional) A valid Garbage Collection metric e.g. `GC/G1 Young Generation`.
+* `violation_close_timer` - (Optional) Automatically close instance-based violations, including JVM health metric violations, after the number of hours specified. Must be: `1`, `2`, `4`, `8`, `12` or `24`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+* `user_defined_metric` - (Optional) A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
+
 _Required_: Yes
 
 _Type_: List of Double
@@ -78,6 +143,13 @@ _Type_: List of Double
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### GcMetric
+
+A valid Garbage Collection metric e.g. `GC/G1 Young Generation`.
+* `violation_close_timer` - (Optional) Automatically close instance-based violations, including JVM health metric violations, after the number of hours specified. Must be: `1`, `2`, `4`, `8`, `12` or `24`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+* `user_defined_metric` - (Optional) A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
 
 _Required_: No
 
@@ -87,6 +159,53 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Metric
 
+The metric field accepts parameters based on the `type` set. One of these metrics based on `type`:
+* `apm_app_metric`
+* `apdex`
+* `error_percentage`
+* `response_time_background`
+* `response_time_web`
+* `throughput_background`
+* `throughput_web`
+* `user_defined`
+* `apm_kt_metric`
+* `apdex`
+* `error_count`
+* `error_percentage`
+* `response_time`
+* `throughput`
+* `browser_metric`
+* `ajax_response_time`
+* `ajax_throughput`
+* `dom_processing`
+* `end_user_apdex`
+* `network`
+* `page_rendering`
+* `page_view_throughput`
+* `page_views_with_js_errors`
+* `request_queuing`
+* `total_page_load`
+* `user_defined`
+* `web_application`
+* `mobile_metric`
+* `database`
+* `images`
+* `json`
+* `mobile_crash_rate`
+* `network_error_percentage`
+* `network`
+* `status_error_percentage`
+* `user_defined`
+* `view_loading`
+* `condition_scope` - (Required for some types) `application` or `instance`.  Choose `application` for most scenarios.  If you are using the JVM plugin in New Relic, the `instance` setting allows your condition to trigger [for specific app instances](https://docs.newrelic.com/docs/alerts/new-relic-alerts/defining-conditions/scope-alert-thresholds-specific-instances).
+* `enabled` - (Optional) Whether the condition is enabled or not. Defaults to true.
+* `gc_metric` - (Optional) A valid Garbage Collection metric e.g. `GC/G1 Young Generation`.
+* `violation_close_timer` - (Optional) Automatically close instance-based violations, including JVM health metric violations, after the number of hours specified. Must be: `1`, `2`, `4`, `8`, `12` or `24`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+* `user_defined_metric` - (Optional) A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
+
 _Required_: Yes
 
 _Type_: String
@@ -94,6 +213,56 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Name
+
+The title of the condition. Must be between 1 and 64 characters, inclusive.
+* `type` - (Required) The type of condition. One of: `apm_app_metric`, `apm_kt_metric`, `browser_metric`, `mobile_metric`
+* `entities` - (Required) The instance IDs associated with this condition.
+* `metric` - (Required) The metric field accepts parameters based on the `type` set. One of these metrics based on `type`:
+* `apm_app_metric`
+* `apdex`
+* `error_percentage`
+* `response_time_background`
+* `response_time_web`
+* `throughput_background`
+* `throughput_web`
+* `user_defined`
+* `apm_kt_metric`
+* `apdex`
+* `error_count`
+* `error_percentage`
+* `response_time`
+* `throughput`
+* `browser_metric`
+* `ajax_response_time`
+* `ajax_throughput`
+* `dom_processing`
+* `end_user_apdex`
+* `network`
+* `page_rendering`
+* `page_view_throughput`
+* `page_views_with_js_errors`
+* `request_queuing`
+* `total_page_load`
+* `user_defined`
+* `web_application`
+* `mobile_metric`
+* `database`
+* `images`
+* `json`
+* `mobile_crash_rate`
+* `network_error_percentage`
+* `network`
+* `status_error_percentage`
+* `user_defined`
+* `view_loading`
+* `condition_scope` - (Required for some types) `application` or `instance`.  Choose `application` for most scenarios.  If you are using the JVM plugin in New Relic, the `instance` setting allows your condition to trigger [for specific app instances](https://docs.newrelic.com/docs/alerts/new-relic-alerts/defining-conditions/scope-alert-thresholds-specific-instances).
+* `enabled` - (Optional) Whether the condition is enabled or not. Defaults to true.
+* `gc_metric` - (Optional) A valid Garbage Collection metric e.g. `GC/G1 Young Generation`.
+* `violation_close_timer` - (Optional) Automatically close instance-based violations, including JVM health metric violations, after the number of hours specified. Must be: `1`, `2`, `4`, `8`, `12` or `24`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+* `user_defined_metric` - (Optional) A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
 
 _Required_: Yes
 
@@ -103,6 +272,57 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### PolicyId
 
+The ID of the policy where this condition should be used.
+* `name` - (Required) The title of the condition. Must be between 1 and 64 characters, inclusive.
+* `type` - (Required) The type of condition. One of: `apm_app_metric`, `apm_kt_metric`, `browser_metric`, `mobile_metric`
+* `entities` - (Required) The instance IDs associated with this condition.
+* `metric` - (Required) The metric field accepts parameters based on the `type` set. One of these metrics based on `type`:
+* `apm_app_metric`
+* `apdex`
+* `error_percentage`
+* `response_time_background`
+* `response_time_web`
+* `throughput_background`
+* `throughput_web`
+* `user_defined`
+* `apm_kt_metric`
+* `apdex`
+* `error_count`
+* `error_percentage`
+* `response_time`
+* `throughput`
+* `browser_metric`
+* `ajax_response_time`
+* `ajax_throughput`
+* `dom_processing`
+* `end_user_apdex`
+* `network`
+* `page_rendering`
+* `page_view_throughput`
+* `page_views_with_js_errors`
+* `request_queuing`
+* `total_page_load`
+* `user_defined`
+* `web_application`
+* `mobile_metric`
+* `database`
+* `images`
+* `json`
+* `mobile_crash_rate`
+* `network_error_percentage`
+* `network`
+* `status_error_percentage`
+* `user_defined`
+* `view_loading`
+* `condition_scope` - (Required for some types) `application` or `instance`.  Choose `application` for most scenarios.  If you are using the JVM plugin in New Relic, the `instance` setting allows your condition to trigger [for specific app instances](https://docs.newrelic.com/docs/alerts/new-relic-alerts/defining-conditions/scope-alert-thresholds-specific-instances).
+* `enabled` - (Optional) Whether the condition is enabled or not. Defaults to true.
+* `gc_metric` - (Optional) A valid Garbage Collection metric e.g. `GC/G1 Young Generation`.
+* `violation_close_timer` - (Optional) Automatically close instance-based violations, including JVM health metric violations, after the number of hours specified. Must be: `1`, `2`, `4`, `8`, `12` or `24`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+* `user_defined_metric` - (Optional) A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
+
 _Required_: Yes
 
 _Type_: Double
@@ -110,6 +330,11 @@ _Type_: Double
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### RunbookUrl
+
+Runbook URL to display in notifications.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+* `user_defined_metric` - (Optional) A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
 
 _Required_: No
 
@@ -119,6 +344,55 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Type
 
+The type of condition. One of: `apm_app_metric`, `apm_kt_metric`, `browser_metric`, `mobile_metric`
+* `entities` - (Required) The instance IDs associated with this condition.
+* `metric` - (Required) The metric field accepts parameters based on the `type` set. One of these metrics based on `type`:
+* `apm_app_metric`
+* `apdex`
+* `error_percentage`
+* `response_time_background`
+* `response_time_web`
+* `throughput_background`
+* `throughput_web`
+* `user_defined`
+* `apm_kt_metric`
+* `apdex`
+* `error_count`
+* `error_percentage`
+* `response_time`
+* `throughput`
+* `browser_metric`
+* `ajax_response_time`
+* `ajax_throughput`
+* `dom_processing`
+* `end_user_apdex`
+* `network`
+* `page_rendering`
+* `page_view_throughput`
+* `page_views_with_js_errors`
+* `request_queuing`
+* `total_page_load`
+* `user_defined`
+* `web_application`
+* `mobile_metric`
+* `database`
+* `images`
+* `json`
+* `mobile_crash_rate`
+* `network_error_percentage`
+* `network`
+* `status_error_percentage`
+* `user_defined`
+* `view_loading`
+* `condition_scope` - (Required for some types) `application` or `instance`.  Choose `application` for most scenarios.  If you are using the JVM plugin in New Relic, the `instance` setting allows your condition to trigger [for specific app instances](https://docs.newrelic.com/docs/alerts/new-relic-alerts/defining-conditions/scope-alert-thresholds-specific-instances).
+* `enabled` - (Optional) Whether the condition is enabled or not. Defaults to true.
+* `gc_metric` - (Optional) A valid Garbage Collection metric e.g. `GC/G1 Young Generation`.
+* `violation_close_timer` - (Optional) Automatically close instance-based violations, including JVM health metric violations, after the number of hours specified. Must be: `1`, `2`, `4`, `8`, `12` or `24`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+* `user_defined_metric` - (Optional) A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
+
 _Required_: Yes
 
 _Type_: String
@@ -126,6 +400,9 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### UserDefinedMetric
+
+A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
 
 _Required_: No
 
@@ -135,6 +412,8 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### UserDefinedValueFunction
 
+One of: `average`, `min`, `max`, `total`, or `sample_size`.
+
 _Required_: No
 
 _Type_: String
@@ -142,6 +421,12 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### ViolationCloseTimer
+
+Automatically close instance-based violations, including JVM health metric violations, after the number of hours specified. Must be: `1`, `2`, `4`, `8`, `12` or `24`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+* `user_defined_metric` - (Optional) A custom metric to be evaluated.
+* `user_defined_value_function` - (Optional) One of: `average`, `min`, `max`, `total`, or `sample_size`.
 
 _Required_: No
 

@@ -354,6 +354,10 @@ Internal identifier for tracking resource changes. Do not use.
 
 Returns the <code>CpuPlatform</code> value.
 
+#### CurrentStatus
+
+Returns the <code>CurrentStatus</code> value.
+
 #### Id
 
 Returns the <code>Id</code> value.

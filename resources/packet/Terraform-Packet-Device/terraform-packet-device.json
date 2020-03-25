@@ -250,6 +250,7 @@
         "/properties/Created",
         "/properties/DeployedFacility",
         "/properties/Id",
+        "/properties/IpAddressTypes",
         "/properties/Locked",
         "/properties/Network",
         "/properties/Ports",

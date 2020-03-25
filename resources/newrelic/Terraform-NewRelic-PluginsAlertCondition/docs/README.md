@@ -1,6 +1,6 @@
 # Terraform::NewRelic::PluginsAlertCondition
 
-CloudFormation equivalent of newrelic_plugins_alert_condition
+Use this resource to create and manage plugins alert conditions in New Relic.
 
 ## Syntax
 
@@ -51,6 +51,9 @@ Properties:
 
 #### Enabled
 
+Whether or not this condition is enabled.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+
 _Required_: No
 
 _Type_: Boolean
@@ -58,6 +61,15 @@ _Type_: Boolean
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Entities
+
+The plugin component IDs to target.
+* `plugin_id` - (Required) The ID of the installed plugin instance which produces the metric.
+* `plugin_guid` - (Required) The GUID of the plugin which produces the metric.
+* `metric_description` - (Required) The metric description.
+* `value_function` - (Required) The value function to apply to the metric data.  One of `min`, `max`, `average`, `sample_size`, `total`, or `percent`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Whether or not this condition is enabled.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
 
 _Required_: Yes
 
@@ -67,6 +79,16 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Metric
 
+The plugin metric to evaluate.
+* `entities` - (Required) The plugin component IDs to target.
+* `plugin_id` - (Required) The ID of the installed plugin instance which produces the metric.
+* `plugin_guid` - (Required) The GUID of the plugin which produces the metric.
+* `metric_description` - (Required) The metric description.
+* `value_function` - (Required) The value function to apply to the metric data.  One of `min`, `max`, `average`, `sample_size`, `total`, or `percent`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Whether or not this condition is enabled.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+
 _Required_: Yes
 
 _Type_: String
@@ -74,6 +96,12 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### MetricDescription
+
+The metric description.
+* `value_function` - (Required) The value function to apply to the metric data.  One of `min`, `max`, `average`, `sample_size`, `total`, or `percent`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Whether or not this condition is enabled.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
 
 _Required_: Yes
 
@@ -83,6 +111,17 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Name
 
+The title of the condition. Must be between 1 and 64 characters, inclusive.
+* `metric` - (Required) The plugin metric to evaluate.
+* `entities` - (Required) The plugin component IDs to target.
+* `plugin_id` - (Required) The ID of the installed plugin instance which produces the metric.
+* `plugin_guid` - (Required) The GUID of the plugin which produces the metric.
+* `metric_description` - (Required) The metric description.
+* `value_function` - (Required) The value function to apply to the metric data.  One of `min`, `max`, `average`, `sample_size`, `total`, or `percent`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Whether or not this condition is enabled.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+
 _Required_: Yes
 
 _Type_: String
@@ -90,6 +129,13 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### PluginGuid
+
+The GUID of the plugin which produces the metric.
+* `metric_description` - (Required) The metric description.
+* `value_function` - (Required) The value function to apply to the metric data.  One of `min`, `max`, `average`, `sample_size`, `total`, or `percent`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Whether or not this condition is enabled.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
 
 _Required_: Yes
 
@@ -99,6 +145,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### PluginId
 
+The ID of the installed plugin instance which produces the metric.
+* `plugin_guid` - (Required) The GUID of the plugin which produces the metric.
+* `metric_description` - (Required) The metric description.
+* `value_function` - (Required) The value function to apply to the metric data.  One of `min`, `max`, `average`, `sample_size`, `total`, or `percent`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Whether or not this condition is enabled.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+
 _Required_: Yes
 
 _Type_: String
@@ -106,6 +160,18 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### PolicyId
+
+The ID of the policy where this condition should be used.
+* `name` - (Required) The title of the condition. Must be between 1 and 64 characters, inclusive.
+* `metric` - (Required) The plugin metric to evaluate.
+* `entities` - (Required) The plugin component IDs to target.
+* `plugin_id` - (Required) The ID of the installed plugin instance which produces the metric.
+* `plugin_guid` - (Required) The GUID of the plugin which produces the metric.
+* `metric_description` - (Required) The metric description.
+* `value_function` - (Required) The value function to apply to the metric data.  One of `min`, `max`, `average`, `sample_size`, `total`, or `percent`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Whether or not this condition is enabled.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
 
 _Required_: Yes
 
@@ -115,6 +181,10 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### RunbookUrl
 
+Runbook URL to display in notifications.
+* `enabled` - (Optional) Whether or not this condition is enabled.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
+
 _Required_: No
 
 _Type_: String
@@ -122,6 +192,11 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### ValueFunction
+
+The value function to apply to the metric data.  One of `min`, `max`, `average`, `sample_size`, `total`, or `percent`.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Whether or not this condition is enabled.
+* `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.
 
 _Required_: Yes
 

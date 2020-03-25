@@ -21,3 +21,4 @@ No configuration is required for this provider.
 * [Terraform::NewRelic::SyntheticsMonitorScript](../resources/newrelic/Terraform-NewRelic-SyntheticsMonitorScript/docs/README.md)
 * [Terraform::NewRelic::SyntheticsMonitor](../resources/newrelic/Terraform-NewRelic-SyntheticsMonitor/docs/README.md)
 * [Terraform::NewRelic::SyntheticsSecureCredential](../resources/newrelic/Terraform-NewRelic-SyntheticsSecureCredential/docs/README.md)
+* [Terraform::NewRelic::Workload](../resources/newrelic/Terraform-NewRelic-Workload/docs/README.md)

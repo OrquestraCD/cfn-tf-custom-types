@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/mysql**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/mysql**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `endpoint` - (Required) The address of the MySQL server to use. Most often a "hostname:port" pair, but may also be an absolute path to a Unix socket when the host OS is Unix-compatible.
 * `tls` - (Optional) The TLS configuration. One of `false`, `true`, or `skip-verify`. Defaults to `false`.

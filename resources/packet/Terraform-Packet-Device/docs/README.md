@@ -25,7 +25,6 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#forcedetachvolumes" title="ForceDetachVolumes">ForceDetachVolumes</a>" : <i>Boolean</i>,
         "<a href="#hardwarereservationid" title="HardwareReservationId">HardwareReservationId</a>" : <i>String</i>,
         "<a href="#hostname" title="Hostname">Hostname</a>" : <i>String</i>,
-        "<a href="#ipaddresstypes" title="IpAddressTypes">IpAddressTypes</a>" : <i>[ String, ... ]</i>,
         "<a href="#ipxescripturl" title="IpxeScriptUrl">IpxeScriptUrl</a>" : <i>String</i>,
         "<a href="#networktype" title="NetworkType">NetworkType</a>" : <i>String</i>,
         "<a href="#operatingsystem" title="OperatingSystem">OperatingSystem</a>" : <i>String</i>,
@@ -57,8 +56,6 @@ Properties:
     <a href="#forcedetachvolumes" title="ForceDetachVolumes">ForceDetachVolumes</a>: <i>Boolean</i>
     <a href="#hardwarereservationid" title="HardwareReservationId">HardwareReservationId</a>: <i>String</i>
     <a href="#hostname" title="Hostname">Hostname</a>: <i>String</i>
-    <a href="#ipaddresstypes" title="IpAddressTypes">IpAddressTypes</a>: <i>
-      - String</i>
     <a href="#ipxescripturl" title="IpxeScriptUrl">IpxeScriptUrl</a>: <i>String</i>
     <a href="#networktype" title="NetworkType">NetworkType</a>: <i>String</i>
     <a href="#operatingsystem" title="OperatingSystem">OperatingSystem</a>: <i>String</i>
@@ -148,14 +145,6 @@ The device name.
 _Required_: Yes
 
 _Type_: String
-
-_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
-
-#### IpAddressTypes
-
-_Required_: No
-
-_Type_: List of String
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
@@ -312,6 +301,10 @@ Returns the <code>DeployedFacility</code> value.
 #### Id
 
 Returns the <code>Id</code> value.
+
+#### IpAddressTypes
+
+Returns the <code>IpAddressTypes</code> value.
 
 #### Locked
 

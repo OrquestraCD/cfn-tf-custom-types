@@ -1,6 +1,6 @@
 # Terraform::OpenTelekomCloud::DehHostV1
 
-CloudFormation equivalent of opentelekomcloud_deh_host_v1
+Allocates a Dedicated Host to a tenant and set minimum required parameters for this Dedicated Host.
 
 ## Syntax
 

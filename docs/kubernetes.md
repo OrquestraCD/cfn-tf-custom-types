@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/kubernetes**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/kubernetes**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `host` - (Optional) The hostname (in form of URI) of Kubernetes master.
 * `username` - (Optional) The username to use for HTTP basic authentication when accessing the Kubernetes master endpoint.

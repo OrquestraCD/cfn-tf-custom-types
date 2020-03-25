@@ -38,6 +38,7 @@ class ResourceModel(BaseResourceModel):
     tfcfnid: Optional[str]
     AlternativeLocationId: Optional[str]
     AuthorizedNetwork: Optional[str]
+    ConnectMode: Optional[str]
     CreateTime: Optional[str]
     CurrentLocationId: Optional[str]
     DisplayName: Optional[str]
@@ -67,6 +68,7 @@ class ResourceModel(BaseResourceModel):
             tfcfnid=json_data.get("tfcfnid"),
             AlternativeLocationId=json_data.get("AlternativeLocationId"),
             AuthorizedNetwork=json_data.get("AuthorizedNetwork"),
+            ConnectMode=json_data.get("ConnectMode"),
             CreateTime=json_data.get("CreateTime"),
             CurrentLocationId=json_data.get("CurrentLocationId"),
             DisplayName=json_data.get("DisplayName"),

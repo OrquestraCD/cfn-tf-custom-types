@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/triton**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/triton**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `account` - (Required) This is the name of the Triton account.
 * `user` - (Optional) This is the username to interact with the triton API.

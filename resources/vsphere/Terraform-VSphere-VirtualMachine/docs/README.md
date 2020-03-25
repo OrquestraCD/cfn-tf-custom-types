@@ -59,6 +59,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#nestedhvenabled" title="NestedHvEnabled">NestedHvEnabled</a>" : <i>Boolean</i>,
         "<a href="#numcorespersocket" title="NumCoresPerSocket">NumCoresPerSocket</a>" : <i>Double</i>,
         "<a href="#numcpus" title="NumCpus">NumCpus</a>" : <i>Double</i>,
+        "<a href="#powerontimeout" title="PoweronTimeout">PoweronTimeout</a>" : <i>Double</i>,
         "<a href="#resourcepoolid" title="ResourcePoolId">ResourcePoolId</a>" : <i>String</i>,
         "<a href="#runtoolsscriptsafterpoweron" title="RunToolsScriptsAfterPowerOn">RunToolsScriptsAfterPowerOn</a>" : <i>Boolean</i>,
         "<a href="#runtoolsscriptsafterresume" title="RunToolsScriptsAfterResume">RunToolsScriptsAfterResume</a>" : <i>Boolean</i>,
@@ -135,6 +136,7 @@ Properties:
     <a href="#nestedhvenabled" title="NestedHvEnabled">NestedHvEnabled</a>: <i>Boolean</i>
     <a href="#numcorespersocket" title="NumCoresPerSocket">NumCoresPerSocket</a>: <i>Double</i>
     <a href="#numcpus" title="NumCpus">NumCpus</a>: <i>Double</i>
+    <a href="#powerontimeout" title="PoweronTimeout">PoweronTimeout</a>: <i>Double</i>
     <a href="#resourcepoolid" title="ResourcePoolId">ResourcePoolId</a>: <i>String</i>
     <a href="#runtoolsscriptsafterpoweron" title="RunToolsScriptsAfterPowerOn">RunToolsScriptsAfterPowerOn</a>: <i>Boolean</i>
     <a href="#runtoolsscriptsafterresume" title="RunToolsScriptsAfterResume">RunToolsScriptsAfterResume</a>: <i>Boolean</i>
@@ -478,6 +480,14 @@ _Type_: Double
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### NumCpus
+
+_Required_: No
+
+_Type_: Double
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### PoweronTimeout
 
 _Required_: No
 

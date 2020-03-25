@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/ovh**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/ovh**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `endpoint` - (Required) Specify which API endpoint to use.
   It can be set using the `OVH_ENDPOINT` environment

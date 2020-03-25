@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you may optionally create an AWS Secrets Manager secret with the name **terraform/brightbox**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you may optionally create an AWS Secrets Manager secret with the name **terraform/brightbox**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `apiclient` - (optional) This is the Brightbox client id for an
 account.

@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/rancher**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/rancher**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `api_url` - (Required) Rancher API url.
 * `access_key` - (Optional) Rancher API access key.

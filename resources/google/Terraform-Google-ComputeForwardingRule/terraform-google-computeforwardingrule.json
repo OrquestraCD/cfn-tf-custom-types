@@ -28,6 +28,9 @@
         "AllPorts": {
             "type": "boolean"
         },
+        "AllowGlobalAccess": {
+            "type": "boolean"
+        },
         "BackendService": {
             "type": "string"
         },

@@ -385,6 +385,14 @@
                         "$ref": "#/definitions/NodeConfig"
                     },
                     "maxItems": 1
+                },
+                "UpgradeSettings": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/UpgradeSettings"
+                    },
+                    "maxItems": 1
                 }
             },
             "required": []
@@ -637,6 +645,22 @@
                 }
             },
             "required": []
+        },
+        "UpgradeSettings": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "MaxSurge": {
+                    "type": "number"
+                },
+                "MaxUnavailable": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "MaxSurge",
+                "MaxUnavailable"
+            ]
         }
     },
     "properties": {
@@ -1001,6 +1025,14 @@
             "insertionOrder": false,
             "items": {
                 "$ref": "#/definitions/Management"
+            },
+            "maxItems": 1
+        },
+        "UpgradeSettings": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/UpgradeSettings"
             },
             "maxItems": 1
         }

@@ -53,6 +53,7 @@ class ResourceModel(BaseResourceModel):
     Management: Optional[Sequence["_Management"]]
     NodeConfig: Optional[Sequence["_NodeConfig"]]
     Timeouts: Optional["_Timeouts"]
+    UpgradeSettings: Optional[Sequence["_UpgradeSettings"]]
     SandboxConfig: Optional[Sequence["_SandboxConfig"]]
     ShieldedInstanceConfig: Optional[Sequence["_ShieldedInstanceConfig"]]
     WorkloadMetadataConfig: Optional[Sequence["_WorkloadMetadataConfig"]]
@@ -83,6 +84,7 @@ class ResourceModel(BaseResourceModel):
             Management=json_data.get("Management"),
             NodeConfig=json_data.get("NodeConfig"),
             Timeouts=Timeouts._deserialize(json_data.get("Timeouts")),
+            UpgradeSettings=json_data.get("UpgradeSettings"),
             SandboxConfig=json_data.get("SandboxConfig"),
             ShieldedInstanceConfig=json_data.get("ShieldedInstanceConfig"),
             WorkloadMetadataConfig=json_data.get("WorkloadMetadataConfig"),
@@ -363,5 +365,27 @@ class Timeouts:
 
 # work around possible type aliasing issues when variable has same name as a model
 _Timeouts = Timeouts
+
+
+@dataclass
+class UpgradeSettings:
+    MaxSurge: Optional[float]
+    MaxUnavailable: Optional[float]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_UpgradeSettings"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_UpgradeSettings"]:
+        if not json_data:
+            return None
+        return cls(
+            MaxSurge=json_data.get("MaxSurge"),
+            MaxUnavailable=json_data.get("MaxUnavailable"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_UpgradeSettings = UpgradeSettings
 
 

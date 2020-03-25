@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/docker**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/docker**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `host` - (Required) This is the address to the Docker host.
 

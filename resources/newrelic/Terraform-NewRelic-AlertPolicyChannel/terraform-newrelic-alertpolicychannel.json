@@ -1,6 +1,6 @@
 {
     "typeName": "Terraform::NewRelic::AlertPolicyChannel",
-    "description": "CloudFormation equivalent of newrelic_alert_policy_channel",
+    "description": "Use this resource to map alert policies to alert channels in New Relic.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
     "definitions": {},
     "properties": {
@@ -9,20 +9,23 @@
             "type": "string"
         },
         "ChannelId": {
-            "type": "number"
+            "type": "number",
+            "description": "**Deprecated!** (Optional\\*) The ID of the channel. Please use the `channel_ids` argument instead."
         },
         "ChannelIds": {
             "type": "array",
             "insertionOrder": false,
             "items": {
                 "type": "number"
-            }
+            },
+            "description": "Array of channel IDs to apply to the specified policy. We recommended sorting channel IDs in ascending order to avoid drift your Terraform state.\n- `channel_id` - **Deprecated!** (Optional\\*) The ID of the channel. Please use the `channel_ids` argument instead."
         },
         "Id": {
             "type": "string"
         },
         "PolicyId": {
-            "type": "number"
+            "type": "number",
+            "description": "The ID of the policy.\n- `channel_ids` - (Optional\\*) Array of channel IDs to apply to the specified policy. We recommended sorting channel IDs in ascending order to avoid drift your Terraform state.\n- `channel_id` - **Deprecated!** (Optional\\*) The ID of the channel. Please use the `channel_ids` argument instead."
         }
     },
     "additionalProperties": false,

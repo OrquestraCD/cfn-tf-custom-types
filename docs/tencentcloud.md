@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you may optionally create an AWS Secrets Manager secret with the name **terraform/tencentcloud**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you may optionally create an AWS Secrets Manager secret with the name **terraform/tencentcloud**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `secret_id` - This is the TencentCloud access key.
 * `secret_key` - This is the TencentCloud secret key.

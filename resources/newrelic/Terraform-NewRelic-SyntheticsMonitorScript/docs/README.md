@@ -1,6 +1,6 @@
 # Terraform::NewRelic::SyntheticsMonitorScript
 
-CloudFormation equivalent of newrelic_synthetics_monitor_script
+Use this resource to update a synthetics monitor script in New Relic.
 
 ## Syntax
 
@@ -31,6 +31,9 @@ Properties:
 
 #### MonitorId
 
+The ID of the monitor to attach the script to.
+* `text` - (Required) The plaintext representing the monitor script.
+
 _Required_: Yes
 
 _Type_: String
@@ -38,6 +41,8 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Text
+
+The plaintext representing the monitor script.
 
 _Required_: Yes
 

@@ -69,7 +69,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#shieldedinstanceconfig" title="ShieldedInstanceConfig">ShieldedInstanceConfig</a>" : <i>[ <a href="shieldedinstanceconfig.md">ShieldedInstanceConfig</a>, ... ]</i>,
         "<a href="#workloadmetadataconfig" title="WorkloadMetadataConfig">WorkloadMetadataConfig</a>" : <i>[ <a href="workloadmetadataconfig.md">WorkloadMetadataConfig</a>, ... ]</i>,
         "<a href="#autoscaling" title="Autoscaling">Autoscaling</a>" : <i>[ <a href="autoscaling.md">Autoscaling</a>, ... ]</i>,
-        "<a href="#management" title="Management">Management</a>" : <i>[ <a href="management.md">Management</a>, ... ]</i>
+        "<a href="#management" title="Management">Management</a>" : <i>[ <a href="management.md">Management</a>, ... ]</i>,
+        "<a href="#upgradesettings" title="UpgradeSettings">UpgradeSettings</a>" : <i>[ <a href="upgradesettings.md">UpgradeSettings</a>, ... ]</i>
     }
 }
 </pre>
@@ -161,6 +162,8 @@ Properties:
       - <a href="autoscaling.md">Autoscaling</a></i>
     <a href="#management" title="Management">Management</a>: <i>
       - <a href="management.md">Management</a></i>
+    <a href="#upgradesettings" title="UpgradeSettings">UpgradeSettings</a>: <i>
+      - <a href="upgradesettings.md">UpgradeSettings</a></i>
 </pre>
 
 ## Properties
@@ -679,6 +682,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: List of <a href="management.md">Management</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### UpgradeSettings
+
+_Required_: No
+
+_Type_: List of <a href="upgradesettings.md">UpgradeSettings</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

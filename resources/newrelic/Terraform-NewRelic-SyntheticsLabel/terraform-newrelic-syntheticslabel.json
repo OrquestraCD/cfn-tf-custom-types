@@ -1,6 +1,6 @@
 {
     "typeName": "Terraform::NewRelic::SyntheticsLabel",
-    "description": "CloudFormation equivalent of newrelic_synthetics_label",
+    "description": "Use this resource to create, update, and delete a Synthetics label in New Relic.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
     "definitions": {},
     "properties": {
@@ -15,13 +15,16 @@
             "type": "string"
         },
         "MonitorId": {
-            "type": "string"
+            "type": "string",
+            "description": "The ID of the monitor that will be assigned the label.\n* `type` - (Required) A string representing the label key/category.\n* `value` - (Required) A string representing the label value."
         },
         "Type": {
-            "type": "string"
+            "type": "string",
+            "description": "A string representing the label key/category.\n* `value` - (Required) A string representing the label value."
         },
         "Value": {
-            "type": "string"
+            "type": "string",
+            "description": "A string representing the label value."
         }
     },
     "additionalProperties": false,

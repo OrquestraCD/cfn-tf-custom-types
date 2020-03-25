@@ -90,6 +90,7 @@ No configuration is required for this provider.
 * [Terraform::Google::ComputeRegionDisk](../resources/google/Terraform-Google-ComputeRegionDisk/docs/README.md)
 * [Terraform::Google::ComputeRegionHealthCheck](../resources/google/Terraform-Google-ComputeRegionHealthCheck/docs/README.md)
 * [Terraform::Google::ComputeRegionInstanceGroupManager](../resources/google/Terraform-Google-ComputeRegionInstanceGroupManager/docs/README.md)
+* [Terraform::Google::ComputeRegionSslCertificate](../resources/google/Terraform-Google-ComputeRegionSslCertificate/docs/README.md)
 * [Terraform::Google::ComputeReservation](../resources/google/Terraform-Google-ComputeReservation/docs/README.md)
 * [Terraform::Google::ComputeResourcePolicy](../resources/google/Terraform-Google-ComputeResourcePolicy/docs/README.md)
 * [Terraform::Google::ComputeRoute](../resources/google/Terraform-Google-ComputeRoute/docs/README.md)

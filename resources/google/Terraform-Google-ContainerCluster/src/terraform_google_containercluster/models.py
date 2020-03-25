@@ -95,6 +95,7 @@ class ResourceModel(BaseResourceModel):
     WorkloadMetadataConfig: Optional[Sequence["_WorkloadMetadataConfig"]]
     Autoscaling: Optional[Sequence["_Autoscaling"]]
     Management: Optional[Sequence["_Management"]]
+    UpgradeSettings: Optional[Sequence["_UpgradeSettings"]]
 
     @classmethod
     def _deserialize(
@@ -164,6 +165,7 @@ class ResourceModel(BaseResourceModel):
             WorkloadMetadataConfig=json_data.get("WorkloadMetadataConfig"),
             Autoscaling=json_data.get("Autoscaling"),
             Management=json_data.get("Management"),
+            UpgradeSettings=json_data.get("UpgradeSettings"),
         )
 
 
@@ -782,6 +784,7 @@ class NodePool:
     Autoscaling: Optional[Sequence["_Autoscaling"]]
     Management: Optional[Sequence["_Management"]]
     NodeConfig: Optional[Sequence["_NodeConfig"]]
+    UpgradeSettings: Optional[Sequence["_UpgradeSettings"]]
 
     @classmethod
     def _deserialize(
@@ -800,6 +803,7 @@ class NodePool:
             Autoscaling=json_data.get("Autoscaling"),
             Management=json_data.get("Management"),
             NodeConfig=json_data.get("NodeConfig"),
+            UpgradeSettings=json_data.get("UpgradeSettings"),
         )
 
 
@@ -849,6 +853,28 @@ class Management:
 
 # work around possible type aliasing issues when variable has same name as a model
 _Management = Management
+
+
+@dataclass
+class UpgradeSettings:
+    MaxSurge: Optional[float]
+    MaxUnavailable: Optional[float]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_UpgradeSettings"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_UpgradeSettings"]:
+        if not json_data:
+            return None
+        return cls(
+            MaxSurge=json_data.get("MaxSurge"),
+            MaxUnavailable=json_data.get("MaxUnavailable"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_UpgradeSettings = UpgradeSettings
 
 
 @dataclass

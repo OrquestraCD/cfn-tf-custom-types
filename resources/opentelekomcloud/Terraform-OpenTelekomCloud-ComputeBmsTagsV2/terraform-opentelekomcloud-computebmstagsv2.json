@@ -1,6 +1,6 @@
 {
     "typeName": "Terraform::OpenTelekomCloud::ComputeBmsTagsV2",
-    "description": "CloudFormation equivalent of opentelekomcloud_compute_bms_tags_v2",
+    "description": "Used to add tags to a BMS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
     "definitions": {
         "Timeouts": {

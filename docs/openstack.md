@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/openstack**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/openstack**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `auth_url` - (Optional; required if `cloud` is not specified) The Identity
   authentication URL.

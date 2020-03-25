@@ -1,6 +1,6 @@
 {
     "typeName": "Terraform::OpenTelekomCloud::DehHostV1",
-    "description": "CloudFormation equivalent of opentelekomcloud_deh_host_v1",
+    "description": "Allocates a Dedicated Host to a tenant and set minimum required parameters for this Dedicated Host.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
     "definitions": {
         "Timeouts": {

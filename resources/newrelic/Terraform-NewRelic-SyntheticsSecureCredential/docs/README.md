@@ -1,6 +1,6 @@
 # Terraform::NewRelic::SyntheticsSecureCredential
 
-CloudFormation equivalent of newrelic_synthetics_secure_credential
+Use this resource to create and manage New Relic Synthetic secure credentials.
 
 ## Syntax
 
@@ -45,6 +45,8 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Description
 
+The secure credential's description.
+
 _Required_: No
 
 _Type_: String
@@ -52,6 +54,10 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Key
+
+The secure credential's key name.  Regardless of the case used in the configuration, the provider will provide an upcased key to the underlying API.
+* `value` - (Required) The secure credential's value.
+* `description` - (Optional) The secure credential's description.
 
 _Required_: Yes
 
@@ -68,6 +74,9 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Value
+
+The secure credential's value.
+* `description` - (Optional) The secure credential's description.
 
 _Required_: Yes
 

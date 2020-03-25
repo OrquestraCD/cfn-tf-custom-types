@@ -97,7 +97,7 @@
         },
         "DiskEncryptionSetId": {
             "type": "string",
-            "description": "The ID of a Disk Encryption Set which should be used to encrypt this Managed Disk. Changing this forces a new resource to be created."
+            "description": "The ID of a Disk Encryption Set which should be used to encrypt this Managed Disk."
         },
         "DiskIopsReadWrite": {
             "type": "number",

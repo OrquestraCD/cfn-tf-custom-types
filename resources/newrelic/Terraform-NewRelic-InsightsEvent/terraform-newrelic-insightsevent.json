@@ -1,6 +1,6 @@
 {
     "typeName": "Terraform::NewRelic::InsightsEvent",
-    "description": "CloudFormation equivalent of newrelic_insights_event",
+    "description": "Use this resource to create one or more Insights events during a terraform run.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
     "definitions": {
         "Event": {

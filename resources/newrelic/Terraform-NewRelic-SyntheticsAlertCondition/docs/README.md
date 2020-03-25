@@ -1,6 +1,6 @@
 # Terraform::NewRelic::SyntheticsAlertCondition
 
-CloudFormation equivalent of newrelic_synthetics_alert_condition
+Use this resource to create and manage synthetics alert conditions in New Relic.
 
 ## Syntax
 
@@ -37,6 +37,8 @@ Properties:
 
 #### Enabled
 
+Set whether to enable the alert condition. Defaults to `true`.
+
 _Required_: No
 
 _Type_: Boolean
@@ -44,6 +46,10 @@ _Type_: Boolean
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### MonitorId
+
+The ID of the Synthetics monitor to be referenced in the alert condition.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Set whether to enable the alert condition. Defaults to `true`.
 
 _Required_: Yes
 
@@ -53,6 +59,11 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Name
 
+The title of this condition.
+* `monitor_id` - (Required) The ID of the Synthetics monitor to be referenced in the alert condition.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Set whether to enable the alert condition. Defaults to `true`.
+
 _Required_: Yes
 
 _Type_: String
@@ -61,6 +72,12 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### PolicyId
 
+The ID of the policy where this condition should be used.
+* `name` - (Required) The title of this condition.
+* `monitor_id` - (Required) The ID of the Synthetics monitor to be referenced in the alert condition.
+* `runbook_url` - (Optional) Runbook URL to display in notifications.
+* `enabled` - (Optional) Set whether to enable the alert condition. Defaults to `true`.
+
 _Required_: Yes
 
 _Type_: Double
@@ -68,6 +85,9 @@ _Type_: Double
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### RunbookUrl
+
+Runbook URL to display in notifications.
+* `enabled` - (Optional) Set whether to enable the alert condition. Defaults to `true`.
 
 _Required_: No
 

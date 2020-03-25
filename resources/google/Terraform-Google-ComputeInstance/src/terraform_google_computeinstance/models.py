@@ -39,6 +39,7 @@ class ResourceModel(BaseResourceModel):
     AllowStoppingForUpdate: Optional[bool]
     CanIpForward: Optional[bool]
     CpuPlatform: Optional[str]
+    CurrentStatus: Optional[str]
     DeletionProtection: Optional[bool]
     Description: Optional[str]
     DesiredStatus: Optional[str]
@@ -85,6 +86,7 @@ class ResourceModel(BaseResourceModel):
             AllowStoppingForUpdate=json_data.get("AllowStoppingForUpdate"),
             CanIpForward=json_data.get("CanIpForward"),
             CpuPlatform=json_data.get("CpuPlatform"),
+            CurrentStatus=json_data.get("CurrentStatus"),
             DeletionProtection=json_data.get("DeletionProtection"),
             Description=json_data.get("Description"),
             DesiredStatus=json_data.get("DesiredStatus"),

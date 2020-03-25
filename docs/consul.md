@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/consul**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/consul**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `address` - (Optional) The HTTP(S) API address of the agent to use. Defaults to "127.0.0.1:8500".
 * `scheme` - (Optional) The URL scheme of the agent to use ("http" or "https"). Defaults to "http".

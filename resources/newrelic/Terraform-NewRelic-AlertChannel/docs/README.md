@@ -1,6 +1,6 @@
 # Terraform::NewRelic::AlertChannel
 
-CloudFormation equivalent of newrelic_alert_channel
+Use this resource to create and manage New Relic alert policies.
 
 ## Syntax
 
@@ -37,6 +37,8 @@ Properties:
 
 #### Configuration
 
+**Deprecated** (Optional) A map of key/value pairs with channel type specific values. This argument is deprecated.  Use the `config` argument instead.
+
 _Required_: No
 
 _Type_: List of <a href="configuration.md">Configuration</a>
@@ -45,6 +47,11 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Name
 
+The name of the channel.
+* `type` - (Required) The type of channel.  One of: `email`, `slack`, `opsgenie`, `pagerduty`, `victorops`, or `webhook`.
+* `config` - (Optional) A nested block that describes an alert channel configuration.  Only one config block is permitted per alert channel definition.  See [Nested config blocks](#nested-`config`-blocks) below for details.
+* `configuration` - **Deprecated** (Optional) A map of key/value pairs with channel type specific values. This argument is deprecated.  Use the `config` argument instead.
+
 _Required_: Yes
 
 _Type_: String
@@ -52,6 +59,10 @@ _Type_: String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Type
+
+The type of channel.  One of: `email`, `slack`, `opsgenie`, `pagerduty`, `victorops`, or `webhook`.
+* `config` - (Optional) A nested block that describes an alert channel configuration.  Only one config block is permitted per alert channel definition.  See [Nested config blocks](#nested-`config`-blocks) below for details.
+* `configuration` - **Deprecated** (Optional) A map of key/value pairs with channel type specific values. This argument is deprecated.  Use the `config` argument instead.
 
 _Required_: Yes
 

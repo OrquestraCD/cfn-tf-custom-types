@@ -26,6 +26,46 @@
                 "LinkedClone": {
                     "type": "boolean"
                 },
+                "OvfNetworkMap": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "MapKey": {
+                                "type": "string"
+                            },
+                            "MapValue": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "MapKey",
+                            "MapValue"
+                        ]
+                    }
+                },
+                "OvfStorageMap": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "MapKey": {
+                                "type": "string"
+                            },
+                            "MapValue": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "MapKey",
+                            "MapValue"
+                        ]
+                    }
+                },
                 "TemplateUuid": {
                     "type": "string"
                 },
@@ -473,6 +513,9 @@
             "type": "number"
         },
         "NumCpus": {
+            "type": "number"
+        },
+        "PoweronTimeout": {
             "type": "number"
         },
         "RebootRequired": {

@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/github**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/github**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `token` - (Optional) This is the GitHub personal access token. If `anonymous` is false,
   `token` is required.

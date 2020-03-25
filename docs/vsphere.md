@@ -2,7 +2,7 @@
 
 ## Configuration
 
-To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/vsphere**. The below arguments may be included as the key/value or JSON properties in the secret or metadata object:
+To configure this resource, you must create an AWS Secrets Manager secret with the name **terraform/vsphere**. The below arguments may be included as the key/value or JSON properties in the secret:
 
 * `user` - (Required) This is the username for vSphere API operations.
 * `password` - (Required) This is the password for vSphere API operations.
@@ -28,6 +28,8 @@ To configure this resource, you must create an AWS Secrets Manager secret with t
 * [Terraform::VSphere::ComputeClusterVmGroup](../resources/vsphere/Terraform-VSphere-ComputeClusterVmGroup/docs/README.md)
 * [Terraform::VSphere::ComputeClusterVmHostRule](../resources/vsphere/Terraform-VSphere-ComputeClusterVmHostRule/docs/README.md)
 * [Terraform::VSphere::ComputeCluster](../resources/vsphere/Terraform-VSphere-ComputeCluster/docs/README.md)
+* [Terraform::VSphere::ContentLibraryItem](../resources/vsphere/Terraform-VSphere-ContentLibraryItem/docs/README.md)
+* [Terraform::VSphere::ContentLibrary](../resources/vsphere/Terraform-VSphere-ContentLibrary/docs/README.md)
 * [Terraform::VSphere::CustomAttribute](../resources/vsphere/Terraform-VSphere-CustomAttribute/docs/README.md)
 * [Terraform::VSphere::Datacenter](../resources/vsphere/Terraform-VSphere-Datacenter/docs/README.md)
 * [Terraform::VSphere::DatastoreClusterVmAntiAffinityRule](../resources/vsphere/Terraform-VSphere-DatastoreClusterVmAntiAffinityRule/docs/README.md)

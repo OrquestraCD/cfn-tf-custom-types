@@ -1,6 +1,6 @@
 {
     "typeName": "Terraform::NewRelic::SyntheticsMonitorScript",
-    "description": "CloudFormation equivalent of newrelic_synthetics_monitor_script",
+    "description": "Use this resource to update a synthetics monitor script in New Relic.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
     "definitions": {},
     "properties": {
@@ -12,10 +12,12 @@
             "type": "string"
         },
         "MonitorId": {
-            "type": "string"
+            "type": "string",
+            "description": "The ID of the monitor to attach the script to.\n* `text` - (Required) The plaintext representing the monitor script."
         },
         "Text": {
-            "type": "string"
+            "type": "string",
+            "description": "The plaintext representing the monitor script."
         }
     },
     "additionalProperties": false,

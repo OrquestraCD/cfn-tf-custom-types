@@ -87,7 +87,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### DiskEncryptionSetId
 
-The ID of a Disk Encryption Set which should be used to encrypt this Managed Disk. Changing this forces a new resource to be created.
+The ID of a Disk Encryption Set which should be used to encrypt this Managed Disk.
 
 _Required_: No
 

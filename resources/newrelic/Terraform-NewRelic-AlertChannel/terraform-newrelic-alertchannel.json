@@ -1,6 +1,6 @@
 {
     "typeName": "Terraform::NewRelic::AlertChannel",
-    "description": "CloudFormation equivalent of newrelic_alert_channel",
+    "description": "Use this resource to create and manage New Relic alert policies.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
     "definitions": {
         "Config": {
@@ -131,16 +131,19 @@
                     "MapKey",
                     "MapValue"
                 ]
-            }
+            },
+            "description": "**Deprecated** (Optional) A map of key/value pairs with channel type specific values. This argument is deprecated.  Use the `config` argument instead."
         },
         "Id": {
             "type": "string"
         },
         "Name": {
-            "type": "string"
+            "type": "string",
+            "description": "The name of the channel.\n* `type` - (Required) The type of channel.  One of: `email`, `slack`, `opsgenie`, `pagerduty`, `victorops`, or `webhook`.\n* `config` - (Optional) A nested block that describes an alert channel configuration.  Only one config block is permitted per alert channel definition.  See [Nested config blocks](#nested-`config`-blocks) below for details.\n* `configuration` - **Deprecated** (Optional) A map of key/value pairs with channel type specific values. This argument is deprecated.  Use the `config` argument instead."
         },
         "Type": {
-            "type": "string"
+            "type": "string",
+            "description": "The type of channel.  One of: `email`, `slack`, `opsgenie`, `pagerduty`, `victorops`, or `webhook`.\n* `config` - (Optional) A nested block that describes an alert channel configuration.  Only one config block is permitted per alert channel definition.  See [Nested config blocks](#nested-`config`-blocks) below for details.\n* `configuration` - **Deprecated** (Optional) A map of key/value pairs with channel type specific values. This argument is deprecated.  Use the `config` argument instead."
         },
         "Config": {
             "type": "array",

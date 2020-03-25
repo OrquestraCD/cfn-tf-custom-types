@@ -1,6 +1,6 @@
 {
     "typeName": "Terraform::NewRelic::NrqlAlertCondition",
-    "description": "CloudFormation equivalent of newrelic_nrql_alert_condition",
+    "description": "Use this resource to create and manage NRQL alert conditions in New Relic.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
     "definitions": {
         "Nrql": {
@@ -52,34 +52,43 @@
             "type": "string"
         },
         "Enabled": {
-            "type": "boolean"
+            "type": "boolean",
+            "description": "Whether to enable the alert condition. Valid values are `true` and `false`. Defaults to `true`.\n- `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.\n- `nrql` - (Required) A NRQL query. See [NRQL](#nrql) below for details.\n- `value_function` - (Optional) Possible values are `single_value`, `sum`.\n- `expected_groups` - (Optional) Number of expected groups when using `outlier` detection.\n- `ignore_overlap` - (Optional) Whether to look for a convergence of groups when using `outlier` detection.\n- `violation_time_limit_seconds` - (Optional) Sets a time limit, in seconds, that will automatically force-close a long-lasting violation after the time limit you select.  Possible values are `3600`, `7200`, `14400`, `28800`, `43200`, and `86400`."
         },
         "ExpectedGroups": {
-            "type": "number"
+            "type": "number",
+            "description": "Number of expected groups when using `outlier` detection.\n- `ignore_overlap` - (Optional) Whether to look for a convergence of groups when using `outlier` detection.\n- `violation_time_limit_seconds` - (Optional) Sets a time limit, in seconds, that will automatically force-close a long-lasting violation after the time limit you select.  Possible values are `3600`, `7200`, `14400`, `28800`, `43200`, and `86400`."
         },
         "Id": {
             "type": "string"
         },
         "IgnoreOverlap": {
-            "type": "boolean"
+            "type": "boolean",
+            "description": "Whether to look for a convergence of groups when using `outlier` detection.\n- `violation_time_limit_seconds` - (Optional) Sets a time limit, in seconds, that will automatically force-close a long-lasting violation after the time limit you select.  Possible values are `3600`, `7200`, `14400`, `28800`, `43200`, and `86400`."
         },
         "Name": {
-            "type": "string"
+            "type": "string",
+            "description": "The title of the condition.\n- `type` - (Optional) The type of the condition. Valid values are `static` or `outlier`. Defaults to `static`.\n- `runbook_url` - (Optional) Runbook URL to display in notifications.\n- `enabled` - (Optional) Whether to enable the alert condition. Valid values are `true` and `false`. Defaults to `true`.\n- `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.\n- `nrql` - (Required) A NRQL query. See [NRQL](#nrql) below for details.\n- `value_function` - (Optional) Possible values are `single_value`, `sum`.\n- `expected_groups` - (Optional) Number of expected groups when using `outlier` detection.\n- `ignore_overlap` - (Optional) Whether to look for a convergence of groups when using `outlier` detection.\n- `violation_time_limit_seconds` - (Optional) Sets a time limit, in seconds, that will automatically force-close a long-lasting violation after the time limit you select.  Possible values are `3600`, `7200`, `14400`, `28800`, `43200`, and `86400`."
         },
         "PolicyId": {
-            "type": "number"
+            "type": "number",
+            "description": "The ID of the policy where this condition should be used.\n- `name` - (Required) The title of the condition.\n- `type` - (Optional) The type of the condition. Valid values are `static` or `outlier`. Defaults to `static`.\n- `runbook_url` - (Optional) Runbook URL to display in notifications.\n- `enabled` - (Optional) Whether to enable the alert condition. Valid values are `true` and `false`. Defaults to `true`.\n- `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.\n- `nrql` - (Required) A NRQL query. See [NRQL](#nrql) below for details.\n- `value_function` - (Optional) Possible values are `single_value`, `sum`.\n- `expected_groups` - (Optional) Number of expected groups when using `outlier` detection.\n- `ignore_overlap` - (Optional) Whether to look for a convergence of groups when using `outlier` detection.\n- `violation_time_limit_seconds` - (Optional) Sets a time limit, in seconds, that will automatically force-close a long-lasting violation after the time limit you select.  Possible values are `3600`, `7200`, `14400`, `28800`, `43200`, and `86400`."
         },
         "RunbookUrl": {
-            "type": "string"
+            "type": "string",
+            "description": "Runbook URL to display in notifications.\n- `enabled` - (Optional) Whether to enable the alert condition. Valid values are `true` and `false`. Defaults to `true`.\n- `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.\n- `nrql` - (Required) A NRQL query. See [NRQL](#nrql) below for details.\n- `value_function` - (Optional) Possible values are `single_value`, `sum`.\n- `expected_groups` - (Optional) Number of expected groups when using `outlier` detection.\n- `ignore_overlap` - (Optional) Whether to look for a convergence of groups when using `outlier` detection.\n- `violation_time_limit_seconds` - (Optional) Sets a time limit, in seconds, that will automatically force-close a long-lasting violation after the time limit you select.  Possible values are `3600`, `7200`, `14400`, `28800`, `43200`, and `86400`."
         },
         "Type": {
-            "type": "string"
+            "type": "string",
+            "description": "The type of the condition. Valid values are `static` or `outlier`. Defaults to `static`.\n- `runbook_url` - (Optional) Runbook URL to display in notifications.\n- `enabled` - (Optional) Whether to enable the alert condition. Valid values are `true` and `false`. Defaults to `true`.\n- `term` - (Required) A list of terms for this condition. See [Terms](#terms) below for details.\n- `nrql` - (Required) A NRQL query. See [NRQL](#nrql) below for details.\n- `value_function` - (Optional) Possible values are `single_value`, `sum`.\n- `expected_groups` - (Optional) Number of expected groups when using `outlier` detection.\n- `ignore_overlap` - (Optional) Whether to look for a convergence of groups when using `outlier` detection.\n- `violation_time_limit_seconds` - (Optional) Sets a time limit, in seconds, that will automatically force-close a long-lasting violation after the time limit you select.  Possible values are `3600`, `7200`, `14400`, `28800`, `43200`, and `86400`."
         },
         "ValueFunction": {
-            "type": "string"
+            "type": "string",
+            "description": "Possible values are `single_value`, `sum`.\n- `expected_groups` - (Optional) Number of expected groups when using `outlier` detection.\n- `ignore_overlap` - (Optional) Whether to look for a convergence of groups when using `outlier` detection.\n- `violation_time_limit_seconds` - (Optional) Sets a time limit, in seconds, that will automatically force-close a long-lasting violation after the time limit you select.  Possible values are `3600`, `7200`, `14400`, `28800`, `43200`, and `86400`."
         },
         "ViolationTimeLimitSeconds": {
-            "type": "number"
+            "type": "number",
+            "description": "Sets a time limit, in seconds, that will automatically force-close a long-lasting violation after the time limit you select.  Possible values are `3600`, `7200`, `14400`, `28800`, `43200`, and `86400`."
         },
         "Nrql": {
             "type": "array",
