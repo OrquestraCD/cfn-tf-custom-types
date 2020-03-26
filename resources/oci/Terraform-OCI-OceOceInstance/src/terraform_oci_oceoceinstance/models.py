@@ -55,6 +55,7 @@ class ResourceModel(BaseResourceModel):
     TenancyName: Optional[str]
     TimeCreated: Optional[str]
     TimeUpdated: Optional[str]
+    WafPrimaryDomain: Optional[str]
     Timeouts: Optional["_Timeouts"]
 
     @classmethod
@@ -85,6 +86,7 @@ class ResourceModel(BaseResourceModel):
             TenancyName=json_data.get("TenancyName"),
             TimeCreated=json_data.get("TimeCreated"),
             TimeUpdated=json_data.get("TimeUpdated"),
+            WafPrimaryDomain=json_data.get("WafPrimaryDomain"),
             Timeouts=Timeouts._deserialize(json_data.get("Timeouts")),
         )
 

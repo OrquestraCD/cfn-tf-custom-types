@@ -17,7 +17,11 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "<a href="#ishttpsforced" title="IsHttpsForced">IsHttpsForced</a>" : <i>Boolean</i>,
     "<a href="#isorigincompressionenabled" title="IsOriginCompressionEnabled">IsOriginCompressionEnabled</a>" : <i>Boolean</i>,
     "<a href="#isresponsebufferingenabled" title="IsResponseBufferingEnabled">IsResponseBufferingEnabled</a>" : <i>Boolean</i>,
-    "<a href="#tlsprotocols" title="TlsProtocols">TlsProtocols</a>" : <i>[ String, ... ]</i>
+    "<a href="#issnienabled" title="IsSniEnabled">IsSniEnabled</a>" : <i>Boolean</i>,
+    "<a href="#tlsprotocols" title="TlsProtocols">TlsProtocols</a>" : <i>[ String, ... ]</i>,
+    "<a href="#websocketpathprefixes" title="WebsocketPathPrefixes">WebsocketPathPrefixes</a>" : <i>[ String, ... ]</i>,
+    "<a href="#healthchecks" title="HealthChecks">HealthChecks</a>" : <i>[ <a href="policyconfig-healthchecks.md">HealthChecks</a>, ... ]</i>,
+    "<a href="#loadbalancingmethod" title="LoadBalancingMethod">LoadBalancingMethod</a>" : <i>[ <a href="policyconfig-loadbalancingmethod.md">LoadBalancingMethod</a>, ... ]</i>
 }
 </pre>
 
@@ -33,8 +37,15 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 <a href="#ishttpsforced" title="IsHttpsForced">IsHttpsForced</a>: <i>Boolean</i>
 <a href="#isorigincompressionenabled" title="IsOriginCompressionEnabled">IsOriginCompressionEnabled</a>: <i>Boolean</i>
 <a href="#isresponsebufferingenabled" title="IsResponseBufferingEnabled">IsResponseBufferingEnabled</a>: <i>Boolean</i>
+<a href="#issnienabled" title="IsSniEnabled">IsSniEnabled</a>: <i>Boolean</i>
 <a href="#tlsprotocols" title="TlsProtocols">TlsProtocols</a>: <i>
       - String</i>
+<a href="#websocketpathprefixes" title="WebsocketPathPrefixes">WebsocketPathPrefixes</a>: <i>
+      - String</i>
+<a href="#healthchecks" title="HealthChecks">HealthChecks</a>: <i>
+      - <a href="policyconfig-healthchecks.md">HealthChecks</a></i>
+<a href="#loadbalancingmethod" title="LoadBalancingMethod">LoadBalancingMethod</a>: <i>
+      - <a href="policyconfig-loadbalancingmethod.md">LoadBalancingMethod</a></i>
 </pre>
 
 ## Properties
@@ -111,11 +122,43 @@ _Type_: Boolean
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
+#### IsSniEnabled
+
+_Required_: No
+
+_Type_: Boolean
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
 #### TlsProtocols
 
 _Required_: No
 
 _Type_: List of String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### WebsocketPathPrefixes
+
+_Required_: No
+
+_Type_: List of String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### HealthChecks
+
+_Required_: No
+
+_Type_: List of <a href="policyconfig-healthchecks.md">HealthChecks</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### LoadBalancingMethod
+
+_Required_: No
+
+_Type_: List of <a href="policyconfig-loadbalancingmethod.md">LoadBalancingMethod</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

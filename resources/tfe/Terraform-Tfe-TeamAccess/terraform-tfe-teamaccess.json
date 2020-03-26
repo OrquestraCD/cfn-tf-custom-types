@@ -21,7 +21,7 @@
         },
         "WorkspaceId": {
             "type": "string",
-            "description": "The workspace to which the team will be added,\nspecified as a human-readable ID (`<ORGANIZATION>/<WORKSPACE>`)."
+            "description": "ID of the workspace to which the team will be added."
         }
     },
     "additionalProperties": false,

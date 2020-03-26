@@ -37,7 +37,7 @@
         },
         "WorkspaceId": {
             "type": "string",
-            "description": "The workspace that owns the variable, specified as\na human-readable ID (`<ORGANIZATION>/<WORKSPACE>`)."
+            "description": "ID of the workspace that owns the variable."
         }
     },
     "additionalProperties": false,

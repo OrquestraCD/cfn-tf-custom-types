@@ -104,8 +104,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### WorkspaceId
 
-The workspace that owns the variable, specified as
-a human-readable ID (`<ORGANIZATION>/<WORKSPACE>`).
+ID of the workspace that owns the variable.
 
 _Required_: Yes
 

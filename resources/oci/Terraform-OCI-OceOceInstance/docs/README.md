@@ -25,6 +25,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#objectstoragenamespace" title="ObjectStorageNamespace">ObjectStorageNamespace</a>" : <i>String</i>,
         "<a href="#tenancyid" title="TenancyId">TenancyId</a>" : <i>String</i>,
         "<a href="#tenancyname" title="TenancyName">TenancyName</a>" : <i>String</i>,
+        "<a href="#wafprimarydomain" title="WafPrimaryDomain">WafPrimaryDomain</a>" : <i>String</i>,
         "<a href="#timeouts" title="Timeouts">Timeouts</a>" : <i><a href="timeouts.md">Timeouts</a></i>
     }
 }
@@ -48,6 +49,7 @@ Properties:
     <a href="#objectstoragenamespace" title="ObjectStorageNamespace">ObjectStorageNamespace</a>: <i>String</i>
     <a href="#tenancyid" title="TenancyId">TenancyId</a>: <i>String</i>
     <a href="#tenancyname" title="TenancyName">TenancyName</a>: <i>String</i>
+    <a href="#wafprimarydomain" title="WafPrimaryDomain">WafPrimaryDomain</a>: <i>String</i>
     <a href="#timeouts" title="Timeouts">Timeouts</a>: <i><a href="timeouts.md">Timeouts</a></i>
 </pre>
 
@@ -159,6 +161,16 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 Tenancy Name.
 
 _Required_: Yes
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### WafPrimaryDomain
+
+(Updatable) Web Application Firewall(WAF) primary domain.
+
+_Required_: No
 
 _Type_: String
 

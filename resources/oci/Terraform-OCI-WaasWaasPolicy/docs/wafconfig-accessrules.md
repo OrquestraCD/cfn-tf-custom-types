@@ -15,10 +15,15 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "<a href="#blockerrorpagemessage" title="BlockErrorPageMessage">BlockErrorPageMessage</a>" : <i>String</i>,
     "<a href="#blockresponsecode" title="BlockResponseCode">BlockResponseCode</a>" : <i>Double</i>,
     "<a href="#bypasschallenges" title="BypassChallenges">BypassChallenges</a>" : <i>[ String, ... ]</i>,
+    "<a href="#captchafooter" title="CaptchaFooter">CaptchaFooter</a>" : <i>String</i>,
+    "<a href="#captchaheader" title="CaptchaHeader">CaptchaHeader</a>" : <i>String</i>,
+    "<a href="#captchasubmitlabel" title="CaptchaSubmitLabel">CaptchaSubmitLabel</a>" : <i>String</i>,
+    "<a href="#captchatitle" title="CaptchaTitle">CaptchaTitle</a>" : <i>String</i>,
     "<a href="#name" title="Name">Name</a>" : <i>String</i>,
     "<a href="#redirectresponsecode" title="RedirectResponseCode">RedirectResponseCode</a>" : <i>String</i>,
     "<a href="#redirecturl" title="RedirectUrl">RedirectUrl</a>" : <i>String</i>,
-    "<a href="#criteria" title="Criteria">Criteria</a>" : <i>[ <a href="wafconfig-accessrules-criteria.md">Criteria</a>, ... ]</i>
+    "<a href="#criteria" title="Criteria">Criteria</a>" : <i>[ <a href="wafconfig-accessrules-criteria.md">Criteria</a>, ... ]</i>,
+    "<a href="#responseheadermanipulation" title="ResponseHeaderManipulation">ResponseHeaderManipulation</a>" : <i>[ <a href="wafconfig-accessrules-responseheadermanipulation.md">ResponseHeaderManipulation</a>, ... ]</i>
 }
 </pre>
 
@@ -33,11 +38,17 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 <a href="#blockresponsecode" title="BlockResponseCode">BlockResponseCode</a>: <i>Double</i>
 <a href="#bypasschallenges" title="BypassChallenges">BypassChallenges</a>: <i>
       - String</i>
+<a href="#captchafooter" title="CaptchaFooter">CaptchaFooter</a>: <i>String</i>
+<a href="#captchaheader" title="CaptchaHeader">CaptchaHeader</a>: <i>String</i>
+<a href="#captchasubmitlabel" title="CaptchaSubmitLabel">CaptchaSubmitLabel</a>: <i>String</i>
+<a href="#captchatitle" title="CaptchaTitle">CaptchaTitle</a>: <i>String</i>
 <a href="#name" title="Name">Name</a>: <i>String</i>
 <a href="#redirectresponsecode" title="RedirectResponseCode">RedirectResponseCode</a>: <i>String</i>
 <a href="#redirecturl" title="RedirectUrl">RedirectUrl</a>: <i>String</i>
 <a href="#criteria" title="Criteria">Criteria</a>: <i>
       - <a href="wafconfig-accessrules-criteria.md">Criteria</a></i>
+<a href="#responseheadermanipulation" title="ResponseHeaderManipulation">ResponseHeaderManipulation</a>: <i>
+      - <a href="wafconfig-accessrules-responseheadermanipulation.md">ResponseHeaderManipulation</a></i>
 </pre>
 
 ## Properties
@@ -98,6 +109,38 @@ _Type_: List of String
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
+#### CaptchaFooter
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### CaptchaHeader
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### CaptchaSubmitLabel
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### CaptchaTitle
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
 #### Name
 
 _Required_: Yes
@@ -127,6 +170,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: List of <a href="wafconfig-accessrules-criteria.md">Criteria</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### ResponseHeaderManipulation
+
+_Required_: No
+
+_Type_: List of <a href="wafconfig-accessrules-responseheadermanipulation.md">ResponseHeaderManipulation</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

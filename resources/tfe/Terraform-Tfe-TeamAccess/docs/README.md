@@ -54,8 +54,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### WorkspaceId
 
-The workspace to which the team will be added,
-specified as a human-readable ID (`<ORGANIZATION>/<WORKSPACE>`).
+ID of the workspace to which the team will be added.
 
 _Required_: Yes
 

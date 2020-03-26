@@ -240,6 +240,8 @@ _FreeformTags = FreeformTags
 @dataclass
 class Database:
     AdminPassword: Optional[str]
+    BackupId: Optional[str]
+    BackupTdePassword: Optional[str]
     CharacterSet: Optional[str]
     DbName: Optional[str]
     DbUniqueName: Optional[str]
@@ -259,6 +261,8 @@ class Database:
             return None
         return cls(
             AdminPassword=json_data.get("AdminPassword"),
+            BackupId=json_data.get("BackupId"),
+            BackupTdePassword=json_data.get("BackupTdePassword"),
             CharacterSet=json_data.get("CharacterSet"),
             DbName=json_data.get("DbName"),
             DbUniqueName=json_data.get("DbUniqueName"),

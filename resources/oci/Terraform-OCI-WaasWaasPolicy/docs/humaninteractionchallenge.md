@@ -14,6 +14,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "<a href="#failurethresholdexpirationinseconds" title="FailureThresholdExpirationInSeconds">FailureThresholdExpirationInSeconds</a>" : <i>Double</i>,
     "<a href="#interactionthreshold" title="InteractionThreshold">InteractionThreshold</a>" : <i>Double</i>,
     "<a href="#isenabled" title="IsEnabled">IsEnabled</a>" : <i>Boolean</i>,
+    "<a href="#isnatenabled" title="IsNatEnabled">IsNatEnabled</a>" : <i>Boolean</i>,
     "<a href="#recordingperiodinseconds" title="RecordingPeriodInSeconds">RecordingPeriodInSeconds</a>" : <i>Double</i>,
     "<a href="#challengesettings" title="ChallengeSettings">ChallengeSettings</a>" : <i>[ <a href="humaninteractionchallenge-challengesettings.md">ChallengeSettings</a>, ... ]</i>,
     "<a href="#sethttpheader" title="SetHttpHeader">SetHttpHeader</a>" : <i>[ <a href="humaninteractionchallenge-sethttpheader.md">SetHttpHeader</a>, ... ]</i>
@@ -29,6 +30,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 <a href="#failurethresholdexpirationinseconds" title="FailureThresholdExpirationInSeconds">FailureThresholdExpirationInSeconds</a>: <i>Double</i>
 <a href="#interactionthreshold" title="InteractionThreshold">InteractionThreshold</a>: <i>Double</i>
 <a href="#isenabled" title="IsEnabled">IsEnabled</a>: <i>Boolean</i>
+<a href="#isnatenabled" title="IsNatEnabled">IsNatEnabled</a>: <i>Boolean</i>
 <a href="#recordingperiodinseconds" title="RecordingPeriodInSeconds">RecordingPeriodInSeconds</a>: <i>Double</i>
 <a href="#challengesettings" title="ChallengeSettings">ChallengeSettings</a>: <i>
       - <a href="humaninteractionchallenge-challengesettings.md">ChallengeSettings</a></i>
@@ -81,6 +83,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 #### IsEnabled
 
 _Required_: Yes
+
+_Type_: Boolean
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### IsNatEnabled
+
+_Required_: No
 
 _Type_: Boolean
 

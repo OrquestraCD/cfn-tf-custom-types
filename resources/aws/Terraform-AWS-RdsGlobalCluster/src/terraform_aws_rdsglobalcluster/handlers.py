@@ -44,24 +44,11 @@ def check_progress(operationid, trackingid, progress, session):
             try:
                 if 'returnValues' in result:
                     for return_value_name, return_value_value in result['returnValues'].items():
-                        LOG.warn("Testing " + return_value_name)
                         if return_value_name in ["Arn", "GlobalClusterResourceId", "Id"] and getattr(progress.resourceModel, return_value_name) is None:
-                            LOG.warn("Testing type")
                             if type(return_value_value) in [str, bool, int, float]: # TODO: How does GetAtt handle arrays/objects?
-                                LOG.warn("Setting value")
                                 setattr(progress.resourceModel, return_value_name, return_value_value)
-                                
-                            LOG.warn("Finished Testing type")
             except Exception as e:
                 LOG.warn(str(e))
-
-            LOG.warn("Dumping JSON")
-            resolved_model = None
-            if progress.resourceModel: # potentially no properties set
-                resolved_model = {}
-                for prop, value in vars(progress.resourceModel).items():
-                    resolved_model[prop] = value
-                LOG.warn(json.dumps(resolved_model))
 
             LOG.warn("Action complete")
         else:

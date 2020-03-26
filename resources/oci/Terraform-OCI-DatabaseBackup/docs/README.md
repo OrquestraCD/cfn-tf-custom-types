@@ -101,6 +101,10 @@ Returns the <code>Id</code> value.
 
 Returns the <code>LifecycleDetails</code> value.
 
+#### Shape
+
+Returns the <code>Shape</code> value.
+
 #### State
 
 Returns the <code>State</code> value.

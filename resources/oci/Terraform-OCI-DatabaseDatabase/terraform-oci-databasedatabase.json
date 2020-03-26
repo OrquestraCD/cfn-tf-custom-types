@@ -10,6 +10,12 @@
                 "AdminPassword": {
                     "type": "string"
                 },
+                "BackupId": {
+                    "type": "string"
+                },
+                "BackupTdePassword": {
+                    "type": "string"
+                },
                 "CharacterSet": {
                     "type": "string"
                 },
@@ -132,9 +138,7 @@
                     "type": "string"
                 }
             },
-            "required": [
-                "Type"
-            ]
+            "required": []
         }
     },
     "properties": {

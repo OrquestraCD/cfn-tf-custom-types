@@ -9,6 +9,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 <pre>
 {
     "<a href="#adminpassword" title="AdminPassword">AdminPassword</a>" : <i>String</i>,
+    "<a href="#backupid" title="BackupId">BackupId</a>" : <i>String</i>,
+    "<a href="#backuptdepassword" title="BackupTdePassword">BackupTdePassword</a>" : <i>String</i>,
     "<a href="#characterset" title="CharacterSet">CharacterSet</a>" : <i>String</i>,
     "<a href="#dbname" title="DbName">DbName</a>" : <i>String</i>,
     "<a href="#dbuniquename" title="DbUniqueName">DbUniqueName</a>" : <i>String</i>,
@@ -25,6 +27,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 
 <pre>
 <a href="#adminpassword" title="AdminPassword">AdminPassword</a>: <i>String</i>
+<a href="#backupid" title="BackupId">BackupId</a>: <i>String</i>
+<a href="#backuptdepassword" title="BackupTdePassword">BackupTdePassword</a>: <i>String</i>
 <a href="#characterset" title="CharacterSet">CharacterSet</a>: <i>String</i>
 <a href="#dbname" title="DbName">DbName</a>: <i>String</i>
 <a href="#dbuniquename" title="DbUniqueName">DbUniqueName</a>: <i>String</i>
@@ -44,6 +48,22 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 #### AdminPassword
 
 _Required_: Yes
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### BackupId
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### BackupTdePassword
+
+_Required_: No
 
 _Type_: String
 

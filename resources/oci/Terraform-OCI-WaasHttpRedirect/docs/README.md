@@ -98,7 +98,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### ResponseCode
 
-(Updatable) The response code returned for the redirect to the client. reference - https://tools.ietf.org/html/rfc7231#section-6.4.
+(Updatable) The response code returned for the redirect to the client. For more information, see [RFC 7231](https://tools.ietf.org/html/rfc7231#section-6.4).
 
 _Required_: No
 

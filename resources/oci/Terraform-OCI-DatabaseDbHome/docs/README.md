@@ -4,8 +4,6 @@ This resource provides the Db Home resource in Oracle Cloud Infrastructure Datab
 
 Creates a new Database Home in the specified DB system based on the request parameters you provide. Applies only to bare metal and Exadata DB systems.
 
-The creation of an oci_database_db_system requires that it be created with exactly one oci_database_db_home. Therefore the first db home will have to be a property of the db system resource and any further db homes to be added to the db system will have to be added as first class resources using "oci_database_db_home".
-
 ## Syntax
 
 To declare this entity in your AWS CloudFormation template, use the following syntax:

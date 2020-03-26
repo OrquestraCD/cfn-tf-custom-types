@@ -74,7 +74,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### DisplayName
 
-(Updatable) A unique user-friendly name for the address list.
+(Updatable) A user-friendly name for the address list.
 
 _Required_: Yes
 

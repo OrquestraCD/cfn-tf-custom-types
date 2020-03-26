@@ -8,6 +8,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 
 <pre>
 {
+    "<a href="#addresslists" title="AddressLists">AddressLists</a>" : <i>[ String, ... ]</i>,
     "<a href="#addresses" title="Addresses">Addresses</a>" : <i>[ String, ... ]</i>,
     "<a href="#name" title="Name">Name</a>" : <i>String</i>
 }
@@ -16,6 +17,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 ### YAML
 
 <pre>
+<a href="#addresslists" title="AddressLists">AddressLists</a>: <i>
+      - String</i>
 <a href="#addresses" title="Addresses">Addresses</a>: <i>
       - String</i>
 <a href="#name" title="Name">Name</a>: <i>String</i>
@@ -23,9 +26,17 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 
 ## Properties
 
+#### AddressLists
+
+_Required_: No
+
+_Type_: List of String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
 #### Addresses
 
-_Required_: Yes
+_Required_: No
 
 _Type_: List of String
 

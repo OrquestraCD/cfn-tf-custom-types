@@ -44,6 +44,7 @@ class ResourceModel(BaseResourceModel):
     DisplayName: Optional[str]
     Id: Optional[str]
     LifecycleDetails: Optional[str]
+    Shape: Optional[str]
     State: Optional[str]
     TimeEnded: Optional[str]
     TimeStarted: Optional[str]
@@ -67,6 +68,7 @@ class ResourceModel(BaseResourceModel):
             DisplayName=json_data.get("DisplayName"),
             Id=json_data.get("Id"),
             LifecycleDetails=json_data.get("LifecycleDetails"),
+            Shape=json_data.get("Shape"),
             State=json_data.get("State"),
             TimeEnded=json_data.get("TimeEnded"),
             TimeStarted=json_data.get("TimeStarted"),

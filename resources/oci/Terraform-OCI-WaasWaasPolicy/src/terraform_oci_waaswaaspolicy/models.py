@@ -53,6 +53,8 @@ class ResourceModel(BaseResourceModel):
     WafConfig: Optional[Sequence["_WafConfig"]]
     OriginGroup: Optional[Sequence["_OriginGroup"]]
     CustomHeaders: Optional[Sequence["_CustomHeaders"]]
+    HealthChecks: Optional[Sequence["_HealthChecks"]]
+    LoadBalancingMethod: Optional[Sequence["_LoadBalancingMethod"]]
     AccessRules: Optional[Sequence["_AccessRules"]]
     AddressRateLimiting: Optional[Sequence["_AddressRateLimiting"]]
     CachingRules: Optional[Sequence["_CachingRules"]]
@@ -64,6 +66,8 @@ class ResourceModel(BaseResourceModel):
     ProtectionSettings: Optional[Sequence["_ProtectionSettings"]]
     Whitelists: Optional[Sequence["_Whitelists"]]
     Criteria: Optional[Sequence["_Criteria"]]
+    ResponseHeaderManipulation: Optional[Sequence["_ResponseHeaderManipulation"]]
+    Exclusions: Optional[Sequence["_Exclusions"]]
     ChallengeSettings: Optional[Sequence["_ChallengeSettings"]]
     SetHttpHeader: Optional[Sequence["_SetHttpHeader"]]
 
@@ -93,6 +97,8 @@ class ResourceModel(BaseResourceModel):
             WafConfig=json_data.get("WafConfig"),
             OriginGroup=json_data.get("OriginGroup"),
             CustomHeaders=json_data.get("CustomHeaders"),
+            HealthChecks=json_data.get("HealthChecks"),
+            LoadBalancingMethod=json_data.get("LoadBalancingMethod"),
             AccessRules=json_data.get("AccessRules"),
             AddressRateLimiting=json_data.get("AddressRateLimiting"),
             CachingRules=json_data.get("CachingRules"),
@@ -104,6 +110,8 @@ class ResourceModel(BaseResourceModel):
             ProtectionSettings=json_data.get("ProtectionSettings"),
             Whitelists=json_data.get("Whitelists"),
             Criteria=json_data.get("Criteria"),
+            ResponseHeaderManipulation=json_data.get("ResponseHeaderManipulation"),
+            Exclusions=json_data.get("Exclusions"),
             ChallengeSettings=json_data.get("ChallengeSettings"),
             SetHttpHeader=json_data.get("SetHttpHeader"),
         )
@@ -262,7 +270,11 @@ class PolicyConfig:
     IsHttpsForced: Optional[bool]
     IsOriginCompressionEnabled: Optional[bool]
     IsResponseBufferingEnabled: Optional[bool]
+    IsSniEnabled: Optional[bool]
     TlsProtocols: Optional[Sequence[str]]
+    WebsocketPathPrefixes: Optional[Sequence[str]]
+    HealthChecks: Optional[Sequence["_HealthChecks"]]
+    LoadBalancingMethod: Optional[Sequence["_LoadBalancingMethod"]]
 
     @classmethod
     def _deserialize(
@@ -281,12 +293,104 @@ class PolicyConfig:
             IsHttpsForced=json_data.get("IsHttpsForced"),
             IsOriginCompressionEnabled=json_data.get("IsOriginCompressionEnabled"),
             IsResponseBufferingEnabled=json_data.get("IsResponseBufferingEnabled"),
+            IsSniEnabled=json_data.get("IsSniEnabled"),
             TlsProtocols=json_data.get("TlsProtocols"),
+            WebsocketPathPrefixes=json_data.get("WebsocketPathPrefixes"),
+            HealthChecks=json_data.get("HealthChecks"),
+            LoadBalancingMethod=json_data.get("LoadBalancingMethod"),
         )
 
 
 # work around possible type aliasing issues when variable has same name as a model
 _PolicyConfig = PolicyConfig
+
+
+@dataclass
+class HealthChecks:
+    ExpectedResponseCodeGroup: Optional[Sequence[str]]
+    ExpectedResponseText: Optional[str]
+    Headers: Optional[Sequence["_Headers"]]
+    HealthyThreshold: Optional[float]
+    IntervalInSeconds: Optional[float]
+    IsEnabled: Optional[bool]
+    IsResponseTextCheckEnabled: Optional[bool]
+    Method: Optional[str]
+    Path: Optional[str]
+    TimeoutInSeconds: Optional[float]
+    UnhealthyThreshold: Optional[float]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_HealthChecks"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_HealthChecks"]:
+        if not json_data:
+            return None
+        return cls(
+            ExpectedResponseCodeGroup=json_data.get("ExpectedResponseCodeGroup"),
+            ExpectedResponseText=json_data.get("ExpectedResponseText"),
+            Headers=json_data.get("Headers"),
+            HealthyThreshold=json_data.get("HealthyThreshold"),
+            IntervalInSeconds=json_data.get("IntervalInSeconds"),
+            IsEnabled=json_data.get("IsEnabled"),
+            IsResponseTextCheckEnabled=json_data.get("IsResponseTextCheckEnabled"),
+            Method=json_data.get("Method"),
+            Path=json_data.get("Path"),
+            TimeoutInSeconds=json_data.get("TimeoutInSeconds"),
+            UnhealthyThreshold=json_data.get("UnhealthyThreshold"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_HealthChecks = HealthChecks
+
+
+@dataclass
+class Headers:
+    MapKey: Optional[str]
+    MapValue: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_Headers"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_Headers"]:
+        if not json_data:
+            return None
+        return cls(
+            MapKey=json_data.get("MapKey"),
+            MapValue=json_data.get("MapValue"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_Headers = Headers
+
+
+@dataclass
+class LoadBalancingMethod:
+    Domain: Optional[str]
+    ExpirationTimeInSeconds: Optional[float]
+    Method: Optional[str]
+    Name: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_LoadBalancingMethod"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_LoadBalancingMethod"]:
+        if not json_data:
+            return None
+        return cls(
+            Domain=json_data.get("Domain"),
+            ExpirationTimeInSeconds=json_data.get("ExpirationTimeInSeconds"),
+            Method=json_data.get("Method"),
+            Name=json_data.get("Name"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_LoadBalancingMethod = LoadBalancingMethod
 
 
 @dataclass
@@ -364,10 +468,15 @@ class AccessRules:
     BlockErrorPageMessage: Optional[str]
     BlockResponseCode: Optional[float]
     BypassChallenges: Optional[Sequence[str]]
+    CaptchaFooter: Optional[str]
+    CaptchaHeader: Optional[str]
+    CaptchaSubmitLabel: Optional[str]
+    CaptchaTitle: Optional[str]
     Name: Optional[str]
     RedirectResponseCode: Optional[str]
     RedirectUrl: Optional[str]
     Criteria: Optional[Sequence["_Criteria"]]
+    ResponseHeaderManipulation: Optional[Sequence["_ResponseHeaderManipulation"]]
 
     @classmethod
     def _deserialize(
@@ -384,10 +493,15 @@ class AccessRules:
             BlockErrorPageMessage=json_data.get("BlockErrorPageMessage"),
             BlockResponseCode=json_data.get("BlockResponseCode"),
             BypassChallenges=json_data.get("BypassChallenges"),
+            CaptchaFooter=json_data.get("CaptchaFooter"),
+            CaptchaHeader=json_data.get("CaptchaHeader"),
+            CaptchaSubmitLabel=json_data.get("CaptchaSubmitLabel"),
+            CaptchaTitle=json_data.get("CaptchaTitle"),
             Name=json_data.get("Name"),
             RedirectResponseCode=json_data.get("RedirectResponseCode"),
             RedirectUrl=json_data.get("RedirectUrl"),
             Criteria=json_data.get("Criteria"),
+            ResponseHeaderManipulation=json_data.get("ResponseHeaderManipulation"),
         )
 
 
@@ -398,6 +512,7 @@ _AccessRules = AccessRules
 @dataclass
 class Criteria:
     Condition: Optional[str]
+    IsCaseSensitive: Optional[bool]
     Value: Optional[str]
 
     @classmethod
@@ -409,12 +524,37 @@ class Criteria:
             return None
         return cls(
             Condition=json_data.get("Condition"),
+            IsCaseSensitive=json_data.get("IsCaseSensitive"),
             Value=json_data.get("Value"),
         )
 
 
 # work around possible type aliasing issues when variable has same name as a model
 _Criteria = Criteria
+
+
+@dataclass
+class ResponseHeaderManipulation:
+    Action: Optional[str]
+    Header: Optional[str]
+    Value: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_ResponseHeaderManipulation"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_ResponseHeaderManipulation"]:
+        if not json_data:
+            return None
+        return cls(
+            Action=json_data.get("Action"),
+            Header=json_data.get("Header"),
+            Value=json_data.get("Value"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_ResponseHeaderManipulation = ResponseHeaderManipulation
 
 
 @dataclass
@@ -511,6 +651,7 @@ _Captchas = Captchas
 class CustomProtectionRules:
     Action: Optional[str]
     Id: Optional[str]
+    Exclusions: Optional[Sequence["_Exclusions"]]
 
     @classmethod
     def _deserialize(
@@ -522,11 +663,34 @@ class CustomProtectionRules:
         return cls(
             Action=json_data.get("Action"),
             Id=json_data.get("Id"),
+            Exclusions=json_data.get("Exclusions"),
         )
 
 
 # work around possible type aliasing issues when variable has same name as a model
 _CustomProtectionRules = CustomProtectionRules
+
+
+@dataclass
+class Exclusions:
+    Exclusions: Optional[Sequence[str]]
+    Target: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_Exclusions"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_Exclusions"]:
+        if not json_data:
+            return None
+        return cls(
+            Exclusions=json_data.get("Exclusions"),
+            Target=json_data.get("Target"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_Exclusions = Exclusions
 
 
 @dataclass
@@ -607,6 +771,7 @@ class HumanInteractionChallenge:
     FailureThresholdExpirationInSeconds: Optional[float]
     InteractionThreshold: Optional[float]
     IsEnabled: Optional[bool]
+    IsNatEnabled: Optional[bool]
     RecordingPeriodInSeconds: Optional[float]
     ChallengeSettings: Optional[Sequence["_ChallengeSettings"]]
     SetHttpHeader: Optional[Sequence["_SetHttpHeader"]]
@@ -625,6 +790,7 @@ class HumanInteractionChallenge:
             FailureThresholdExpirationInSeconds=json_data.get("FailureThresholdExpirationInSeconds"),
             InteractionThreshold=json_data.get("InteractionThreshold"),
             IsEnabled=json_data.get("IsEnabled"),
+            IsNatEnabled=json_data.get("IsNatEnabled"),
             RecordingPeriodInSeconds=json_data.get("RecordingPeriodInSeconds"),
             ChallengeSettings=json_data.get("ChallengeSettings"),
             SetHttpHeader=json_data.get("SetHttpHeader"),
@@ -661,9 +827,12 @@ _SetHttpHeader = SetHttpHeader
 class JsChallenge:
     Action: Optional[str]
     ActionExpirationInSeconds: Optional[float]
+    AreRedirectsChallenged: Optional[bool]
     FailureThreshold: Optional[float]
     IsEnabled: Optional[bool]
+    IsNatEnabled: Optional[bool]
     ChallengeSettings: Optional[Sequence["_ChallengeSettings"]]
+    Criteria: Optional[Sequence["_Criteria"]]
     SetHttpHeader: Optional[Sequence["_SetHttpHeader"]]
 
     @classmethod
@@ -676,9 +845,12 @@ class JsChallenge:
         return cls(
             Action=json_data.get("Action"),
             ActionExpirationInSeconds=json_data.get("ActionExpirationInSeconds"),
+            AreRedirectsChallenged=json_data.get("AreRedirectsChallenged"),
             FailureThreshold=json_data.get("FailureThreshold"),
             IsEnabled=json_data.get("IsEnabled"),
+            IsNatEnabled=json_data.get("IsNatEnabled"),
             ChallengeSettings=json_data.get("ChallengeSettings"),
+            Criteria=json_data.get("Criteria"),
             SetHttpHeader=json_data.get("SetHttpHeader"),
         )
 
@@ -733,6 +905,7 @@ _ProtectionSettings = ProtectionSettings
 
 @dataclass
 class Whitelists:
+    AddressLists: Optional[Sequence[str]]
     Addresses: Optional[Sequence[str]]
     Name: Optional[str]
 
@@ -744,6 +917,7 @@ class Whitelists:
         if not json_data:
             return None
         return cls(
+            AddressLists=json_data.get("AddressLists"),
             Addresses=json_data.get("Addresses"),
             Name=json_data.get("Name"),
         )

@@ -110,7 +110,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### TrafficType
 
-Set's application type. Valid values are: `direct`, `http`, `https`.  Defaults to `direct`.
+Sets application type. Valid values are: `direct`, `http`, `https`.  Defaults to `direct`.
 
 _Required_: No
 

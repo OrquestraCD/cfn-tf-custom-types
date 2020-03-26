@@ -144,6 +144,10 @@
         "TimeUpdated": {
             "type": "string"
         },
+        "WafPrimaryDomain": {
+            "type": "string",
+            "description": "(Updatable) Web Application Firewall(WAF) primary domain."
+        },
         "Timeouts": {
             "$ref": "#/definitions/Timeouts"
         }

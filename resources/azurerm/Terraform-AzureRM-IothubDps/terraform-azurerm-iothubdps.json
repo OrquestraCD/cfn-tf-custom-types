@@ -12,7 +12,8 @@
                     "description": "The weight applied to the IoT Hub. Defaults to 0."
                 },
                 "ApplyAllocationPolicy": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "Determines whether to apply allocation policies to the IoT Hub. Defaults to false."
                 },
                 "ConnectionString": {
                     "type": "string",

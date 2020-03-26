@@ -45,7 +45,7 @@ Properties:
 
 #### ConsoleLogin
 
-Indicade whether the CAM user can login or not.
+Indicate whether the CAM user can login or not.
 
 _Required_: No
 

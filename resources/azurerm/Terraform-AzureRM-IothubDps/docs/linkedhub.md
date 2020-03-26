@@ -38,6 +38,8 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### ApplyAllocationPolicy
 
+Determines whether to apply allocation policies to the IoT Hub. Defaults to false.
+
 _Required_: No
 
 _Type_: Boolean

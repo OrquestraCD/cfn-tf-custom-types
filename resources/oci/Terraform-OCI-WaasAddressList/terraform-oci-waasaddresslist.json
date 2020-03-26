@@ -63,7 +63,7 @@
         },
         "DisplayName": {
             "type": "string",
-            "description": "(Updatable) A unique user-friendly name for the address list."
+            "description": "(Updatable) A user-friendly name for the address list."
         },
         "FreeformTags": {
             "type": "array",

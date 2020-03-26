@@ -70,7 +70,7 @@
         },
         "TrafficType": {
             "type": "string",
-            "description": "Set's application type. Valid values are: `direct`, `http`, `https`.  Defaults to `direct`."
+            "description": "Sets application type. Valid values are: `direct`, `http`, `https`.  Defaults to `direct`."
         },
         "ZoneId": {
             "type": "string",

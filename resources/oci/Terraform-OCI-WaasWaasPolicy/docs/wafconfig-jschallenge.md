@@ -10,9 +10,12 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 {
     "<a href="#action" title="Action">Action</a>" : <i>String</i>,
     "<a href="#actionexpirationinseconds" title="ActionExpirationInSeconds">ActionExpirationInSeconds</a>" : <i>Double</i>,
+    "<a href="#areredirectschallenged" title="AreRedirectsChallenged">AreRedirectsChallenged</a>" : <i>Boolean</i>,
     "<a href="#failurethreshold" title="FailureThreshold">FailureThreshold</a>" : <i>Double</i>,
     "<a href="#isenabled" title="IsEnabled">IsEnabled</a>" : <i>Boolean</i>,
+    "<a href="#isnatenabled" title="IsNatEnabled">IsNatEnabled</a>" : <i>Boolean</i>,
     "<a href="#challengesettings" title="ChallengeSettings">ChallengeSettings</a>" : <i>[ <a href="wafconfig-jschallenge-challengesettings.md">ChallengeSettings</a>, ... ]</i>,
+    "<a href="#criteria" title="Criteria">Criteria</a>" : <i>[ <a href="wafconfig-jschallenge-criteria.md">Criteria</a>, ... ]</i>,
     "<a href="#sethttpheader" title="SetHttpHeader">SetHttpHeader</a>" : <i>[ <a href="wafconfig-jschallenge-sethttpheader.md">SetHttpHeader</a>, ... ]</i>
 }
 </pre>
@@ -22,10 +25,14 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 <pre>
 <a href="#action" title="Action">Action</a>: <i>String</i>
 <a href="#actionexpirationinseconds" title="ActionExpirationInSeconds">ActionExpirationInSeconds</a>: <i>Double</i>
+<a href="#areredirectschallenged" title="AreRedirectsChallenged">AreRedirectsChallenged</a>: <i>Boolean</i>
 <a href="#failurethreshold" title="FailureThreshold">FailureThreshold</a>: <i>Double</i>
 <a href="#isenabled" title="IsEnabled">IsEnabled</a>: <i>Boolean</i>
+<a href="#isnatenabled" title="IsNatEnabled">IsNatEnabled</a>: <i>Boolean</i>
 <a href="#challengesettings" title="ChallengeSettings">ChallengeSettings</a>: <i>
       - <a href="wafconfig-jschallenge-challengesettings.md">ChallengeSettings</a></i>
+<a href="#criteria" title="Criteria">Criteria</a>: <i>
+      - <a href="wafconfig-jschallenge-criteria.md">Criteria</a></i>
 <a href="#sethttpheader" title="SetHttpHeader">SetHttpHeader</a>: <i>
       - <a href="wafconfig-jschallenge-sethttpheader.md">SetHttpHeader</a></i>
 </pre>
@@ -48,6 +55,14 @@ _Type_: Double
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
+#### AreRedirectsChallenged
+
+_Required_: No
+
+_Type_: Boolean
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
 #### FailureThreshold
 
 _Required_: No
@@ -64,11 +79,27 @@ _Type_: Boolean
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
+#### IsNatEnabled
+
+_Required_: No
+
+_Type_: Boolean
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
 #### ChallengeSettings
 
 _Required_: No
 
 _Type_: List of <a href="wafconfig-jschallenge-challengesettings.md">ChallengeSettings</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Criteria
+
+_Required_: No
+
+_Type_: List of <a href="wafconfig-jschallenge-criteria.md">Criteria</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

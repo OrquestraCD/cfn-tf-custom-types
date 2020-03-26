@@ -51,6 +51,9 @@
         "LifecycleDetails": {
             "type": "string"
         },
+        "Shape": {
+            "type": "string"
+        },
         "State": {
             "type": "string"
         },
@@ -80,6 +83,7 @@
         "/properties/DatabaseSizeInGbs",
         "/properties/Id",
         "/properties/LifecycleDetails",
+        "/properties/Shape",
         "/properties/State",
         "/properties/TimeEnded",
         "/properties/TimeStarted",

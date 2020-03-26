@@ -44,7 +44,7 @@ def check_progress(operationid, trackingid, progress, session):
             try:
                 if 'returnValues' in result:
                     for return_value_name, return_value_value in result['returnValues'].items():
-                        if return_value_name in ["AvailabilityDomain", "CompartmentId", "DatabaseEdition", "DatabaseSizeInGbs", "Id", "LifecycleDetails", "State", "TimeEnded", "TimeStarted", "Type"] and getattr(progress.resourceModel, return_value_name) is None:
+                        if return_value_name in ["AvailabilityDomain", "CompartmentId", "DatabaseEdition", "DatabaseSizeInGbs", "Id", "LifecycleDetails", "Shape", "State", "TimeEnded", "TimeStarted", "Type"] and getattr(progress.resourceModel, return_value_name) is None:
                             if type(return_value_value) in [str, bool, int, float]: # TODO: How does GetAtt handle arrays/objects?
                                 setattr(progress.resourceModel, return_value_name, return_value_value)
             except Exception as e:

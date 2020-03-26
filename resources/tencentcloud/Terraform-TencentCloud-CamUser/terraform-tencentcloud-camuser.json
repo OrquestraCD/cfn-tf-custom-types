@@ -10,7 +10,7 @@
         },
         "ConsoleLogin": {
             "type": "boolean",
-            "description": "Indicade whether the CAM user can login or not."
+            "description": "Indicate whether the CAM user can login or not."
         },
         "CountryCode": {
             "type": "string",

@@ -9,7 +9,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 <pre>
 {
     "<a href="#action" title="Action">Action</a>" : <i>String</i>,
-    "<a href="#id" title="Id">Id</a>" : <i>String</i>
+    "<a href="#id" title="Id">Id</a>" : <i>String</i>,
+    "<a href="#exclusions" title="Exclusions">Exclusions</a>" : <i>[ <a href="customprotectionrules-exclusions.md">Exclusions</a>, ... ]</i>
 }
 </pre>
 
@@ -18,6 +19,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 <pre>
 <a href="#action" title="Action">Action</a>: <i>String</i>
 <a href="#id" title="Id">Id</a>: <i>String</i>
+<a href="#exclusions" title="Exclusions">Exclusions</a>: <i>
+      - <a href="customprotectionrules-exclusions.md">Exclusions</a></i>
 </pre>
 
 ## Properties
@@ -35,6 +38,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Exclusions
+
+_Required_: No
+
+_Type_: List of <a href="customprotectionrules-exclusions.md">Exclusions</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
