@@ -136,14 +136,14 @@ def handler(event, context):
             try:
                 event['model']['tfcfnid'] = trackingid
                 tfshow = json.loads(check_call([os.path.dirname(os.path.realpath(__file__)) + '/terraform', 'show', '-json', '-no-color'], "/tmp/"))
+                resvalues = {}
                 if 'values' in tfshow['values']['root_module']['resources'][0]:
-                    for tfreturnname, return_value_value in tfshow['values']['root_module']['resources'][0]['values'].items():
-                        return_value_name = tf_to_cfn_str(tfreturnname)
-                        if return_value_name in event['returnValues'] and event['model'][return_value_name] is None:
-                            if type(return_value_value) in [str, bool, int, float]: # TODO: How does GetAtt handle arrays/objects?
-                                event['model'][return_value_name] = return_value_value
+                    resvalues.update(tfshow['values']['root_module']['resources'][0]['values'])
                 if 'instances' in tfshow['values']['root_module']['resources'][0]:
-                    for tfreturnname, return_value_value in tfshow['values']['root_module']['resources'][0]['instances'][0]['attributes'].items():
+                    resvalues.update(tfshow['values']['root_module']['resources'][0]['instances']['attributes'])
+
+                if 'values' in tfshow['values']['root_module']['resources'][0]:
+                    for tfreturnname, return_value_value in resvalues.items():
                         return_value_name = tf_to_cfn_str(tfreturnname)
                         if return_value_name in event['returnValues'] and event['model'][return_value_name] is None:
                             if type(return_value_value) in [str, bool, int, float]: # TODO: How does GetAtt handle arrays/objects?
