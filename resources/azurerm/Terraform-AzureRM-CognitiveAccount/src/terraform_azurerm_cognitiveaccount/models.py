@@ -42,6 +42,7 @@ class ResourceModel(BaseResourceModel):
     Location: Optional[str]
     Name: Optional[str]
     PrimaryAccessKey: Optional[str]
+    QnaRuntimeEndpoint: Optional[str]
     ResourceGroupName: Optional[str]
     SecondaryAccessKey: Optional[str]
     SkuName: Optional[str]
@@ -63,6 +64,7 @@ class ResourceModel(BaseResourceModel):
             Location=json_data.get("Location"),
             Name=json_data.get("Name"),
             PrimaryAccessKey=json_data.get("PrimaryAccessKey"),
+            QnaRuntimeEndpoint=json_data.get("QnaRuntimeEndpoint"),
             ResourceGroupName=json_data.get("ResourceGroupName"),
             SecondaryAccessKey=json_data.get("SecondaryAccessKey"),
             SkuName=json_data.get("SkuName"),

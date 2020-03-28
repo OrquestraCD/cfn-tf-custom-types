@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::CosmosdbSqlDatabase",
     "description": "Manages a SQL Database within a Cosmos DB Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-CosmosdbSqlDatabase/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

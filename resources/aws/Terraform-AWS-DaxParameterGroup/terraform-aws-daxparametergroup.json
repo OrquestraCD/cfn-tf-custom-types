@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DaxParameterGroup",
     "description": "Provides a DAX Parameter Group resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DaxParameterGroup/docs/README.md",
     "definitions": {
         "Parameters": {
             "type": "object",

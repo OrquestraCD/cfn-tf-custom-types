@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LightsailKeyPair",
     "description": "Provides a Lightsail Key Pair, for use with Lightsail Instances. These key pairs\nare separate from EC2 Key Pairs, and must be created or imported for use with\nLightsail.\n\n~> **Note:** Lightsail is currently only supported in a limited number of AWS Regions, please see [\"Regions and Availability Zones in Amazon Lightsail\"](https://lightsail.aws.amazon.com/ls/docs/overview/article/understanding-regions-and-availability-zones-in-amazon-lightsail) for more details",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LightsailKeyPair/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

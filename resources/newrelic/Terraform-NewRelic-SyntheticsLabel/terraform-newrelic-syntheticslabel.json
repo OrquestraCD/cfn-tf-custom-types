@@ -2,6 +2,7 @@
     "typeName": "Terraform::NewRelic::SyntheticsLabel",
     "description": "Use this resource to create, update, and delete a Synthetics label in New Relic.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/newrelic/Terraform-NewRelic-SyntheticsLabel/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

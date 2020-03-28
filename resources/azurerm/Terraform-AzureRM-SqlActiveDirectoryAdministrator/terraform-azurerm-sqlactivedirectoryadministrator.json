@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SqlActiveDirectoryAdministrator",
     "description": "Allows you to set a user or group as the AD administrator for an Azure SQL server",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SqlActiveDirectoryAdministrator/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::NatSnatRuleV2",
     "description": "Manages a V2 snat rule resource within OpenTelekomCloud Nat",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-NatSnatRuleV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

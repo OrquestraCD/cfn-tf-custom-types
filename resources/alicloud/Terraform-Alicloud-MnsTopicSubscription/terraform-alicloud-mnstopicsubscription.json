@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::MnsTopicSubscription",
     "description": "Provides a MNS topic subscription resource.\n\n-> **NOTE:** Terraform will auto build a mns topic subscription  while it uses `alicloud_mns_topic_subscription` to build a mns topic subscription resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-MnsTopicSubscription/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

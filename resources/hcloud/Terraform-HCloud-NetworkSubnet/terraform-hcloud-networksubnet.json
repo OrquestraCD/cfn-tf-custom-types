@@ -2,6 +2,7 @@
     "typeName": "Terraform::HCloud::NetworkSubnet",
     "description": "Provides a Hetzner Cloud Network Subnet to represent a Subnet in the Hetzner Cloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/hcloud/Terraform-HCloud-NetworkSubnet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

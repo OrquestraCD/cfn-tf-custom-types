@@ -2,6 +2,7 @@
     "typeName": "Terraform::Mailgun::Domain",
     "description": "Provides a Mailgun App resource. This can be used to\ncreate and manage applications on Mailgun.\n\nAfter DNS records are set, domain verification should be triggered manually using [PUT /domains/\\<domain\\>/verify](https://documentation.mailgun.com/en/latest/api-domains.html#domains)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/mailgun/Terraform-Mailgun-Domain/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

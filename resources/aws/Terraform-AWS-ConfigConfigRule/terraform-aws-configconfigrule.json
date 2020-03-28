@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ConfigConfigRule",
     "description": "Provides an AWS Config Rule.\n\n~> **Note:** Config Rule requires an existing [Configuration Recorder](/docs/providers/aws/r/config_configuration_recorder.html) to be present. Use of `depends_on` is recommended (as shown below) to avoid race conditions.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ConfigConfigRule/docs/README.md",
     "definitions": {
         "Scope": {
             "type": "object",

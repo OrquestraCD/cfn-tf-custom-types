@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::SlbDomainExtension",
     "description": "HTTPS listeners of guaranteed-performance SLB support configuring multiple certificates, allowing you to forward requests with different domain names to different backend servers.\nPlease refer to the [documentation](https://www.alibabacloud.com/help/doc-detail/85956.htm?spm=a2c63.p38356.b99.40.1c881563Co8p6w) for details.\n\n-> **NOTE:** Available in 1.60.0+\n\n-> **NOTE:** The instance with shared loadBalancerSpec doesn't support domainExtension.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-SlbDomainExtension/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

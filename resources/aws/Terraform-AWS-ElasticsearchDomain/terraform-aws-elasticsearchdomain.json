@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ElasticsearchDomain",
     "description": "Manages an AWS Elasticsearch Domain.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ElasticsearchDomain/docs/README.md",
     "definitions": {
         "ClusterConfig": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafRule",
     "description": "Provides a WAF Rule Resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafRule/docs/README.md",
     "definitions": {
         "Predicates": {
             "type": "object",

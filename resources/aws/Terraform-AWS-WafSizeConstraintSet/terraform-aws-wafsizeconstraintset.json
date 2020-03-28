@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafSizeConstraintSet",
     "description": "Provides a WAF Size Constraint Set Resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafSizeConstraintSet/docs/README.md",
     "definitions": {
         "SizeConstraints": {
             "type": "object",

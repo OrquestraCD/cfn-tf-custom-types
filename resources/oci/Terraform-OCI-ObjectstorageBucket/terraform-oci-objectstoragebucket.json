@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::ObjectstorageBucket",
     "description": "This resource provides the Bucket resource in Oracle Cloud Infrastructure Object Storage service.\n\nCreates a bucket in the given namespace with a bucket name and optional user-defined metadata. Avoid entering\nconfidential information in bucket names.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-ObjectstorageBucket/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

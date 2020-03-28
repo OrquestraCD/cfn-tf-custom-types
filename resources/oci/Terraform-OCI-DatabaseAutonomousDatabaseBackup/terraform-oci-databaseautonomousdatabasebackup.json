@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseAutonomousDatabaseBackup",
     "description": "This resource provides the Autonomous Database Backup resource in Oracle Cloud Infrastructure Database service.\n\nCreates a new Autonomous Database backup for the specified database based on the provided request parameters.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseAutonomousDatabaseBackup/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -19,7 +19,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "Type" : "Terraform::Skytap::LabelCategory",
     "Properties" : {
         "<a href="#name" title="Name">Name</a>" : <i>String</i>,
-        "<a href="#singlevalue" title="SingleValue">SingleValue</a>" : <i>Boolean</i>
+        "<a href="#singlevalue" title="SingleValue">SingleValue</a>" : <i>Boolean</i>,
+        "<a href="#timeouts" title="Timeouts">Timeouts</a>" : <i><a href="timeouts.md">Timeouts</a></i>
     }
 }
 </pre>
@@ -31,6 +32,7 @@ Type: Terraform::Skytap::LabelCategory
 Properties:
     <a href="#name" title="Name">Name</a>: <i>String</i>
     <a href="#singlevalue" title="SingleValue">SingleValue</a>: <i>Boolean</i>
+    <a href="#timeouts" title="Timeouts">Timeouts</a>: <i><a href="timeouts.md">Timeouts</a></i>
 </pre>
 
 ## Properties
@@ -52,6 +54,14 @@ With single value labels can have only one value for a category, with false labe
 _Required_: Yes
 
 _Type_: Boolean
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Timeouts
+
+_Required_: No
+
+_Type_: <a href="timeouts.md">Timeouts</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

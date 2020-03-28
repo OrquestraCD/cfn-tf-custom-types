@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureStack::Lb",
     "description": "Manages a Load Balancer Resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurestack/Terraform-AzureStack-Lb/docs/README.md",
     "definitions": {
         "FrontendIpConfiguration": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::OriginCaCertificate",
     "description": "Provides a Cloudflare Origin CA certificate used to protect traffic to your origin without involving a third party Certificate Authority.\n\n**This resource requires you use your Origin CA Key as the [`api_user_service_key`](../index.html#api_user_service_key).**",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-OriginCaCertificate/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

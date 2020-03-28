@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::EventhubAuthorizationRule",
     "description": "Manages a Event Hubs authorization Rule within an Event Hub.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-EventhubAuthorizationRule/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

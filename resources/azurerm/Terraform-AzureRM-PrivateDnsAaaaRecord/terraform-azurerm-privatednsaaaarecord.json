@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PrivateDnsAaaaRecord",
     "description": "CloudFormation equivalent of azurerm_private_dns_aaaa_record",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PrivateDnsAaaaRecord/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

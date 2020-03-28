@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::KinesisVideoStream",
     "description": "Provides a Kinesis Video Stream resource. Amazon Kinesis Video Streams makes it easy to securely stream video from connected devices to AWS for analytics, machine learning (ML), playback, and other processing.\n\nFor more details, see the [Amazon Kinesis Documentation][1].",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-KinesisVideoStream/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

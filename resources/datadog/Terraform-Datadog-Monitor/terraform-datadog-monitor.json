@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::Monitor",
     "description": "Provides a Datadog monitor resource. This can be used to create and manage Datadog monitors.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-Monitor/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

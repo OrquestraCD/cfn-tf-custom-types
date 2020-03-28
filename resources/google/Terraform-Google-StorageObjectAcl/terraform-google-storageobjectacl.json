@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::StorageObjectAcl",
     "description": "Authoritatively manages the access control list (ACL) for an object in a Google\nCloud Storage (GCS) bucket. Removing a `google_storage_object_acl` sets the\nacl to the `private` [predefined ACL](https://cloud.google.com/storage/docs/access-control#predefined-acl).\n\nFor more information see\n[the official documentation](https://cloud.google.com/storage/docs/access-control/lists) \nand \n[API](https://cloud.google.com/storage/docs/json_api/v1/objectAccessControls).\n\n-> Want fine-grained control over object ACLs? Use `google_storage_object_access_control` to control individual\nrole entity pairs.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-StorageObjectAcl/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

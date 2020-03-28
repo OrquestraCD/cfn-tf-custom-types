@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudScale::FloatingIp",
     "description": "Provides a cloudscale.ch Floating IP to represent a publicly-accessible static IP address or IP network that can be assigned to one of your cloudscale.ch servers. Floating IPs can be moved between servers. Possible use cases include: High-availability, non-disruptive maintenance, multiple IPs per server, or re-using the same IP after replacing a server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudscale/Terraform-CloudScale-FloatingIp/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

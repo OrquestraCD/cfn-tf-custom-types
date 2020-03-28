@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::NetworkIsolated",
     "description": "Provides a vCloud Director Org VDC isolated Network. This can be used to create,\nmodify, and delete internal networks for vApps to connect. This network is not attached to external networks or routers.\n\nSupported in provider *v2.0+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-NetworkIsolated/docs/README.md",
     "definitions": {
         "DhcpPool": {
             "type": "object",

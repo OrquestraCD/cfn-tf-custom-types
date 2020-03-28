@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::NetworkingRouterRouteV2",
     "description": "Creates a routing entry on a OpenStack V2 router.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-NetworkingRouterRouteV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

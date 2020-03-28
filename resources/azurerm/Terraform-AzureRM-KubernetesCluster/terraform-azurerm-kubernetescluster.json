@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::KubernetesCluster",
     "description": "Manages a Managed Kubernetes Cluster (also known as AKS / Azure Kubernetes Service)\n\n~> **Note:** All arguments including the client secret will be stored in the raw state as plain-text. [Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-KubernetesCluster/docs/README.md",
     "definitions": {
         "AddonProfile": {
             "type": "object",

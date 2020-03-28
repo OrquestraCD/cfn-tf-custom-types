@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseAutonomousExadataInfrastructure",
     "description": "This resource provides the Autonomous Exadata Infrastructure resource in Oracle Cloud Infrastructure Database service.\n\nLaunches a new Autonomous Exadata Infrastructure in the specified compartment and availability domain.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseAutonomousExadataInfrastructure/docs/README.md",
     "definitions": {
         "MaintenanceWindowDetails": {
             "type": "object",

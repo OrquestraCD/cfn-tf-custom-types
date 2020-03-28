@@ -2,6 +2,7 @@
     "typeName": "Terraform::Triton::Fabric",
     "description": "The `triton_fabric` resource represents an fabric for a Triton account. The fabric is a logical set of interconnected switches.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/triton/Terraform-Triton-Fabric/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

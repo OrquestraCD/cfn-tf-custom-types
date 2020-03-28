@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseAutonomousDataWarehouseBackup",
     "description": "This resource provides the Autonomous Data Warehouse Backup resource in Oracle Cloud Infrastructure Database service.\n\nCreates a new Autonomous Data Warehouse backup for the specified database based on the provided request parameters.\n\n**IMPORTANT:** This resource is being **deprecated**, use `oci_database_autonomous_database_backup` instead.\nRefer to the [Deprecation Guide](#deprecation-guide) below on how to rename and migrate existing resources.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseAutonomousDataWarehouseBackup/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

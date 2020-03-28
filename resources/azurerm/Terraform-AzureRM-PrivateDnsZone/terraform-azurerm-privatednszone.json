@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PrivateDnsZone",
     "description": "Enables you to manage Private DNS zones within Azure DNS. These zones are hosted on Azure's name servers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PrivateDnsZone/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

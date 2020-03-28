@@ -2,6 +2,7 @@
     "typeName": "Terraform::Bitbucket::Repository",
     "description": "Provides a Bitbucket repository resource.\n\nThis resource allows you manage your repositories such as scm type, if it is\nprivate, how to fork the repository and other options.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bitbucket/Terraform-Bitbucket-Repository/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

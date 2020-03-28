@@ -2,6 +2,7 @@
     "typeName": "Terraform::GitHub::RepositoryCollaborator",
     "description": "Provides a GitHub repository collaborator resource.\n\nThis resource allows you to add/remove collaborators from repositories in your\norganization. Collaborators can have explicit (and differing levels of) read,\nwrite, or administrator access to specific repositories in your organization,\nwithout giving the user full organization membership.\n\nWhen applied, an invitation will be sent to the user to become a collaborator\non a repository. When destroyed, either the invitation will be cancelled or the\ncollaborator will be removed from the repository.\n\nFurther documentation on GitHub collaborators:\n\n- [Adding outside collaborators to repositories in your organization](https://help.github.com/articles/adding-outside-collaborators-to-repositories-in-your-organization/)\n- [Converting an organization member to an outside collaborator](https://help.github.com/articles/converting-an-organization-member-to-an-outside-collaborator/)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/github/Terraform-GitHub-RepositoryCollaborator/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

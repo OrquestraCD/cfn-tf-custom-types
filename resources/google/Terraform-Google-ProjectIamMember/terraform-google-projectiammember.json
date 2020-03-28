@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ProjectIamMember",
     "description": "CloudFormation equivalent of google_project_iam_member",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ProjectIamMember/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

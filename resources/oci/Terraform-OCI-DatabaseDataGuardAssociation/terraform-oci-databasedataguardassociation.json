@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseDataGuardAssociation",
     "description": "This resource provides the Data Guard Association resource in Oracle Cloud Infrastructure Database service.\n\nCreates a new Data Guard association.  A Data Guard association represents the replication relationship between the\nspecified database and a peer database. For more information, see [Using Oracle Data Guard](https://docs.cloud.oracle.com/iaas/Content/Database/Tasks/usingdataguard.htm).\n\nAll Oracle Cloud Infrastructure resources, including Data Guard associations, get an Oracle-assigned, unique ID\ncalled an Oracle Cloud Identifier (OCID). When you create a resource, you can find its OCID in the response.\nYou can also retrieve a resource's OCID by using a List API operation on that resource type, or by viewing the\nresource in the Console. For more information, see\n[Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseDataGuardAssociation/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

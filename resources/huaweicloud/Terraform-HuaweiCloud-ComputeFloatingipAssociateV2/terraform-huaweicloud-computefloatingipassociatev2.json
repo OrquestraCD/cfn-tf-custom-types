@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::ComputeFloatingipAssociateV2",
     "description": "Associate a floating IP to an instance. This can be used instead of the\n`floating_ip` options in `huaweicloud_compute_instance_v2`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-ComputeFloatingipAssociateV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

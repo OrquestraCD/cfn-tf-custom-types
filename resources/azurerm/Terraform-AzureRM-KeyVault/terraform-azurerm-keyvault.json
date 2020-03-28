@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::KeyVault",
     "description": "Manages a Key Vault.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-KeyVault/docs/README.md",
     "definitions": {
         "NetworkAcls": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DatasyncLocationEfs",
     "description": "Manages an AWS DataSync EFS Location.\n\n~> **NOTE:** The EFS File System must have a mounted EFS Mount Target before creating this resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DatasyncLocationEfs/docs/README.md",
     "definitions": {
         "Ec2Config": {
             "type": "object",

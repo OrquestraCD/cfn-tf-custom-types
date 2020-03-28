@@ -2,6 +2,7 @@
     "typeName": "Terraform::Tfe::SentinelPolicy",
     "description": "Sentinel Policy as Code is an embedded policy as code framework integrated\nwith Terraform Enterprise.\n\nPolicies are configured on a per-organization level and are organized and\ngrouped into policy sets, which define the workspaces on which policies are\nenforced during runs.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tfe/Terraform-Tfe-SentinelPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

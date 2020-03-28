@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SharedImage",
     "description": "Manages a Shared Image within a Shared Image Gallery.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SharedImage/docs/README.md",
     "definitions": {
         "Identifier": {
             "type": "object",

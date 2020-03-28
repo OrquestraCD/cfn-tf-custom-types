@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AppsyncGraphqlApi",
     "description": "Provides an AppSync GraphQL API.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AppsyncGraphqlApi/docs/README.md",
     "definitions": {
         "AdditionalAuthenticationProvider": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::LogsIndex",
     "description": "Provides a Datadog [Logs Index API](https://docs.datadoghq.com/api/?lang=python#logs-indexes) resource. This can be used to create and manage Datadog logs indexes.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-LogsIndex/docs/README.md",
     "definitions": {
         "ExclusionFilter": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::Network",
     "description": "CloudFormation equivalent of vcd_network",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-Network/docs/README.md",
     "definitions": {
         "DhcpPool": {
             "type": "object",

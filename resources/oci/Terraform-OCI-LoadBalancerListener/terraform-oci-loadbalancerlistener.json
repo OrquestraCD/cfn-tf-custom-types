@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::LoadBalancerListener",
     "description": "This resource provides the Listener resource in Oracle Cloud Infrastructure Load Balancer service.\n\nAdds a listener to a load balancer.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-LoadBalancerListener/docs/README.md",
     "definitions": {
         "ConnectionConfiguration": {
             "type": "object",

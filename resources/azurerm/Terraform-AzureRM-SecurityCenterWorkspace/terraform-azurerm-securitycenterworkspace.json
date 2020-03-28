@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SecurityCenterWorkspace",
     "description": "Manages the subscription's Security Center Workspace.\n\n~> **NOTE:** Owner access permission is required.\n\n~> **NOTE:** The subscription's pricing model can not be `Free` for this to have any affect.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SecurityCenterWorkspace/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

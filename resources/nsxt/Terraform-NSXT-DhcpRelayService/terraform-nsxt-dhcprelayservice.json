@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::DhcpRelayService",
     "description": "This resource provides a way to configure the DHCP relay service on the NSX manager.\nThe DHCP relay service uses a DHCP relay profile and later consumed by a router\ndownlink port to provide DHCP addresses to virtual machines connected to a logical switch.\nCurrently the DHCP relay is not supported for logical routers link ports on Tier0 or Tier1.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-DhcpRelayService/docs/README.md",
     "definitions": {
         "Tag": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Docker::Config",
     "description": "Manages the configuration of a Docker service in a swarm.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/docker/Terraform-Docker-Config/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

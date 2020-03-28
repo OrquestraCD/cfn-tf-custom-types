@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::SccSource",
     "description": "A Cloud Security Command Center's (Cloud SCC) finding source. A finding\nsource is an entity or a mechanism that can produce a finding. A source is\nlike a container of findings that come from the same scanner, logger,\nmonitor, etc.\n\n\nTo get more information about Source, see:\n\n* [API documentation](https://cloud.google.com/security-command-center/docs/reference/rest/v1beta1/organizations.sources)\n* How-to Guides\n    * [Official Documentation](https://cloud.google.com/binary-authorization/)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-SccSource/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

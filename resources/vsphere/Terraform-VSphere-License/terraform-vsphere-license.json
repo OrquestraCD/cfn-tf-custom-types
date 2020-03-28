@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::License",
     "description": "Provides a VMware vSphere license resource. This can be used to add and remove license keys.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-License/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

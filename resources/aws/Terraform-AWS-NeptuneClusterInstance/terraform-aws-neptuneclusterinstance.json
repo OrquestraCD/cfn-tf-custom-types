@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::NeptuneClusterInstance",
     "description": "A Cluster Instance Resource defines attributes that are specific to a single instance in a Neptune Cluster.\n\nYou can simply add neptune instances and Neptune manages the replication. You can use the [count][1]\nmeta-parameter to make multiple instances and join them all to the same Neptune Cluster, or you may specify different Cluster Instance resources with various `instance_class` sizes.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-NeptuneClusterInstance/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

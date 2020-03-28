@@ -2,6 +2,7 @@
     "typeName": "Terraform::StatusCake::Test",
     "description": "The test resource allows StatusCake tests to be managed by Terraform.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/statuscake/Terraform-StatusCake-Test/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

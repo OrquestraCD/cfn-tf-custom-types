@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::LtmProfileClientSsl",
     "description": "`bigip_ltm_profile_client_ssl` Manages client SSL profiles on a BIG-IP",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-LtmProfileClientSsl/docs/README.md",
     "definitions": {
         "CertKeyChain": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::DbInstance",
     "description": "Provides a Database instance resource.\n\n~> **Note**  Please do confirm if any task pending submission before reset your password, since the password reset will take effect immediately.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-DbInstance/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::ProjectHook",
     "description": "This resource allows you to create and manage hooks for your GitLab projects.\nFor further information on hooks, consult the [gitlab\ndocumentation](https://docs.gitlab.com/ce/user/project/integrations/webhooks.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-ProjectHook/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

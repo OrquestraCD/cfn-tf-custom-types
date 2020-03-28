@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SesIdentityPolicy",
     "description": "Manages a SES Identity Policy. More information about SES Sending Authorization Policies can be found in the [SES Developer Guide](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/sending-authorization-policies.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SesIdentityPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

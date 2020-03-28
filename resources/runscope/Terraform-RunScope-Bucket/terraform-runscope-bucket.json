@@ -2,6 +2,7 @@
     "typeName": "Terraform::RunScope::Bucket",
     "description": "A [bucket](https://www.runscope.com/docs/api/buckets) resource.\n[Buckets](https://www.runscope.com/docs/buckets) are a simple way to\norganize your requests and tests.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/runscope/Terraform-RunScope-Bucket/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

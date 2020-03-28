@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DxTransitVirtualInterface",
     "description": "Provides a Direct Connect transit virtual interface resource.\nA transit virtual interface is a VLAN that transports traffic from a [Direct Connect gateway](dx_gateway.html) to one or more [transit gateways](ec2_transit_gateway.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DxTransitVirtualInterface/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

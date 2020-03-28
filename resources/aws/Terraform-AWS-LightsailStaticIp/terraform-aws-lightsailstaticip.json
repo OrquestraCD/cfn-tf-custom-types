@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LightsailStaticIp",
     "description": "Allocates a static IP address.\n\n~> **Note:** Lightsail is currently only supported in a limited number of AWS Regions, please see [\"Regions and Availability Zones in Amazon Lightsail\"](https://lightsail.aws.amazon.com/ls/docs/overview/article/understanding-regions-and-availability-zones-in-amazon-lightsail) for more details",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LightsailStaticIp/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

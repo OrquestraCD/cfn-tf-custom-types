@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SsmDocument",
     "description": "Provides an SSM Document resource\n\n~> **NOTE on updating SSM documents:** Only documents with a schema version of 2.0\nor greater can update their content once created, see [SSM Schema Features][1]. To update a document with an older\nschema version you must recreate the resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SsmDocument/docs/README.md",
     "definitions": {
         "AttachmentsSource": {
             "type": "object",

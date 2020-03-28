@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::DbReadonlyInstance",
     "description": "Provides an RDS readonly instance resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-DbReadonlyInstance/docs/README.md",
     "definitions": {
         "Parameters": {
             "type": "object",

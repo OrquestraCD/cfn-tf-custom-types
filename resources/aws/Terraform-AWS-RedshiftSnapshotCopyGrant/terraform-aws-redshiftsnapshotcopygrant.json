@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::RedshiftSnapshotCopyGrant",
     "description": "Creates a snapshot copy grant that allows AWS Redshift to encrypt copied snapshots with a customer master key from AWS KMS in a destination region.\n\nNote that the grant must exist in the destination region, and not in the region of the cluster.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-RedshiftSnapshotCopyGrant/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

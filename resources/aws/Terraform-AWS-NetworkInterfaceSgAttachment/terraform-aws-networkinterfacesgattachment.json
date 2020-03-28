@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::NetworkInterfaceSgAttachment",
     "description": "This resource attaches a security group to an Elastic Network Interface (ENI).\nIt can be used to attach a security group to any existing ENI, be it a\nsecondary ENI or one attached as the primary interface on an instance.\n\n~> **NOTE on instances, interfaces, and security groups:** Terraform currently\nprovides the capability to assign security groups via the [`aws_instance`][1]\nand the [`aws_network_interface`][2] resources. Using this resource in\nconjunction with security groups provided in-line in those resources will cause\nconflicts, and will lead to spurious diffs and undefined behavior - please use\none or the other.\n\n[1]: /docs/providers/aws/d/instance.html\n[2]: /docs/providers/aws/r/network_interface.html",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-NetworkInterfaceSgAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

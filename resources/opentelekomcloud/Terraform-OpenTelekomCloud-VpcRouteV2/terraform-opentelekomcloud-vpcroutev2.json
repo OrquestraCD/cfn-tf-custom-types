@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::VpcRouteV2",
     "description": "Provides a resource to create a route.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-VpcRouteV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

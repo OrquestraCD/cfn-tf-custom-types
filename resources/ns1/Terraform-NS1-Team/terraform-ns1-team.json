@@ -2,6 +2,7 @@
     "typeName": "Terraform::NS1::Team",
     "description": "Provides a NS1 Team resource. This can be used to create, modify, and delete\nteams. The credentials used must have the `manage_teams` permission set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ns1/Terraform-NS1-Team/docs/README.md",
     "definitions": {
         "IpWhitelist": {
             "type": "object",

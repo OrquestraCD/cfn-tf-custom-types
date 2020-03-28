@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::CrRepo",
     "description": "This resource will help you to manager Container Registry repositories.\n\n-> **NOTE:** Available in v1.35.0+.\n\n-> **NOTE:** You need to set your registry password in Container Registry console before use this resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-CrRepo/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

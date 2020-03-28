@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaBfdProfile",
     "description": "CloudFormation equivalent of panos_panorama_bfd_profile",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaBfdProfile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

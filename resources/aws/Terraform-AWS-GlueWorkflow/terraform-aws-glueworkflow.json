@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GlueWorkflow",
     "description": "Provides a Glue Workflow resource.\nThe workflow graph (DAG) can be build using the `aws_glue_trigger` resource. \nSee the example below for creating a graph with four nodes (two triggers and two jobs).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GlueWorkflow/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

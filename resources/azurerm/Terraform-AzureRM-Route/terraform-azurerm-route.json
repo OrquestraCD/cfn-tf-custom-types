@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::Route",
     "description": "Manages a Route within a Route Table.\n\n~> **NOTE on Route Tables and Routes:** Terraform currently\nprovides both a standalone [Route resource](route.html), and allows for Routes to be defined in-line within the [Route Table resource](route_table.html).\nAt this time you cannot use a Route Table with in-line Routes in conjunction with any Route resources. Doing so will cause a conflict of Route configurations and will overwrite Routes.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-Route/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

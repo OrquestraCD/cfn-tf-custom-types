@@ -2,6 +2,7 @@
     "typeName": "Terraform::Grafana::AlertNotification",
     "description": "The alert notification resource allows an alert notification channel to be created on a Grafana server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/grafana/Terraform-Grafana-AlertNotification/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

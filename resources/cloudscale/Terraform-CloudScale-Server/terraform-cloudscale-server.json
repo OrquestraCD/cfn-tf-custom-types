@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudScale::Server",
     "description": "Provides a cloudscale.ch Server resource. This can be used to create, modify, and delete servers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudscale/Terraform-CloudScale-Server/docs/README.md",
     "definitions": {
         "Interfaces": {
             "type": "object",

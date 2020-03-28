@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::KubernetesCluster",
     "description": "Provide a resource to create a kubernetes cluster.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-KubernetesCluster/docs/README.md",
     "definitions": {
         "MasterConfig": {
             "type": "object",

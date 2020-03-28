@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayUsagePlanKey",
     "description": "Provides an API Gateway Usage Plan Key.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayUsagePlanKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

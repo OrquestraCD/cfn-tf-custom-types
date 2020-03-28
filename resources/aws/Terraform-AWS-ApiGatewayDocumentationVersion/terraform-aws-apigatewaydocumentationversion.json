@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayDocumentationVersion",
     "description": "Provides a resource to manage an API Gateway Documentation Version.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayDocumentationVersion/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

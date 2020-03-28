@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::LogicAppTriggerRecurrence",
     "description": "Manages a Recurrence Trigger within a Logic App Workflow",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-LogicAppTriggerRecurrence/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

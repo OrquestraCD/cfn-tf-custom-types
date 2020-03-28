@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::MultaiRoutingRule",
     "description": "Provides a Spotinst Multai Routing Rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-MultaiRoutingRule/docs/README.md",
     "definitions": {
         "Tags": {
             "type": "object",

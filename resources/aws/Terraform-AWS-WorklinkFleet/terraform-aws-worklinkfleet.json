@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WorklinkFleet",
     "description": "CloudFormation equivalent of aws_worklink_fleet",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WorklinkFleet/docs/README.md",
     "definitions": {
         "IdentityProvider": {
             "type": "object",

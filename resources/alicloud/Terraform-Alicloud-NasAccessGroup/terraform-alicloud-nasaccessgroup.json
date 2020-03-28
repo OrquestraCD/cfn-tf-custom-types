@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::NasAccessGroup",
     "description": "Provides a Nas Access Group resource.\n\nIn NAS, the permission group acts as a whitelist that allows you to restrict file system access. You can allow specified IP addresses or CIDR blocks to access the file system, and assign different levels of access permission to different IP addresses or CIDR blocks by adding rules to the permission group.\n\n-> **NOTE:** Available in v1.33.0+.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-NasAccessGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

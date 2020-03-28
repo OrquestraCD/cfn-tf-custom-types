@@ -2,6 +2,7 @@
     "typeName": "Terraform::Tfe::OauthClient",
     "description": "An OAuth Client represents the connection between an organization and a VCS\nprovider.\n\n-> **Note:** This resource does not currently support creation of Bitbucket\n  Server OAuth clients.\n\n-> **Note:** This resource requires a private key when creating Azure DevOps Server OAuth clients.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tfe/Terraform-Tfe-OauthClient/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

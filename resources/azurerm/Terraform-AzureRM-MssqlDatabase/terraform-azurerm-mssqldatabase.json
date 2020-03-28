@@ -1,0 +1,164 @@
+{
+    "typeName": "Terraform::AzureRM::MssqlDatabase",
+    "description": "Manages a MS SQL Database.",
+    "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MssqlDatabase/docs/README.md",
+    "definitions": {
+        "Timeouts": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Create": {
+                    "type": "string"
+                },
+                "Delete": {
+                    "type": "string"
+                },
+                "Read": {
+                    "type": "string"
+                },
+                "Update": {
+                    "type": "string"
+                }
+            },
+            "required": []
+        }
+    },
+    "properties": {
+        "tfcfnid": {
+            "description": "Internal identifier for tracking resource changes. Do not use.",
+            "type": "string"
+        },
+        "AutoPauseDelayInMinutes": {
+            "type": "number",
+            "description": "Time in minutes after which database is automatically paused. A value of `-1` means that automatic pause is disabled. This property is only settable for General Purpose Serverless databases."
+        },
+        "Collation": {
+            "type": "string",
+            "description": "Specifies the collation of the database. Changing this forces a new resource to be created."
+        },
+        "CreateMode": {
+            "type": "string",
+            "description": "The create mode of the database. Possible values are `Copy`, `Default`, `OnlineSecondary`, `PointInTimeRestore`, `Restore`, `RestoreExternalBackup`, `RestoreExternalBackupSecondary`, `RestoreLongTermRetentionBackup` and `Secondary`."
+        },
+        "CreationSourceDatabaseId": {
+            "type": "string",
+            "description": "The id of the source database to be referred to create the new database. This should only be used for databases with `create_mode` values that use another database as reference. Changing this forces a new resource to be created."
+        },
+        "ElasticPoolId": {
+            "type": "string",
+            "description": "Specifies the ID of the elastic pool containing this database. Changing this forces a new resource to be created."
+        },
+        "Id": {
+            "type": "string"
+        },
+        "LicenseType": {
+            "type": "string",
+            "description": "Specifies the license type applied to this database. Possible values are `LicenseIncluded` and `BasePrice`."
+        },
+        "MaxSizeGb": {
+            "type": "number",
+            "description": "The max size of the database in gigabytes."
+        },
+        "MinCapacity": {
+            "type": "number",
+            "description": "Minimal capacity that database will always have allocated, if not paused. This property is only settable for General Purpose Serverless databases."
+        },
+        "Name": {
+            "type": "string",
+            "description": "The name of the Ms SQL Database. Changing this forces a new resource to be created."
+        },
+        "ReadReplicaCount": {
+            "type": "number",
+            "description": "The number of readonly secondary replicas associated with the database to which readonly application intent connections may be routed. This property is only settable for Hyperscale edition databases."
+        },
+        "ReadScale": {
+            "type": "boolean",
+            "description": "If enabled, connections that have application intent set to readonly in their connection string may be routed to a readonly secondary replica. This property is only settable for Premium and Business Critical databases."
+        },
+        "RestorePointInTime": {
+            "type": "string",
+            "description": "Specifies the point in time (ISO8601 format) of the source database that will be restored to create the new database. This property is only settable for `create_mode`= `PointInTimeRestore`  databases."
+        },
+        "SampleName": {
+            "type": "string",
+            "description": "Specifies the name of the sample schema to apply when creating this database. Possible value is `AdventureWorksLT`."
+        },
+        "ServerId": {
+            "type": "string",
+            "description": "The id of the Ms SQL Server on which to create the database. Changing this forces a new resource to be created."
+        },
+        "SkuName": {
+            "type": "string",
+            "description": "Specifies the name of the sku used by the database. Changing this forces a new resource to be created. For example, `GP_S_Gen5_2`,`HS_Gen4_1`,`BC_Gen5_2`, `ElasticPool`, `Basic`,`S0`, `P2` ,`DW100c`, `DS100`."
+        },
+        "Tags": {
+            "type": "array",
+            "insertionOrder": true,
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "MapKey": {
+                        "type": "string"
+                    },
+                    "MapValue": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "MapKey",
+                    "MapValue"
+                ]
+            },
+            "description": "A mapping of tags to assign to the resource."
+        },
+        "ZoneRedundant": {
+            "type": "boolean",
+            "description": "Whether or not this database is zone redundant, which means the replicas of this database will be spread across multiple availability zones. This property is only settable for Premium and Business Critical databases."
+        },
+        "Timeouts": {
+            "$ref": "#/definitions/Timeouts"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "Name",
+        "ServerId"
+    ],
+    "readOnlyProperties": [
+        "/properties/tfcfnid",
+        "/properties/Id"
+    ],
+    "primaryIdentifier": [
+        "/properties/tfcfnid"
+    ],
+    "handlers": {
+        "create": {
+            "permissions": [
+                "s3:PutObject",
+                "secretsmanager:GetSecretValue"
+            ]
+        },
+        "read": {
+            "permissions": []
+        },
+        "update": {
+            "permissions": [
+                "s3:GetObject",
+                "s3:PutObject",
+                "secretsmanager:GetSecretValue"
+            ]
+        },
+        "delete": {
+            "permissions": [
+                "s3:GetObject",
+                "s3:DeleteObject",
+                "secretsmanager:GetSecretValue"
+            ]
+        },
+        "list": {
+            "permissions": []
+        }
+    }
+}

@@ -2,6 +2,7 @@
     "typeName": "Terraform::PagerDuty::EventRule",
     "description": "An [event rule](https://v2.developer.pagerduty.com/docs/global-event-rules-api) determines what happens to an event that is sent to PagerDuty by monitoring tools and other integrations.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/pagerduty/Terraform-PagerDuty-EventRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

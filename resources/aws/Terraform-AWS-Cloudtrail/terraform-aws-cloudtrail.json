@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Cloudtrail",
     "description": "Provides a CloudTrail resource.\n\n~> *NOTE:* For a multi-region trail, this resource must be in the home region of the trail.\n\n~> *NOTE:* For an organization trail, this resource must be in the master account of the organization.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Cloudtrail/docs/README.md",
     "definitions": {
         "EventSelector": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::BlockstorageQuotasetV3",
     "description": "Manages a V3 block storage quotaset resource within OpenStack.\n\n~> **Note:** This usually requires admin privileges.\n\n~> **Note:** This resource has a no-op deletion so no actual actions will be done against the OpenStack API \n    in case of delete call.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-BlockstorageQuotasetV3/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

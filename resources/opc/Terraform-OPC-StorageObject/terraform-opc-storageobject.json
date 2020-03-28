@@ -2,6 +2,7 @@
     "typeName": "Terraform::OPC::StorageObject",
     "description": "Creates and manages a Object in an Oracle Cloud Infrastructure Storage Classic container. `storage_endpoint` must be set in the provider or environment to manage these resources.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opc/Terraform-OPC-StorageObject/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

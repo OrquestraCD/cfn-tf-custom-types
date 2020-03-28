@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::LtmSnatpool",
     "description": "`bigip_ltm_snatpool` Collections of SNAT translation addresses\n\nResource should be named with their \"full path\". The full path is the combination of the partition + name of the resource, for example /Common/my-snatpool.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-LtmSnatpool/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

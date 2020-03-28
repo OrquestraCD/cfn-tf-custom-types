@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NetappVolume",
     "description": "Manages a NetApp Volume.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NetappVolume/docs/README.md",
     "definitions": {
         "ExportPolicyRule": {
             "type": "object",

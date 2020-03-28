@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NotificationHub",
     "description": "Manages a Notification Hub within a Notification Hub Namespace.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NotificationHub/docs/README.md",
     "definitions": {
         "ApnsCredential": {
             "type": "object",

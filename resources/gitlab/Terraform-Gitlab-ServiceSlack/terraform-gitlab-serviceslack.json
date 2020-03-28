@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::ServiceSlack",
     "description": "This resource allows you to manage Slack notifications integration.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-ServiceSlack/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

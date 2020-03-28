@@ -2,6 +2,7 @@
     "typeName": "Terraform::MySQL::Grant",
     "description": "The ``mysql_grant`` resource creates and manages privileges given to\na user on a MySQL server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/mysql/Terraform-MySQL-Grant/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpsGenie::ScheduleRotation",
     "description": "Manages a Schedule Rotation within Opsgenie.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opsgenie/Terraform-OpsGenie-ScheduleRotation/docs/README.md",
     "definitions": {
         "Participant": {
             "type": "object",

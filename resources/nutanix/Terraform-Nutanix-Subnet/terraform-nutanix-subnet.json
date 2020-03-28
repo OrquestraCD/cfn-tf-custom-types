@@ -2,6 +2,7 @@
     "typeName": "Terraform::Nutanix::Subnet",
     "description": "Provides a resource to create a subnet based on the input parameters. A subnet is a block of IP addresses.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nutanix/Terraform-Nutanix-Subnet/docs/README.md",
     "definitions": {
         "Categories": {
             "type": "object",

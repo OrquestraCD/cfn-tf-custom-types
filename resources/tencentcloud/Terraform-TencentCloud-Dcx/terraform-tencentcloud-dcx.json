@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::Dcx",
     "description": "Provides a resource to creating dedicated tunnels instances.\n\n~> **NOTE:** 1. ID of the DC is queried, can only apply for this resource offline.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-Dcx/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

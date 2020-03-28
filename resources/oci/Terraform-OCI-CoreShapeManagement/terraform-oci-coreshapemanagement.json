@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreShapeManagement",
     "description": "This resource provides the Shape Management resource in Oracle Cloud Infrastructure Core service.\n\nAdd/Remove the specified shape from the compatible shapes list for the image.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreShapeManagement/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

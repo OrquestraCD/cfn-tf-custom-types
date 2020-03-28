@@ -2,6 +2,7 @@
     "typeName": "Terraform::RunScope::Schedule",
     "description": "A [schedule](https://www.runscope.com/docs/api/schedules) resource.\nTests can be scheduled to run on frequencies up to every minute.\nOne ore more schedules can be configured per test with each schedule\nusing a unique Test-specific or Shared [Environment](environment.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/runscope/Terraform-RunScope-Schedule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

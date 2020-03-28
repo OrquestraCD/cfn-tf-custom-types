@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::VpnaasIpsecPolicyV2",
     "description": "Manages a V2 Neutron IPSec policy resource within OpenStack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-VpnaasIpsecPolicyV2/docs/README.md",
     "definitions": {
         "Lifetime": {
             "type": "object",

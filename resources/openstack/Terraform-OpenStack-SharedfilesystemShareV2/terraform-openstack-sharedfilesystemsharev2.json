@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::SharedfilesystemShareV2",
     "description": "Use this resource to configure a share.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-SharedfilesystemShareV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

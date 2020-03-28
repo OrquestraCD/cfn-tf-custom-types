@@ -2,6 +2,7 @@
     "typeName": "Terraform::Consul::Service",
     "description": "A high-level resource for creating a Service in Consul in the Consul catalog. This\nis appropriate for registering [external services](https://www.consul.io/docs/guides/external.html) and\ncan be used to create services addressable by Consul that cannot be registered\nwith a [local agent](https://www.consul.io/docs/agent/basics.html).\n\nIf the Consul agent is running on the node where this service is registered, it is\nnot recommended to use this resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/consul/Terraform-Consul-Service/docs/README.md",
     "definitions": {
         "Check": {
             "type": "object",
@@ -119,6 +120,10 @@
         "Name": {
             "type": "string",
             "description": "The name of the header."
+        },
+        "Namespace": {
+            "type": "string",
+            "description": "The namespace to create the service within."
         },
         "Node": {
             "type": "string",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::SysNtp",
     "description": "`bigip_sys_ntp` provides details about a specific bigip\n\nThis resource is helpful when configuring NTP server on the BIG-IP.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-SysNtp/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

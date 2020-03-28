@@ -2,6 +2,7 @@
     "typeName": "Terraform::GitHub::Repository",
     "description": "This resource allows you to create and manage repositories within your\nGitHub organization.\n\nThis resource cannot currently be used to manage *personal* repositories,\noutside of organizations.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/github/Terraform-GitHub-Repository/docs/README.md",
     "definitions": {
         "Template": {
             "type": "object",

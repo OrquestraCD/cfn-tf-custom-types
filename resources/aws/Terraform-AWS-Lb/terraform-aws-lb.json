@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Lb",
     "description": "Provides a Load Balancer resource.\n\n~> **Note:** `aws_alb` is known as `aws_lb`. The functionality is identical.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Lb/docs/README.md",
     "definitions": {
         "AccessLogs": {
             "type": "object",

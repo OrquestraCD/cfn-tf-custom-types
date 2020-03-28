@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::RedshiftSubnetGroup",
     "description": "Creates a new Amazon Redshift subnet group. You must provide a list of one or more subnets in your existing Amazon Virtual Private Cloud (Amazon VPC) when creating Amazon Redshift subnet group.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-RedshiftSubnetGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

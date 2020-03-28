@@ -2,6 +2,7 @@
     "typeName": "Terraform::OPC::ComputeOrchestratedInstance",
     "description": "The `opc_compute_orchestrated_instance` resource creates and manages an orchestration containing a number of\ninstances in an Oracle Cloud Infrastructure Compute Classic identity domain.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opc/Terraform-OPC-ComputeOrchestratedInstance/docs/README.md",
     "definitions": {
         "Instance": {
             "type": "object",

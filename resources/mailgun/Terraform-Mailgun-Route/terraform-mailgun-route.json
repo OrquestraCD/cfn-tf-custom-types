@@ -2,6 +2,7 @@
     "typeName": "Terraform::Mailgun::Route",
     "description": "Provides a Mailgun Route resource. This can be used to create and manage routes on Mailgun.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/mailgun/Terraform-Mailgun-Route/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SqsQueuePolicy",
     "description": "Allows you to set a policy of an SQS Queue\nwhile referencing ARN of the queue within the policy.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SqsQueuePolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

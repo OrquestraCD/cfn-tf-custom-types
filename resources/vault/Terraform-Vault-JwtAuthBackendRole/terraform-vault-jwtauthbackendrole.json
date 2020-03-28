@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::JwtAuthBackendRole",
     "description": "Manages an JWT/OIDC auth backend role in a Vault server. See the [Vault\ndocumentation](https://www.vaultproject.io/docs/auth/jwt.html) for more\ninformation.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-JwtAuthBackendRole/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

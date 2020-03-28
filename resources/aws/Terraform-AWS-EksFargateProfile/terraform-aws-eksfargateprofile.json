@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::EksFargateProfile",
     "description": "Manages an EKS Fargate Profile.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EksFargateProfile/docs/README.md",
     "definitions": {
         "Selector": {
             "type": "object",

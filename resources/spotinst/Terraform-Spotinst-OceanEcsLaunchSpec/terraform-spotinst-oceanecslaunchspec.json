@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::OceanEcsLaunchSpec",
     "description": "Provides a custom Spotinst Ocean ECS Launch Spec resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-OceanEcsLaunchSpec/docs/README.md",
     "definitions": {
         "Attributes": {
             "type": "object",

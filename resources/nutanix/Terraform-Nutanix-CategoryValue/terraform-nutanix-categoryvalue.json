@@ -2,6 +2,7 @@
     "typeName": "Terraform::Nutanix::CategoryValue",
     "description": "Provides a Nutanix Category value resource to Create a category value.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nutanix/Terraform-Nutanix-CategoryValue/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

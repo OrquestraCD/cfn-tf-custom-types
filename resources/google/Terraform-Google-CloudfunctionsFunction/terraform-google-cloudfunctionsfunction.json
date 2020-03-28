@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::CloudfunctionsFunction",
     "description": "Creates a new Cloud Function. For more information see\n[the official documentation](https://cloud.google.com/functions/docs/)\nand\n[API](https://cloud.google.com/functions/docs/apis).\n\n~> **Warning:** As of November 1, 2019, newly created Functions are\nprivate-by-default and will require [appropriate IAM permissions](https://cloud.google.com/functions/docs/reference/iam/roles)\nto be invoked. See below examples for how to set up the appropriate permissions,\nor view the [Cloud Functions IAM resources](/docs/providers/google/r/cloudfunctions_cloud_function_iam.html)\nfor Cloud Functions.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-CloudfunctionsFunction/docs/README.md",
     "definitions": {
         "EventTrigger": {
             "type": "object",

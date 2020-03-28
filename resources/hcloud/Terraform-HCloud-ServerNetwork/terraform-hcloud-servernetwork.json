@@ -2,6 +2,7 @@
     "typeName": "Terraform::HCloud::ServerNetwork",
     "description": "Provides a Hetzner Cloud Server Network to represent a private network on a server in the Hetzner Cloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/hcloud/Terraform-HCloud-ServerNetwork/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

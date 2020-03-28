@@ -2,6 +2,7 @@
     "typeName": "Terraform::Tfe::PolicySetParameter",
     "description": "Creates, updates and destroys policy set parameters.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tfe/Terraform-Tfe-PolicySetParameter/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

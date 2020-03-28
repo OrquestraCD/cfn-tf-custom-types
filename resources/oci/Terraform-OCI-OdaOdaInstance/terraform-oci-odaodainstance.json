@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::OdaOdaInstance",
     "description": "This resource provides the Oda Instance resource in Oracle Cloud Infrastructure Digital Assistant service.\n\nStarts an asynchronous job to create a Digital Assistant instance.\n\nTo monitor the status of the job, take the `opc-work-request-id` response\nheader value and use it to call `GET /workRequests/{workRequestID}`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-OdaOdaInstance/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreInstancePool",
     "description": "This resource provides the Instance Pool resource in Oracle Cloud Infrastructure Core service.\n\nCreate an instance pool.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreInstancePool/docs/README.md",
     "definitions": {
         "LoadBalancers": {
             "type": "object",

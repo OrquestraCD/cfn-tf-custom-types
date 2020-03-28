@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::DdoscooInstance",
     "description": "BGP-Line Anti-DDoS instance resource. \"Ddoscoo\" is the short term of this product. See [What is Anti-DDoS Pro](https://www.alibabacloud.com/help/doc-detail/69319.htm).\n\n-> **NOTE:** The product region only support cn-hangzhou.\n\n-> **NOTE:** The endpoint of bssopenapi used only support \"business.aliyuncs.com\" at present.\n\n-> **NOTE:** Available in 1.37.0+ .",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-DdoscooInstance/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

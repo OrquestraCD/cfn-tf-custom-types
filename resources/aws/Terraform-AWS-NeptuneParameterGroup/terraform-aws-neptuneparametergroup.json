@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::NeptuneParameterGroup",
     "description": "Manages a Neptune Parameter Group",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-NeptuneParameterGroup/docs/README.md",
     "definitions": {
         "Parameter": {
             "type": "object",

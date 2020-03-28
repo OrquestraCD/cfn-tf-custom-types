@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::HealthChecksPingProbe",
     "description": "This resource provides the Ping Probe resource in Oracle Cloud Infrastructure Health Checks service.\n\nCreates an on-demand ping probe. The location response header contains the URL for\nfetching probe results.\n\n*Note:* The on-demand probe configuration is not saved.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-HealthChecksPingProbe/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

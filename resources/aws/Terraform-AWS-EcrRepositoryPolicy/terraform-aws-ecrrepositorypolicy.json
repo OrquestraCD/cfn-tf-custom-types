@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::EcrRepositoryPolicy",
     "description": "Provides an Elastic Container Registry Repository Policy.\n\nNote that currently only one policy may be applied to a repository.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EcrRepositoryPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

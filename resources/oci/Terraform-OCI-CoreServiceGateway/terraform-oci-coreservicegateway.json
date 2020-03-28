@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreServiceGateway",
     "description": "This resource provides the Service Gateway resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new service gateway in the specified compartment.\n\nFor the purposes of access control, you must provide the OCID of the compartment where you want\nthe service gateway to reside. For more information about compartments and access control, see\n[Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).\nFor information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).\n\nYou may optionally specify a *display name* for the service gateway, otherwise a default is provided.\nIt does not have to be unique, and you can change it. Avoid entering confidential information.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreServiceGateway/docs/README.md",
     "definitions": {
         "Services": {
             "type": "object",

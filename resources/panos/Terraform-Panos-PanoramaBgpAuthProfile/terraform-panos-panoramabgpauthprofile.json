@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaBgpAuthProfile",
     "description": "This resource allows you to add/update/delete a Panorama BGP auth profile.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaBgpAuthProfile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

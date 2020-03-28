@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayIntegration",
     "description": "Provides an HTTP Method Integration for an API Gateway Integration.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayIntegration/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

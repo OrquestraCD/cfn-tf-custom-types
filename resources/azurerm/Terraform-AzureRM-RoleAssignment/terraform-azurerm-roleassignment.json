@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::RoleAssignment",
     "description": "Assigns a given Principal (User or Application) to a given Role.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-RoleAssignment/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

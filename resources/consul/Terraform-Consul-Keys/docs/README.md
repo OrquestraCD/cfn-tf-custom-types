@@ -21,6 +21,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "Type" : "Terraform::Consul::Keys",
     "Properties" : {
         "<a href="#datacenter" title="Datacenter">Datacenter</a>" : <i>String</i>,
+        "<a href="#namespace" title="Namespace">Namespace</a>" : <i>String</i>,
         "<a href="#token" title="Token">Token</a>" : <i>String</i>,
         "<a href="#key" title="Key">Key</a>" : <i>[ <a href="key.md">Key</a>, ... ]</i>
     }
@@ -33,6 +34,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 Type: Terraform::Consul::Keys
 Properties:
     <a href="#datacenter" title="Datacenter">Datacenter</a>: <i>String</i>
+    <a href="#namespace" title="Namespace">Namespace</a>: <i>String</i>
     <a href="#token" title="Token">Token</a>: <i>String</i>
     <a href="#key" title="Key">Key</a>: <i>
       - <a href="key.md">Key</a></i>
@@ -44,6 +46,16 @@ Properties:
 
 The datacenter to use. This overrides the
 agent's default datacenter and the datacenter in the provider setup.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Namespace
+
+The namespace to create the keys within.
 
 _Required_: No
 

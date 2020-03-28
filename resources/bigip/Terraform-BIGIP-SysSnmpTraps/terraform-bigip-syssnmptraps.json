@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::SysSnmpTraps",
     "description": "`bigip_sys_snmp_traps` provides details bout how to enable snmp_traps resource on BIG-IP",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-SysSnmpTraps/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

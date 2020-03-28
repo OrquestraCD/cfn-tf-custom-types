@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AutoscalingAttachment",
     "description": "Provides an AutoScaling Attachment resource.\n\n~> **NOTE on AutoScaling Groups and ASG Attachments:** Terraform currently provides\nboth a standalone ASG Attachment resource (describing an ASG attached to\nan ELB), and an [AutoScaling Group resource](autoscaling_group.html) with\n`load_balancers` defined in-line. At this time you cannot use an ASG with in-line\nload balancers in conjunction with an ASG Attachment resource. Doing so will cause a\nconflict and will overwrite attachments.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AutoscalingAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

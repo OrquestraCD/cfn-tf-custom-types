@@ -2,6 +2,7 @@
     "typeName": "Terraform::Rancher::RegistrationToken",
     "description": "Provides a Rancher Registration Token resource. This can be used to create registration tokens for rancher environments and retrieve their information.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rancher/Terraform-Rancher-RegistrationToken/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

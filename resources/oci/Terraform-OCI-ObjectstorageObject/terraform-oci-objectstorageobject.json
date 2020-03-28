@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::ObjectstorageObject",
     "description": "This resource provides the Object resource in Oracle Cloud Infrastructure Object Storage service.\n\nCreates a new object or overwrites an existing one. See [Special Instructions for Object Storage\nPUT](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/signingrequests.htm#ObjectStoragePut) for request signature requirements.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-ObjectstorageObject/docs/README.md",
     "definitions": {
         "SourceUriDetails": {
             "type": "object",

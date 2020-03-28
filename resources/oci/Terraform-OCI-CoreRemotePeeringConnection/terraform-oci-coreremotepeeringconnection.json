@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreRemotePeeringConnection",
     "description": "This resource provides the Remote Peering Connection resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new remote peering connection (RPC) for the specified DRG.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreRemotePeeringConnection/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

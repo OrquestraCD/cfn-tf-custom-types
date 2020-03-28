@@ -2,6 +2,7 @@
     "typeName": "Terraform::Brightbox::DatabaseServer",
     "description": "Provides a Brightbox Database Server resource. This can be used to create,\nmodify, and delete Database Servers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/brightbox/Terraform-Brightbox-DatabaseServer/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

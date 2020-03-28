@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::LimitsQuota",
     "description": "This resource provides the Quota resource in Oracle Cloud Infrastructure Limits service.\n\nCreates a new quota with the details supplied.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-LimitsQuota/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

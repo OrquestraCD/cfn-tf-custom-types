@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::DedicatedServerInstallTask",
     "description": "Install your Dedicated Server.\n\n> NOTE: After some delay, if the task is marked as `done`, the Provider\nmay purge it. To avoid raising errors when terraform refreshes its plan, \n404 errors are ignored on Resource Read, thus some information may be lost\nafter a while.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-DedicatedServerInstallTask/docs/README.md",
     "definitions": {
         "Details": {
             "type": "object",

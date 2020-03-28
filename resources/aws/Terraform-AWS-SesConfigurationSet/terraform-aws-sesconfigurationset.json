@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SesConfigurationSet",
     "description": "Provides an SES configuration set resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SesConfigurationSet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreNetworkSecurityGroup",
     "description": "This resource provides the Network Security Group resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new network security group for the specified VCN.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreNetworkSecurityGroup/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

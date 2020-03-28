@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::PubliccloudUser",
     "description": "~> __DEPRECATED:__ Use [`ovh_cloud_user`](./cloud_user.html) instead.\n\nCreates a user in a public cloud project.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-PubliccloudUser/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

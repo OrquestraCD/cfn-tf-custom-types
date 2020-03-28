@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::ApigatewayGateway",
     "description": "This resource provides the Gateway resource in Oracle Cloud Infrastructure API Gateway service.\n\nCreates a new gateway.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-ApigatewayGateway/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

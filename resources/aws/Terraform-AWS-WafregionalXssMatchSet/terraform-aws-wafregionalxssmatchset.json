@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafregionalXssMatchSet",
     "description": "Provides a WAF Regional XSS Match Set Resource for use with Application Load Balancer.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafregionalXssMatchSet/docs/README.md",
     "definitions": {
         "XssMatchTuple": {
             "type": "object",

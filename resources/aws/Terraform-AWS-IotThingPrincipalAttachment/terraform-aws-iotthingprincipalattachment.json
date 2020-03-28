@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IotThingPrincipalAttachment",
     "description": "Attaches Principal to AWS IoT Thing.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IotThingPrincipalAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

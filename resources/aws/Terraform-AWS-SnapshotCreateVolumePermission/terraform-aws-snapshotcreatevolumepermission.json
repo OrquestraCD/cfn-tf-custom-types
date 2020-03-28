@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SnapshotCreateVolumePermission",
     "description": "Adds permission to create volumes off of a given EBS Snapshot.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SnapshotCreateVolumePermission/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

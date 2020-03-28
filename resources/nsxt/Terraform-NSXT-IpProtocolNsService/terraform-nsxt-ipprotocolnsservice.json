@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::IpProtocolNsService",
     "description": "This resource provides a way to configure a networking and security service which can be used within NSX. This specific service is for the IP protocol.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-IpProtocolNsService/docs/README.md",
     "definitions": {
         "Tag": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::DbReadWriteSplittingConnection",
     "description": "Provides an RDS read write splitting connection resource to allocate an Intranet connection string for RDS instance.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-DbReadWriteSplittingConnection/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

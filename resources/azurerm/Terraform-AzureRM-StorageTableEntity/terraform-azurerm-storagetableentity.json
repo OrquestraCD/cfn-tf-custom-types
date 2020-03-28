@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StorageTableEntity",
     "description": "Manages an Entity within a Table in an Azure Storage Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StorageTableEntity/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::S3AccessPoint",
     "description": "Provides a resource to manage an S3 Access Point.\n\n-> Advanced usage: To use a custom API endpoint for this Terraform resource, use the [`s3control` endpoint provider configuration](/docs/providers/aws/index.html#s3control), not the `s3` endpoint provider configuration.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-S3AccessPoint/docs/README.md",
     "definitions": {
         "PublicAccessBlockConfiguration": {
             "type": "object",

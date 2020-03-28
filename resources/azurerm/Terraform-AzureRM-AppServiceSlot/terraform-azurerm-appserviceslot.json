@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::AppServiceSlot",
     "description": "Manages an App Service Slot (within an App Service).\n\n-> **Note:** When using Slots - the `app_settings`, `connection_string` and `site_config` blocks on the `azurerm_app_service` resource will be overwritten when promoting a Slot using the `azurerm_app_service_active_slot` resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-AppServiceSlot/docs/README.md",
     "definitions": {
         "AuthSettings": {
             "type": "object",

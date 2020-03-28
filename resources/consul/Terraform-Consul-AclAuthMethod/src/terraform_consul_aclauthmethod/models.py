@@ -40,6 +40,7 @@ class ResourceModel(BaseResourceModel):
     Description: Optional[str]
     Id: Optional[str]
     Name: Optional[str]
+    Namespace: Optional[str]
     Type: Optional[str]
 
     @classmethod
@@ -55,6 +56,7 @@ class ResourceModel(BaseResourceModel):
             Description=json_data.get("Description"),
             Id=json_data.get("Id"),
             Name=json_data.get("Name"),
+            Namespace=json_data.get("Namespace"),
             Type=json_data.get("Type"),
         )
 

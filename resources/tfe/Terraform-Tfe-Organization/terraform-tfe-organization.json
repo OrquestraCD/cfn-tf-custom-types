@@ -2,6 +2,7 @@
     "typeName": "Terraform::Tfe::Organization",
     "description": "Manages organizations.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tfe/Terraform-Tfe-Organization/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

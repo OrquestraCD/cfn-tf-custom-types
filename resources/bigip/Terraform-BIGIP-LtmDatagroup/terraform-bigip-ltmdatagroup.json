@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::LtmDatagroup",
     "description": "`bigip_ltm_datagroup` Manages internal (in-line) datagroup configuration\n\nResource should be named with their \"full path\". The full path is the combination of the partition + name of the resource, for example /Common/my-datagroup.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-LtmDatagroup/docs/README.md",
     "definitions": {
         "Record": {
             "type": "object",

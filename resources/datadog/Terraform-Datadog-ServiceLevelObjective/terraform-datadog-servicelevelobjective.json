@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::ServiceLevelObjective",
     "description": "Provides a Datadog service level objective resource. This can be used to create and manage Datadog service level objectives.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-ServiceLevelObjective/docs/README.md",
     "definitions": {
         "Query": {
             "type": "object",

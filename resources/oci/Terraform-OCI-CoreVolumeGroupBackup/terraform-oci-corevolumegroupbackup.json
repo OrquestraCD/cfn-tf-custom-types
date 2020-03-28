@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreVolumeGroupBackup",
     "description": "This resource provides the Volume Group Backup resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new backup volume group of the specified volume group.\nFor more information, see [Volume Groups](https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/volumegroups.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreVolumeGroupBackup/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

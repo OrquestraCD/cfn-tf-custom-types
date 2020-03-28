@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StreamAnalyticsStreamInputEventhub",
     "description": "Manages a Stream Analytics Stream Input EventHub.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StreamAnalyticsStreamInputEventhub/docs/README.md",
     "definitions": {
         "Serialization": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LaunchConfiguration",
     "description": "Provides a resource to create a new launch configuration, used for autoscaling groups.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LaunchConfiguration/docs/README.md",
     "definitions": {
         "EbsBlockDevice": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreBootVolumeBackup",
     "description": "This resource provides the Boot Volume Backup resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new boot volume backup of the specified boot volume. For general information about boot volume backups,\nsee [Overview of Boot Volume Backups](https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/bootvolumebackups.htm)\n\nWhen the request is received, the backup object is in a REQUEST_RECEIVED state.\nWhen the data is imaged, it goes into a CREATING state.\nAfter the backup is fully uploaded to the cloud, it goes into an AVAILABLE state.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreBootVolumeBackup/docs/README.md",
     "definitions": {
         "SourceDetails": {
             "type": "object",

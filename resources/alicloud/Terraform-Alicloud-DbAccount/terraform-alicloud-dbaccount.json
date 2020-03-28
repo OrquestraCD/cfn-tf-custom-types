@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::DbAccount",
     "description": "Provides an RDS account resource and used to manage databases.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-DbAccount/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::MarketplaceListingPackageAgreement",
     "description": "CloudFormation equivalent of oci_marketplace_listing_package_agreement",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-MarketplaceListingPackageAgreement/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

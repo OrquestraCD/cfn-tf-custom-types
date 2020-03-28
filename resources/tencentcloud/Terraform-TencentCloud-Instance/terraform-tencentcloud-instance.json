@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::Instance",
     "description": "Provides a CVM instance resource.\n\n~> **NOTE:** You can launch an CVM instance for a VPC network via specifying parameter `vpc_id`. One instance can only belong to one VPC.\n\n~> **NOTE:** At present, 'PREPAID' instance cannot be deleted and must wait it to be outdated and released automatically.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-Instance/docs/README.md",
     "definitions": {
         "DataDisks": {
             "type": "object",

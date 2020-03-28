@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::IdentityServiceV3",
     "description": "Manages a V3 Service resource within OpenStack Keystone.\n\n~> **Note:** This usually requires admin privileges.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-IdentityServiceV3/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

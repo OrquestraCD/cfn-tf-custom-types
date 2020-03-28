@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::ClbAttachment",
     "description": "Provides a resource to create a CLB attachment.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-ClbAttachment/docs/README.md",
     "definitions": {
         "Targets": {
             "type": "object",

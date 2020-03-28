@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::SysBigiplicense",
     "description": "CloudFormation equivalent of bigip_sys_bigiplicense",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-SysBigiplicense/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

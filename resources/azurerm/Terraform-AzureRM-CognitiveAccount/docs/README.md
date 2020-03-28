@@ -15,6 +15,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#kind" title="Kind">Kind</a>" : <i>String</i>,
         "<a href="#location" title="Location">Location</a>" : <i>String</i>,
         "<a href="#name" title="Name">Name</a>" : <i>String</i>,
+        "<a href="#qnaruntimeendpoint" title="QnaRuntimeEndpoint">QnaRuntimeEndpoint</a>" : <i>String</i>,
         "<a href="#resourcegroupname" title="ResourceGroupName">ResourceGroupName</a>" : <i>String</i>,
         "<a href="#skuname" title="SkuName">SkuName</a>" : <i>String</i>,
         "<a href="#tags" title="Tags">Tags</a>" : <i>[ <a href="tags.md">Tags</a>, ... ]</i>,
@@ -31,6 +32,7 @@ Properties:
     <a href="#kind" title="Kind">Kind</a>: <i>String</i>
     <a href="#location" title="Location">Location</a>: <i>String</i>
     <a href="#name" title="Name">Name</a>: <i>String</i>
+    <a href="#qnaruntimeendpoint" title="QnaRuntimeEndpoint">QnaRuntimeEndpoint</a>: <i>String</i>
     <a href="#resourcegroupname" title="ResourceGroupName">ResourceGroupName</a>: <i>String</i>
     <a href="#skuname" title="SkuName">SkuName</a>: <i>String</i>
     <a href="#tags" title="Tags">Tags</a>: <i>
@@ -65,6 +67,16 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 Specifies the name of the Cognitive Service Account. Changing this forces a new resource to be created.
 
 _Required_: Yes
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### QnaRuntimeEndpoint
+
+A URL to link a QnAMaker cognitive account to a QnA runtime.
+
+_Required_: No
 
 _Type_: String
 

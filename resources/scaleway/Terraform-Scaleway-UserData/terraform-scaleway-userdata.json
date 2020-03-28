@@ -2,6 +2,7 @@
     "typeName": "Terraform::Scaleway::UserData",
     "description": "**DEPRECATED**: This resource is deprecated and will be removed in `v2.0+`.\nPlease use `scaleway_instance_server` instead.\n\nProvides user data for servers.\nFor additional details please refer to [API documentation](https://developer.scaleway.com/#user-data).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/scaleway/Terraform-Scaleway-UserData/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

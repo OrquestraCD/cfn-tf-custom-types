@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ProjectService",
     "description": "Allows management of a single API service for an existing Google Cloud Platform project. \n\nFor a list of services available, visit the\n[API library page](https://console.cloud.google.com/apis/library) or run `gcloud services list`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ProjectService/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

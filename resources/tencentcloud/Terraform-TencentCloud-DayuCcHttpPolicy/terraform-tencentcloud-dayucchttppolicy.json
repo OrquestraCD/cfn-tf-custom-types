@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::DayuCcHttpPolicy",
     "description": "Use this resource to create a dayu CC self-define http policy",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-DayuCcHttpPolicy/docs/README.md",
     "definitions": {
         "RuleList": {
             "type": "object",

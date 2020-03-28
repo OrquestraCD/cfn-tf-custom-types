@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::GeneralSettings",
     "description": "This resource allows you to update the general device settings, such as DNS\nor the hostname.\n\nAll params are optional for this resource.  If any options are not specified,\nthen whatever is already configured on the firewall is left as-is.  The\ngeneral device settings will always exist on the firewall, so `terraform\ndestroy` does not remove config from the firewall.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-GeneralSettings/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

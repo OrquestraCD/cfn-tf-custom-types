@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PolicyAssignment",
     "description": "Configures the specified Policy Definition at the specified Scope. Also, Policy Set Definitions are supported.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PolicyAssignment/docs/README.md",
     "definitions": {
         "Identity": {
             "type": "object",

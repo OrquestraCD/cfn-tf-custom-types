@@ -2,6 +2,7 @@
     "typeName": "Terraform::DNS::ARecordSet",
     "description": "Creates a A type DNS record set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/dns/Terraform-DNS-ARecordSet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Ec2TransitGatewayRouteTablePropagation",
     "description": "Manages an EC2 Transit Gateway Route Table propagation.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Ec2TransitGatewayRouteTablePropagation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::FileStorageSnapshot",
     "description": "This resource provides the Snapshot resource in Oracle Cloud Infrastructure File Storage service.\n\nCreates a new snapshot of the specified file system. You\ncan access the snapshot at `.snapshot/<name>`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-FileStorageSnapshot/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

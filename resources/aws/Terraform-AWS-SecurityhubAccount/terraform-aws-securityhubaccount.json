@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SecurityhubAccount",
     "description": "Enables Security Hub for this AWS account.\n\n~> **NOTE:** Destroying this resource will disable Security Hub for this AWS account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SecurityhubAccount/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

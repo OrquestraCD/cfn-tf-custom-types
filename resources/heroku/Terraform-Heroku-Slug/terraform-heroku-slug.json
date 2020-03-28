@@ -2,6 +2,7 @@
     "typeName": "Terraform::Heroku::Slug",
     "description": "Provides a [Heroku Slug](https://devcenter.heroku.com/articles/platform-api-reference#slug)\nresource.\n\nThis resource supports uploading a pre-generated archive file of executable code, making it possible to launch apps directly from a Terraform config. This resource does not itself generate the slug archive. [A guide to creating slug archives](https://devcenter.heroku.com/articles/platform-api-deploying-slugs) is available in the Heroku Dev Center.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/heroku/Terraform-Heroku-Slug/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

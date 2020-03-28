@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ProximityPlacementGroup",
     "description": "Manages a proximity placement group for virtual machines, virtual machine scale sets and availability sets.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ProximityPlacementGroup/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

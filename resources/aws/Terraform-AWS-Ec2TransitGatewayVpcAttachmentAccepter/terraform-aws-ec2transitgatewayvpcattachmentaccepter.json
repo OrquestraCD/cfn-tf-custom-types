@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Ec2TransitGatewayVpcAttachmentAccepter",
     "description": "Manages the accepter's side of an EC2 Transit Gateway VPC Attachment.\n\nWhen a cross-account (requester's AWS account differs from the accepter's AWS account) EC2 Transit Gateway VPC Attachment\nis created, an EC2 Transit Gateway VPC Attachment resource is automatically created in the accepter's account.\nThe requester can use the `aws_ec2_transit_gateway_vpc_attachment` resource to manage its side of the connection\nand the accepter can use the `aws_ec2_transit_gateway_vpc_attachment_accepter` resource to \"adopt\" its side of the\nconnection into management.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Ec2TransitGatewayVpcAttachmentAccepter/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

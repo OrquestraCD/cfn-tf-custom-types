@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeInstanceTemplate",
     "description": "Manages a VM instance template resource within GCE. For more information see\n[the official documentation](https://cloud.google.com/compute/docs/instance-templates)\nand\n[API](https://cloud.google.com/compute/docs/reference/latest/instanceTemplates).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeInstanceTemplate/docs/README.md",
     "definitions": {
         "Disk": {
             "type": "object",

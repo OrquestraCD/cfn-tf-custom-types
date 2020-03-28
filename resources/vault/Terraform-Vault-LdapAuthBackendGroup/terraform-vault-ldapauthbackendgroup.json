@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::LdapAuthBackendGroup",
     "description": "Provides a resource to create a group in an [LDAP auth backend within Vault](https://www.vaultproject.io/docs/auth/ldap.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-LdapAuthBackendGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

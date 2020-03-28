@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeProjectMetadataItem",
     "description": "Manages a single key/value pair on metadata common to all instances for\na project in GCE. Using `google_compute_project_metadata_item` lets you\nmanage a single key/value setting in Terraform rather than the entire\nproject metadata map.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeProjectMetadataItem/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

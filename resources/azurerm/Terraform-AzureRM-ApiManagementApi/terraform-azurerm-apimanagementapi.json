@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ApiManagementApi",
     "description": "Manages an API within an API Management Service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ApiManagementApi/docs/README.md",
     "definitions": {
         "Import": {
             "type": "object",

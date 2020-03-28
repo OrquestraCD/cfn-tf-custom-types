@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::VpcEndpoint",
     "description": "Provides a VPC Endpoint resource.\n\n~> **NOTE on VPC Endpoints and VPC Endpoint Associations:** Terraform provides both standalone VPC Endpoint Associations for\n[Route Tables](vpc_endpoint_route_table_association.html) - (an association between a VPC endpoint and a single `route_table_id`) and\n[Subnets](vpc_endpoint_subnet_association.html) - (an association between a VPC endpoint and a single `subnet_id`) and\na VPC Endpoint resource with `route_table_ids` and `subnet_ids` attributes.\nDo not use the same resource ID in both a VPC Endpoint resource and a VPC Endpoint Association resource.\nDoing so will cause a conflict of associations and will overwrite the association.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-VpcEndpoint/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

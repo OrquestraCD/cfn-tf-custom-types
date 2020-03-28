@@ -2,6 +2,7 @@
     "typeName": "Terraform::Brightbox::FirewallRule",
     "description": "Provides a Brightbox Firewall Rule resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/brightbox/Terraform-Brightbox-FirewallRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

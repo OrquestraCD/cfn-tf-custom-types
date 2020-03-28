@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafGeoMatchSet",
     "description": "Provides a WAF Geo Match Set Resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafGeoMatchSet/docs/README.md",
     "definitions": {
         "GeoMatchConstraint": {
             "type": "object",

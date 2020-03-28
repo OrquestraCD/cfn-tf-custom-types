@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::RedshiftParameterGroup",
     "description": "Provides a Redshift Cluster parameter group resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-RedshiftParameterGroup/docs/README.md",
     "definitions": {
         "Parameter": {
             "type": "object",

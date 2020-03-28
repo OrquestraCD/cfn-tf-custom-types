@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::AutomationModule",
     "description": "Manages a Automation Module.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-AutomationModule/docs/README.md",
     "definitions": {
         "ModuleLink": {
             "type": "object",

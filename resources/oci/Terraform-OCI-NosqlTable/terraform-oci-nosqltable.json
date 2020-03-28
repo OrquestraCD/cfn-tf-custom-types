@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::NosqlTable",
     "description": "This resource provides the Table resource in Oracle Cloud Infrastructure Nosql service.\n\nCreate a new table.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-NosqlTable/docs/README.md",
     "definitions": {
         "TableLimits": {
             "type": "object",

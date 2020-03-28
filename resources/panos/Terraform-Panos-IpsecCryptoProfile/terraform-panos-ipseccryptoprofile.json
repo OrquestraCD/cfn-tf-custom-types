@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::IpsecCryptoProfile",
     "description": "This resource allows you to add/update/delete IPSec crypto profiles.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-IpsecCryptoProfile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

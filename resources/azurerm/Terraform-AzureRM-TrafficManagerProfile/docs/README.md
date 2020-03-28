@@ -19,7 +19,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#trafficroutingmethod" title="TrafficRoutingMethod">TrafficRoutingMethod</a>" : <i>String</i>,
         "<a href="#dnsconfig" title="DnsConfig">DnsConfig</a>" : <i>[ <a href="dnsconfig.md">DnsConfig</a>, ... ]</i>,
         "<a href="#monitorconfig" title="MonitorConfig">MonitorConfig</a>" : <i>[ <a href="monitorconfig.md">MonitorConfig</a>, ... ]</i>,
-        "<a href="#timeouts" title="Timeouts">Timeouts</a>" : <i><a href="timeouts.md">Timeouts</a></i>
+        "<a href="#timeouts" title="Timeouts">Timeouts</a>" : <i><a href="timeouts.md">Timeouts</a></i>,
+        "<a href="#customheader" title="CustomHeader">CustomHeader</a>" : <i>[ <a href="customheader.md">CustomHeader</a>, ... ]</i>
     }
 }
 </pre>
@@ -40,6 +41,8 @@ Properties:
     <a href="#monitorconfig" title="MonitorConfig">MonitorConfig</a>: <i>
       - <a href="monitorconfig.md">MonitorConfig</a></i>
     <a href="#timeouts" title="Timeouts">Timeouts</a>: <i><a href="timeouts.md">Timeouts</a></i>
+    <a href="#customheader" title="CustomHeader">CustomHeader</a>: <i>
+      - <a href="customheader.md">CustomHeader</a></i>
 </pre>
 
 ## Properties
@@ -121,6 +124,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: <a href="timeouts.md">Timeouts</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### CustomHeader
+
+_Required_: No
+
+_Type_: List of <a href="customheader.md">CustomHeader</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

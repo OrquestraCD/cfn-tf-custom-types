@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreLocalPeeringGateway",
     "description": "This resource provides the Local Peering Gateway resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new local peering gateway (LPG) for the specified VCN.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreLocalPeeringGateway/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

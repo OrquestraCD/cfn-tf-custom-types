@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::LtmProfileServerSsl",
     "description": "`bigip_ltm_profile_server_ssl` Manages server SSL profiles on a BIG-IP",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-LtmProfileServerSsl/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

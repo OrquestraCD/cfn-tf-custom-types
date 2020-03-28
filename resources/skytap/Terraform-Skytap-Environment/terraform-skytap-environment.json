@@ -2,6 +2,7 @@
     "typeName": "Terraform::Skytap::Environment",
     "description": "Provides a Skytap Environment resource. An environment consists of one or more virtual machines, networks, \nand associated settings and metadata. Unlike a template, an environment can be run and have most of its settings \nmodified. When an environment is created all of its VMs will be run.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/skytap/Terraform-Skytap-Environment/docs/README.md",
     "definitions": {
         "Label": {
             "type": "object",
@@ -20,6 +21,22 @@
                 "Category",
                 "Value"
             ]
+        },
+        "Timeouts": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Create": {
+                    "type": "string"
+                },
+                "Delete": {
+                    "type": "string"
+                },
+                "Update": {
+                    "type": "string"
+                }
+            },
+            "required": []
         }
     },
     "properties": {
@@ -84,6 +101,9 @@
             "items": {
                 "$ref": "#/definitions/Label"
             }
+        },
+        "Timeouts": {
+            "$ref": "#/definitions/Timeouts"
         }
     },
     "additionalProperties": false,

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureStack::ResourceGroup",
     "description": "Creates a new resource group on Azure.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurestack/Terraform-AzureStack-ResourceGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

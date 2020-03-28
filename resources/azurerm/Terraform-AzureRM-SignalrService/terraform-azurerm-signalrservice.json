@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SignalrService",
     "description": "Manages an Azure SignalR service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SignalrService/docs/README.md",
     "definitions": {
         "Cors": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::EventgridDomain",
     "description": "Manages an EventGrid Domain",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-EventgridDomain/docs/README.md",
     "definitions": {
         "InputMappingDefaultValues": {
             "type": "object",

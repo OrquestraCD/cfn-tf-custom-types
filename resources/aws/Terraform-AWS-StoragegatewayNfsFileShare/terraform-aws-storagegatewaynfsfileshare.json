@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::StoragegatewayNfsFileShare",
     "description": "Manages an AWS Storage Gateway NFS File Share.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-StoragegatewayNfsFileShare/docs/README.md",
     "definitions": {
         "NfsFileShareDefaults": {
             "type": "object",
@@ -89,6 +90,9 @@
             "type": "string",
             "description": "Access Control List permission for S3 bucket objects. Defaults to `private`."
         },
+        "Path": {
+            "type": "string"
+        },
         "ReadOnly": {
             "type": "boolean",
             "description": "Boolean to indicate write status of file share. File share does not accept writes if `true`. Defaults to `false`."
@@ -149,7 +153,8 @@
         "/properties/tfcfnid",
         "/properties/Arn",
         "/properties/FileshareId",
-        "/properties/Id"
+        "/properties/Id",
+        "/properties/Path"
     ],
     "primaryIdentifier": [
         "/properties/tfcfnid"

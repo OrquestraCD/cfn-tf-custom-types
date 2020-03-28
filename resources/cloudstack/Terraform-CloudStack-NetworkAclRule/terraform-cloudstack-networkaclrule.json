@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudStack::NetworkAclRule",
     "description": "Creates network ACL rules for a given network ACL.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudstack/Terraform-CloudStack-NetworkAclRule/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

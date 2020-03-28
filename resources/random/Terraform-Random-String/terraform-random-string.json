@@ -2,6 +2,7 @@
     "typeName": "Terraform::Random::String",
     "description": "The resource `random_string` generates a random permutation of alphanumeric\ncharacters and optionally special characters.\n\nThis resource *does* use a cryptographic random number generator.\n\nHistorically this resource's intended usage has been ambiguous as the original example\nused it in a password. For backwards compatibility it will\ncontinue to exist. For unique ids please use [random_id](id.html), for sensitive\nrandom values please use [random_password](password.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/random/Terraform-Random-String/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

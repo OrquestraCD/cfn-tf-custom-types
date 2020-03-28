@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureStack::LocalNetworkGateway",
     "description": "Manages a local network gateway connection over which specific connections can be configured.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurestack/Terraform-AzureStack-LocalNetworkGateway/docs/README.md",
     "definitions": {
         "BgpSettings": {
             "type": "object",

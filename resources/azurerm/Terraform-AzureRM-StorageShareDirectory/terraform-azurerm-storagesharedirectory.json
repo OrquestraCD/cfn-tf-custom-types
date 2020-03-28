@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StorageShareDirectory",
     "description": "Manages a Directory within an Azure Storage File Share.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StorageShareDirectory/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

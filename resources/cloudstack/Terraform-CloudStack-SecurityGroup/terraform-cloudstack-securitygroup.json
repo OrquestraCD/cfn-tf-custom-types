@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudStack::SecurityGroup",
     "description": "Creates a security group.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudstack/Terraform-CloudStack-SecurityGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

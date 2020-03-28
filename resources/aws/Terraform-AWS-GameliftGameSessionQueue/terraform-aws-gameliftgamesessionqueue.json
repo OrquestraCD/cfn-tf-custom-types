@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GameliftGameSessionQueue",
     "description": "Provides an Gamelift Game Session Queue resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GameliftGameSessionQueue/docs/README.md",
     "definitions": {
         "PlayerLatencyPolicy": {
             "type": "object",

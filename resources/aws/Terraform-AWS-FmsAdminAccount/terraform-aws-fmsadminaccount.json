@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::FmsAdminAccount",
     "description": "Provides a resource to associate/disassociate an AWS Firewall Manager administrator account. This operation must be performed in the `us-east-1` region.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-FmsAdminAccount/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

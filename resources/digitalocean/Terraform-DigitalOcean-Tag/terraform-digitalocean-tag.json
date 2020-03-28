@@ -2,6 +2,7 @@
     "typeName": "Terraform::DigitalOcean::Tag",
     "description": "Provides a DigitalOcean Tag resource. A Tag is a label that can be applied to a\nDroplet resource in order to better organize or facilitate the lookups and\nactions on it. Tags created with this resource can be referenced in your Droplet\nconfiguration via their ID or name.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/digitalocean/Terraform-DigitalOcean-Tag/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

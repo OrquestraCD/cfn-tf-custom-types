@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::MacieMemberAccountAssociation",
     "description": "Associates an AWS account with Amazon Macie as a member account.\n\n~> **NOTE:** Before using Amazon Macie for the first time it must be enabled manually. Instructions are [here](https://docs.aws.amazon.com/macie/latest/userguide/macie-setting-up.html#macie-setting-up-enable).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-MacieMemberAccountAssociation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

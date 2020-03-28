@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::VpcEndpointSubnetAssociation",
     "description": "Provides a resource to create an association between a VPC endpoint and a subnet.\n\n~> **NOTE on VPC Endpoints and VPC Endpoint Subnet Associations:** Terraform provides\nboth a standalone VPC Endpoint Subnet Association (an association between a VPC endpoint\nand a single `subnet_id`) and a [VPC Endpoint](vpc_endpoint.html) resource with a `subnet_ids`\nattribute. Do not use the same subnet ID in both a VPC Endpoint resource and a VPC Endpoint Subnet\nAssociation resource. Doing so will cause a conflict of associations and will overwrite the association.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-VpcEndpointSubnetAssociation/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

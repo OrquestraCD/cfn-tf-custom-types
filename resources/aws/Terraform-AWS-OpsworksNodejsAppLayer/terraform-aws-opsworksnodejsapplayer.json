@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OpsworksNodejsAppLayer",
     "description": "Provides an OpsWorks NodeJS application layer resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OpsworksNodejsAppLayer/docs/README.md",
     "definitions": {
         "EbsVolume": {
             "type": "object",

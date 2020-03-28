@@ -326,6 +326,7 @@ in excess of those allowed by the access policy of the role that is being assume
 * [Terraform::AWS::EbsSnapshotCopy](../resources/aws/Terraform-AWS-EbsSnapshotCopy/docs/README.md)
 * [Terraform::AWS::EbsSnapshot](../resources/aws/Terraform-AWS-EbsSnapshot/docs/README.md)
 * [Terraform::AWS::EbsVolume](../resources/aws/Terraform-AWS-EbsVolume/docs/README.md)
+* [Terraform::AWS::Ec2AvailabilityZoneGroup](../resources/aws/Terraform-AWS-Ec2AvailabilityZoneGroup/docs/README.md)
 * [Terraform::AWS::Ec2CapacityReservation](../resources/aws/Terraform-AWS-Ec2CapacityReservation/docs/README.md)
 * [Terraform::AWS::Ec2ClientVpnEndpoint](../resources/aws/Terraform-AWS-Ec2ClientVpnEndpoint/docs/README.md)
 * [Terraform::AWS::Ec2ClientVpnNetworkAssociation](../resources/aws/Terraform-AWS-Ec2ClientVpnNetworkAssociation/docs/README.md)

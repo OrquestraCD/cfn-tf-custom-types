@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DataflowApplication",
     "description": "This resource provides the Application resource in Oracle Cloud Infrastructure Dataflow service.\n\nCreates an application.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DataflowApplication/docs/README.md",
     "definitions": {
         "Parameters": {
             "type": "object",

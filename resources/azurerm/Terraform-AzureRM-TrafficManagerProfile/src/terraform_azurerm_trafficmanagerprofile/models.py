@@ -46,6 +46,7 @@ class ResourceModel(BaseResourceModel):
     DnsConfig: Optional[Sequence["_DnsConfig"]]
     MonitorConfig: Optional[Sequence["_MonitorConfig"]]
     Timeouts: Optional["_Timeouts"]
+    CustomHeader: Optional[Sequence["_CustomHeader"]]
 
     @classmethod
     def _deserialize(
@@ -66,6 +67,7 @@ class ResourceModel(BaseResourceModel):
             DnsConfig=json_data.get("DnsConfig"),
             MonitorConfig=json_data.get("MonitorConfig"),
             Timeouts=Timeouts._deserialize(json_data.get("Timeouts")),
+            CustomHeader=json_data.get("CustomHeader"),
         )
 
 
@@ -126,6 +128,7 @@ class MonitorConfig:
     Protocol: Optional[str]
     TimeoutInSeconds: Optional[float]
     ToleratedNumberOfFailures: Optional[float]
+    CustomHeader: Optional[Sequence["_CustomHeader"]]
 
     @classmethod
     def _deserialize(
@@ -142,11 +145,34 @@ class MonitorConfig:
             Protocol=json_data.get("Protocol"),
             TimeoutInSeconds=json_data.get("TimeoutInSeconds"),
             ToleratedNumberOfFailures=json_data.get("ToleratedNumberOfFailures"),
+            CustomHeader=json_data.get("CustomHeader"),
         )
 
 
 # work around possible type aliasing issues when variable has same name as a model
 _MonitorConfig = MonitorConfig
+
+
+@dataclass
+class CustomHeader:
+    Name: Optional[str]
+    Value: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_CustomHeader"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_CustomHeader"]:
+        if not json_data:
+            return None
+        return cls(
+            Name=json_data.get("Name"),
+            Value=json_data.get("Value"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_CustomHeader = CustomHeader
 
 
 @dataclass

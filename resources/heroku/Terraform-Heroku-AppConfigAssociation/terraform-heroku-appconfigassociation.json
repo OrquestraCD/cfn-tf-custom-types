@@ -2,6 +2,7 @@
     "typeName": "Terraform::Heroku::AppConfigAssociation",
     "description": "Provides a Heroku App Config Association resource, making it possible to set/update/remove heroku app config vars independently from\nthe `heroku_app` resource. An example usage scenario could be:\n\n* User has separate git repositories for various micro-services. Multiple micro-services use Kafka.\n* User has a separate repository for kafka terraform files with blue/green support.\n* User builds out new clusters.\n* Prior to this resource's introduction, user would need one `terraform apply` to update state and X number of `terraform apply`\nfor each micro-service to pick up the new kafka clusters. However with this resource, user can do one `terraform apply`\nand let Heroku handle the rolling restarts to pick up the new config vars.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/heroku/Terraform-Heroku-AppConfigAssociation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {
@@ -55,7 +56,7 @@
                     "MapValue"
                 ]
             },
-            "description": "Map of config vars that are output in plaintext."
+            "description": "Map of config vars that can be output in plaintext."
         }
     },
     "additionalProperties": false,

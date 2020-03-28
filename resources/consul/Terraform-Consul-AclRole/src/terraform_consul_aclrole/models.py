@@ -39,6 +39,7 @@ class ResourceModel(BaseResourceModel):
     Description: Optional[str]
     Id: Optional[str]
     Name: Optional[str]
+    Namespace: Optional[str]
     Policies: Optional[Sequence[str]]
     ServiceIdentities: Optional[Sequence["_ServiceIdentities"]]
 
@@ -54,6 +55,7 @@ class ResourceModel(BaseResourceModel):
             Description=json_data.get("Description"),
             Id=json_data.get("Id"),
             Name=json_data.get("Name"),
+            Namespace=json_data.get("Namespace"),
             Policies=json_data.get("Policies"),
             ServiceIdentities=json_data.get("ServiceIdentities"),
         )

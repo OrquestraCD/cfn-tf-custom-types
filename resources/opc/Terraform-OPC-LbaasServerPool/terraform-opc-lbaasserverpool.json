@@ -2,6 +2,7 @@
     "typeName": "Terraform::OPC::LbaasServerPool",
     "description": "The `opc_lbaas_server_pool` resource creates and manages a Load Balancer Classic Origin Server Pool for a Load Balancer Classic instance. The Server Pool defines one or more servers (referred to as origin servers) to which the load balancer can distribute requests.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opc/Terraform-OPC-LbaasServerPool/docs/README.md",
     "definitions": {
         "HealthCheck": {
             "type": "object",

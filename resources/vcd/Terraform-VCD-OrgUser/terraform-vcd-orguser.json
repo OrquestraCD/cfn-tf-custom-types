@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::OrgUser",
     "description": "Provides a vCloud Director Org User. This can be used to create, update, and delete organization users, including org administrators.\n\nSupported in provider *v2.4+*\n\n~> **Note:** Only `System Administrator` or `Org Administrator` users can create users.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-OrgUser/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

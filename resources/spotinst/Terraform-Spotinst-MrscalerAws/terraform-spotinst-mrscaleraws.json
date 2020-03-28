@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::MrscalerAws",
     "description": "CloudFormation equivalent of spotinst_mrscaler_aws",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-MrscalerAws/docs/README.md",
     "definitions": {
         "Applications": {
             "type": "object",

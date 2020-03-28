@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::WindowsVirtualMachineScaleSet",
     "description": "Manages a Windows Virtual Machine Scale Set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-WindowsVirtualMachineScaleSet/docs/README.md",
     "definitions": {
         "AdditionalCapabilities": {
             "type": "object",

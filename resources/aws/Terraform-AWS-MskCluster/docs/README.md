@@ -21,10 +21,15 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#clientauthentication" title="ClientAuthentication">ClientAuthentication</a>" : <i>[ <a href="clientauthentication.md">ClientAuthentication</a>, ... ]</i>,
         "<a href="#configurationinfo" title="ConfigurationInfo">ConfigurationInfo</a>" : <i>[ <a href="configurationinfo.md">ConfigurationInfo</a>, ... ]</i>,
         "<a href="#encryptioninfo" title="EncryptionInfo">EncryptionInfo</a>" : <i>[ <a href="encryptioninfo.md">EncryptionInfo</a>, ... ]</i>,
+        "<a href="#logginginfo" title="LoggingInfo">LoggingInfo</a>" : <i>[ <a href="logginginfo.md">LoggingInfo</a>, ... ]</i>,
         "<a href="#openmonitoring" title="OpenMonitoring">OpenMonitoring</a>" : <i>[ <a href="openmonitoring.md">OpenMonitoring</a>, ... ]</i>,
         "<a href="#tls" title="Tls">Tls</a>" : <i>[ <a href="tls.md">Tls</a>, ... ]</i>,
         "<a href="#encryptionintransit" title="EncryptionInTransit">EncryptionInTransit</a>" : <i>[ <a href="encryptionintransit.md">EncryptionInTransit</a>, ... ]</i>,
+        "<a href="#brokerlogs" title="BrokerLogs">BrokerLogs</a>" : <i>[ <a href="brokerlogs.md">BrokerLogs</a>, ... ]</i>,
         "<a href="#prometheus" title="Prometheus">Prometheus</a>" : <i>[ <a href="prometheus.md">Prometheus</a>, ... ]</i>,
+        "<a href="#cloudwatchlogs" title="CloudwatchLogs">CloudwatchLogs</a>" : <i>[ <a href="cloudwatchlogs.md">CloudwatchLogs</a>, ... ]</i>,
+        "<a href="#firehose" title="Firehose">Firehose</a>" : <i>[ <a href="firehose.md">Firehose</a>, ... ]</i>,
+        "<a href="#s3" title="S3">S3</a>" : <i>[ <a href="s3.md">S3</a>, ... ]</i>,
         "<a href="#jmxexporter" title="JmxExporter">JmxExporter</a>" : <i>[ <a href="jmxexporter.md">JmxExporter</a>, ... ]</i>,
         "<a href="#nodeexporter" title="NodeExporter">NodeExporter</a>" : <i>[ <a href="nodeexporter.md">NodeExporter</a>, ... ]</i>
     }
@@ -50,14 +55,24 @@ Properties:
       - <a href="configurationinfo.md">ConfigurationInfo</a></i>
     <a href="#encryptioninfo" title="EncryptionInfo">EncryptionInfo</a>: <i>
       - <a href="encryptioninfo.md">EncryptionInfo</a></i>
+    <a href="#logginginfo" title="LoggingInfo">LoggingInfo</a>: <i>
+      - <a href="logginginfo.md">LoggingInfo</a></i>
     <a href="#openmonitoring" title="OpenMonitoring">OpenMonitoring</a>: <i>
       - <a href="openmonitoring.md">OpenMonitoring</a></i>
     <a href="#tls" title="Tls">Tls</a>: <i>
       - <a href="tls.md">Tls</a></i>
     <a href="#encryptionintransit" title="EncryptionInTransit">EncryptionInTransit</a>: <i>
       - <a href="encryptionintransit.md">EncryptionInTransit</a></i>
+    <a href="#brokerlogs" title="BrokerLogs">BrokerLogs</a>: <i>
+      - <a href="brokerlogs.md">BrokerLogs</a></i>
     <a href="#prometheus" title="Prometheus">Prometheus</a>: <i>
       - <a href="prometheus.md">Prometheus</a></i>
+    <a href="#cloudwatchlogs" title="CloudwatchLogs">CloudwatchLogs</a>: <i>
+      - <a href="cloudwatchlogs.md">CloudwatchLogs</a></i>
+    <a href="#firehose" title="Firehose">Firehose</a>: <i>
+      - <a href="firehose.md">Firehose</a></i>
+    <a href="#s3" title="S3">S3</a>: <i>
+      - <a href="s3.md">S3</a></i>
     <a href="#jmxexporter" title="JmxExporter">JmxExporter</a>: <i>
       - <a href="jmxexporter.md">JmxExporter</a></i>
     <a href="#nodeexporter" title="NodeExporter">NodeExporter</a>: <i>
@@ -148,6 +163,14 @@ _Type_: List of <a href="encryptioninfo.md">EncryptionInfo</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
+#### LoggingInfo
+
+_Required_: No
+
+_Type_: List of <a href="logginginfo.md">LoggingInfo</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
 #### OpenMonitoring
 
 _Required_: No
@@ -172,11 +195,43 @@ _Type_: List of <a href="encryptionintransit.md">EncryptionInTransit</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
+#### BrokerLogs
+
+_Required_: No
+
+_Type_: List of <a href="brokerlogs.md">BrokerLogs</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
 #### Prometheus
 
 _Required_: No
 
 _Type_: List of <a href="prometheus.md">Prometheus</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### CloudwatchLogs
+
+_Required_: No
+
+_Type_: List of <a href="cloudwatchlogs.md">CloudwatchLogs</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Firehose
+
+_Required_: No
+
+_Type_: List of <a href="firehose.md">Firehose</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### S3
+
+_Required_: No
+
+_Type_: List of <a href="s3.md">S3</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

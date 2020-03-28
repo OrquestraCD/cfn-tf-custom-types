@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::KeymanagerContainerV1",
     "description": "Manages a V1 Barbican container resource within OpenStack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-KeymanagerContainerV1/docs/README.md",
     "definitions": {
         "Acl": {
             "type": "object",

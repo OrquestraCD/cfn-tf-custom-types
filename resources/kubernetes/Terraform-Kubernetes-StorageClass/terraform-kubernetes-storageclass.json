@@ -2,6 +2,7 @@
     "typeName": "Terraform::Kubernetes::StorageClass",
     "description": "Storage class is the foundation of dynamic provisioning, allowing cluster administrators to define abstractions for the underlying storage platform.\n\nRead more at https://kubernetes.io/blog/2017/03/dynamic-provisioning-and-storage-classes-kubernetes/",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/kubernetes/Terraform-Kubernetes-StorageClass/docs/README.md",
     "definitions": {
         "Metadata": {
             "type": "object",

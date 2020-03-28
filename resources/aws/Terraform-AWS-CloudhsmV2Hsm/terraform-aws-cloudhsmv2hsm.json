@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CloudhsmV2Hsm",
     "description": "Creates an HSM module in Amazon CloudHSM v2 cluster.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CloudhsmV2Hsm/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

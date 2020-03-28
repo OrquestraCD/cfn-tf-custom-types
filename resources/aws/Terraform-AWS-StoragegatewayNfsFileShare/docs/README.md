@@ -232,3 +232,7 @@ Returns the <code>FileshareId</code> value.
 
 Returns the <code>Id</code> value.
 
+#### Path
+
+Returns the <code>Path</code> value.
+

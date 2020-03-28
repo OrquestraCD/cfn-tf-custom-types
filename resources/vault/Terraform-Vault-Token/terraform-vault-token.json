@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::Token",
     "description": "Provides a resource to generate a vault token with its options. The token renewing is supported through optional\narguments.\n\nThe token used by Terraform will require update access to the `auth/token/lookup-accessor`\npath to create tokens and the `auth/token/revoke-accessor` path in Vault to\ndestroy a token.\n\n```hcl\npath \"auth/token/lookup-accessor\" {\n  capabilities = [\"update\"]\n}\n\npath \"auth/token/revoke-accessor\" {\n  capabilities = [\"update\"]\n}\n```",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-Token/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

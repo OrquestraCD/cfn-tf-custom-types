@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::MskCluster",
     "description": "Manages AWS Managed Streaming for Kafka cluster",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-MskCluster/docs/README.md",
     "definitions": {
         "BrokerNodeGroupInfo": {
             "type": "object",
@@ -87,6 +88,22 @@
             },
             "required": []
         },
+        "LoggingInfo": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "BrokerLogs": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/BrokerLogs"
+                    },
+                    "maxItems": 1,
+                    "minItems": 1
+                }
+            },
+            "required": []
+        },
         "OpenMonitoring": {
             "type": "object",
             "additionalProperties": false,
@@ -130,6 +147,37 @@
             },
             "required": []
         },
+        "BrokerLogs": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "CloudwatchLogs": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/CloudwatchLogs"
+                    },
+                    "maxItems": 1
+                },
+                "Firehose": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Firehose"
+                    },
+                    "maxItems": 1
+                },
+                "S3": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/S3"
+                    },
+                    "maxItems": 1
+                }
+            },
+            "required": []
+        },
         "Prometheus": {
             "type": "object",
             "additionalProperties": false,
@@ -152,6 +200,54 @@
                 }
             },
             "required": []
+        },
+        "CloudwatchLogs": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Enabled": {
+                    "type": "boolean"
+                },
+                "LogGroup": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "Enabled"
+            ]
+        },
+        "Firehose": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "DeliveryStream": {
+                    "type": "string"
+                },
+                "Enabled": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "Enabled"
+            ]
+        },
+        "S3": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Bucket": {
+                    "type": "string"
+                },
+                "Enabled": {
+                    "type": "boolean"
+                },
+                "Prefix": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "Enabled"
+            ]
         },
         "JmxExporter": {
             "type": "object",
@@ -271,6 +367,14 @@
             },
             "maxItems": 1
         },
+        "LoggingInfo": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/LoggingInfo"
+            },
+            "maxItems": 1
+        },
         "OpenMonitoring": {
             "type": "array",
             "insertionOrder": false,
@@ -295,6 +399,15 @@
             },
             "maxItems": 1
         },
+        "BrokerLogs": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/BrokerLogs"
+            },
+            "maxItems": 1,
+            "minItems": 1
+        },
         "Prometheus": {
             "type": "array",
             "insertionOrder": false,
@@ -303,6 +416,30 @@
             },
             "maxItems": 1,
             "minItems": 1
+        },
+        "CloudwatchLogs": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/CloudwatchLogs"
+            },
+            "maxItems": 1
+        },
+        "Firehose": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/Firehose"
+            },
+            "maxItems": 1
+        },
+        "S3": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/S3"
+            },
+            "maxItems": 1
         },
         "JmxExporter": {
             "type": "array",

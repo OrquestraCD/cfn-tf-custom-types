@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::RouteEntry",
     "description": "Provides a route entry resource. A route entry represents a route item of one VPC route table.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-RouteEntry/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

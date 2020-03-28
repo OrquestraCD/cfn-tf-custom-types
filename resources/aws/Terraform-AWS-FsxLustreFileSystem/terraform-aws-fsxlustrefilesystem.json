@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::FsxLustreFileSystem",
     "description": "Manages a FSx Lustre File System. See the [FSx Lustre Guide](https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html) for more information.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-FsxLustreFileSystem/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

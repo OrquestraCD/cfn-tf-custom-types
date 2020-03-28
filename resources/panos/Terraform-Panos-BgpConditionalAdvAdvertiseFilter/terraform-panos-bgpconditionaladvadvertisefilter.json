@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::BgpConditionalAdvAdvertiseFilter",
     "description": "This resource allows you to add/update/delete an advertise filter for a\nBGP conditional advertisement.\n\n~> **Note:** A BGP conditional advertisement is valid only if there is at least\none non-exist filter and one advertise filter attached.  This filter must be paired\nwith the other in order for the configuration to be valid.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-BgpConditionalAdvAdvertiseFilter/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

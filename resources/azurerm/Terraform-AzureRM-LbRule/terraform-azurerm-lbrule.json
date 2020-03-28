@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::LbRule",
     "description": "Manages a Load Balancer Rule.\n\n~> **NOTE** When using this resource, the Load Balancer needs to have a FrontEnd IP Configuration Attached",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-LbRule/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

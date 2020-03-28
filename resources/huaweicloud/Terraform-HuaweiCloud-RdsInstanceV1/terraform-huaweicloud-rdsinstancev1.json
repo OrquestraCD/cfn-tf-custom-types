@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::RdsInstanceV1",
     "description": "Manages rds instance resource within HuaweiCloud",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-RdsInstanceV1/docs/README.md",
     "definitions": {
         "Backupstrategy": {
             "type": "object",

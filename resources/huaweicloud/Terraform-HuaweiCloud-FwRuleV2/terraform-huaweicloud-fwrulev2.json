@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::FwRuleV2",
     "description": "Manages a v2 firewall rule resource within HuaweiCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-FwRuleV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

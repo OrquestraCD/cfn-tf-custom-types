@@ -2,6 +2,7 @@
     "typeName": "Terraform::LogicMonitor::Dashboard",
     "description": "Provides a LogicMonitor dashboard resource. This can be used to create and manage LogicMonitor dashboards\nCurrently only creating a dashboard based on an existing JSON template is supported",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/logicmonitor/Terraform-LogicMonitor-Dashboard/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

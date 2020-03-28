@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::AnalyticsAnalyticsInstance",
     "description": "This resource provides the Analytics Instance resource in Oracle Cloud Infrastructure Analytics service.\n\nCreate a new AnalyticsInstance in the specified compartment. The operation is long-running\nand creates a new WorkRequest.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-AnalyticsAnalyticsInstance/docs/README.md",
     "definitions": {
         "Capacity": {
             "type": "object",

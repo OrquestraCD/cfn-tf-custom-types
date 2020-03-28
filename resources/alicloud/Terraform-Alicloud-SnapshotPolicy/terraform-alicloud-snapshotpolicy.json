@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::SnapshotPolicy",
     "description": "Provides an ECS snapshot policy resource.\n\nFor information about snapshot policy and how to use it, see [Snapshot](https://www.alibabacloud.com/help/doc-detail/25460.html).\n\n-> **NOTE:** Available in 1.42.0+.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-SnapshotPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

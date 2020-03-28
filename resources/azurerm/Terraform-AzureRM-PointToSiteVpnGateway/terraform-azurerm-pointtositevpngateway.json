@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PointToSiteVpnGateway",
     "description": "Manages a Point-to-Site VPN Gateway.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PointToSiteVpnGateway/docs/README.md",
     "definitions": {
         "ConnectionConfiguration": {
             "type": "object",

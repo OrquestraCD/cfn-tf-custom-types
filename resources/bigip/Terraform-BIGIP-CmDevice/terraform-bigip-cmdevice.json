@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::CmDevice",
     "description": "`bigip_cm_device` provides details about a specific bigip\n\nThis resource is helpful when configuring the BIG-IP device in cluster or in HA mode.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-CmDevice/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

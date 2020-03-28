@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AthenaWorkgroup",
     "description": "Provides an Athena Workgroup.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AthenaWorkgroup/docs/README.md",
     "definitions": {
         "Configuration": {
             "type": "object",
@@ -70,6 +71,10 @@
         "Description": {
             "type": "string",
             "description": "Description of the workgroup."
+        },
+        "ForceDestroy": {
+            "type": "boolean",
+            "description": "The option to delete the workgroup and its contents even if the workgroup contains any named queries."
         },
         "Id": {
             "type": "string"

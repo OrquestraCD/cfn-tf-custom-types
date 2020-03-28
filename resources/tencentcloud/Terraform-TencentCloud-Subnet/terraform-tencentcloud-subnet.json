@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::Subnet",
     "description": "Provide a resource to create a VPC subnet.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-Subnet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

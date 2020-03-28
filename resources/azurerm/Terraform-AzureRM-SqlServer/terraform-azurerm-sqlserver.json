@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SqlServer",
     "description": "Manages a SQL Azure Database Server.\n\n~> **Note:** All arguments including the administrator login and password will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SqlServer/docs/README.md",
     "definitions": {
         "ExtendedAuditingPolicy": {
             "type": "object",

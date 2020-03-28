@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IamOpenidConnectProvider",
     "description": "Provides an IAM OpenID Connect provider.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IamOpenidConnectProvider/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

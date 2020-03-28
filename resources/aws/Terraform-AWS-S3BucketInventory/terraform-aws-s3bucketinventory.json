@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::S3BucketInventory",
     "description": "Provides a S3 bucket [inventory configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-inventory.html) resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-S3BucketInventory/docs/README.md",
     "definitions": {
         "Destination": {
             "type": "object",

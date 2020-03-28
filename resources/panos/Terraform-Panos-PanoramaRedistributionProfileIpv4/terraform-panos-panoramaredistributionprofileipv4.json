@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaRedistributionProfileIpv4",
     "description": "This resource allows you to add/update/delete Panorama IPv4 redistribution\nprofiles on a virtual router.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaRedistributionProfileIpv4/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

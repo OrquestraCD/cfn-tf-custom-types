@@ -65,7 +65,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Vars
 
-Map of config vars that are output in plaintext.
+Map of config vars that can be output in plaintext.
 
 _Required_: No
 

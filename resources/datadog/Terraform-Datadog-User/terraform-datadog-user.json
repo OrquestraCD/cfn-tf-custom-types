@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::User",
     "description": "Provides a Datadog user resource. This can be used to create and manage Datadog users.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-User/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

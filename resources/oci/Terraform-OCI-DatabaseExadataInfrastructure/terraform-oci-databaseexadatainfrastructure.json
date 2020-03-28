@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseExadataInfrastructure",
     "description": "This resource provides the Exadata Infrastructure resource in Oracle Cloud Infrastructure Database service.\n\nCreate Exadata infrastructure.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseExadataInfrastructure/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

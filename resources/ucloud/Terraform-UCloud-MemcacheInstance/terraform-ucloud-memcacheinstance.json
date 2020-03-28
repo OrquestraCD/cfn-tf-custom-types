@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::MemcacheInstance",
     "description": "The UCloud Memcache instance is a key-value online storage service compatible with the Memcached protocol.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-MemcacheInstance/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

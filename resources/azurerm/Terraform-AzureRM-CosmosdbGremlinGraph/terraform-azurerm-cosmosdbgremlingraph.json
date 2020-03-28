@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::CosmosdbGremlinGraph",
     "description": "Manages a Gremlin Graph within a Cosmos DB Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-CosmosdbGremlinGraph/docs/README.md",
     "definitions": {
         "ConflictResolutionPolicy": {
             "type": "object",

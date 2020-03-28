@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::StoragegatewayWorkingStorage",
     "description": "Manages an AWS Storage Gateway working storage.\n\n~> **NOTE:** The Storage Gateway API provides no method to remove a working storage disk. Destroying this Terraform resource does not perform any Storage Gateway actions.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-StoragegatewayWorkingStorage/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

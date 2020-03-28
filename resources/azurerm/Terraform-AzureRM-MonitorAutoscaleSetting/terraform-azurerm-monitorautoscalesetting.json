@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::MonitorAutoscaleSetting",
     "description": "Manages a AutoScale Setting which can be applied to Virtual Machine Scale Sets, App Services and other scalable resources.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MonitorAutoscaleSetting/docs/README.md",
     "definitions": {
         "Notification": {
             "type": "object",

@@ -1,7 +1,8 @@
 {
     "typeName": "Terraform::AWS::ApiGatewayDeployment",
-    "description": "Provides an API Gateway REST Deployment.\n\n-> **Note:** Depends on having `aws_api_gateway_integration` inside your rest api (which in turn depends on `aws_api_gateway_method`). To avoid race conditions\nyou might need to add an explicit `depends_on = [\"aws_api_gateway_integration.name\"]`.",
+    "description": "Provides an API Gateway REST Deployment.\n\n-> **Note:** Depends on having `aws_api_gateway_integration` inside your rest api (which in turn depends on `aws_api_gateway_method`). To avoid race conditions\nyou might need to add an explicit `depends_on = [\"${aws_api_gateway_integration.name}\"]`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayDeployment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

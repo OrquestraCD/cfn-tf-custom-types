@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NetworkInterfaceBackendAddressPoolAssociation",
     "description": "Manages the association between a Network Interface and a Load Balancer's Backend Address Pool.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NetworkInterfaceBackendAddressPoolAssociation/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

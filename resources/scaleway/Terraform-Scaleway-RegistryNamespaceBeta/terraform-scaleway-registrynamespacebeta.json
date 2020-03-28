@@ -2,6 +2,7 @@
     "typeName": "Terraform::Scaleway::RegistryNamespaceBeta",
     "description": "Creates and manages Scaleway Container Registry. For more information see [the documentation](https://developers.scaleway.com/en/products/registry/api/).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/scaleway/Terraform-Scaleway-RegistryNamespaceBeta/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

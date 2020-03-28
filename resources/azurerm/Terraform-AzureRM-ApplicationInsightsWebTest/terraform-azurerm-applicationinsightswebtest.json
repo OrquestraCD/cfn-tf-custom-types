@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ApplicationInsightsWebTest",
     "description": "Manages an Application Insights WebTest.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ApplicationInsightsWebTest/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

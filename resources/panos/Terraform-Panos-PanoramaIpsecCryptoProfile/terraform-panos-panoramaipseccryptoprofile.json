@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaIpsecCryptoProfile",
     "description": "This resource allows you to add/update/delete Panorama IPSec crypto profiles\nfor both templates and template stacks.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaIpsecCryptoProfile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

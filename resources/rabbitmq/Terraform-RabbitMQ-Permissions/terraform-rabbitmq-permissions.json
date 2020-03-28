@@ -2,6 +2,7 @@
     "typeName": "Terraform::RabbitMQ::Permissions",
     "description": "The ``rabbitmq_permissions`` resource creates and manages a user's set of\npermissions.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rabbitmq/Terraform-RabbitMQ-Permissions/docs/README.md",
     "definitions": {
         "Permissions": {
             "type": "object",

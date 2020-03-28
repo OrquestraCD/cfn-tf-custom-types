@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::OktaAuthBackendGroup",
     "description": "Provides a resource to create a group in an\n[Okta auth backend within Vault](https://www.vaultproject.io/docs/auth/okta.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-OktaAuthBackendGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::SlbListener",
     "description": "Provides an Application Load Balancer Listener resource.\n\nFor information about slb and how to use it, see [What is Server Load Balancer](https://www.alibabacloud.com/help/doc-detail/27539.htm).\n\nFor information about listener and how to use it, to see the following:\n\n* [Configure a HTTP Listener](https://www.alibabacloud.com/help/doc-detail/27592.htm).\n* [Configure a HTTPS Listener](https://www.alibabacloud.com/help/doc-detail/27593.htm).\n* [Configure a TCP Listener](https://www.alibabacloud.com/help/doc-detail/27594.htm).\n* [Configure a UDP Listener](https://www.alibabacloud.com/help/doc-detail/27595.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-SlbListener/docs/README.md",
     "definitions": {
         "XForwardedFor": {
             "type": "object",

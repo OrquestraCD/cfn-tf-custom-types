@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::ImagesImageAccessV2",
     "description": "Manages members for the shared OpenStack Glance V2 Image within the source\nproject, which owns the Image.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-ImagesImageAccessV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::YundunBastionhostInstance",
     "description": "Cloud Bastionhost instance resource (\"Yundun_bastionhost\" is the short term of this product).\n\n-> **NOTE:** The endpoint of bssopenapi used only support \"business.aliyuncs.com\" at present.\n\n-> **NOTE:** Available in 1.63.0+ .\n\n-> **NOTE:** In order to destroy Cloud Bastionhost instance , users are required to apply for white list first",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-YundunBastionhostInstance/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

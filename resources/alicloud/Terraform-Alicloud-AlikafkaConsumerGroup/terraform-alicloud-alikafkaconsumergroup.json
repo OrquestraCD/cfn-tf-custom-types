@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::AlikafkaConsumerGroup",
     "description": "Provides an ALIKAFKA consumer group resource.\n\n-> **NOTE:** Available in 1.56.0+\n\n-> **NOTE:**  Only the following regions support create alikafka consumer group.\n[`cn-hangzhou`,`cn-beijing`,`cn-shenzhen`,`cn-shanghai`,`cn-qingdao`,`cn-hongkong`,`cn-huhehaote`,`cn-zhangjiakou`,`ap-southeast-1`,`ap-south-1`,`ap-southeast-5`]",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-AlikafkaConsumerGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

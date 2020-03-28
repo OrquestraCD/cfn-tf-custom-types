@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AppsyncResolver",
     "description": "Provides an AppSync Resolver.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AppsyncResolver/docs/README.md",
     "definitions": {
         "PipelineConfig": {
             "type": "object",

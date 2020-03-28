@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::RouteTable",
     "description": "Manages a Route Table",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-RouteTable/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DynamodbTable",
     "description": "Provides a DynamoDB table resource\n\n~> **Note:** It is recommended to use `lifecycle` [`ignore_changes`](/docs/configuration/resources.html#ignore_changes) for `read_capacity` and/or `write_capacity` if there's [autoscaling policy](/docs/providers/aws/r/appautoscaling_policy.html) attached to the table.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DynamodbTable/docs/README.md",
     "definitions": {
         "Attribute": {
             "type": "object",

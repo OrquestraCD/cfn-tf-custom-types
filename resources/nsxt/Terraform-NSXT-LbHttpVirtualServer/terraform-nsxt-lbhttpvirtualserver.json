@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::LbHttpVirtualServer",
     "description": "Provides a resource to configure lb http or https virtual server on NSX-T manager",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-LbHttpVirtualServer/docs/README.md",
     "definitions": {
         "ClientSsl": {
             "type": "object",

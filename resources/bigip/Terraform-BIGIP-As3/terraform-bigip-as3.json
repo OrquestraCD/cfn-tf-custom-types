@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::As3",
     "description": "`bigip_as3` provides details about bigip as3 resource\n\nThis resource is helpful to configure as3 declarative JSON on BIG-IP.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-As3/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

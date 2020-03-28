@@ -12,6 +12,9 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 {
     "Type" : "Terraform::Cloudflare::SpectrumApplication",
     "Properties" : {
+        "<a href="#argosmartrouting" title="ArgoSmartRouting">ArgoSmartRouting</a>" : <i>Boolean</i>,
+        "<a href="#edgeipconnectivity" title="EdgeIpConnectivity">EdgeIpConnectivity</a>" : <i>String</i>,
+        "<a href="#edgeips" title="EdgeIps">EdgeIps</a>" : <i>[ String, ... ]</i>,
         "<a href="#ipfirewall" title="IpFirewall">IpFirewall</a>" : <i>Boolean</i>,
         "<a href="#origindirect" title="OriginDirect">OriginDirect</a>" : <i>[ String, ... ]</i>,
         "<a href="#originport" title="OriginPort">OriginPort</a>" : <i>Double</i>,
@@ -31,6 +34,10 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 <pre>
 Type: Terraform::Cloudflare::SpectrumApplication
 Properties:
+    <a href="#argosmartrouting" title="ArgoSmartRouting">ArgoSmartRouting</a>: <i>Boolean</i>
+    <a href="#edgeipconnectivity" title="EdgeIpConnectivity">EdgeIpConnectivity</a>: <i>String</i>
+    <a href="#edgeips" title="EdgeIps">EdgeIps</a>: <i>
+      - String</i>
     <a href="#ipfirewall" title="IpFirewall">IpFirewall</a>: <i>Boolean</i>
     <a href="#origindirect" title="OriginDirect">OriginDirect</a>: <i>
       - String</i>
@@ -47,6 +54,36 @@ Properties:
 </pre>
 
 ## Properties
+
+#### ArgoSmartRouting
+
+. Enables Argo Smart Routing. Defaults to `false`.
+
+_Required_: No
+
+_Type_: Boolean
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### EdgeIpConnectivity
+
+. Choose which types of IP addresses will be provisioned for this subdomain. Valid values are: `all`, `ipv4`, `ipv6`. Defaults to `all`.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### EdgeIps
+
+. A list of edge IPs (IPv4 and/or IPv6) to configure Spectrum application to. Requires [Bring Your Own IP](https://developers.cloudflare.com/spectrum/getting-started/byoip/) provisioned.
+
+_Required_: No
+
+_Type_: List of String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### IpFirewall
 

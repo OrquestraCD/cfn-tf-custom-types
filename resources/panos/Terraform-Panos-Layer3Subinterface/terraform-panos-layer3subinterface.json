@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::Layer3Subinterface",
     "description": "This resource allows you to add/update/delete layer3 subinterfaces.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-Layer3Subinterface/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

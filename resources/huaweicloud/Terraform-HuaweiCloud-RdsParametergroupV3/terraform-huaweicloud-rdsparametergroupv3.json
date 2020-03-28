@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::RdsParametergroupV3",
     "description": "Manages a V3 RDS parametergroup resource within HuaweiCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-RdsParametergroupV3/docs/README.md",
     "definitions": {
         "Datastore": {
             "type": "object",

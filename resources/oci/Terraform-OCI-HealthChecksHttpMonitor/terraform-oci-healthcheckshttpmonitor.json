@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::HealthChecksHttpMonitor",
     "description": "This resource provides the Http Monitor resource in Oracle Cloud Infrastructure Health Checks service.\n\nCreates an HTTP monitor. Vantage points will be automatically selected if not specified,\nand probes will be initiated from each vantage point to each of the targets at the frequency\nspecified by `intervalInSeconds`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-HealthChecksHttpMonitor/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

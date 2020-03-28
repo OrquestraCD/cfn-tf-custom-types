@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::RdsClusterInstance",
     "description": "Provides an RDS Cluster Instance Resource. A Cluster Instance Resource defines\nattributes that are specific to a single instance in a [RDS Cluster][3],\nspecifically running Amazon Aurora.\n\nUnlike other RDS resources that support replication, with Amazon Aurora you do\nnot designate a primary and subsequent replicas. Instead, you simply add RDS\nInstances and Aurora manages the replication. You can use the [count][5]\nmeta-parameter to make multiple instances and join them all to the same RDS\nCluster, or you may specify different Cluster Instance resources with various\n`instance_class` sizes.\n\nFor more information on Amazon Aurora, see [Aurora on Amazon RDS][2] in the Amazon RDS User Guide.\n\n~> **NOTE:** Deletion Protection from the RDS service can only be enabled at the cluster level, not for individual cluster instances. You can still add the [`prevent_destroy` lifecycle behavior](https://www.terraform.io/docs/configuration/resources.html#prevent_destroy) to your Terraform resource configuration if you desire protection from accidental deletion.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-RdsClusterInstance/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

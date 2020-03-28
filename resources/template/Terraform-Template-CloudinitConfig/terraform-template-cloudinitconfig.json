@@ -2,6 +2,7 @@
     "typeName": "Terraform::Template::CloudinitConfig",
     "description": "CloudFormation equivalent of template_cloudinit_config",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/template/Terraform-Template-CloudinitConfig/docs/README.md",
     "definitions": {
         "Part": {
             "type": "object",

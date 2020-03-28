@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::KmsGrant",
     "description": "Provides a resource-based access control mechanism for a KMS customer master key.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-KmsGrant/docs/README.md",
     "definitions": {
         "Constraints": {
             "type": "object",

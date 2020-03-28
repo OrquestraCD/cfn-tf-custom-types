@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OpsworksHaproxyLayer",
     "description": "Provides an OpsWorks haproxy layer resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OpsworksHaproxyLayer/docs/README.md",
     "definitions": {
         "EbsVolume": {
             "type": "object",

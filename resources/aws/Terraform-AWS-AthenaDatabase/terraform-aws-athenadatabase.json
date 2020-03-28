@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AthenaDatabase",
     "description": "Provides an Athena database.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AthenaDatabase/docs/README.md",
     "definitions": {
         "EncryptionConfiguration": {
             "type": "object",

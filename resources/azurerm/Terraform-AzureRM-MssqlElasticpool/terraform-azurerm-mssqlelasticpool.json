@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::MssqlElasticpool",
     "description": "Allows you to manage an Azure SQL Elastic Pool via the `2017-10-01-preview` API which allows for `vCore` and `DTU` based configurations.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MssqlElasticpool/docs/README.md",
     "definitions": {
         "PerDatabaseSettings": {
             "type": "object",

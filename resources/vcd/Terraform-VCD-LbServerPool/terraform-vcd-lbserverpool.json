@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::LbServerPool",
     "description": "Provides a vCloud Director Edge Gateway Load Balancer Server Pool resource. A Server Pool can have a group of backend\nservers set (defined as pool members), manages load balancer distribution methods, and may have a service monitor\nattached to it for health check parameters.\n\n~> **Note:** To make load balancing work one must ensure that load balancing is enabled on edge gateway. This depends \non NSX version to work properly. Please refer to [VMware Product Interoperability Matrices](https://www.vmware.com/resources/compatibility/sim/interop_matrix.php#interop&29=&93=) \nto check supported vCloud director and NSX for vSphere configurations.\n\n~> **Note:** The vCloud Director API for NSX supports a subset of the operations and objects defined in the NSX vSphere \nAPI Guide. The API supports NSX 6.2, 6.3, and 6.4.\n\nSupported in provider *v2.4+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-LbServerPool/docs/README.md",
     "definitions": {
         "Member": {
             "type": "object",

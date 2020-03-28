@@ -2,6 +2,7 @@
     "typeName": "Terraform::Circonus::Maintenance",
     "description": "The ``circonus_maintenance`` resource creates and manages a\nsingle [maintenance window resource](https://login.circonus.com/resources/docs/user/Alerting/Maintenance.html)\nwhich can reference a check, ruleset, target or entire account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/circonus/Terraform-Circonus-Maintenance/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

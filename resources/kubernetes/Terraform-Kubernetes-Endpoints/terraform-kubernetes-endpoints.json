@@ -2,6 +2,7 @@
     "typeName": "Terraform::Kubernetes::Endpoints",
     "description": "An Endpoints resource is an abstraction, linked to a Service, which defines the list of endpoints that actually implement the service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/kubernetes/Terraform-Kubernetes-Endpoints/docs/README.md",
     "definitions": {
         "Metadata": {
             "type": "object",

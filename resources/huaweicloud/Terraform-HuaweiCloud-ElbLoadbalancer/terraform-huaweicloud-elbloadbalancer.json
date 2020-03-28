@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::ElbLoadbalancer",
     "description": "Manages an elastic loadbalancer resource within huawei cloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-ElbLoadbalancer/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

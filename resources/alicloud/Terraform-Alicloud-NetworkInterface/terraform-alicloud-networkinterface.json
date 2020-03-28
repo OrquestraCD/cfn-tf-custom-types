@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::NetworkInterface",
     "description": "Provides an ECS Elastic Network Interface resource.\n\nFor information about Elastic Network Interface and how to use it, see [Elastic Network Interface](https://www.alibabacloud.com/help/doc-detail/58496.html).\n\n-> **NOTE** Only one of private_ips or private_ips_count can be specified when assign private IPs.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-NetworkInterface/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::GroupLabel",
     "description": "This resource allows you to create and manage labels for your GitLab groups.\nFor further information on labels, consult the [gitlab\ndocumentation](https://docs.gitlab.com/ee/user/project/labels.html#group-labels).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-GroupLabel/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

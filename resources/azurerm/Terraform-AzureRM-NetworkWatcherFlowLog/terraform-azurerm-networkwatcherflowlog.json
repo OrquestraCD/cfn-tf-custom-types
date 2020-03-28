@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NetworkWatcherFlowLog",
     "description": "Manages a Network Watcher Flow Log.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NetworkWatcherFlowLog/docs/README.md",
     "definitions": {
         "RetentionPolicy": {
             "type": "object",

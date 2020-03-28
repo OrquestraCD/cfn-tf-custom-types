@@ -2,6 +2,7 @@
     "typeName": "Terraform::GitHub::Membership",
     "description": "Provides a GitHub membership resource.\n\nThis resource allows you to add/remove users from your organization. When applied,\nan invitation will be sent to the user to become part of the organization. When\ndestroyed, either the invitation will be cancelled or the user will be removed.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/github/Terraform-GitHub-Membership/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

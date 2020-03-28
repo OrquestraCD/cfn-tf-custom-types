@@ -2,6 +2,7 @@
     "typeName": "Terraform::NS1::Datafeed",
     "description": "Provides a NS1 Data Feed resource. This can be used to create, modify, and delete data feeds.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ns1/Terraform-NS1-Datafeed/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::OtsInstance",
     "description": "This resource will help you to manager a [Table Store](https://www.alibabacloud.com/help/doc-detail/27280.htm) Instance.\nIt is foundation of creating data table.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-OtsInstance/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

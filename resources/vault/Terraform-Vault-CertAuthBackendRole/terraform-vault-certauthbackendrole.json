@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::CertAuthBackendRole",
     "description": "Provides a resource to create a role in an [Cert auth backend within Vault](https://www.vaultproject.io/docs/auth/cert.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-CertAuthBackendRole/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

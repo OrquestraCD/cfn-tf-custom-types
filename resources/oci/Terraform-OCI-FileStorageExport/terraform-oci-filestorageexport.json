@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::FileStorageExport",
     "description": "This resource provides the Export resource in Oracle Cloud Infrastructure File Storage service.\n\nCreates a new export in the specified export set, path, and\nfile system.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-FileStorageExport/docs/README.md",
     "definitions": {
         "ExportOptions": {
             "type": "object",

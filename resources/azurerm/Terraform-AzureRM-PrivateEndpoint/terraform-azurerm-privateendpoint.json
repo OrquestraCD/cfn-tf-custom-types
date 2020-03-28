@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PrivateEndpoint",
     "description": "Manages a Private Endpoint.\n\n-> **NOTE** Private Endpoint is currently in Public Preview.\n\nAzure Private Endpoint is a network interface that connects you privately and securely to a service powered by Azure Private Link. Private Endpoint uses a private IP address from your VNet, effectively bringing the service into your VNet. The service could be an Azure service such as Azure Storage, SQL, etc. or your own Private Link Service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PrivateEndpoint/docs/README.md",
     "definitions": {
         "PrivateServiceConnection": {
             "type": "object",

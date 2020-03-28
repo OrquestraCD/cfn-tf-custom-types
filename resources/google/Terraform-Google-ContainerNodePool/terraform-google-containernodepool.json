@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ContainerNodePool",
     "description": "Manages a node pool in a Google Kubernetes Engine (GKE) cluster separately from\nthe cluster control plane. For more information see [the official documentation](https://cloud.google.com/container-engine/docs/node-pools)\nand [the API reference](https://cloud.google.com/container-engine/reference/rest/v1/projects.zones.clusters.nodePools).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ContainerNodePool/docs/README.md",
     "definitions": {
         "Autoscaling": {
             "type": "object",

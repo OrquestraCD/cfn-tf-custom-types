@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreDefaultRouteTable",
     "description": "CloudFormation equivalent of oci_core_default_route_table",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreDefaultRouteTable/docs/README.md",
     "definitions": {
         "RouteRules": {
             "type": "object",

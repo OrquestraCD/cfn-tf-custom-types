@@ -2,6 +2,7 @@
     "typeName": "Terraform::Local::File",
     "description": "Generates a local file with the given content.\n\n~> **Note** When working with local files, Terraform will detect the resource\nas having been deleted each time a configuration is applied on a new machine\nwhere the file is not present and will generate a diff to re-create it. This\nmay cause \"noise\" in diffs in environments where configurations are routinely\napplied by many different users or within automation systems.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/local/Terraform-Local-File/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::NewRelic::AlertChannel",
     "description": "Use this resource to create and manage New Relic alert policies.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/newrelic/Terraform-NewRelic-AlertChannel/docs/README.md",
     "definitions": {
         "Config": {
             "type": "object",

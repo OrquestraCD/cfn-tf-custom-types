@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::DnsRecord",
     "description": "Provides a DNS Record resource.\n\n-> **NOTE:** When the site is an international site, the `type` neither supports `REDIRECT_URL` nor `REDIRECT_URL`",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-DnsRecord/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

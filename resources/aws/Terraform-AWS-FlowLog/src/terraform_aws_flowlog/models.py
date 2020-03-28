@@ -43,6 +43,7 @@ class ResourceModel(BaseResourceModel):
     LogDestinationType: Optional[str]
     LogFormat: Optional[str]
     LogGroupName: Optional[str]
+    MaxAggregationInterval: Optional[float]
     SubnetId: Optional[str]
     Tags: Optional[Sequence["_Tags"]]
     TrafficType: Optional[str]
@@ -64,6 +65,7 @@ class ResourceModel(BaseResourceModel):
             LogDestinationType=json_data.get("LogDestinationType"),
             LogFormat=json_data.get("LogFormat"),
             LogGroupName=json_data.get("LogGroupName"),
+            MaxAggregationInterval=json_data.get("MaxAggregationInterval"),
             SubnetId=json_data.get("SubnetId"),
             Tags=json_data.get("Tags"),
             TrafficType=json_data.get("TrafficType"),

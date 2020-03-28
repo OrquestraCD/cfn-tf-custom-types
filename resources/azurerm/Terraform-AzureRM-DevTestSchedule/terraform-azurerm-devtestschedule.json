@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DevTestSchedule",
     "description": "Manages automated startup and shutdown schedules for Azure Dev Test Lab.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DevTestSchedule/docs/README.md",
     "definitions": {
         "DailyRecurrence": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::IothubDpsSharedAccessPolicy",
     "description": "Manages an IotHub Device Provisioning Service Shared Access Policy",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-IothubDpsSharedAccessPolicy/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

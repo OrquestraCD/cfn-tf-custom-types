@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StreamAnalyticsStreamInputIothub",
     "description": "Manages a Stream Analytics Stream Input IoTHub.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StreamAnalyticsStreamInputIothub/docs/README.md",
     "definitions": {
         "Serialization": {
             "type": "object",

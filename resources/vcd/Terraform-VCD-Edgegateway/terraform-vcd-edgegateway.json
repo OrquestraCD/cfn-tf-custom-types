@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::Edgegateway",
     "description": "Provides a vCloud Director edge gateway directly connected to one or more external networks. This can be used to create\nand delete edge gateways for Org VDC networks to connect.\n\nSupported in provider *v2.4+*\n\n~> **Note:** Only `System Administrator` can create an edge gateway.\nYou must use `System Adminstrator` account in `provider` configuration\nand then provide `org` and `vdc` arguments for edge gateway to work.\n\n~> **Note:** Load balancing capabilities will work only when edge gateway is `advanced`. Load\nbalancing settings will be **ignored** when it is not. Refer to [official vCloud Director documentation]\n(https://docs.vmware.com/en/vCloud-Director/9.7/com.vmware.vcloud.tenantportal.doc/GUID-7E082E77-B459-4CE7-806D-2769F7CB5624.html) \nfor more information.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-Edgegateway/docs/README.md",
     "definitions": {
         "ExternalNetwork": {
             "type": "object",

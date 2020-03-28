@@ -2,6 +2,7 @@
     "typeName": "Terraform::Brightbox::Cloudip",
     "description": "Provides a Brightbox CloudIP resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/brightbox/Terraform-Brightbox-Cloudip/docs/README.md",
     "definitions": {
         "PortTranslator": {
             "type": "object",

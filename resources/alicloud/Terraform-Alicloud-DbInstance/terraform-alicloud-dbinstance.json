@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::DbInstance",
     "description": "Provides an RDS instance resource. A DB instance is an isolated database\nenvironment in the cloud. A DB instance can contain multiple user-created\ndatabases.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-DbInstance/docs/README.md",
     "definitions": {
         "Parameters": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DlmLifecyclePolicy",
     "description": "Provides a [Data Lifecycle Manager (DLM) lifecycle policy](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html) for managing snapshots.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DlmLifecyclePolicy/docs/README.md",
     "definitions": {
         "PolicyDetails": {
             "type": "object",

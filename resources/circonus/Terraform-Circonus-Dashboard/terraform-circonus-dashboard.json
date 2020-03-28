@@ -2,6 +2,7 @@
     "typeName": "Terraform::Circonus::Dashboard",
     "description": "The ``circonus_dashboard`` resource creates and manages a\n[Circonus Dashboard](https://login.circonus.com/resources/docs/user/Dashboards.html).\n\nhttps://login.circonus.com/resources/api/calls/dashboard.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/circonus/Terraform-Circonus-Dashboard/docs/README.md",
     "definitions": {
         "Options": {
             "type": "object",

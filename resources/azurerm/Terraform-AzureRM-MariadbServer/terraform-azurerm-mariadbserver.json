@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::MariadbServer",
     "description": "Manages a MariaDB Server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MariadbServer/docs/README.md",
     "definitions": {
         "StorageProfile": {
             "type": "object",

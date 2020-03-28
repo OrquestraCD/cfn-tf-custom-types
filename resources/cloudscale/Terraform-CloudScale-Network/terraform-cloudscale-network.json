@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudScale::Network",
     "description": "Provides a cloudscale.ch Private Network resource. This can be used to create, modify, and delete networks.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudscale/Terraform-CloudScale-Network/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

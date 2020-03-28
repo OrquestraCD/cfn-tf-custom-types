@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::Vnic",
     "description": "Provides a VMware vSphere vnic resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-Vnic/docs/README.md",
     "definitions": {
         "Ipv4": {
             "type": "object",

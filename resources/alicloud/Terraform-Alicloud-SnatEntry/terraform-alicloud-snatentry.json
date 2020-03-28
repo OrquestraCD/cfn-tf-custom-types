@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::SnatEntry",
     "description": "CloudFormation equivalent of alicloud_snat_entry",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-SnatEntry/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

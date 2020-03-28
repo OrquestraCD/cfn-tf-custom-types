@@ -2,6 +2,7 @@
     "typeName": "Terraform::Heroku::Addon",
     "description": "Provides a Heroku Add-On resource. These can be attach\nservices to a Heroku app.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/heroku/Terraform-Heroku-Addon/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

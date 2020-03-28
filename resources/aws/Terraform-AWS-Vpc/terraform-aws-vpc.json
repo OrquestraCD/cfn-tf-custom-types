@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Vpc",
     "description": "Provides a VPC resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Vpc/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

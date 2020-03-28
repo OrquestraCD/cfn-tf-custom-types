@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureAD::GroupMember",
     "description": "Manages a single Group Membership within Azure Active Directory.\n\n-> **NOTE:** Do not use this resource at the same time as `azuread_group.members`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azuread/Terraform-AzureAD-GroupMember/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

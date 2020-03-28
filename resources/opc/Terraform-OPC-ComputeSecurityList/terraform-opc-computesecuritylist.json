@@ -2,6 +2,7 @@
     "typeName": "Terraform::OPC::ComputeSecurityList",
     "description": "The ``opc_compute_security_list`` resource creates and manages a security list in an Oracle Cloud Infrastructure Compute Classic identity domain.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opc/Terraform-OPC-ComputeSecurityList/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

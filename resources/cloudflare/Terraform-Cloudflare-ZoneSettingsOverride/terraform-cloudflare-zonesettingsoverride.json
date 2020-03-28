@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::ZoneSettingsOverride",
     "description": "Provides a resource which customizes Cloudflare zone settings. Note that after destroying this resource Zone Settings will be reset to their initial values.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-ZoneSettingsOverride/docs/README.md",
     "definitions": {
         "Settings": {
             "type": "object",

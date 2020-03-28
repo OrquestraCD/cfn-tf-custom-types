@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::EfsFileSystem",
     "description": "Provides an Elastic File System (EFS) resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EfsFileSystem/docs/README.md",
     "definitions": {
         "LifecyclePolicy": {
             "type": "object",

@@ -38,6 +38,7 @@ class ResourceModel(BaseResourceModel):
     tfcfnid: Optional[str]
     Arn: Optional[str]
     Description: Optional[str]
+    ForceDestroy: Optional[bool]
     Id: Optional[str]
     Name: Optional[str]
     State: Optional[str]
@@ -57,6 +58,7 @@ class ResourceModel(BaseResourceModel):
             tfcfnid=json_data.get("tfcfnid"),
             Arn=json_data.get("Arn"),
             Description=json_data.get("Description"),
+            ForceDestroy=json_data.get("ForceDestroy"),
             Id=json_data.get("Id"),
             Name=json_data.get("Name"),
             State=json_data.get("State"),

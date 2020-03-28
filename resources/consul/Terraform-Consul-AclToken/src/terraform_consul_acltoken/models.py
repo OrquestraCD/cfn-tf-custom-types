@@ -40,7 +40,9 @@ class ResourceModel(BaseResourceModel):
     Description: Optional[str]
     Id: Optional[str]
     Local: Optional[bool]
+    Namespace: Optional[str]
     Policies: Optional[Sequence[str]]
+    Roles: Optional[Sequence[str]]
 
     @classmethod
     def _deserialize(
@@ -55,7 +57,9 @@ class ResourceModel(BaseResourceModel):
             Description=json_data.get("Description"),
             Id=json_data.get("Id"),
             Local=json_data.get("Local"),
+            Namespace=json_data.get("Namespace"),
             Policies=json_data.get("Policies"),
+            Roles=json_data.get("Roles"),
         )
 
 

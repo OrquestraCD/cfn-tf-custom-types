@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayAccount",
     "description": "Provides a settings of an API Gateway Account. Settings is applied region-wide per `provider` block.\n\n-> **Note:** As there is no API method for deleting account settings or resetting it to defaults, destroying this resource will keep your account settings intact",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayAccount/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

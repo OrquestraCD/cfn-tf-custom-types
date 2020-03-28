@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::MrsClusterV1",
     "description": "Manages resource cluster within HuaweiCloud MRS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-MrsClusterV1/docs/README.md",
     "definitions": {
         "AddJobs": {
             "type": "object",

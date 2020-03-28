@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::Disk",
     "description": "Provides a ECS disk resource.\n\n-> **NOTE:** One of `size` or `snapshot_id` is required when specifying an ECS disk. If all of them be specified, `size` must more than the size of snapshot which `snapshot_id` represents. Currently, `alicloud_disk` doesn't resize disk.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-Disk/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

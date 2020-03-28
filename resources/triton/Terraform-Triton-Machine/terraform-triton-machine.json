@@ -2,6 +2,7 @@
     "typeName": "Terraform::Triton::Machine",
     "description": "The `triton_machine` resource represents a virtual machine or infrastructure container running in Triton.\n\n~> **Note:** Starting with Triton 0.2.0, Please note that when you want to specify the networks that you want the machine to be attached to, use the `networks` parameter\nand not the `nic` parameter.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/triton/Terraform-Triton-Machine/docs/README.md",
     "definitions": {
         "Cns": {
             "type": "object",

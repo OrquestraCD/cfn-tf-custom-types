@@ -1,6 +1,6 @@
 # Terraform::TencentCloud::CamUser
 
-Provides a resource to create a CAM user.
+Provides a resource to manage CAM user.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ Properties:
 
 #### ConsoleLogin
 
-Indicate whether the CAM user can login or not.
+Indicate whether the CAM user can login to the web console or not.
 
 _Required_: No
 
@@ -55,7 +55,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### CountryCode
 
-Country code of the phone num, like '86'.
+Country code of the phone number, for example: '86'.
 
 _Required_: No
 
@@ -75,7 +75,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Name
 
-Name of CAM user.
+Name of the CAM user.
 
 _Required_: Yes
 
@@ -85,7 +85,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### NeedResetPassword
 
-Indicate whether the CAM user will reset the password the next time he/her logs in.
+Indicate whether the CAM user need to reset the password when first logins.
 
 _Required_: No
 
@@ -95,7 +95,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Password
 
-The password of the CAM user. The password should be set with 8 characters or more and contains uppercase small letters, numbers, and special characters. Only valid when console_login set true. If not set and the value of console_login is true, a random password is automatically generated.
+The password of the CAM user. Password should be at least 8 characters and no more than 32 characters, includes uppercase letters, lowercase letters, numbers and special characters. Only required when `console_login` is true. If not set, a random password will be automatically generated.
 
 _Required_: No
 
@@ -105,7 +105,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### PhoneNum
 
-Phone num of the CAM user.
+Phone number of the CAM user.
 
 _Required_: No
 
@@ -125,7 +125,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### UseApi
 
-Indicate whether to generate a secret key or not.
+Indicate whether to generate the API secret key or not.
 
 _Required_: No
 

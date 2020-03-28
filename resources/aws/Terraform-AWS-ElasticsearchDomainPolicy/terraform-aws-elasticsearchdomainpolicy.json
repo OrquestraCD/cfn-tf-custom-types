@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ElasticsearchDomainPolicy",
     "description": "Allows setting policy to an Elasticsearch domain while referencing domain attributes (e.g. ARN)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ElasticsearchDomainPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

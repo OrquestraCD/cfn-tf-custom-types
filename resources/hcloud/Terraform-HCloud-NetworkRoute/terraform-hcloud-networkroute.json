@@ -2,6 +2,7 @@
     "typeName": "Terraform::HCloud::NetworkRoute",
     "description": "Provides a Hetzner Cloud Network Route to represent a Network route in the Hetzner Cloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/hcloud/Terraform-HCloud-NetworkRoute/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

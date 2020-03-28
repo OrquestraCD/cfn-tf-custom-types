@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreVolumeBackupPolicy",
     "description": "This resource provides the Volume Backup Policy resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new user defined backup policy.\n\nFor more information about Oracle defined backup policies and user defined backup policies,\nsee [Policy-Based Backups](https://docs.cloud.oracle.com/iaas/Content/Block/Tasks/schedulingvolumebackups.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreVolumeBackupPolicy/docs/README.md",
     "definitions": {
         "Schedules": {
             "type": "object",

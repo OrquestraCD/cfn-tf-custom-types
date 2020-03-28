@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::VirtualNetworkPeering",
     "description": "Manages a virtual network peering which allows resources to access other\nresources in the linked virtual network.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-VirtualNetworkPeering/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

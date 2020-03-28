@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ProjectIamPolicy",
     "description": "CloudFormation equivalent of google_project_iam_policy",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ProjectIamPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

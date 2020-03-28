@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatacatalogDataAsset",
     "description": "This resource provides the Data Asset resource in Oracle Cloud Infrastructure Data Catalog service.\n\nCreate a new data asset.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatacatalogDataAsset/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

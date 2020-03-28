@@ -2,6 +2,7 @@
     "typeName": "Terraform::RabbitMQ::Binding",
     "description": "The ``rabbitmq_binding`` resource creates and manages a binding relationship\nbetween a queue an exchange.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rabbitmq/Terraform-RabbitMQ-Binding/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

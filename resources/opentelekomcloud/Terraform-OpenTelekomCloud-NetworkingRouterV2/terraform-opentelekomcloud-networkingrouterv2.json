@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::NetworkingRouterV2",
     "description": "Manages a V2 router resource within OpenTelekomCloud. The router is the top-level resource for the VPC within OpenTelekomCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-NetworkingRouterV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafregionalWebAclAssociation",
     "description": "Manages an association with WAF Regional Web ACL.\n\n-> **Note:** An Application Load Balancer can only be associated with one WAF Regional WebACL.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafregionalWebAclAssociation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::MultaiBalancer",
     "description": "Provides a Spotinst Multai Balancer.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-MultaiBalancer/docs/README.md",
     "definitions": {
         "ConnectionTimeouts": {
             "type": "object",

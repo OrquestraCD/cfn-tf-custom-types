@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::VpnConnection",
     "description": "Provides a VPN connection resource.\n\n-> **NOTE:** Terraform will auto build vpn connection while it uses `alicloud_vpn_connection` to build a vpn connection resource.\n             The vpn connection depends on VPN and VPN customer gateway.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-VpnConnection/docs/README.md",
     "definitions": {
         "IkeConfig": {
             "type": "object",

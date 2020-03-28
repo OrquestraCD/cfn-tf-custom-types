@@ -6,7 +6,7 @@ To configure this resource, you must create an AWS Secrets Manager secret with t
 
 * `api_key` - (Required) Datadog API key.
 * `app_key` - (Required) Datadog APP key.
-* `api_url` - (Optional) The API Url. Note that this URL must not end with the `/api/` path. For example, `https://api.datadoghq.com/` is a correct value, while `https://api.datadoghq.com/api/` is not.
+* `api_url` - (Optional) The API Url. Note that this URL must not end with the `/api/` path. For example, `https://api.datadoghq.com/` is a correct value, while `https://api.datadoghq.com/api/` is not. And if you're working with  "EU" version of Datadog, use `https://api.datadoghq.eu/`.
 
 
 ## Supported Resources

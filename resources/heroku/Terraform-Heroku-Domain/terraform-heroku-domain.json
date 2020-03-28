@@ -2,6 +2,7 @@
     "typeName": "Terraform::Heroku::Domain",
     "description": "Provides a Heroku Domain resource. This can be used to\ncreate and manage custom domains on Heroku.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/heroku/Terraform-Heroku-Domain/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

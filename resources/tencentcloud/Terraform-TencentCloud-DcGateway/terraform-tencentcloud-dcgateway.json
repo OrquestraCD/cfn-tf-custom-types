@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::DcGateway",
     "description": "Provides a resource to creating direct connect gateway instance.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-DcGateway/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Kubernetes::ClusterRole",
     "description": "A ClusterRole creates a role at the cluster level and in all namespaces.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/kubernetes/Terraform-Kubernetes-ClusterRole/docs/README.md",
     "definitions": {
         "Metadata": {
             "type": "object",

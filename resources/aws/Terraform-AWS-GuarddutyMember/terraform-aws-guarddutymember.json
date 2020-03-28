@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GuarddutyMember",
     "description": "Provides a resource to manage a GuardDuty member. To accept invitations in member accounts, see the [`aws_guardduty_invite_accepter` resource](/docs/providers/aws/r/guardduty_invite_accepter.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GuarddutyMember/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

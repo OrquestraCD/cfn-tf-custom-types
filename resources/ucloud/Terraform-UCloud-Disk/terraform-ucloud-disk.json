@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::Disk",
     "description": "Provides a Cloud Disk resource.\n\n~> **Note** If the disk have attached to the instance, the instance will reboot automatically to make the change take effect when update the  `disk_size`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-Disk/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

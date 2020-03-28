@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::StorageBucket",
     "description": "Creates a new bucket in Google cloud storage service (GCS).\nOnce a bucket has been created, its location can't be changed.\n[ACLs](https://cloud.google.com/storage/docs/access-control/lists) can be applied\nusing the [`google_storage_bucket_acl`](/docs/providers/google/r/storage_bucket_acl.html) resource.\n\nFor more information see\n[the official documentation](https://cloud.google.com/storage/docs/overview)\nand\n[API](https://cloud.google.com/storage/docs/json_api/v1/buckets).\n\n**Note**: If the project id is not set on the resource or in the provider block it will be dynamically\ndetermined which will require enabling the compute api.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-StorageBucket/docs/README.md",
     "definitions": {
         "Cors": {
             "type": "object",

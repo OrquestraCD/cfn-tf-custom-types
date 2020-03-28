@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::OsmanagementManagedInstanceGroup",
     "description": "This resource provides the Managed Instance Group resource in Oracle Cloud Infrastructure Osmanagement service.\n\nCreates a new Managed Instance Group on the management system.\nThis will not contain any managed instances after it is first created,\nand they must be added later.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-OsmanagementManagedInstanceGroup/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

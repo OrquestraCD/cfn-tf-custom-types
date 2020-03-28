@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StorageQueue",
     "description": "Manages a Queue within an Azure Storage Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StorageQueue/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

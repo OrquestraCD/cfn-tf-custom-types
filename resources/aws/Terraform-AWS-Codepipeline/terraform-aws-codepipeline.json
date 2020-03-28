@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Codepipeline",
     "description": "Provides a CodePipeline.\n\n~> **NOTE on `aws_codepipeline`:** - the `GITHUB_TOKEN` environment variable must be set if the GitHub provider is specified.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Codepipeline/docs/README.md",
     "definitions": {
         "ArtifactStore": {
             "type": "object",

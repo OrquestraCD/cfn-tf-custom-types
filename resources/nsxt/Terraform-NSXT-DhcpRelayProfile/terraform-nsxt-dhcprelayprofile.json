@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::DhcpRelayProfile",
     "description": "This resource can be used to configure a NSX DHCP relay profile on the NSX manager.\nA DHCP relay profile is a type of template that can be used to define a remote DHCP server\nwhere DHCP packets can be relayed for DHCP requests of machines attached to NSX logical topologies.\nThe DHCP relay profile can be used in a DHCP relay service and later consumed by a router\ndownlink port.\nCurrently the DHCP relay is not supported for logical routers link ports on Tier0 or Tier1.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-DhcpRelayProfile/docs/README.md",
     "definitions": {
         "Tag": {
             "type": "object",

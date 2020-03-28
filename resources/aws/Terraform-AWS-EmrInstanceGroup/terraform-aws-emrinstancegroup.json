@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::EmrInstanceGroup",
     "description": "Provides an Elastic MapReduce Cluster Instance Group configuration.\nSee [Amazon Elastic MapReduce Documentation](https://aws.amazon.com/documentation/emr/) for more information.\n\n~> **NOTE:** At this time, Instance Groups cannot be destroyed through the API nor\nweb interface. Instance Groups are destroyed when the EMR Cluster is destroyed.\nTerraform will resize any Instance Group to zero when destroying the resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EmrInstanceGroup/docs/README.md",
     "definitions": {
         "EbsConfig": {
             "type": "object",

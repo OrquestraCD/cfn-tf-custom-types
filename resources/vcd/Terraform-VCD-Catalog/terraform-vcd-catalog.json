@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::Catalog",
     "description": "Provides a vCloud Director catalog resource. This can be used to create and delete a catalog.\n\nSupported in provider *v2.0+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-Catalog/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

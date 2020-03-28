@@ -2,6 +2,7 @@
     "typeName": "Terraform::Triton::Key",
     "description": "The `triton_key` resource represents an SSH key for a Triton account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/triton/Terraform-Triton-Key/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

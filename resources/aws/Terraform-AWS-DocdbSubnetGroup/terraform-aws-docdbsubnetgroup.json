@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DocdbSubnetGroup",
     "description": "Provides an DocumentDB subnet group resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DocdbSubnetGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

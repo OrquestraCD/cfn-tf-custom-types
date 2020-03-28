@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::StorageNotification",
     "description": "Creates a new notification configuration on a specified bucket, establishing a flow of event notifications from GCS to a Cloud Pub/Sub topic.\n For more information see \n[the official documentation](https://cloud.google.com/storage/docs/pubsub-notifications) \nand \n[API](https://cloud.google.com/storage/docs/json_api/v1/notifications).\n\nIn order to enable notifications, a special Google Cloud Storage service account unique to the project\nmust have the IAM permission \"projects.topics.publish\" for a Cloud Pub/Sub topic in the project. To get the service\naccount's email address, use the `google_storage_project_service_account` datasource's `email_address` value, and see below\nfor an example of enabling notifications by granting the correct IAM permission. See\n[the notifications documentation](https://cloud.google.com/storage/docs/gsutil/commands/notification) for more details.\n\n>**NOTE**: This resource can affect your storage IAM policy. If you are using this in the same config as your storage IAM policy resources, consider\nmaking this resource dependent on those IAM resources via `depends_on`. This will safeguard against errors due to IAM race conditions.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-StorageNotification/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

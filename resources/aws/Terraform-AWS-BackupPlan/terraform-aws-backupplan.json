@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::BackupPlan",
     "description": "Provides an AWS Backup plan resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-BackupPlan/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

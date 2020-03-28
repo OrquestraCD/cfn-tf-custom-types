@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::RoleDefinition",
     "description": "Manages a custom Role Definition, used to assign Roles to Users/Principals. See ['Understand role definitions'](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-definitions) in the Azure documentation for more details.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-RoleDefinition/docs/README.md",
     "definitions": {
         "Permissions": {
             "type": "object",

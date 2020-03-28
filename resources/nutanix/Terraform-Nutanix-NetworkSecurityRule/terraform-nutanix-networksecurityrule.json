@@ -2,6 +2,7 @@
     "typeName": "Terraform::Nutanix::NetworkSecurityRule",
     "description": "Provides a Nutanix network security rule resource to Create a network security rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nutanix/Terraform-Nutanix-NetworkSecurityRule/docs/README.md",
     "definitions": {
         "AppRuleInboundAllowList": {
             "type": "object",

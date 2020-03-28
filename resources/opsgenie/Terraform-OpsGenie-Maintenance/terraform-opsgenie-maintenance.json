@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpsGenie::Maintenance",
     "description": "Manages a Maintenance within Opsgenie.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opsgenie/Terraform-OpsGenie-Maintenance/docs/README.md",
     "definitions": {
         "Rules": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::NS1::User",
     "description": "Provides a NS1 User resource. Creating a user sends an invitation email to the\nuser's email address. This can be used to create, modify, and delete users.\nThe credentials used must have the `manage_users` permission set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ns1/Terraform-NS1-User/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

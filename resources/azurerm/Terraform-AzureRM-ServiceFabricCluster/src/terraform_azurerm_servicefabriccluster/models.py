@@ -51,6 +51,7 @@ class ResourceModel(BaseResourceModel):
     AzureActiveDirectory: Optional[Sequence["_AzureActiveDirectory"]]
     Certificate: Optional[Sequence["_Certificate"]]
     CertificateCommonNames: Optional[Sequence["_CertificateCommonNames"]]
+    ClientCertificateCommonName: Optional[Sequence["_ClientCertificateCommonName"]]
     ClientCertificateThumbprint: Optional[Sequence["_ClientCertificateThumbprint"]]
     DiagnosticsConfig: Optional[Sequence["_DiagnosticsConfig"]]
     FabricSettings: Optional[Sequence["_FabricSettings"]]
@@ -85,6 +86,7 @@ class ResourceModel(BaseResourceModel):
             AzureActiveDirectory=json_data.get("AzureActiveDirectory"),
             Certificate=json_data.get("Certificate"),
             CertificateCommonNames=json_data.get("CertificateCommonNames"),
+            ClientCertificateCommonName=json_data.get("ClientCertificateCommonName"),
             ClientCertificateThumbprint=json_data.get("ClientCertificateThumbprint"),
             DiagnosticsConfig=json_data.get("DiagnosticsConfig"),
             FabricSettings=json_data.get("FabricSettings"),
@@ -213,6 +215,30 @@ class CommonNames:
 
 # work around possible type aliasing issues when variable has same name as a model
 _CommonNames = CommonNames
+
+
+@dataclass
+class ClientCertificateCommonName:
+    CommonName: Optional[str]
+    IsAdmin: Optional[bool]
+    IssuerThumbprint: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_ClientCertificateCommonName"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_ClientCertificateCommonName"]:
+        if not json_data:
+            return None
+        return cls(
+            CommonName=json_data.get("CommonName"),
+            IsAdmin=json_data.get("IsAdmin"),
+            IssuerThumbprint=json_data.get("IssuerThumbprint"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_ClientCertificateCommonName = ClientCertificateCommonName
 
 
 @dataclass

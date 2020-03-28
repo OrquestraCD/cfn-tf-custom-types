@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Elb",
     "description": "Provides an Elastic Load Balancer resource, also known as a \"Classic\nLoad Balancer\" after the release of\n[Application/Network Load Balancers](/docs/providers/aws/r/lb.html).\n\n~> **NOTE on ELB Instances and ELB Attachments:** Terraform currently\nprovides both a standalone [ELB Attachment resource](elb_attachment.html)\n(describing an instance attached to an ELB), and an ELB resource with\n`instances` defined in-line. At this time you cannot use an ELB with in-line\ninstances in conjunction with a ELB Attachment resources. Doing so will cause a\nconflict and will overwrite attachments.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Elb/docs/README.md",
     "definitions": {
         "AccessLogs": {
             "type": "object",

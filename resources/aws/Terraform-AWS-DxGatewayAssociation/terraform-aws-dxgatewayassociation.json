@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DxGatewayAssociation",
     "description": "Associates a Direct Connect Gateway with a VGW or transit gateway.\n\nTo create a cross-account association, create an [`aws_dx_gateway_association_proposal` resource](/docs/providers/aws/r/dx_gateway_association_proposal.html)\nin the AWS account that owns the VGW or transit gateway and then accept the proposal in the AWS account that owns the Direct Connect Gateway\nby creating an `aws_dx_gateway_association` resource with the `proposal_id` and `associated_gateway_owner_account_id` attributes set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DxGatewayAssociation/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

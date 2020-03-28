@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::Telemetry",
     "description": "This resource allows you to add/update/delete telemetry sharing.\n\nJoin other Palo Alto Networks customers in a global sharing community, helping\nto raise the bar against the latest attack techniques. Your participation\nallows us to deliver new threat prevention controls across the attack\nlifecycle. Choose the type of data you share across applications, threat\nintelligence, and device health information to improve the fidelity of the\nprotections we deliver. This is an opt-in feature controlled with granular\npolicy, and we encourage you to join the community.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-Telemetry/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

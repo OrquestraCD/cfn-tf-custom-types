@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DnsSteeringPolicy",
     "description": "This resource provides the Steering Policy resource in Oracle Cloud Infrastructure Dns service.\n\nCreates a new steering policy in the specified compartment. For more information on\ncreating policies with templates, see [Traffic Management API Guide](https://docs.cloud.oracle.com/iaas/Content/TrafficManagement/Concepts/trafficmanagementapi.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DnsSteeringPolicy/docs/README.md",
     "definitions": {
         "Answers": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::ComputeFloatingipV2",
     "description": "Manages a V2 floating IP resource within OpenStack Nova (compute)\nthat can be used for compute instances.\n\nPlease note that managing floating IPs through the OpenStack Compute API has\nbeen deprecated. Unless you are using an older OpenStack environment, it is\nrecommended to use the [`openstack_networking_floatingip_v2`](networking_floatingip_v2.html)\nresource instead, which uses the OpenStack Networking API.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-ComputeFloatingipV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

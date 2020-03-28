@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::KubernetesClusterNodePool",
     "description": "Manages a Node Pool within a Kubernetes Cluster\n\n~> **NOTE:** Multiple Node Pools are only supported when the Kubernetes Cluster is using Virtual Machine Scale Sets.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-KubernetesClusterNodePool/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

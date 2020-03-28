@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::CmsAlarm",
     "description": "This resource provides a alarm rule resource and it can be used to monitor several cloud services according different metrics.\nDetails for [alarm rule](https://www.alibabacloud.com/help/doc-detail/28608.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-CmsAlarm/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

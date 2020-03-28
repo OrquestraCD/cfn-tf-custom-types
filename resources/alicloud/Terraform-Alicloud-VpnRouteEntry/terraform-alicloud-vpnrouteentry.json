@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::VpnRouteEntry",
     "description": "Provides a VPN Route Entry resource.\n\n-> **NOTE:** Terraform will build vpn route entry instance while it uses `alicloud_vpn_route_entry` to build a VPN Route Entry resource.\n\n-> **NOTE:** Available in 1.57.0+.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-VpnRouteEntry/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

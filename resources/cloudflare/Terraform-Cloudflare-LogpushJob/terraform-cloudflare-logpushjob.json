@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::LogpushJob",
     "description": "Provides a resource which manages Cloudflare logpush jobs.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-LogpushJob/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

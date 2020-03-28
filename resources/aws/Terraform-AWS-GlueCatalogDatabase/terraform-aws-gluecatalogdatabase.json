@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GlueCatalogDatabase",
     "description": "Provides a Glue Catalog Database Resource. You can refer to the [Glue Developer Guide](http://docs.aws.amazon.com/glue/latest/dg/populate-data-catalog.html) for a full explanation of the Glue Data Catalog functionality",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GlueCatalogDatabase/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

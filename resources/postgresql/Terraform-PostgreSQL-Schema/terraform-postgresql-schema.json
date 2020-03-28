@@ -2,6 +2,7 @@
     "typeName": "Terraform::PostgreSQL::Schema",
     "description": "The ``postgresql_schema`` resource creates and manages [schema\nobjects](https://www.postgresql.org/docs/current/static/ddl-schemas.html) within\na PostgreSQL database.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/postgresql/Terraform-PostgreSQL-Schema/docs/README.md",
     "definitions": {
         "Policy": {
             "type": "object",

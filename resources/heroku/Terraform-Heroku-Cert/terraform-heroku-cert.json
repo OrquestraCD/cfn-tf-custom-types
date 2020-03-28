@@ -2,6 +2,7 @@
     "typeName": "Terraform::Heroku::Cert",
     "description": "Provides a Heroku SSL certificate resource. It allows to set a given certificate for a Heroku app.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/heroku/Terraform-Heroku-Cert/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

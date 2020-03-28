@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::IamAgencyV3",
     "description": "Manages an agency resource within huawei cloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-IamAgencyV3/docs/README.md",
     "definitions": {
         "ProjectRole": {
             "type": "object",

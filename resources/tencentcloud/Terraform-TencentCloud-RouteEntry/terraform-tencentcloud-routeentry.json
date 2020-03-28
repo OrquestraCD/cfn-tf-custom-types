@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::RouteEntry",
     "description": "Provides a resource to create a routing entry in a VPC routing table.\n\n~> **NOTE:** It has been deprecated and replaced by tencentcloud_route_table_entry.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-RouteEntry/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

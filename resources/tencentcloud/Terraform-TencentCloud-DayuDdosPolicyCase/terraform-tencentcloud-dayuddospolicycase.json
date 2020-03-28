@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::DayuDdosPolicyCase",
     "description": "Use this resource to create dayu DDoS policy case\n\n~> **NOTE:** when a dayu DDoS policy case is created, there will be a dayu DDoS policy created with the same prefix name in the same time. This resource only supports Anti-DDoS of type `bgp`, `bgp-multip` and `bgpip`. One Anti-DDoS resource can only has one DDoS policy case resource. When there is only one Anti-DDoS resource and one policy case, those two resource will be bind automatically.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-DayuDdosPolicyCase/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

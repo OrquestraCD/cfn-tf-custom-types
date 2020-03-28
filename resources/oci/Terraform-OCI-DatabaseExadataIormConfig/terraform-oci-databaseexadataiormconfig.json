@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseExadataIormConfig",
     "description": "This resource provides the Exadata Iorm Config resource in Oracle Cloud Infrastructure Database service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseExadataIormConfig/docs/README.md",
     "definitions": {
         "DbPlans": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::NetworkingSecgroupV2",
     "description": "Manages a V2 neutron security group resource within FlexibleEngine.\nUnlike Nova security groups, neutron separates the group from the rules\nand also allows an admin to target a specific tenant_id.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-NetworkingSecgroupV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

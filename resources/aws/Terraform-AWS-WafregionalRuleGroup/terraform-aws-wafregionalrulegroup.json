@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafregionalRuleGroup",
     "description": "Provides a WAF Regional Rule Group Resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafregionalRuleGroup/docs/README.md",
     "definitions": {
         "ActivatedRule": {
             "type": "object",

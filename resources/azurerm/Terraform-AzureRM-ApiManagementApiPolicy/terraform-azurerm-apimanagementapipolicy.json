@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ApiManagementApiPolicy",
     "description": "Manages an API Management API Policy",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ApiManagementApiPolicy/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

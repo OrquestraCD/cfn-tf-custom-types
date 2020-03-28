@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::AppServiceVirtualNetworkSwiftConnection",
     "description": "Manages an App Service Virtual Network Association (this is for the [Regional VNet Integration](https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet#regional-vnet-integration) which is still in preview).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-AppServiceVirtualNetworkSwiftConnection/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

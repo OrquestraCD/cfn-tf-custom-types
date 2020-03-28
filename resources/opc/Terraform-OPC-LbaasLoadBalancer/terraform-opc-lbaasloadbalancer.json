@@ -2,6 +2,7 @@
     "typeName": "Terraform::OPC::LbaasLoadBalancer",
     "description": "The `opc_lbaas_load_balancer` resource creates and manages a Load Balancer Classic instance in an Oracle Cloud Infrastructure Classic Compute region. You must define server pools, create at least one listener, and optionally define the policies for the load balancer before it will be operational.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opc/Terraform-OPC-LbaasLoadBalancer/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

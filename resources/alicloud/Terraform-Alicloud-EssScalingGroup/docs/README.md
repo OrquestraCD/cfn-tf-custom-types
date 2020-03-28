@@ -18,6 +18,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "Properties" : {
         "<a href="#dbinstanceids" title="DbInstanceIds">DbInstanceIds</a>" : <i>[ String, ... ]</i>,
         "<a href="#defaultcooldown" title="DefaultCooldown">DefaultCooldown</a>" : <i>Double</i>,
+        "<a href="#desiredcapacity" title="DesiredCapacity">DesiredCapacity</a>" : <i>Double</i>,
         "<a href="#loadbalancerids" title="LoadbalancerIds">LoadbalancerIds</a>" : <i>[ String, ... ]</i>,
         "<a href="#maxsize" title="MaxSize">MaxSize</a>" : <i>Double</i>,
         "<a href="#minsize" title="MinSize">MinSize</a>" : <i>Double</i>,
@@ -42,6 +43,7 @@ Properties:
     <a href="#dbinstanceids" title="DbInstanceIds">DbInstanceIds</a>: <i>
       - String</i>
     <a href="#defaultcooldown" title="DefaultCooldown">DefaultCooldown</a>: <i>Double</i>
+    <a href="#desiredcapacity" title="DesiredCapacity">DesiredCapacity</a>: <i>Double</i>
     <a href="#loadbalancerids" title="LoadbalancerIds">LoadbalancerIds</a>: <i>
       - String</i>
     <a href="#maxsize" title="MaxSize">MaxSize</a>: <i>Double</i>
@@ -76,6 +78,16 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 #### DefaultCooldown
 
 Default cool-down time (in seconds) of the scaling group. Value range: [0, 86400]. The default value is 300s.
+
+_Required_: No
+
+_Type_: Double
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### DesiredCapacity
+
+Expected number of ECS instances in the scaling group. Value range: [min_size, max_size].
 
 _Required_: No
 

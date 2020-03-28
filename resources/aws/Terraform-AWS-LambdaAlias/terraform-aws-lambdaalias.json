@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LambdaAlias",
     "description": "Creates a Lambda function alias. Creates an alias that points to the specified Lambda function version.\n\nFor information about Lambda and how to use it, see [What is AWS Lambda?][1]\nFor information about function aliases, see [CreateAlias][2] and [AliasRoutingConfiguration][3] in the API docs.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LambdaAlias/docs/README.md",
     "definitions": {
         "RoutingConfig": {
             "type": "object",

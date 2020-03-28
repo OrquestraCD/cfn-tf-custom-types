@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DnsRecord",
     "description": "This resource provides the Record resource in Oracle Cloud Infrastructure Dns service.\n\nReplaces records in the specified zone with the records specified in the\nrequest body. If a specified record does not exist, it will be created.\nIf the record exists, then it will be updated to represent the record in\nthe body of the request. If a record in the zone does not exist in the\nrequest body, the record will be removed from the zone.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DnsRecord/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

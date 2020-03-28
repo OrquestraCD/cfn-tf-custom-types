@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DataFactoryDatasetSqlServerTable",
     "description": "CloudFormation equivalent of azurerm_data_factory_dataset_sql_server_table",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DataFactoryDatasetSqlServerTable/docs/README.md",
     "definitions": {
         "SchemaColumn": {
             "type": "object",

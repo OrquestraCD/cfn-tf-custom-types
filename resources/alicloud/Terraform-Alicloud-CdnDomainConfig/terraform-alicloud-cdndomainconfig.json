@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::CdnDomainConfig",
     "description": "Provides a CDN Accelerated Domain resource.\n\nFor information about domain config and how to use it, see [Batch set config](https://www.alibabacloud.com/help/zh/doc-detail/90915.htm)\n\n-> **NOTE:** Available in v1.34.0+.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-CdnDomainConfig/docs/README.md",
     "definitions": {
         "FunctionArgs": {
             "type": "object",

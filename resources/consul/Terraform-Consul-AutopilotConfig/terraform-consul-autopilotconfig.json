@@ -2,6 +2,7 @@
     "typeName": "Terraform::Consul::AutopilotConfig",
     "description": "Provides access to the [Autopilot Configuration](https://www.consul.io/docs/guides/autopilot.html)\nof Consul to automatically manage Consul servers.\n\nIt includes to automatically cleanup dead servers, monitor the status of the Raft\ncluster and stable server introduction.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/consul/Terraform-Consul-AutopilotConfig/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

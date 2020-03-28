@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SearchService",
     "description": "Manages a Search Service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SearchService/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

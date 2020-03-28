@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::NetworkInterface",
     "description": "Provides an Elastic network interface (ENI) resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-NetworkInterface/docs/README.md",
     "definitions": {
         "Attachment": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Packet::Project",
     "description": "Provides a Packet project resource to allow you manage devices\nin your projects.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/packet/Terraform-Packet-Project/docs/README.md",
     "definitions": {
         "BgpConfig": {
             "type": "object",

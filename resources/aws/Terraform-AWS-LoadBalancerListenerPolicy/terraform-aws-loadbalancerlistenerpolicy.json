@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LoadBalancerListenerPolicy",
     "description": "Attaches a load balancer policy to an ELB Listener.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LoadBalancerListenerPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

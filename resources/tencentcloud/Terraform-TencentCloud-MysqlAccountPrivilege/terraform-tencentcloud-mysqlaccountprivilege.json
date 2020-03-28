@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::MysqlAccountPrivilege",
     "description": "Provides a mysql account privilege resource to grant different access privilege to different database. A database can be granted by multiple account.\n\n~> **NOTE:** It has been deprecated and replaced by  tencentcloud_mysql_privilege.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-MysqlAccountPrivilege/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

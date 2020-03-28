@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayRestApi",
     "description": "Provides an API Gateway REST API.\n\n-> **Note:** Amazon API Gateway Version 1 resources are used for creating and deploying REST APIs. To create and deploy WebSocket and HTTP APIs, use Amazon API Gateway Version 2 [resources](https://www.terraform.io/docs/providers/aws/r/apigatewayv2_api.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayRestApi/docs/README.md",
     "definitions": {
         "EndpointConfiguration": {
             "type": "object",

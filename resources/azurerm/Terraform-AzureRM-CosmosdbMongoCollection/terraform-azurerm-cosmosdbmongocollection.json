@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::CosmosdbMongoCollection",
     "description": "Manages a Mongo Collection within a Cosmos DB Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-CosmosdbMongoCollection/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

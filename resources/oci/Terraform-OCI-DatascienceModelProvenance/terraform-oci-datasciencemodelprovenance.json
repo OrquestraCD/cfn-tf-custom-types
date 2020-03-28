@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatascienceModelProvenance",
     "description": "This resource provides the Model Provenance resource in Oracle Cloud Infrastructure Datascience service.\n\nCreates provenance information for the specified model.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatascienceModelProvenance/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

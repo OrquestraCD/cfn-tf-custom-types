@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpsGenie::Escalation",
     "description": "Manages an Escalation within Opsgenie.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opsgenie/Terraform-OpsGenie-Escalation/docs/README.md",
     "definitions": {
         "Repeat": {
             "type": "object",

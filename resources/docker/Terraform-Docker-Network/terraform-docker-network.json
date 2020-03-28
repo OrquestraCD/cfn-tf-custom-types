@@ -2,6 +2,7 @@
     "typeName": "Terraform::Docker::Network",
     "description": "Manages a Docker Network. This can be used alongside\n[docker\\_container](/docs/providers/docker/r/container.html)\nto create virtual networks within the docker environment.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/docker/Terraform-Docker-Network/docs/README.md",
     "definitions": {
         "IpamConfig": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::IpPool",
     "description": "Provides a resource to configure IP pool on NSX-T manager",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-IpPool/docs/README.md",
     "definitions": {
         "Subnet": {
             "type": "object",

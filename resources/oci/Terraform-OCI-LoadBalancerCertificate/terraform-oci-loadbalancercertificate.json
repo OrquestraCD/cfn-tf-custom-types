@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::LoadBalancerCertificate",
     "description": "This resource provides the Certificate resource in Oracle Cloud Infrastructure Load Balancer service.\n\nCreates an asynchronous request to add an SSL certificate bundle.\n\nSet the terraform flag `lifecycle { create_before_destroy = true }` in your certificate to facilitate rotating certificates. \nA certificate cannot be deleted if it is attached to another resource (a listener or a backend set for example).\nBecause certificate_name in the listener is an updatable parameter, terraform will attempt to recreate the certificate first and then update the listener but the certificate cannot be deleted while it is attached to a listener so it will fail.\nSetting the flag makes it so that when a certificate is recreated, the new certificate will be created first before the old one gets deleted.\nWhenever you change any values on a certificate that causes it to be recreated the certificate_name MUST also change. Otherwise you will get an error saying that a certificate with that name already exists.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-LoadBalancerCertificate/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

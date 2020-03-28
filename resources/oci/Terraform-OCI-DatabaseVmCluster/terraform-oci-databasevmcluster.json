@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseVmCluster",
     "description": "This resource provides the Vm Cluster resource in Oracle Cloud Infrastructure Database service.\n\nCreates a VM cluster.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseVmCluster/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

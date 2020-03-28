@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::SlbRule",
     "description": "A forwarding rule is configured in `HTTP`/`HTTPS` listener and it used to listen a list of backend servers which in one specified virtual backend server group.\nYou can add forwarding rules to a listener to forward requests based on the domain names or the URL in the request.\n\n-> **NOTE:** One virtual backend server group can be attached in multiple forwarding rules.\n\n-> **NOTE:** At least one \"Domain\" or \"Url\" must be specified when creating a new rule.\n\n-> **NOTE:** Having the same 'Domain' and 'Url' rule can not be created repeatedly in the one listener.\n\n-> **NOTE:** Rule only be created in the `HTTP` or `HTTPS` listener.\n\n-> **NOTE:** Only rule's virtual server group can be modified.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-SlbRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

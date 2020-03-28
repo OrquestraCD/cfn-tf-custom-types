@@ -2,6 +2,7 @@
     "typeName": "Terraform::DigitalOcean::DatabaseFirewall",
     "description": "Provides a DigitalOcean database firewall resource allowing you to restrict\nconnections to your database to trusted sources. You may limit connections to\nspecific Droplets, Kubernetes clusters, or IP addresses.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/digitalocean/Terraform-DigitalOcean-DatabaseFirewall/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

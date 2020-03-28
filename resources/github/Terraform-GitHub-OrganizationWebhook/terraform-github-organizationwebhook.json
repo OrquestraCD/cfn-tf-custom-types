@@ -2,6 +2,7 @@
     "typeName": "Terraform::GitHub::OrganizationWebhook",
     "description": "This resource allows you to create and manage webhooks for GitHub organization.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/github/Terraform-GitHub-OrganizationWebhook/docs/README.md",
     "definitions": {
         "Configuration": {
             "type": "object",

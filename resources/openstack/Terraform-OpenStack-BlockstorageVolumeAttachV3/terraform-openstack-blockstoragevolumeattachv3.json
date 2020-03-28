@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::BlockstorageVolumeAttachV3",
     "description": "This resource is experimental and may be removed in the future! Feedback\nis requested if you find this resource useful or if you find any problems\nwith it.\n\nCreates a general purpose attachment connection to a Block\nStorage volume using the OpenStack Block Storage (Cinder) v3 API.\nDepending on your Block Storage service configuration, this\nresource can assist in attaching a volume to a non-OpenStack resource\nsuch as a bare-metal server or a remote virtual machine in a\ndifferent cloud provider.\n\nThis does not actually attach a volume to an instance. Please use\nthe `openstack_compute_volume_attach_v2` resource for that.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-BlockstorageVolumeAttachV3/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

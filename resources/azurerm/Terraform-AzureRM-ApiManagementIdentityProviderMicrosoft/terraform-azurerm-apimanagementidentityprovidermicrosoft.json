@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ApiManagementIdentityProviderMicrosoft",
     "description": "Manages an API Management Microsoft Identity Provider.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ApiManagementIdentityProviderMicrosoft/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

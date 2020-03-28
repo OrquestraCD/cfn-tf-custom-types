@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::IothubDps",
     "description": "Manages an IotHub Device Provisioning Service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-IothubDps/docs/README.md",
     "definitions": {
         "LinkedHub": {
             "type": "object",

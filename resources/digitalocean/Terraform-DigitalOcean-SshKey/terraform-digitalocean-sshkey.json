@@ -2,6 +2,7 @@
     "typeName": "Terraform::DigitalOcean::SshKey",
     "description": "Provides a DigitalOcean SSH key resource to allow you to manage SSH\nkeys for Droplet access. Keys created with this resource\ncan be referenced in your Droplet configuration via their ID or\nfingerprint.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/digitalocean/Terraform-DigitalOcean-SshKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Arukas::Container",
     "description": "Provides container resource. This allows container to be created, updated and deleted.\n\nFor additional details please refer to [API documentation](https://arukas.io/en/documents-en/arukas-api-reference-en/).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/arukas/Terraform-Arukas-Container/docs/README.md",
     "definitions": {
         "Environments": {
             "type": "object",

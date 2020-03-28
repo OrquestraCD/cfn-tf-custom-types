@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DaxCluster",
     "description": "Provides a DAX Cluster resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DaxCluster/docs/README.md",
     "definitions": {
         "ServerSideEncryption": {
             "type": "object",

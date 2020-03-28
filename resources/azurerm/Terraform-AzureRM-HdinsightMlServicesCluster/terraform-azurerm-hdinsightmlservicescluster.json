@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::HdinsightMlServicesCluster",
     "description": "Manages a HDInsight ML Services Cluster.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-HdinsightMlServicesCluster/docs/README.md",
     "definitions": {
         "Gateway": {
             "type": "object",

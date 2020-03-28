@@ -2,6 +2,7 @@
     "typeName": "Terraform::PostgreSQL::Database",
     "description": "The ``postgresql_database`` resource creates and manages [database\nobjects](https://www.postgresql.org/docs/current/static/managing-databases.html)\nwithin a PostgreSQL server instance.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/postgresql/Terraform-PostgreSQL-Database/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

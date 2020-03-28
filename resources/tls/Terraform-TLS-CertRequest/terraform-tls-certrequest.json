@@ -2,6 +2,7 @@
     "typeName": "Terraform::TLS::CertRequest",
     "description": "Generates a *Certificate Signing Request* (CSR) in PEM format, which is the\ntypical format used to request a certificate from a certificate authority.\n\nThis resource is intended to be used in conjunction with a Terraform provider\nfor a particular certificate authority in order to provision a new certificate.\nThis is a *logical resource*, so it contributes only to the current Terraform\nstate and does not create any external managed resources.\n\n~> **Compatibility Note** From Terraform 0.7.0 to 0.7.4 this resource was\nconverted to a data source, and the resource form of it was deprecated. This\nturned out to be a design error since a cert request includes a random number\nin the form of the signature nonce, and so the data source form of this\nresource caused non-convergent configuration. The data source form is no longer\nsupported as of Terraform 0.7.5 and any users should return to using the\nresource form.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tls/Terraform-TLS-CertRequest/docs/README.md",
     "definitions": {
         "Subject": {
             "type": "object",

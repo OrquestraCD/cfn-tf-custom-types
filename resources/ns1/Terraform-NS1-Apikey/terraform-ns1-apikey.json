@@ -2,6 +2,7 @@
     "typeName": "Terraform::NS1::Apikey",
     "description": "Provides a NS1 Api Key resource. This can be used to create, modify, and delete api keys.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ns1/Terraform-NS1-Apikey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CognitoIdentityPoolRolesAttachment",
     "description": "Provides an AWS Cognito Identity Pool Roles Attachment.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CognitoIdentityPoolRolesAttachment/docs/README.md",
     "definitions": {
         "RoleMapping": {
             "type": "object",

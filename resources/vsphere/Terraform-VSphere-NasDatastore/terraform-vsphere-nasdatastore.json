@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::NasDatastore",
     "description": "The `vsphere_nas_datastore` resource can be used to create and manage NAS\ndatastores on an ESXi host or a set of hosts. The resource supports mounting\nNFS v3 and v4.1 shares to be used as datastores.\n\n~> **NOTE:** Unlike [`vsphere_vmfs_datastore`][resource-vmfs-datastore], a NAS\ndatastore is only mounted on the hosts you choose to mount it on. To mount on\nmultiple hosts, you must specify each host that you want to add in the\n`host_system_ids` argument.\n\n[resource-vmfs-datastore]: /docs/providers/vsphere/r/vmfs_datastore.html",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-NasDatastore/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

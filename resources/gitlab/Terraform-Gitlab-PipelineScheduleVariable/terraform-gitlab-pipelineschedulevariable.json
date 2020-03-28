@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::PipelineScheduleVariable",
     "description": "This resource allows you to create and manage variables for pipeline schedules.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-PipelineScheduleVariable/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

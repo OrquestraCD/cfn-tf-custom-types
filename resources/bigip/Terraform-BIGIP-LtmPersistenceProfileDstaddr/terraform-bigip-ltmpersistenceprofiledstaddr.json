@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::LtmPersistenceProfileDstaddr",
     "description": "Configures a cookie persistence profile",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-LtmPersistenceProfileDstaddr/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::StorageTransferJob",
     "description": "Creates a new Transfer Job in Google Cloud Storage Transfer.\n\nTo get more information about Google Cloud Storage Transfer, see:\n\n* [Overview](https://cloud.google.com/storage-transfer/docs/overview)\n* [API documentation](https://cloud.google.com/storage-transfer/docs/reference/rest/v1/transferJobs#TransferJob)\n* How-to Guides\n    * [Configuring Access to Data Sources and Sinks](https://cloud.google.com/storage-transfer/docs/configure-access)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-StorageTransferJob/docs/README.md",
     "definitions": {
         "Schedule": {
             "type": "object",

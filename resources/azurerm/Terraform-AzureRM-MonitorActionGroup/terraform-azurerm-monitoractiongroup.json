@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::MonitorActionGroup",
     "description": "Manages an Action Group within Azure Monitor.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MonitorActionGroup/docs/README.md",
     "definitions": {
         "ArmRoleReceiver": {
             "type": "object",

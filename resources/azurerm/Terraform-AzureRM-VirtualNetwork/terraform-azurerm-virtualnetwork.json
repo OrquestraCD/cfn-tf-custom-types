@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::VirtualNetwork",
     "description": "Manages a virtual network including any configured subnets. Each subnet can\noptionally be configured with a security group to be associated with the subnet.\n\n~> **NOTE on Virtual Networks and Subnet's:** Terraform currently\nprovides both a standalone [Subnet resource](subnet.html), and allows for Subnets to be defined in-line within the [Virtual Network resource](virtual_network.html).\nAt this time you cannot use a Virtual Network with in-line Subnets in conjunction with any Subnet resources. Doing so will cause a conflict of Subnet configurations and will overwrite Subnet's.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-VirtualNetwork/docs/README.md",
     "definitions": {
         "DdosProtectionPlan": {
             "type": "object",

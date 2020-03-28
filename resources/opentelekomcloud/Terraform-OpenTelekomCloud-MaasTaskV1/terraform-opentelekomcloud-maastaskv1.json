@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::MaasTaskV1",
     "description": "Manages resource task within OpenTelekomCloud MAAS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-MaasTaskV1/docs/README.md",
     "definitions": {
         "DstNode": {
             "type": "object",

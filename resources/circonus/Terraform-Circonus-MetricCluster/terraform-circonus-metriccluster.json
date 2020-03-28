@@ -2,6 +2,7 @@
     "typeName": "Terraform::Circonus::MetricCluster",
     "description": "The ``circonus_metric_cluster`` resource creates and manages a\n[Circonus Metric Cluster](https://login.circonus.com/user/docs/Data/View/MetricClusters).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/circonus/Terraform-Circonus-MetricCluster/docs/README.md",
     "definitions": {
         "Query": {
             "type": "object",

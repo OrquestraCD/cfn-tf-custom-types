@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::ComputeSecgroupV2",
     "description": "Manages a V2 security group resource within HuaweiCloud.\n\nPlease note that managing security groups through the HuaweiCloud Compute API\nhas been deprecated. Unless you are using an older HuaweiCloud environment, it is\nrecommended to use the [`huaweicloud_networking_secgroup_v2`](networking_secgroup_v2.html)\nand [`huaweicloud_networking_secgroup_rule_v2`](networking_secgroup_rule_v2.html)\nresources instead, which uses the HuaweiCloud Networking API.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-ComputeSecgroupV2/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::NewRelic::Dashboard",
     "description": "Use this resource to create and manage New Relic dashboards.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/newrelic/Terraform-NewRelic-Dashboard/docs/README.md",
     "definitions": {
         "Filter": {
             "type": "object",

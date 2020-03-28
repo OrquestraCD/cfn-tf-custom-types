@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::VmfsDatastore",
     "description": "The `vsphere_vmfs_datastore` resource can be used to create and manage VMFS\ndatastores on an ESXi host or a set of hosts. The resource supports using any\nSCSI device that can generally be used in a datastore, such as local disks, or\ndisks presented to a host or multiple hosts over Fibre Channel or iSCSI.\nDevices can be specified manually, or discovered using the\n[`vsphere_vmfs_disks`][data-source-vmfs-disks] data source.\n\n[data-source-vmfs-disks]: /docs/providers/vsphere/d/vmfs_disks.html",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-VmfsDatastore/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

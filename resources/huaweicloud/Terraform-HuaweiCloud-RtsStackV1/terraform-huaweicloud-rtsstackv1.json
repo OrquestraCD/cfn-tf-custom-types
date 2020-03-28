@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::RtsStackV1",
     "description": "CloudFormation equivalent of huaweicloud_rts_stack_v1",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-RtsStackV1/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::WafPolicyV1",
     "description": "Manages a WAF policy resource within OpenTelekomCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-WafPolicyV1/docs/README.md",
     "definitions": {
         "Action": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::RdsClusterParameterGroup",
     "description": "Provides an RDS DB cluster parameter group resource. Documentation of the available parameters for various Aurora engines can be found at:\n\n* [Aurora MySQL Parameters](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraMySQL.Reference.html)\n* [Aurora PostgreSQL Parameters](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraPostgreSQL.Reference.html)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-RdsClusterParameterGroup/docs/README.md",
     "definitions": {
         "Parameter": {
             "type": "object",

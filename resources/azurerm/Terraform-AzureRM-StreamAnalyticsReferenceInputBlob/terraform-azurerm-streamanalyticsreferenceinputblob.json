@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StreamAnalyticsReferenceInputBlob",
     "description": "Manages a Stream Analytics Reference Input Blob. Reference data (also known as a lookup table) is a finite data set that is static or slowly changing in nature, used to perform a lookup or to correlate with your data stream. Learn more [here](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-use-reference-data#azure-blob-storage).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StreamAnalyticsReferenceInputBlob/docs/README.md",
     "definitions": {
         "Serialization": {
             "type": "object",

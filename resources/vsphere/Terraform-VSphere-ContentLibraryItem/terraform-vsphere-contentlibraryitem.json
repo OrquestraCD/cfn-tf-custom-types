@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::ContentLibraryItem",
     "description": "The `vsphere_content_library_item` resource can be used to create items in a Content Library. Each item can contain \nmultiple files. Each `file_url` must be accessible from the vSphere environment as it will be downloaded from the\nspecified location and stored on the Content Library's storage backing.\n\nTo make a `content_library_item` a functioning template, the template must be in OVF format. The .ovf and .vmdk\nfile(s) can then be set as the `file_url` list.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-ContentLibraryItem/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

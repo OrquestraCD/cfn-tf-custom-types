@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseMaintenanceRun",
     "description": "This resource provides the Maintenance Run resource in Oracle Cloud Infrastructure Database service.\n\nUpdates the properties of a Maintenance Run, such as the state of a Maintenance Run.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseMaintenanceRun/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

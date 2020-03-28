@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::Dns",
     "description": "Provides a DNS resource.\n\n-> **NOTE:** The domain name which you want to add must be already registered and had not added by another account. Every domain name can only exist in a unique group.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-Dns/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

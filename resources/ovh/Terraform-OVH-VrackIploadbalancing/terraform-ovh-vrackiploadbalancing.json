@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::VrackIploadbalancing",
     "description": "Attach a ip loadbalancing to a VRack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-VrackIploadbalancing/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

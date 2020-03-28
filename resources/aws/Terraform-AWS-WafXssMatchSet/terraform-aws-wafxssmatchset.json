@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafXssMatchSet",
     "description": "Provides a WAF XSS Match Set Resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafXssMatchSet/docs/README.md",
     "definitions": {
         "XssMatchTuples": {
             "type": "object",

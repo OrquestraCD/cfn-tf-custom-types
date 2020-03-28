@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::LoggingProjectSink",
     "description": "Manages a project-level logging sink. For more information see\n[the official documentation](https://cloud.google.com/logging/docs/),\n[Exporting Logs in the API](https://cloud.google.com/logging/docs/api/tasks/exporting-logs)\nand\n[API](https://cloud.google.com/logging/docs/reference/v2/rest/).\n\n~> **Note:** You must have [granted the \"Logs Configuration Writer\"](https://cloud.google.com/logging/docs/access-control) IAM role (`roles/logging.configWriter`) to the credentials used with terraform.\n\n~> **Note** You must [enable the Cloud Resource Manager API](https://console.cloud.google.com/apis/library/cloudresourcemanager.googleapis.com)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-LoggingProjectSink/docs/README.md",
     "definitions": {
         "BigqueryOptions": {
             "type": "object",

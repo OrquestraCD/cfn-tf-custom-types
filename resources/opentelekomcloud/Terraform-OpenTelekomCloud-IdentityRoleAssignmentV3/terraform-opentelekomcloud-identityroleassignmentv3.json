@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::IdentityRoleAssignmentV3",
     "description": "Manages a V3 Role assignment within group on OpentelekomCloud IAM Service.\n\nNote: You _must_ have admin privileges in your OpentelekomCloud cloud to use\nthis resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-IdentityRoleAssignmentV3/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

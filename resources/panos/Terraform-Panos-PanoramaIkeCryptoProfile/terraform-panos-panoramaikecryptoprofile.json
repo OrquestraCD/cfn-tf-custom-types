@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaIkeCryptoProfile",
     "description": "This resource allows you to add/update/delete Panorama IKE crypto profiles\nto a template or template stack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaIkeCryptoProfile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

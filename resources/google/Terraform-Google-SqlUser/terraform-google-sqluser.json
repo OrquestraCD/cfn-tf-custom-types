@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::SqlUser",
     "description": "Creates a new Google SQL User on a Google SQL User Instance. For more information, see the [official documentation](https://cloud.google.com/sql/), or the [JSON API](https://cloud.google.com/sql/docs/admin-api/v1beta4/users).\n\n~> **Note:** All arguments including the username and password will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html). Passwords will not be retrieved when running\n\"terraform import\".",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-SqlUser/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

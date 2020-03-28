@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OpsworksRailsAppLayer",
     "description": "Provides an OpsWorks Ruby on Rails application layer resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OpsworksRailsAppLayer/docs/README.md",
     "definitions": {
         "EbsVolume": {
             "type": "object",

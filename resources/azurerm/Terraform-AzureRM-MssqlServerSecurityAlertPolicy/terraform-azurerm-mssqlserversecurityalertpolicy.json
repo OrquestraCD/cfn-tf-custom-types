@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::MssqlServerSecurityAlertPolicy",
     "description": "Manages a Security Alert Policy for a MSSQL Server.\n\n-> **NOTE** Security Alert Policy is currently only available for MS SQL databases.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MssqlServerSecurityAlertPolicy/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -23,6 +23,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#external" title="External">External</a>" : <i>Boolean</i>,
         "<a href="#meta" title="Meta">Meta</a>" : <i>[ <a href="meta.md">Meta</a>, ... ]</i>,
         "<a href="#name" title="Name">Name</a>" : <i>String</i>,
+        "<a href="#namespace" title="Namespace">Namespace</a>" : <i>String</i>,
         "<a href="#node" title="Node">Node</a>" : <i>String</i>,
         "<a href="#port" title="Port">Port</a>" : <i>Double</i>,
         "<a href="#serviceid" title="ServiceId">ServiceId</a>" : <i>String</i>,
@@ -44,6 +45,7 @@ Properties:
     <a href="#meta" title="Meta">Meta</a>: <i>
       - <a href="meta.md">Meta</a></i>
     <a href="#name" title="Name">Name</a>: <i>String</i>
+    <a href="#namespace" title="Namespace">Namespace</a>: <i>String</i>
     <a href="#node" title="Node">Node</a>: <i>String</i>
     <a href="#port" title="Port">Port</a>: <i>Double</i>
     <a href="#serviceid" title="ServiceId">ServiceId</a>: <i>String</i>
@@ -103,6 +105,16 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 The name of the header.
 
 _Required_: Yes
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Namespace
+
+The namespace to create the service within.
+
+_Required_: No
 
 _Type_: String
 

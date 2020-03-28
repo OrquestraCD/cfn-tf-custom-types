@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::LoadBalancerRuleSet",
     "description": "This resource provides the Rule Set resource in Oracle Cloud Infrastructure Load Balancer service.\n\nCreates a new rule set associated with the specified load balancer. For more information, see\n[Managing Rule Sets](https://docs.cloud.oracle.com/iaas/Content/Balance/Tasks/managingrulesets.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-LoadBalancerRuleSet/docs/README.md",
     "definitions": {
         "Items": {
             "type": "object",

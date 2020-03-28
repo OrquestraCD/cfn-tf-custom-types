@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::TcaplusIdl",
     "description": "Use this resource to create tcaplus idl file",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-TcaplusIdl/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

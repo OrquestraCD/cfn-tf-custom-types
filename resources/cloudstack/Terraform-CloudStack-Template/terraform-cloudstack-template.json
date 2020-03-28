@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudStack::Template",
     "description": "Registers an existing template into the CloudStack cloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudstack/Terraform-CloudStack-Template/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

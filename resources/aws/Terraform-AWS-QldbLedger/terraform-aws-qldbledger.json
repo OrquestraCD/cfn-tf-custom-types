@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::QldbLedger",
     "description": "Provides an AWS Quantum Ledger Database (QLDB) resource\n\n~> **NOTE:** Deletion protection is enabled by default. To successfully delete this resource via Terraform, `deletion_protection = false` must be applied before attempting deletion.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-QldbLedger/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

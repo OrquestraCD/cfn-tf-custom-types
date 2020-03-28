@@ -2,6 +2,7 @@
     "typeName": "Terraform::Linode::ObjectStorageBucket",
     "description": "Provides a Linode Object Storage Bucket resource. This can be used to create, modify, and delete Linodes Object Storage Buckets.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/linode/Terraform-Linode-ObjectStorageBucket/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

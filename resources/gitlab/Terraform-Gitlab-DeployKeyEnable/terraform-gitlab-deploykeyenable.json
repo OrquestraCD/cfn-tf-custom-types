@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::DeployKeyEnable",
     "description": "This resource allows you to enable pre-existing deploy keys for your GitLab projects.\n\n**the GITLAB KEY_ID for the deploy key must be known**",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-DeployKeyEnable/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

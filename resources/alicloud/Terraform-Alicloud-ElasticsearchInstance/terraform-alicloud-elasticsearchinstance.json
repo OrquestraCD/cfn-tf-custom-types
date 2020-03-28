@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::ElasticsearchInstance",
     "description": "Provides a Elasticsearch instance resource. It contains data nodes, dedicated master node(optional) and etc. It can be associated with private IP whitelists and kibana IP whitelist.\n\n-> **NOTE:** Only one operation is supported in a request. So if `data_node_spec` and `data_node_disk_size` are both changed, system will respond error.\n\n-> **NOTE:** At present, `version` can not be modified once instance has been created.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-ElasticsearchInstance/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

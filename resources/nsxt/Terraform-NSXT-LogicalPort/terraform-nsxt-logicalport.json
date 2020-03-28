@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::LogicalPort",
     "description": "This resource provides a resource to configure a logical port on a logical switch in the NSX system. Like physical switches a logical switch can have one or more ports which can be connected to virtual machines or logical routers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-LogicalPort/docs/README.md",
     "definitions": {
         "SwitchingProfileId": {
             "type": "object",

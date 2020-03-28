@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::CasCertificate",
     "description": "Provides a CAS Certificate resource.\n\n-> **NOTE:** The Certificate name which you want to add must be already registered and had not added by another account. Every Certificate name can only exist in a unique group.\n\n-> **NOTE:** The Cas Certificate region only support cn-hangzhou, ap-south-1, me-east-1, eu-central-1, ap-northeast-1, ap-southeast-2.\n\n-> **NOTE:** Available in 1.35.0+ .",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-CasCertificate/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

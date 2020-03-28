@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GlobalacceleratorAccelerator",
     "description": "Creates a Global Accelerator accelerator.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GlobalacceleratorAccelerator/docs/README.md",
     "definitions": {
         "Attributes": {
             "type": "object",

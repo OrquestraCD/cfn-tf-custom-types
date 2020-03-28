@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::GroupCluster",
     "description": "This resource allows you to create and manage group clusters for your GitLab groups.\nFor further information on clusters, consult the [gitlab\ndocumentation](https://docs.gitlab.com/ce/user/group/clusters/index.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-GroupCluster/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

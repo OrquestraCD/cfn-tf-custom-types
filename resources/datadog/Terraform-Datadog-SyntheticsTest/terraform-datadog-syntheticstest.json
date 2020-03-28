@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::SyntheticsTest",
     "description": "Provides a Datadog synthetics test resource. This can be used to create and manage Datadog synthetics test.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-SyntheticsTest/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

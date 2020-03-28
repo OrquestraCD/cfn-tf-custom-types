@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::BigtableInstance",
     "description": "Creates a Google Bigtable instance. For more information see\n[the official documentation](https://cloud.google.com/bigtable/) and\n[API](https://cloud.google.com/bigtable/docs/go/reference).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-BigtableInstance/docs/README.md",
     "definitions": {
         "Cluster": {
             "type": "object",

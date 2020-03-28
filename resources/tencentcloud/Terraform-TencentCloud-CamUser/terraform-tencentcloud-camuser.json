@@ -1,7 +1,8 @@
 {
     "typeName": "Terraform::TencentCloud::CamUser",
-    "description": "Provides a resource to create a CAM user.",
+    "description": "Provides a resource to manage CAM user.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-CamUser/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {
@@ -10,11 +11,11 @@
         },
         "ConsoleLogin": {
             "type": "boolean",
-            "description": "Indicate whether the CAM user can login or not."
+            "description": "Indicate whether the CAM user can login to the web console or not."
         },
         "CountryCode": {
             "type": "string",
-            "description": "Country code of the phone num, like '86'."
+            "description": "Country code of the phone number, for example: '86'."
         },
         "Email": {
             "type": "string",
@@ -25,19 +26,19 @@
         },
         "Name": {
             "type": "string",
-            "description": "Name of CAM user."
+            "description": "Name of the CAM user."
         },
         "NeedResetPassword": {
             "type": "boolean",
-            "description": "Indicate whether the CAM user will reset the password the next time he/her logs in."
+            "description": "Indicate whether the CAM user need to reset the password when first logins."
         },
         "Password": {
             "type": "string",
-            "description": "The password of the CAM user. The password should be set with 8 characters or more and contains uppercase small letters, numbers, and special characters. Only valid when console_login set true. If not set and the value of console_login is true, a random password is automatically generated."
+            "description": "The password of the CAM user. Password should be at least 8 characters and no more than 32 characters, includes uppercase letters, lowercase letters, numbers and special characters. Only required when `console_login` is true. If not set, a random password will be automatically generated."
         },
         "PhoneNum": {
             "type": "string",
-            "description": "Phone num of the CAM user."
+            "description": "Phone number of the CAM user."
         },
         "Remark": {
             "type": "string",
@@ -57,7 +58,7 @@
         },
         "UseApi": {
             "type": "boolean",
-            "description": "Indicate whether to generate a secret key or not."
+            "description": "Indicate whether to generate the API secret key or not."
         }
     },
     "additionalProperties": false,

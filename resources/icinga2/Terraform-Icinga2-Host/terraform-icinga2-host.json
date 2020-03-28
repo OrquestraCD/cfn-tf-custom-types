@@ -2,6 +2,7 @@
     "typeName": "Terraform::Icinga2::Host",
     "description": "Configures an Icinga2 host resource. This allows hosts to be configured, updated,\nand deleted.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/icinga2/Terraform-Icinga2-Host/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

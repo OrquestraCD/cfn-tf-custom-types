@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaAddressGroup",
     "description": "This resource allows you to add/update/delete Panorama address groups.\n\nAddress groups are either statically defined or dynamically defined, so only\n`static_addresses` or `dynamic_match` should be defined within a given address\ngroup.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaAddressGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

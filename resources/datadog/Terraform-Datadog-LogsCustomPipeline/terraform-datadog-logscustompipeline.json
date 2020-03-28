@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::LogsCustomPipeline",
     "description": "Provides a Datadog [Logs Pipeline API](https://docs.datadoghq.com/api/?lang=python#logs-pipelines) resource, which is used to create and manage Datadog logs custom pipelines.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-LogsCustomPipeline/docs/README.md",
     "definitions": {
         "Filter": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SiteRecoveryProtectionContainerMapping",
     "description": "Manages a Azure recovery vault protection container mapping. A protection container mapping decides how to translate the protection container when a VM is migrated from one region to another.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SiteRecoveryProtectionContainerMapping/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

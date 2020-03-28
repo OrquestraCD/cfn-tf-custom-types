@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::WaasCertificate",
     "description": "This resource provides the Certificate resource in Oracle Cloud Infrastructure Web Application Acceleration and Security service.\n\nAllows an SSL certificate to be added to a WAAS policy. The Web Application Firewall terminates SSL connections to inspect requests in runtime, and then re-encrypts requests before sending them to the origin for fulfillment.\n\nFor more information, see [WAF Settings](https://docs.cloud.oracle.com/iaas/Content/WAF/Tasks/wafsettings.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-WaasCertificate/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

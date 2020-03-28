@@ -1,6 +1,8 @@
 # Terraform::Alicloud::KmsKey
 
-A kms key can help user to protect data security in the transmission process.
+This resouce used to create a secret and store its initial version.
+
+-> **NOTE:** Available in 1.76.0+.
 
 ## Syntax
 
@@ -35,9 +37,6 @@ Properties:
 
 #### DeletionWindowInDays
 
-Duration in days after which the key is deleted
-after destruction of the resource, must be between 7 and 30 days. Defaults to 30 days.
-
 _Required_: No
 
 _Type_: Double
@@ -46,7 +45,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Description
 
-The description of the key as viewed in Alicloud console. Default to "From Terraform".
+The description of the secret.
 
 _Required_: No
 
@@ -56,8 +55,6 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### IsEnabled
 
-Specifies whether the key is enabled. Defaults to true.
-
 _Required_: No
 
 _Type_: Boolean
@@ -65,8 +62,6 @@ _Type_: Boolean
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### KeyUsage
-
-Specifies the usage of CMK. Currently, default to 'ENCRYPT/DECRYPT', indicating that CMK is used for encryption and decryption.
 
 _Required_: No
 

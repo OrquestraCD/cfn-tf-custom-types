@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DnsARecord",
     "description": "Enables you to manage DNS A Records within Azure DNS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DnsARecord/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

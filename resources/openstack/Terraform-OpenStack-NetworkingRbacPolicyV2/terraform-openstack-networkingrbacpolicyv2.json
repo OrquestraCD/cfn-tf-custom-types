@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::NetworkingRbacPolicyV2",
     "description": "The RBAC policy resource contains functionality for working with Neutron RBAC\nPolicies. Role-Based Access Control (RBAC) policy framework enables both\noperators and users to grant access to resources for specific projects.\n\nSharing an object with a specific project is accomplished by creating a\npolicy entry that permits the target project the `access_as_shared` action\non that object.\n\nTo make a network available as an external network for specific projects\nrather than all projects, use the `access_as_external` action.\nIf a network is marked as external during creation, it now implicitly creates\na wildcard RBAC policy granting everyone access to preserve previous behavior\nbefore this feature was added.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-NetworkingRbacPolicyV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

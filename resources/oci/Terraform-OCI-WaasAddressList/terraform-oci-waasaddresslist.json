@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::WaasAddressList",
     "description": "This resource provides the Address List resource in Oracle Cloud Infrastructure Web Application Acceleration and Security service.\n\nCreates an address list in a set compartment and allows it to be used in a WAAS policy and referenced by access rules. Addresses can be IP addresses and CIDR notations.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-WaasAddressList/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

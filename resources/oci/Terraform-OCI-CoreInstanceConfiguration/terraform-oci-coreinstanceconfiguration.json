@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreInstanceConfiguration",
     "description": "This resource provides the Instance Configuration resource in Oracle Cloud Infrastructure Core service.\n\nCreates an instance configuration. An instance configuration is a template that defines the\nsettings to use when creating Compute instances.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreInstanceConfiguration/docs/README.md",
     "definitions": {
         "InstanceDetails": {
             "type": "object",

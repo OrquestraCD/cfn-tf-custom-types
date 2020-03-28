@@ -1,0 +1,10 @@
+{
+    "typeName": "Terraform::Consul::Namespace",
+    "language": "python37",
+    "runtime": "python3.7",
+    "entrypoint": "terraform_consul_namespace.handlers.resource",
+    "testEntrypoint": "terraform_consul_namespace.handlers.test_entrypoint",
+    "settings": {
+        "use_docker": true
+    }
+}

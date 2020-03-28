@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CloudwatchMetricAlarm",
     "description": "Provides a CloudWatch Metric Alarm resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CloudwatchMetricAlarm/docs/README.md",
     "definitions": {
         "MetricQuery": {
             "type": "object",

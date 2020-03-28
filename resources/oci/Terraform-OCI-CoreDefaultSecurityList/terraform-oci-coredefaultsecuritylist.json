@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreDefaultSecurityList",
     "description": "CloudFormation equivalent of oci_core_default_security_list",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreDefaultSecurityList/docs/README.md",
     "definitions": {
         "EgressSecurityRules": {
             "type": "object",

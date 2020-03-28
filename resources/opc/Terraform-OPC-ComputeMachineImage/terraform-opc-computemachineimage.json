@@ -2,6 +2,7 @@
     "typeName": "Terraform::OPC::ComputeMachineImage",
     "description": "The ``opc_compute_machine_image`` resource creates and manages a machine image template of a virtual hard disk of a specific size with an installed operating system.\n\nBefore performing this creating the Machine Image, you must upload your machine image file to Oracle Cloud Infrastructure Object Storage Classic `compute_images` container",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opc/Terraform-OPC-ComputeMachineImage/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

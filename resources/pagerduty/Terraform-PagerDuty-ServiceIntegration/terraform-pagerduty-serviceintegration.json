@@ -2,6 +2,7 @@
     "typeName": "Terraform::PagerDuty::ServiceIntegration",
     "description": "A [service integration](https://v2.developer.pagerduty.com/v2/page/api-reference#!/Services/post_services_id_integrations) is an integration that belongs to a service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/pagerduty/Terraform-PagerDuty-ServiceIntegration/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

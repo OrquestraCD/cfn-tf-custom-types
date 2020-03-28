@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayApiKey",
     "description": "Provides an API Gateway API Key.\n\n~> **NOTE:** Since the API Gateway usage plans feature was launched on August 11, 2016, usage plans are now **required** to associate an API key with an API stage.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayApiKey/docs/README.md",
     "definitions": {
         "StageKey": {
             "type": "object",

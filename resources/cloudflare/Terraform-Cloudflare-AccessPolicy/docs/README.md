@@ -21,7 +21,12 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#zoneid" title="ZoneId">ZoneId</a>" : <i>String</i>,
         "<a href="#exclude" title="Exclude">Exclude</a>" : <i>[ <a href="exclude.md">Exclude</a>, ... ]</i>,
         "<a href="#include" title="Include">Include</a>" : <i>[ <a href="include.md">Include</a>, ... ]</i>,
-        "<a href="#require" title="Require">Require</a>" : <i>[ <a href="require.md">Require</a>, ... ]</i>
+        "<a href="#require" title="Require">Require</a>" : <i>[ <a href="require.md">Require</a>, ... ]</i>,
+        "<a href="#azure" title="Azure">Azure</a>" : <i>[ <a href="azure.md">Azure</a>, ... ]</i>,
+        "<a href="#github" title="Github">Github</a>" : <i>[ <a href="github.md">Github</a>, ... ]</i>,
+        "<a href="#gsuite" title="Gsuite">Gsuite</a>" : <i>[ <a href="gsuite.md">Gsuite</a>, ... ]</i>,
+        "<a href="#okta" title="Okta">Okta</a>" : <i>[ <a href="okta.md">Okta</a>, ... ]</i>,
+        "<a href="#saml" title="Saml">Saml</a>" : <i>[ <a href="saml.md">Saml</a>, ... ]</i>
     }
 }
 </pre>
@@ -42,6 +47,16 @@ Properties:
       - <a href="include.md">Include</a></i>
     <a href="#require" title="Require">Require</a>: <i>
       - <a href="require.md">Require</a></i>
+    <a href="#azure" title="Azure">Azure</a>: <i>
+      - <a href="azure.md">Azure</a></i>
+    <a href="#github" title="Github">Github</a>: <i>
+      - <a href="github.md">Github</a></i>
+    <a href="#gsuite" title="Gsuite">Gsuite</a>: <i>
+      - <a href="gsuite.md">Gsuite</a></i>
+    <a href="#okta" title="Okta">Okta</a>: <i>
+      - <a href="okta.md">Okta</a></i>
+    <a href="#saml" title="Saml">Saml</a>: <i>
+      - <a href="saml.md">Saml</a></i>
 </pre>
 
 ## Properties
@@ -120,6 +135,46 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: List of <a href="require.md">Require</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Azure
+
+_Required_: No
+
+_Type_: List of <a href="azure.md">Azure</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Github
+
+_Required_: No
+
+_Type_: List of <a href="github.md">Github</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Gsuite
+
+_Required_: No
+
+_Type_: List of <a href="gsuite.md">Gsuite</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Okta
+
+_Required_: No
+
+_Type_: List of <a href="okta.md">Okta</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Saml
+
+_Required_: No
+
+_Type_: List of <a href="saml.md">Saml</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

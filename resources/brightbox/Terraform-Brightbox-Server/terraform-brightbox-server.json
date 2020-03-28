@@ -2,6 +2,7 @@
     "typeName": "Terraform::Brightbox::Server",
     "description": "Provides a Brightbox Server resource. This can be used to create,\nmodify, and delete Servers. Servers also support\n[provisioning](/docs/provisioners/index.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/brightbox/Terraform-Brightbox-Server/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

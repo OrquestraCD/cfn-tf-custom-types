@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::KustoDatabasePrincipal",
     "description": "Manages a Kusto (also known as Azure Data Explorer) Database Principal",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-KustoDatabasePrincipal/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

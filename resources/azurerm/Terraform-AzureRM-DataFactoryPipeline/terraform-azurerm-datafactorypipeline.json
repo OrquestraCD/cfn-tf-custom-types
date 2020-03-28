@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DataFactoryPipeline",
     "description": "Manages a Pipeline inside a Azure Data Factory.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DataFactoryPipeline/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

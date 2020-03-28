@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::Datacenter",
     "description": "Provides a VMware vSphere datacenter resource. This can be used as the primary\ncontainer of inventory objects such as hosts and virtual machines.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-Datacenter/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

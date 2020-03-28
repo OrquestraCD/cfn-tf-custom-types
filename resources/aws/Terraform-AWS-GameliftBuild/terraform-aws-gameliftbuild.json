@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GameliftBuild",
     "description": "Provides an Gamelift Build resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GameliftBuild/docs/README.md",
     "definitions": {
         "StorageLocation": {
             "type": "object",

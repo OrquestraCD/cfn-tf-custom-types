@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::VpcEipV1",
     "description": "Manages a V1 EIP resource within Huawei Cloud VPC.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-VpcEipV1/docs/README.md",
     "definitions": {
         "Bandwidth": {
             "type": "object",

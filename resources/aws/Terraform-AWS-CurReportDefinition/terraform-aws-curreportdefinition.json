@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CurReportDefinition",
     "description": "Manages Cost and Usage Report Definitions.\n\n~> *NOTE:* The AWS Cost and Usage Report service is only available in `us-east-1` currently.\n\n~> *NOTE:* If AWS Organizations is enabled, only the master account can use this resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CurReportDefinition/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

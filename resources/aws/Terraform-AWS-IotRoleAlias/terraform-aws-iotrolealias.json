@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IotRoleAlias",
     "description": "Provides an IoT role alias.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IotRoleAlias/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SqlElasticpool",
     "description": "Allows you to manage an Azure SQL Elastic Pool.\n\n~> **NOTE:** -  This version of the `Elasticpool` resource is being **deprecated** and should no longer be used. Please use the [azurerm_mssql_elasticpool](./mssql_elasticpool.html) version instead.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SqlElasticpool/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

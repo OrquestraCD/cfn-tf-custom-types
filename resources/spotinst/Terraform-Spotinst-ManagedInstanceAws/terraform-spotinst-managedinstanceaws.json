@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::ManagedInstanceAws",
     "description": "Provides a Spotinst AWS ManagedInstance resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-ManagedInstanceAws/docs/README.md",
     "definitions": {
         "IntegrationRoute53": {
             "type": "object",

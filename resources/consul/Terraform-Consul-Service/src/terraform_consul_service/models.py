@@ -42,6 +42,7 @@ class ResourceModel(BaseResourceModel):
     Id: Optional[str]
     Meta: Optional[Sequence["_Meta"]]
     Name: Optional[str]
+    Namespace: Optional[str]
     Node: Optional[str]
     Port: Optional[float]
     ServiceId: Optional[str]
@@ -64,6 +65,7 @@ class ResourceModel(BaseResourceModel):
             Id=json_data.get("Id"),
             Meta=json_data.get("Meta"),
             Name=json_data.get("Name"),
+            Namespace=json_data.get("Namespace"),
             Node=json_data.get("Node"),
             Port=json_data.get("Port"),
             ServiceId=json_data.get("ServiceId"),

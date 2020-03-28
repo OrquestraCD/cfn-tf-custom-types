@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::Downtime",
     "description": "Provides a Datadog downtime resource. This can be used to create and manage Datadog downtimes.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-Downtime/docs/README.md",
     "definitions": {
         "Recurrence": {
             "type": "object",

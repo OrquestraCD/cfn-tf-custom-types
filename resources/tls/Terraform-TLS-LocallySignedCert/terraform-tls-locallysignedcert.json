@@ -2,6 +2,7 @@
     "typeName": "Terraform::TLS::LocallySignedCert",
     "description": "Generates a TLS certificate using a *Certificate Signing Request* (CSR) and\nsigns it with a provided certificate authority (CA) private key.\n\nLocally-signed certificates are generally only trusted by client software when\nsetup to use the provided CA. They are normally used in development environments\nor when deployed internally to an organization.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tls/Terraform-TLS-LocallySignedCert/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

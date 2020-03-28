@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreCrossConnectGroup",
     "description": "This resource provides the Cross Connect Group resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new cross-connect group to use with Oracle Cloud Infrastructure\nFastConnect. For more information, see\n[FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).\n\nFor the purposes of access control, you must provide the OCID of the\ncompartment where you want the cross-connect group to reside. If you're\nnot sure which compartment to use, put the cross-connect group in the\nsame compartment with your VCN. For more information about\ncompartments and access control, see\n[Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).\nFor information about OCIDs, see\n[Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).\n\nYou may optionally specify a *display name* for the cross-connect group.\nIt does not have to be unique, and you can change it. Avoid entering confidential information.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreCrossConnectGroup/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

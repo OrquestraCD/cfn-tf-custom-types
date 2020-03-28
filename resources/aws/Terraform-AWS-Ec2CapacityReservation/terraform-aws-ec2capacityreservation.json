@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Ec2CapacityReservation",
     "description": "Provides an EC2 Capacity Reservation. This allows you to reserve capacity for your Amazon EC2 instances in a specific Availability Zone for any duration.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Ec2CapacityReservation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

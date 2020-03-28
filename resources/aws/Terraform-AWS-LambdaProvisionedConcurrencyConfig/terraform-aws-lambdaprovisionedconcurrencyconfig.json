@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LambdaProvisionedConcurrencyConfig",
     "description": "Manages a Lambda Provisioned Concurrency Configuration.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LambdaProvisionedConcurrencyConfig/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

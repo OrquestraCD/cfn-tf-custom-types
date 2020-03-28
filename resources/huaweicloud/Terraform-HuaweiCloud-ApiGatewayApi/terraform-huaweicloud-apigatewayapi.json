@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::ApiGatewayApi",
     "description": "Provides an API gateway API resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-ApiGatewayApi/docs/README.md",
     "definitions": {
         "BackendParameter": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::HCloud::Server",
     "description": "Provides an Hetzner Cloud server resource. This can be used to create, modify, and delete servers. Servers also support [provisioning](https://www.terraform.io/docs/provisioners/index.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/hcloud/Terraform-HCloud-Server/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

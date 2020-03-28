@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::SnmptrapServerProfile",
     "description": "This resource allows you to add/update/delete snmptrap server profiles.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-SnmptrapServerProfile/docs/README.md",
     "definitions": {
         "V2cServer": {
             "type": "object",

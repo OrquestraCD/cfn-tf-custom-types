@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::KustoCluster",
     "description": "Manages a Kusto (also known as Azure Data Explorer) Cluster",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-KustoCluster/docs/README.md",
     "definitions": {
         "Sku": {
             "type": "object",

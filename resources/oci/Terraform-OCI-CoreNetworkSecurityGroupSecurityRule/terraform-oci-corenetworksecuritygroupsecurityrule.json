@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreNetworkSecurityGroupSecurityRule",
     "description": "This resource provides the Network Security Group Security Rule resource in Oracle Cloud Infrastructure Core service.\n\nAdds a security rule to the specified network security group.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreNetworkSecurityGroupSecurityRule/docs/README.md",
     "definitions": {
         "IcmpOptions": {
             "type": "object",

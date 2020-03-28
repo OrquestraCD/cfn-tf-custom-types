@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreAppCatalogListingResourceVersionAgreement",
     "description": "The `oci_core_app_catalog_listing_resource_version_agreement` resource creates AppCatalogListingResourceVersionAgreement for a particular resource version of a listing.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreAppCatalogListingResourceVersionAgreement/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::LbRule",
     "description": "Provides a Load Balancer Rule resource to add content forwarding policies for Load Balancer backend resource.\n \n~> **Note** The Load Balancer Rule can only be define while the `protocol` of lb listener is one of HTTP and HTTPS. In addition, should set one of `domain` and `path` if defined.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-LbRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CustomerGateway",
     "description": "Provides a customer gateway inside a VPC. These objects can be connected to VPN gateways via VPN connections, and allow you to establish tunnels between your network and the VPC.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CustomerGateway/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

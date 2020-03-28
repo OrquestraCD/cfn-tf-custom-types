@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SesEmailIdentity",
     "description": "Provides an SES email identity resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SesEmailIdentity/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

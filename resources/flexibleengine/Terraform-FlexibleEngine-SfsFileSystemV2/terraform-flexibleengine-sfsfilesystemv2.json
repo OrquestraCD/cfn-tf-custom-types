@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::SfsFileSystemV2",
     "description": "Provides an Shared File System (SFS) resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-SfsFileSystemV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

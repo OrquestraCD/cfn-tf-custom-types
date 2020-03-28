@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::AccessRule",
     "description": "Provides a Cloudflare IP Firewall Access Rule resource. Access control can be applied on basis of IP addresses, IP ranges, AS numbers or countries.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-AccessRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

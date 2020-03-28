@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::LbListener",
     "description": "Provides a Load Balancer Listener resource.\n\n~> **Note** This `listen_type` only support when `protocol` is `tcp` in the extranet mode and the default value is `request_proxy`. In addition, in the extranet mode, the `listen_type` is `request_proxy` if `protocol`is `http` or `https`, the `listen_type` is `packets_transmit` if `protocol`is `udp`. In the intranet mode, the `listen_type` is `packets_transmit`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-LbListener/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

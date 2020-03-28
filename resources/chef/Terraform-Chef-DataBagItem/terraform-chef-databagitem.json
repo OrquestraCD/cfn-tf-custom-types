@@ -2,6 +2,7 @@
     "typeName": "Terraform::Chef::DataBagItem",
     "description": "A [data bag](http://docs.chef.io/data_bags.html) is a collection of\nconfiguration objects that are stored as JSON in Chef Server and can be\nretrieved and used in Chef recipes.\n\nThis resource creates objects within an existing data bag. To create the\ndata bag itself, use the ``chef_data_bag`` resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/chef/Terraform-Chef-DataBagItem/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

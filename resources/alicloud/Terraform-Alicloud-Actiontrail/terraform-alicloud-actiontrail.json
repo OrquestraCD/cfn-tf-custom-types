@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::Actiontrail",
     "description": "Provides a new resource to manage [Action Trail](https://www.alibabacloud.com/help/doc-detail/28804.htm).\n\n-> **NOTE:** Available in 1.35.0+",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-Actiontrail/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

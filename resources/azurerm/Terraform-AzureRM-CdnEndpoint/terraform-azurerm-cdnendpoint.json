@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::CdnEndpoint",
     "description": "A CDN Endpoint is the entity within a CDN Profile containing configuration information regarding caching behaviors and origins. The CDN Endpoint is exposed using the URL format <endpointname>.azureedge.net.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-CdnEndpoint/docs/README.md",
     "definitions": {
         "GeoFilter": {
             "type": "object",

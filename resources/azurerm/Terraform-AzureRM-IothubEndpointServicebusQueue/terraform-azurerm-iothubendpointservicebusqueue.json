@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::IothubEndpointServicebusQueue",
     "description": "CloudFormation equivalent of azurerm_iothub_endpoint_servicebus_queue",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-IothubEndpointServicebusQueue/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

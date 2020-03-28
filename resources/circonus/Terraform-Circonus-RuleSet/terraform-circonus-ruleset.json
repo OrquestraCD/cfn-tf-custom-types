@@ -2,6 +2,7 @@
     "typeName": "Terraform::Circonus::RuleSet",
     "description": "The ``circonus_rule_set`` resource creates and manages a\n[Circonus Rule Set](https://login.circonus.com/resources/api/calls/rule_set).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/circonus/Terraform-Circonus-RuleSet/docs/README.md",
     "definitions": {
         "If": {
             "type": "object",

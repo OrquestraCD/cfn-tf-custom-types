@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DnsMxRecord",
     "description": "Enables you to manage DNS MX Records within Azure DNS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DnsMxRecord/docs/README.md",
     "definitions": {
         "Record": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::DisStreamV2",
     "description": "DIS Stream management",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-DisStreamV2/docs/README.md",
     "definitions": {
         "Tags": {
             "type": "object",

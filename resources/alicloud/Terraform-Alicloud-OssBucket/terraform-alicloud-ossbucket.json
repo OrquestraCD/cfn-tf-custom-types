@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::OssBucket",
     "description": "Provides a resource to create a oss bucket and set its attribution.\n\n-> **NOTE:** The bucket namespace is shared by all users of the OSS system. Please set bucket name as unique as possible.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-OssBucket/docs/README.md",
     "definitions": {
         "CorsRule": {
             "type": "object",

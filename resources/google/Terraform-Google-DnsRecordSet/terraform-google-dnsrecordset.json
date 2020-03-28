@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::DnsRecordSet",
     "description": "Manages a set of DNS records within Google Cloud DNS. For more information see [the official documentation](https://cloud.google.com/dns/records/) and\n[API](https://cloud.google.com/dns/api/v1/resourceRecordSets).\n\n~> **Note:** The provider treats this resource as an authoritative record set. This means existing records (including the default records) for the given type will be overwritten when you create this resource in Terraform. In addition, the Google Cloud DNS API requires NS records to be present at all times, so Terraform will not actually remove NS records during destroy but will report that it did.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-DnsRecordSet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

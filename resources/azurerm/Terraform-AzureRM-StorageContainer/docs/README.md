@@ -112,3 +112,7 @@ Returns the <code>HasLegalHold</code> value.
 
 Returns the <code>Id</code> value.
 
+#### ResourceManagerId
+
+Returns the <code>ResourceManagerId</code> value.
+

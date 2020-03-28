@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::EmailSuppression",
     "description": "This resource provides the Suppression resource in Oracle Cloud Infrastructure Email service.\n\nAdds recipient email addresses to the suppression list for a tenancy.\nAddresses added to the suppression list via the API are denoted as\n\"MANUAL\" in the `reason` field. *Note:* All email addresses added to the\nsuppression list are normalized to include only lowercase letters.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-EmailSuppression/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

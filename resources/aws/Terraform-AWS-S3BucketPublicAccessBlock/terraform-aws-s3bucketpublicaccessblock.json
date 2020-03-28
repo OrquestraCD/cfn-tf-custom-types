@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::S3BucketPublicAccessBlock",
     "description": "Manages S3 bucket-level Public Access Block configuration. For more information about these settings, see the [AWS S3 Block Public Access documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-S3BucketPublicAccessBlock/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

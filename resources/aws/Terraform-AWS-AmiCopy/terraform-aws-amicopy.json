@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AmiCopy",
     "description": "The \"AMI copy\" resource allows duplication of an Amazon Machine Image (AMI),\nincluding cross-region copies.\n\nIf the source AMI has associated EBS snapshots, those will also be duplicated\nalong with the AMI.\n\nThis is useful for taking a single AMI provisioned in one region and making\nit available in another for a multi-region deployment.\n\nCopying an AMI can take several minutes. The creation of this resource will\nblock until the new AMI is available for use on new instances.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AmiCopy/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

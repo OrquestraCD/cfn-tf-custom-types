@@ -2,6 +2,7 @@
     "typeName": "Terraform::Rancher::Volume",
     "description": "CloudFormation equivalent of rancher_volume",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rancher/Terraform-Rancher-Volume/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

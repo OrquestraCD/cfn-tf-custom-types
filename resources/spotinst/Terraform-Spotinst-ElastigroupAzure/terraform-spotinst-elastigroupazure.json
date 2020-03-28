@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::ElastigroupAzure",
     "description": "Provides a Spotinst elastigroup Azure resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-ElastigroupAzure/docs/README.md",
     "definitions": {
         "HealthCheck": {
             "type": "object",

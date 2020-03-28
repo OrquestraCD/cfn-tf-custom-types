@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayBasePathMapping",
     "description": "Connects a custom domain name registered via `aws_api_gateway_domain_name`\nwith a deployed API so that its methods can be called via the\ncustom domain name.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayBasePathMapping/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

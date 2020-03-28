@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SesIdentityNotificationTopic",
     "description": "CloudFormation equivalent of aws_ses_identity_notification_topic",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SesIdentityNotificationTopic/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

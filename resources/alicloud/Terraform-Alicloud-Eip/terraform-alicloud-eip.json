@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::Eip",
     "description": "Provides an elastic IP resource.\n\n-> **NOTE:** The resource only supports to create `PostPaid PayByTraffic`  or `PrePaid PayByBandwidth` elastic IP for international account. Otherwise, you will happened error `COMMODITY.INVALID_COMPONENT`.\nYour account is international if you can use it to login in [International Web Console](https://account.alibabacloud.com/login/login.htm).\n\n-> **NOTE:** From version 1.10.1, this resource supports creating \"PrePaid\" EIP. In addition, it supports setting EIP name and description.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-Eip/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::VirtualDisk",
     "description": "The `vsphere_virtual_disk` resource can be used to create virtual disks outside\nof any given [`vsphere_virtual_machine`][docs-vsphere-virtual-machine]\nresource. These disks can be attached to a virtual machine by creating a disk\nblock with the [`attach`][docs-vsphere-virtual-machine-disk-attach] parameter.\n\n[docs-vsphere-virtual-machine]: /docs/providers/vsphere/r/virtual_machine.html\n[docs-vsphere-virtual-machine-disk-attach]: /docs/providers/vsphere/r/virtual_machine.html#attach",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-VirtualDisk/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

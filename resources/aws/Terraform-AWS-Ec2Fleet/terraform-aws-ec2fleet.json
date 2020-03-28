@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Ec2Fleet",
     "description": "Provides a resource to manage EC2 Fleets.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Ec2Fleet/docs/README.md",
     "definitions": {
         "LaunchTemplateConfig": {
             "type": "object",

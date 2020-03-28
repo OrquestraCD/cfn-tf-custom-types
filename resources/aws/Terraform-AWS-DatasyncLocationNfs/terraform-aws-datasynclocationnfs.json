@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DatasyncLocationNfs",
     "description": "Manages an NFS Location within AWS DataSync.\n\n~> **NOTE:** The DataSync Agents must be available before creating this resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DatasyncLocationNfs/docs/README.md",
     "definitions": {
         "OnPremConfig": {
             "type": "object",

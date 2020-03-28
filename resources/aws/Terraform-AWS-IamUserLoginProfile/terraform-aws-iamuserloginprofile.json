@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IamUserLoginProfile",
     "description": "Manages an IAM User Login Profile with limited support for password creation during Terraform resource creation. Uses PGP to encrypt the password for safe transport to the user. PGP keys can be obtained from Keybase.\n\n-> To reset an IAM User login password via Terraform, you can use the [`terraform taint` command](https://www.terraform.io/docs/commands/taint.html) or change any of the arguments.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IamUserLoginProfile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

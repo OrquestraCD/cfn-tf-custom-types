@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::VpnGateway",
     "description": "Manages a VPN Gateway within a Virtual Hub, which enables Site-to-Site communication.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-VpnGateway/docs/README.md",
     "definitions": {
         "BgpSettings": {
             "type": "object",

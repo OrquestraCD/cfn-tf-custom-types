@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::Folder",
     "description": "The `vsphere_folder` resource can be used to manage vSphere inventory folders.\nThe resource supports creating folders of the 5 major types - datacenter\nfolders, host and cluster folders, virtual machine folders, datastore folders,\nand network folders.\n\nPaths are always relative to the specific type of folder you are creating.\nSubfolders are discovered by parsing the relative path specified in `path`, so\n`foo/bar` will create a folder named `bar` in the parent folder `foo`, as long\nas that folder exists.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-Folder/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

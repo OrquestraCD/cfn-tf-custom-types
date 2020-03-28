@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::LbCertificateV2",
     "description": "Manages a V2 certificate resource within HuaweiCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-LbCertificateV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

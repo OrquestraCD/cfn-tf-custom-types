@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AppmeshMesh",
     "description": "Provides an AWS App Mesh service mesh resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AppmeshMesh/docs/README.md",
     "definitions": {
         "Spec": {
             "type": "object",

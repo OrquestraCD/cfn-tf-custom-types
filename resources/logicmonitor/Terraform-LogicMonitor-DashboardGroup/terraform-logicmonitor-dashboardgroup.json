@@ -2,6 +2,7 @@
     "typeName": "Terraform::LogicMonitor::DashboardGroup",
     "description": "Provides a LogicMonitor dashboard group resource. This can be used to create and manage LogicMonitor dashboard groups.\nCurrently only creating a dashboard group based on an existing JSON template is supported",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/logicmonitor/Terraform-LogicMonitor-DashboardGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::EssScalingRule",
     "description": "Provides a ESS scaling rule resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-EssScalingRule/docs/README.md",
     "definitions": {
         "StepAdjustment": {
             "type": "object",

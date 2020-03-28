@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayClientCertificate",
     "description": "Provides an API Gateway Client Certificate.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayClientCertificate/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

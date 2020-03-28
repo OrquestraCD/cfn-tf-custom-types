@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Route53Record",
     "description": "Provides a Route53 record resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Route53Record/docs/README.md",
     "definitions": {
         "Alias": {
             "type": "object",

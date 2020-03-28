@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ApiManagementApiOperation",
     "description": "Manages an API Operation within an API Management Service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ApiManagementApiOperation/docs/README.md",
     "definitions": {
         "Request": {
             "type": "object",

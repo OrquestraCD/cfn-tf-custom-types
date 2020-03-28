@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::CognitiveAccount",
     "description": "Manages a Cognitive Services Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-CognitiveAccount/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",
@@ -48,6 +49,10 @@
         },
         "PrimaryAccessKey": {
             "type": "string"
+        },
+        "QnaRuntimeEndpoint": {
+            "type": "string",
+            "description": "A URL to link a QnAMaker cognitive account to a QnA runtime."
         },
         "ResourceGroupName": {
             "type": "string",

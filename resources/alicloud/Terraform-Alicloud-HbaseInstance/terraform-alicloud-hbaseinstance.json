@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::HbaseInstance",
     "description": "Provides a HBase instance resource supports replica set instances only. the HBase provides stable, reliable, and automatic scalable database services. \nIt offers a full range of database solutions, such as disaster recovery, backup, recovery, monitoring, and alarms.\nYou can see detail product introduction [here](https://help.aliyun.com/product/49055.html)\n\n-> **NOTE:**  Available in 1.67.0+\n\n-> **NOTE:**  The following regions don't support create Classic network HBase instance.\n[`cn-hangzhou`,`cn-shanghai`,`cn-qingdao`,`cn-beijing`,`cn-shenzhen`,`ap-southeast-1a`,.....]\nthe official website mark  more regions. or you can call [DescribeRegions](https://help.aliyun.com/document_detail/144489.html)\n\n-> **NOTE:**  Create HBase instance or change instance type and storage would cost 15 minutes. Please make full preparation",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-HbaseInstance/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

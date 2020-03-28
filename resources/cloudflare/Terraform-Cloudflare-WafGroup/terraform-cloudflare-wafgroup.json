@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::WafGroup",
     "description": "Provides a Cloudflare WAF rule group resource for a particular zone. This can be used to configure firewall behaviour for pre-defined firewall groups.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-WafGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

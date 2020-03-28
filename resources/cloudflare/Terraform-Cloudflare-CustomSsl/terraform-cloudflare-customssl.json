@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::CustomSsl",
     "description": "Provides a Cloudflare custom ssl resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-CustomSsl/docs/README.md",
     "definitions": {
         "CustomSslPriority": {
             "type": "object",

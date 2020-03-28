@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayUsagePlan",
     "description": "Provides an API Gateway Usage Plan.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayUsagePlan/docs/README.md",
     "definitions": {
         "ApiStages": {
             "type": "object",

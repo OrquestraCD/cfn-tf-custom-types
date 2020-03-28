@@ -2,6 +2,7 @@
     "typeName": "Terraform::Kubernetes::HorizontalPodAutoscaler",
     "description": "Horizontal Pod Autoscaler automatically scales the number of pods in a replication controller, deployment or replica set based on observed CPU utilization.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/kubernetes/Terraform-Kubernetes-HorizontalPodAutoscaler/docs/README.md",
     "definitions": {
         "Metadata": {
             "type": "object",

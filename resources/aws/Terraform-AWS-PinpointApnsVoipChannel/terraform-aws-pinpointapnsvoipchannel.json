@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::PinpointApnsVoipChannel",
     "description": "Provides a Pinpoint APNs VoIP Channel resource.\n\n~> **Note:** All arguments, including certificates and tokens, will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-PinpointApnsVoipChannel/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

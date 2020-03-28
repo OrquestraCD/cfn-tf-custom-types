@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LbListenerCertificate",
     "description": "Provides a Load Balancer Listener Certificate resource.\n\nThis resource is for additional certificates and does not replace the default certificate on the listener.\n\n~> **Note:** `aws_alb_listener_certificate` is known as `aws_lb_listener_certificate`. The functionality is identical.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LbListenerCertificate/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

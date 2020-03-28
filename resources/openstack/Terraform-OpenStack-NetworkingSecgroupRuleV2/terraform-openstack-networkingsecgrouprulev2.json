@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::NetworkingSecgroupRuleV2",
     "description": "Manages a V2 neutron security group rule resource within OpenStack.\nUnlike Nova security groups, neutron separates the group from the rules\nand also allows an admin to target a specific tenant_id.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-NetworkingSecgroupRuleV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

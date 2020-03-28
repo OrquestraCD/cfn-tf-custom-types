@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SsmAssociation",
     "description": "Associates an SSM Document to an instance or EC2 tag.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SsmAssociation/docs/README.md",
     "definitions": {
         "OutputLocation": {
             "type": "object",

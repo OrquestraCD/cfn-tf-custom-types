@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::VappVm",
     "description": "Provides a vCloud Director VM resource. This can be used to create,\nmodify, and delete VMs within a vApp.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-VappVm/docs/README.md",
     "definitions": {
         "Customization": {
             "type": "object",

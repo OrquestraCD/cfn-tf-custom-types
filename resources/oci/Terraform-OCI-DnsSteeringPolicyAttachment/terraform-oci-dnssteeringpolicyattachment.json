@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DnsSteeringPolicyAttachment",
     "description": "This resource provides the Steering Policy Attachment resource in Oracle Cloud Infrastructure Dns service.\n\nCreates a new attachment between a steering policy and a domain, giving the\npolicy permission to answer queries for the specified domain. A steering policy must\nbe attached to a domain for the policy to answer DNS queries for that domain.\n\nFor the purposes of access control, the attachment is automatically placed\ninto the same compartment as the domain's zone.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DnsSteeringPolicyAttachment/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

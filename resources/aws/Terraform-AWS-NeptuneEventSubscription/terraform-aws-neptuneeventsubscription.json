@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::NeptuneEventSubscription",
     "description": "CloudFormation equivalent of aws_neptune_event_subscription",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-NeptuneEventSubscription/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

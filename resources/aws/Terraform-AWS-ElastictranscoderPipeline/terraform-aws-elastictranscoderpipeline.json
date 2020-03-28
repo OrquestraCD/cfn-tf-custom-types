@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ElastictranscoderPipeline",
     "description": "Provides an Elastic Transcoder pipeline resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ElastictranscoderPipeline/docs/README.md",
     "definitions": {
         "ContentConfig": {
             "type": "object",

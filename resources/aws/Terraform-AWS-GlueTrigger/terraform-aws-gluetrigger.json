@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GlueTrigger",
     "description": "Manages a Glue Trigger resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GlueTrigger/docs/README.md",
     "definitions": {
         "Actions": {
             "type": "object",

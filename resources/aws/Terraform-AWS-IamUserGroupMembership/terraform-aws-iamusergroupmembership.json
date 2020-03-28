@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IamUserGroupMembership",
     "description": "Provides a resource for adding an [IAM User][2] to [IAM Groups][1]. This\nresource can be used multiple times with the same user for non-overlapping\ngroups.\n\nTo exclusively manage the users in a group, see the\n[`aws_iam_group_membership` resource][3].",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IamUserGroupMembership/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

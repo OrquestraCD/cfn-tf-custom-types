@@ -2,6 +2,7 @@
     "typeName": "Terraform::Triton::InstanceTemplate",
     "description": "The `triton_instance_template` resource represents a Triton Service Group instance template.\n\n~> **NOTE:**  Triton Service Groups are in Preview and only supported in specific regions at this time. They will become Generally Available in the near future.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/triton/Terraform-Triton-InstanceTemplate/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OPC::ComputeSecRule",
     "description": "The ``opc_compute_sec_rule`` resource creates and manages a sec rule in an Oracle Cloud Infrastructure Compute Classic identity domain, which joins together a source security list (or security IP list), a destination security list (or security IP list), and a security application.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opc/Terraform-OPC-ComputeSecRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

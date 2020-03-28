@@ -2,6 +2,7 @@
     "typeName": "Terraform::Random::Shuffle",
     "description": "The resource `random_shuffle` generates a random permutation of a list\nof strings given as an argument.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/random/Terraform-Random-Shuffle/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

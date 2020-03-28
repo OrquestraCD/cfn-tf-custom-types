@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeNetworkPeering",
     "description": "Manages a network peering within GCE. For more information see\n[the official documentation](https://cloud.google.com/compute/docs/vpc/vpc-peering)\nand\n[API](https://cloud.google.com/compute/docs/reference/latest/networks).\n\n-> Both network must create a peering with each other for the peering\nto be functional.\n\n~> Subnets IP ranges across peered VPC networks cannot overlap.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeNetworkPeering/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

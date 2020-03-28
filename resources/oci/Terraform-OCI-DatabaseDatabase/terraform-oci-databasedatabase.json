@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseDatabase",
     "description": "This resource provides the Database resource in Oracle Cloud Infrastructure Database service.\n\nCreates a new database in the specified Database Home. If the database version is provided, it must match the version of the Database Home. Applies only to Exadata DB systems.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseDatabase/docs/README.md",
     "definitions": {
         "Database": {
             "type": "object",

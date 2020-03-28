@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::CloudtableClusterV2",
     "description": "cloud table cluster management",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-CloudtableClusterV2/docs/README.md",
     "definitions": {
         "Tags": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::NatRuleGroup",
     "description": "This resource allows you to add/update/delete a group of NAT rules.\n\nThis resource manages clusters of NAT rules in a single vsys,\nenforcing both the contents of individual rules as well as their\nordering.  Rules are defined in a `rule` config block.\n\nAlthough you cannot modify non-group NAT rules with this\nresource, the `position_keyword` and `position_reference` parameters allow you\nto reference some other NAT rule that already exists, using it as\na means to ensure some rough placement within the ruleset as a whole.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-NatRuleGroup/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

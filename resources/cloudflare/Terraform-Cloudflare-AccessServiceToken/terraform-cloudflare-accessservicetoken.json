@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::AccessServiceToken",
     "description": "Access Service Tokens are used for service-to-service communication\nwhen an application is behind Cloudflare Access.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-AccessServiceToken/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

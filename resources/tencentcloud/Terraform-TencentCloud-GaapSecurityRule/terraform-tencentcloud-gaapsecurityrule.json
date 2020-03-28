@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::GaapSecurityRule",
     "description": "Provides a resource to create a security policy rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-GaapSecurityRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

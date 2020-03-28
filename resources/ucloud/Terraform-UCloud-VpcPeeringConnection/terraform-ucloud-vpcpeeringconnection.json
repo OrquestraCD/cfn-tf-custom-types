@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::VpcPeeringConnection",
     "description": "Provides an VPC Peering Connection for establishing a connection between multiple VPC.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-VpcPeeringConnection/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

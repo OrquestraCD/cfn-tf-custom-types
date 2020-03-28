@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SiteRecoveryReplicatedVm",
     "description": "Manages a VM replicated using Azure Site Recovery (Azure to Azure only). A replicated VM keeps a copiously updated image of the VM in another region in order to be able to start the VM in that region in case of a disaster.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SiteRecoveryReplicatedVm/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

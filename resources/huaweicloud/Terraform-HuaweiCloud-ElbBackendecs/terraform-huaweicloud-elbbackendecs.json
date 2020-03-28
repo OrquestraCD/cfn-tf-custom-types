@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::ElbBackendecs",
     "description": "Manages an elastic loadbalancer backendecs resource within huawei cloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-ElbBackendecs/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

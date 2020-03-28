@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::CsApplication",
     "description": "-> **DEPRECATED:** This resource manages applications in swarm cluster only, which is being deprecated and will be replaced by Kubernetes cluster.\n\nThis resource use an orchestration template to define and deploy a multi-container application. An application is created by using an orchestration template.\nEach application can contain one or more services.\n\n-> **NOTE:** Application orchestration template must be a valid Docker Compose YAML template.\n\n-> **NOTE:** At present, this resource only support swarm cluster.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-CsApplication/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

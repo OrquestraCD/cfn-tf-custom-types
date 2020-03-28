@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreDedicatedVmHost",
     "description": "This resource provides the Dedicated Vm Host resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new dedicated virtual machine host in the specified compartment and the specified availability domain.\nDedicated virtual machine hosts enable you to run your Compute virtual machine (VM) instances on dedicated servers\nthat are a single tenant and not shared with other customers.\nFor more information, see [Dedicated Virtual Machine Hosts](https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreDedicatedVmHost/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

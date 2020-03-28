@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::IpSet",
     "description": "This resources provides a way to configure an IP set in NSX. An IP set is a collection of IP addresses. It is often used in the configuration of the NSX firewall.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-IpSet/docs/README.md",
     "definitions": {
         "Tag": {
             "type": "object",

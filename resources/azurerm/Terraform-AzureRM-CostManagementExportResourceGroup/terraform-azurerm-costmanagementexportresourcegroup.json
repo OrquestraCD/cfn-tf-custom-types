@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::CostManagementExportResourceGroup",
     "description": "Manages an Azure Cost Management Export for a Resource Group.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-CostManagementExportResourceGroup/docs/README.md",
     "definitions": {
         "DeliveryInfo": {
             "type": "object",

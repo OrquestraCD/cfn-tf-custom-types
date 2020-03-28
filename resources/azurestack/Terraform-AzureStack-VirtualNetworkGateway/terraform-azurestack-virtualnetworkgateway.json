@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureStack::VirtualNetworkGateway",
     "description": "Manages a Virtual Network Gateway to establish secure, cross-premises connectivity.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurestack/Terraform-AzureStack-VirtualNetworkGateway/docs/README.md",
     "definitions": {
         "BgpSettings": {
             "type": "object",

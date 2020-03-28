@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CloudwatchEventPermission",
     "description": "Provides a resource to create a CloudWatch Events permission to support cross-account events in the current account default event bus.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CloudwatchEventPermission/docs/README.md",
     "definitions": {
         "Condition": {
             "type": "object",

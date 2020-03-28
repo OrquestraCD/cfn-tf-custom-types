@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::CamSamlProvider",
     "description": "Provides a resource to create a CAM SAML provider.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-CamSamlProvider/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

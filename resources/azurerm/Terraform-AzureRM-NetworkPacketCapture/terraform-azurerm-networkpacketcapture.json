@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NetworkPacketCapture",
     "description": "CloudFormation equivalent of azurerm_network_packet_capture",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NetworkPacketCapture/docs/README.md",
     "definitions": {
         "Filter": {
             "type": "object",

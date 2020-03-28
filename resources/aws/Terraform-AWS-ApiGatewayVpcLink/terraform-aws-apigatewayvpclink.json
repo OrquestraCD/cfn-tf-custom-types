@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayVpcLink",
     "description": "Provides an API Gateway VPC Link.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayVpcLink/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

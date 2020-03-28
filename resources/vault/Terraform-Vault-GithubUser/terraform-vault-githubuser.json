@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::GithubUser",
     "description": "Manages policy mappings for Github Users authenticated via Github. See the [Vault\ndocumentation](https://www.vaultproject.io/docs/auth/github.html) for more\ninformation.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-GithubUser/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

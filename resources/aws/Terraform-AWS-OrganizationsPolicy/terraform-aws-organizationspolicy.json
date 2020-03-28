@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OrganizationsPolicy",
     "description": "Provides a resource to manage an [AWS Organizations policy](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OrganizationsPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

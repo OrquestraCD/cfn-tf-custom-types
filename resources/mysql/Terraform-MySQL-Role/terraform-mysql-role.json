@@ -2,6 +2,7 @@
     "typeName": "Terraform::MySQL::Role",
     "description": "The ``mysql_role`` resource creates and manages a user on a MySQL\nserver.\n\n~> **Note:** MySQL introduced roles in version 8. They do not work on MySQL 5 and lower.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/mysql/Terraform-MySQL-Role/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::KvstoreInstance",
     "description": "Provides an ApsaraDB Redis / Memcache instance resource. A DB instance is an isolated database environment in the cloud. It can be associated with IP whitelists and backup configuration which are separate resource providers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-KvstoreInstance/docs/README.md",
     "definitions": {
         "Parameters": {
             "type": "object",
@@ -127,6 +128,10 @@
         "PrivateIp": {
             "type": "string",
             "description": "Set the instance's private IP."
+        },
+        "SecurityGroupId": {
+            "type": "string",
+            "description": "The Security Group ID of ECS."
         },
         "SecurityIps": {
             "type": "array",

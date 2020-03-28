@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ServicequotasServiceQuota",
     "description": "Manages an individual Service Quota.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ServicequotasServiceQuota/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

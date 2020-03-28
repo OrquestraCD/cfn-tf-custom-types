@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::PubliccloudPrivateNetworkSubnet",
     "description": "~> __DEPRECATED:__ Use [`ovh_cloud_network_private_subnet`](./cloud_network_private_subnet.html) instead.\n\nCreates a subnet in a private network of a public cloud project.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-PubliccloudPrivateNetworkSubnet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

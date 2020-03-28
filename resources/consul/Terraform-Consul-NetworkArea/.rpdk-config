@@ -1,0 +1,10 @@
+{
+    "typeName": "Terraform::Consul::NetworkArea",
+    "language": "python37",
+    "runtime": "python3.7",
+    "entrypoint": "terraform_consul_networkarea.handlers.resource",
+    "testEntrypoint": "terraform_consul_networkarea.handlers.test_entrypoint",
+    "settings": {
+        "use_docker": true
+    }
+}

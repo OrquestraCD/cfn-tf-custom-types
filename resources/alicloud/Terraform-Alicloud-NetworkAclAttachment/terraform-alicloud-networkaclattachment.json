@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::NetworkAclAttachment",
     "description": "Provides a network acl attachment resource to associate network acls to vswitches.\n\n-> **NOTE:** Available in 1.44.0+. Currently, the resource are only available in Hongkong(cn-hongkong), India(ap-south-1), and Indonesia(ap-southeast-1) regions.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-NetworkAclAttachment/docs/README.md",
     "definitions": {
         "Resources": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::HdinsightHbaseCluster",
     "description": "Manages a HDInsight HBase Cluster.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-HdinsightHbaseCluster/docs/README.md",
     "definitions": {
         "ComponentVersion": {
             "type": "object",

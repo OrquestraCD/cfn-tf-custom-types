@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PrivateLinkService",
     "description": "Manages a Private Link Service.\n\n-> **NOTE** Private Link is now in [GA](https://docs.microsoft.com/en-gb/azure/private-link/).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PrivateLinkService/docs/README.md",
     "definitions": {
         "NatIpConfiguration": {
             "type": "object",

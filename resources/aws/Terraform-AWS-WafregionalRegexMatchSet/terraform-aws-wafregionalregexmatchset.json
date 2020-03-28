@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafregionalRegexMatchSet",
     "description": "Provides a WAF Regional Regex Match Set Resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafregionalRegexMatchSet/docs/README.md",
     "definitions": {
         "RegexMatchTuple": {
             "type": "object",

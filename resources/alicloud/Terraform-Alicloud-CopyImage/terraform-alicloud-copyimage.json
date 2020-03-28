@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::CopyImage",
     "description": "CloudFormation equivalent of alicloud_copy_image",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-CopyImage/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

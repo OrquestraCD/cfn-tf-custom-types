@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SsmMaintenanceWindowTarget",
     "description": "Provides an SSM Maintenance Window Target resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SsmMaintenanceWindowTarget/docs/README.md",
     "definitions": {
         "Targets": {
             "type": "object",

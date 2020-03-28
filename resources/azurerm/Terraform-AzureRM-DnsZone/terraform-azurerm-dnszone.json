@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DnsZone",
     "description": "Enables you to manage DNS zones within Azure DNS. These zones are hosted on Azure's name servers to which you can delegate the zone from the parent domain.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DnsZone/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

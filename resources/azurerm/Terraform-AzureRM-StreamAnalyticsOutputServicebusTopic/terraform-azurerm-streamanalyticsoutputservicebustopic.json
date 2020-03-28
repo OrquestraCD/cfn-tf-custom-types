@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StreamAnalyticsOutputServicebusTopic",
     "description": "Manages a Stream Analytics Output to a ServiceBus Topic.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StreamAnalyticsOutputServicebusTopic/docs/README.md",
     "definitions": {
         "Serialization": {
             "type": "object",

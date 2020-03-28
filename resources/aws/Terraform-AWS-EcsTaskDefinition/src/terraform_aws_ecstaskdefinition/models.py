@@ -50,6 +50,7 @@ class ResourceModel(BaseResourceModel):
     Revision: Optional[float]
     Tags: Optional[Sequence["_Tags"]]
     TaskRoleArn: Optional[str]
+    InferenceAccelerator: Optional[Sequence["_InferenceAccelerator"]]
     PlacementConstraints: Optional[Sequence["_PlacementConstraints"]]
     ProxyConfiguration: Optional[Sequence["_ProxyConfiguration"]]
     Volume: Optional[Sequence["_Volume"]]
@@ -79,6 +80,7 @@ class ResourceModel(BaseResourceModel):
             Revision=json_data.get("Revision"),
             Tags=json_data.get("Tags"),
             TaskRoleArn=json_data.get("TaskRoleArn"),
+            InferenceAccelerator=json_data.get("InferenceAccelerator"),
             PlacementConstraints=json_data.get("PlacementConstraints"),
             ProxyConfiguration=json_data.get("ProxyConfiguration"),
             Volume=json_data.get("Volume"),
@@ -111,6 +113,28 @@ class Tags:
 
 # work around possible type aliasing issues when variable has same name as a model
 _Tags = Tags
+
+
+@dataclass
+class InferenceAccelerator:
+    DeviceName: Optional[str]
+    DeviceType: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_InferenceAccelerator"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_InferenceAccelerator"]:
+        if not json_data:
+            return None
+        return cls(
+            DeviceName=json_data.get("DeviceName"),
+            DeviceType=json_data.get("DeviceType"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_InferenceAccelerator = InferenceAccelerator
 
 
 @dataclass

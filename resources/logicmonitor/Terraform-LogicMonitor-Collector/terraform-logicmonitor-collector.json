@@ -2,6 +2,7 @@
     "typeName": "Terraform::LogicMonitor::Collector",
     "description": "Provides a LogicMonitor collector resource. This can be used to create and manage LogicMonitor collectors.\n\n*Note:* This resource will only create the collector device in your account. See [Downloading a Collector Installer](https://www.logicmonitor.com/support/rest-api-developers-guide/collectors/downloading-a-collector-installer/) for\ninformation on how to download and install an existing collector.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/logicmonitor/Terraform-LogicMonitor-Collector/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::AppEngineApplication",
     "description": "Allows creation and management of an App Engine application.\n\n~> App Engine applications cannot be deleted once they're created; you have to delete the\n   entire project to delete the application. Terraform will report the application has been\n   successfully deleted; this is a limitation of Terraform, and will go away in the future.\n   Terraform is not able to delete App Engine applications.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-AppEngineApplication/docs/README.md",
     "definitions": {
         "FeatureSettings": {
             "type": "object",

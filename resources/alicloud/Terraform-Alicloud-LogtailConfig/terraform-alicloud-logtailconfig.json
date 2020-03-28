@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::LogtailConfig",
     "description": "The Logtail access service is a log collection agent provided by Log Service. \nYou can use Logtail to collect logs from servers such as Alibaba Cloud Elastic\nCompute Service (ECS) instances in real time in the Log Service console. [Refer to details](https://www.alibabacloud.com/help/doc-detail/29058.htm\n)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-LogtailConfig/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

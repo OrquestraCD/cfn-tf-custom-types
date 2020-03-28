@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::FsxWindowsFileSystem",
     "description": "Manages a FSx Windows File System. See the [FSx Windows Guide](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html) for more information.\n\n~> **NOTE:** Either the `active_directory_id` argument or `self_managed_active_directory` configuration block must be specified.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-FsxWindowsFileSystem/docs/README.md",
     "definitions": {
         "SelfManagedActiveDirectory": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::Eni",
     "description": "Provides a resource to create an ENI.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-Eni/docs/README.md",
     "definitions": {
         "Ipv4s": {
             "type": "object",

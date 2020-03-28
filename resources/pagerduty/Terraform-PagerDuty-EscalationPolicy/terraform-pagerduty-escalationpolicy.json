@@ -2,6 +2,7 @@
     "typeName": "Terraform::PagerDuty::EscalationPolicy",
     "description": "An [escalation policy](https://v2.developer.pagerduty.com/v2/page/api-reference#!/Escalation_Policies/get_escalation_policies) determines what user or schedule will be notified first, second, and so on when an incident is triggered. Escalation policies are used by one or more services.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/pagerduty/Terraform-PagerDuty-EscalationPolicy/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

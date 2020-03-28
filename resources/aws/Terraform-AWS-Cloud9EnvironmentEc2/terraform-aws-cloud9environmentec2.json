@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Cloud9EnvironmentEc2",
     "description": "Provides a Cloud9 EC2 Development Environment.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Cloud9EnvironmentEc2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

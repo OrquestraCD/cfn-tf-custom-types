@@ -2,6 +2,7 @@
     "typeName": "Terraform::Grafana::Organization",
     "description": "The organization resource allows Grafana organizations and their membership to\nbe created and managed.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/grafana/Terraform-Grafana-Organization/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

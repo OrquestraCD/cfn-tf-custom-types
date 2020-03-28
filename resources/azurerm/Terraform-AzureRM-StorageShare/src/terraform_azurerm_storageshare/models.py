@@ -40,6 +40,7 @@ class ResourceModel(BaseResourceModel):
     Metadata: Optional[Sequence["_Metadata"]]
     Name: Optional[str]
     Quota: Optional[float]
+    ResourceManagerId: Optional[str]
     StorageAccountName: Optional[str]
     Url: Optional[str]
     Acl: Optional[Sequence["_Acl"]]
@@ -59,6 +60,7 @@ class ResourceModel(BaseResourceModel):
             Metadata=json_data.get("Metadata"),
             Name=json_data.get("Name"),
             Quota=json_data.get("Quota"),
+            ResourceManagerId=json_data.get("ResourceManagerId"),
             StorageAccountName=json_data.get("StorageAccountName"),
             Url=json_data.get("Url"),
             Acl=json_data.get("Acl"),

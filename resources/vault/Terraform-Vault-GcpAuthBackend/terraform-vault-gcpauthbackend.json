@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::GcpAuthBackend",
     "description": "Provides a resource to configure the [GCP auth backend within Vault](https://www.vaultproject.io/docs/auth/gcp.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-GcpAuthBackend/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::BigqueryTable",
     "description": "Creates a table resource in a dataset for Google BigQuery. For more information see\n[the official documentation](https://cloud.google.com/bigquery/docs/) and\n[API](https://cloud.google.com/bigquery/docs/reference/rest/v2/tables).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-BigqueryTable/docs/README.md",
     "definitions": {
         "EncryptionConfiguration": {
             "type": "object",

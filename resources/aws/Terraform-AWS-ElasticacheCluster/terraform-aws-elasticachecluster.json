@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ElasticacheCluster",
     "description": "Provides an ElastiCache Cluster resource, which manages a Memcached cluster or Redis instance.\nFor working with Redis (Cluster Mode Enabled) replication groups, see the\n[`aws_elasticache_replication_group` resource](/docs/providers/aws/r/elasticache_replication_group.html).\n\n~> **Note:** When you change an attribute, such as `node_type`, by default\nit is applied in the next maintenance window. Because of this, Terraform may report\na difference in its planning phase because the actual modification has not yet taken\nplace. You can use the `apply_immediately` flag to instruct the service to apply the\nchange immediately. Using `apply_immediately` can result in a brief downtime as the server reboots.\nSee the AWS Docs on [Modifying an ElastiCache Cache Cluster][2] for more information.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ElasticacheCluster/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

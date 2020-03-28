@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::KmsVault",
     "description": "This resource provides the Vault resource in Oracle Cloud Infrastructure Kms service.\n\nCreates a new vault. The type of vault you create determines key placement, pricing, and \navailable options. Options include storage isolation, a dedicated service endpoint instead \nof a shared service endpoint for API calls, and either a dedicated hardware security module \n(HSM) or a multitenant HSM.\n\nAs a provisioning operation, this call is subject to a Key Management limit that applies to \nthe total number of requests across all provisioning write operations. Key Management might \nthrottle this call to reject an otherwise valid request when the total rate of provisioning \nwrite operations exceeds 10 requests per second for a given tenancy.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-KmsVault/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

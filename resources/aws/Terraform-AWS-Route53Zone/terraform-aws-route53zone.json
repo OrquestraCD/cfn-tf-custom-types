@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Route53Zone",
     "description": "Manages a Route53 Hosted Zone.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Route53Zone/docs/README.md",
     "definitions": {
         "Vpc": {
             "type": "object",

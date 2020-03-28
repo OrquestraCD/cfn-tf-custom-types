@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ServiceDiscoveryPublicDnsNamespace",
     "description": "Provides a Service Discovery Public DNS Namespace resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ServiceDiscoveryPublicDnsNamespace/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

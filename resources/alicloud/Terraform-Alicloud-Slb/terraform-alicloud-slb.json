@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::Slb",
     "description": "Provides an Application Load Balancer resource.\n\n-> **NOTE:** At present, to avoid some unnecessary regulation confusion, SLB can not support alicloud international account to create \"paybybandwidth\" instance.\n\n-> **NOTE:** The supported specifications vary by region. Currently not all regions support guaranteed-performance instances.\nFor more details about guaranteed-performance instance, see [Guaranteed-performance instances](https://www.alibabacloud.com/help/doc-detail/27657.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-Slb/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

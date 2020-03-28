@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::LogMachineGroup",
     "description": "Log Service manages all the ECS instances whose logs need to be collected by using the Logtail client in the form of machine groups.\n [Refer to details](https://www.alibabacloud.com/help/doc-detail/28966.htm)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-LogMachineGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

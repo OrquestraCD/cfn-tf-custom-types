@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::AutomationJobSchedule",
     "description": "Links an Automation Runbook and Schedule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-AutomationJobSchedule/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::MysqlServer",
     "description": "Manages a MySQL Server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MysqlServer/docs/README.md",
     "definitions": {
         "StorageProfile": {
             "type": "object",

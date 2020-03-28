@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::ComputeFloatingipV2",
     "description": "Manages a V2 floating IP resource within FlexibleEngine Nova (compute)\nthat can be used for compute instances.\nThese are similar to Neutron (networking) floating IP resources,\nbut only networking floating IPs can be used with load balancers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-ComputeFloatingipV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

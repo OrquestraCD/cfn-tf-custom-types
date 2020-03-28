@@ -2,6 +2,7 @@
     "typeName": "Terraform::PowerDNS::Zone",
     "description": "Provides a PowerDNS zone.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/powerdns/Terraform-PowerDNS-Zone/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::SharedfilesystemShareAccessV2",
     "description": "Use this resource to control the share access lists.\n\n~> **Important Security Notice** The access key retrieved by this resource will\nbe stored *unencrypted* in your Terraform state file. If you use this resource\nin production, please make sure your state file is sufficiently protected.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-SharedfilesystemShareAccessV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

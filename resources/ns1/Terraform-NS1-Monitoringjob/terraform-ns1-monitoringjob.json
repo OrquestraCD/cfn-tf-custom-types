@@ -2,6 +2,7 @@
     "typeName": "Terraform::NS1::Monitoringjob",
     "description": "Provides a NS1 Monitoring Job resource. This can be used to create, modify, and delete monitoring jobs.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ns1/Terraform-NS1-Monitoringjob/docs/README.md",
     "definitions": {
         "Rules": {
             "type": "object",

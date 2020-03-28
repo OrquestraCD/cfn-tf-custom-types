@@ -2,6 +2,7 @@
     "typeName": "Terraform::DigitalOcean::Cdn",
     "description": "Provides a DigitalOcean CDN Endpoint resource for use with Spaces.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/digitalocean/Terraform-DigitalOcean-Cdn/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

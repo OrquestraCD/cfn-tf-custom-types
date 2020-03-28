@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::VpcEndpointConnectionNotification",
     "description": "Provides a VPC Endpoint connection notification resource.\nConnection notifications notify subscribers of VPC Endpoint events.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-VpcEndpointConnectionNotification/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

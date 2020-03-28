@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::IploadbalancingHttpRouteRule",
     "description": "Manage rules for HTTP route.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-IploadbalancingHttpRouteRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

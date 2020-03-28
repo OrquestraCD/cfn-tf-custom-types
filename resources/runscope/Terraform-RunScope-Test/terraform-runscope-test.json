@@ -2,6 +2,7 @@
     "typeName": "Terraform::RunScope::Test",
     "description": "A [test](https://www.runscope.com/docs/api/tests) resource.\n[Tests](https://www.runscope.com/docs/buckets) are made up of\na collection of [test steps](step.html) and an\n[environment](environment.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/runscope/Terraform-RunScope-Test/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

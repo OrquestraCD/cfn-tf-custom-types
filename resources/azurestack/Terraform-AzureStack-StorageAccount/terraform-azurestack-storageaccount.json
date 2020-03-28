@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureStack::StorageAccount",
     "description": "Manages an Azure Storage Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurestack/Terraform-AzureStack-StorageAccount/docs/README.md",
     "definitions": {
         "CustomDomain": {
             "type": "object",

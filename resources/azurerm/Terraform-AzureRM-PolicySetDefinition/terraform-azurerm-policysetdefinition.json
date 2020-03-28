@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PolicySetDefinition",
     "description": "Manages a policy set definition.\n\n-> **NOTE:**  Policy set definitions (also known as policy initiatives) do not take effect until they are assigned to a scope using a Policy Set Assignment.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PolicySetDefinition/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

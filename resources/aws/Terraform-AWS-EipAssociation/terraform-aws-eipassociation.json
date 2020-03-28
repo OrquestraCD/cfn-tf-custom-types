@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::EipAssociation",
     "description": "Provides an AWS EIP Association as a top level resource, to associate and\ndisassociate Elastic IPs from AWS Instances and Network Interfaces.\n\n~> **NOTE:** Do not use this resource to associate an EIP to `aws_lb` or `aws_nat_gateway` resources. Instead use the `allocation_id` available in those resources to allow AWS to manage the association, otherwise you will see `AuthFailure` errors.\n\n~> **NOTE:** `aws_eip_association` is useful in scenarios where EIPs are either\npre-existing or distributed to customers or users and therefore cannot be changed.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EipAssociation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

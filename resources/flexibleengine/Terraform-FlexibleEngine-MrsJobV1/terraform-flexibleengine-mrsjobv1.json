@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::MrsJobV1",
     "description": "Manages resource job within FlexibleEngine MRS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-MrsJobV1/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

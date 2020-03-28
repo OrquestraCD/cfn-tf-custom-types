@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::VrackCloudproject",
     "description": "Attach a Public Cloud Project to a VRack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-VrackCloudproject/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

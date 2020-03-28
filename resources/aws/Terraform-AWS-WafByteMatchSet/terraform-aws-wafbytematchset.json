@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafByteMatchSet",
     "description": "Provides a WAF Byte Match Set Resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafByteMatchSet/docs/README.md",
     "definitions": {
         "ByteMatchTuples": {
             "type": "object",

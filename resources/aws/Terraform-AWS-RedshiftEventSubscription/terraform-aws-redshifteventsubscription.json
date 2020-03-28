@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::RedshiftEventSubscription",
     "description": "Provides a Redshift event subscription resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-RedshiftEventSubscription/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

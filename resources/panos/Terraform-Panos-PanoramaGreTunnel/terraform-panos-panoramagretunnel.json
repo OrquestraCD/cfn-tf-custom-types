@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaGreTunnel",
     "description": "This resource allows you to add/update/delete Panorama GRE tunnels.\n\n*Minimum PAN-OS version*: 9.0",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaGreTunnel/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Heroku::SpaceInboundRuleset",
     "description": "Provides a resource for managing [inbound rulesets](https://devcenter.heroku.com/articles/platform-api-reference#inbound-ruleset) for Heroku Private Spaces.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/heroku/Terraform-Heroku-SpaceInboundRuleset/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",
@@ -32,7 +33,7 @@
         },
         "Space": {
             "type": "string",
-            "description": "The name of the space."
+            "description": "The `UUID` of the space."
         },
         "Rule": {
             "type": "array",

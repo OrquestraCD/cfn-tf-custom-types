@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::NsxvFirewallRule",
     "description": "Provides a vCloud Director firewall rule resource for advanced edge gateways (NSX-V). This can be\nused to create, modify, and delete firewall rules. Replaces\n[`vcd_firewall_rules`](/docs/providers/vcd/r/firewall_rules.html) resource.\n\n~> **Note:** This resource requires advanced edge gateway (NSX-V). For non-advanced edge gateways please\nuse the [`vcd_firewall_rules`](/docs/providers/vcd/r/firewall_rules.html) resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-NsxvFirewallRule/docs/README.md",
     "definitions": {
         "Destination": {
             "type": "object",

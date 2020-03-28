@@ -1,0 +1,10 @@
+{
+    "typeName": "Terraform::AzureRM::MssqlDatabase",
+    "language": "python37",
+    "runtime": "python3.7",
+    "entrypoint": "terraform_azurerm_mssqldatabase.handlers.resource",
+    "testEntrypoint": "terraform_azurerm_mssqldatabase.handlers.test_entrypoint",
+    "settings": {
+        "use_docker": true
+    }
+}

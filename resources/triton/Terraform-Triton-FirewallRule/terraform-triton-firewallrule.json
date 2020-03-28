@@ -2,6 +2,7 @@
     "typeName": "Terraform::Triton::FirewallRule",
     "description": "The `triton_firewall_rule` resource represents a rule for the Triton cloud firewall.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/triton/Terraform-Triton-FirewallRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

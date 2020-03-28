@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::WorkerRoute",
     "description": "Provides a Cloudflare worker route resource. A route will also require a `cloudflare_worker_script`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-WorkerRoute/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

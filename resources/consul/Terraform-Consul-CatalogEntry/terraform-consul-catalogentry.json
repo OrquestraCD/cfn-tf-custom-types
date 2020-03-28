@@ -2,6 +2,7 @@
     "typeName": "Terraform::Consul::CatalogEntry",
     "description": "!> The `consul_catalog_entry` resource has been deprecated in version 2.0.0 of the provider\nand will be removed in a future release. Please read the [upgrade guide](/docs/providers/consul/guides/upgrading.html#deprecation-of-consul_catalog_entry)\nfor more information.\n\nRegisters a node or service with the [Consul Catalog](https://www.consul.io/docs/agent/http/catalog.html#catalog_register).\nCurrently, defining health checks is not supported.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/consul/Terraform-Consul-CatalogEntry/docs/README.md",
     "definitions": {
         "Service": {
             "type": "object",

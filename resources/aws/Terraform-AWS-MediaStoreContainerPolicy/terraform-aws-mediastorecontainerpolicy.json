@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::MediaStoreContainerPolicy",
     "description": "Provides a MediaStore Container Policy.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-MediaStoreContainerPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::NetworkingRouterRouteV2",
     "description": "Creates a routing entry on a FlexibleEngine V2 router.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-NetworkingRouterRouteV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

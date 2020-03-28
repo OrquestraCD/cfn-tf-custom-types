@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::Vswitch",
     "description": "Provides a VPC switch resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-Vswitch/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

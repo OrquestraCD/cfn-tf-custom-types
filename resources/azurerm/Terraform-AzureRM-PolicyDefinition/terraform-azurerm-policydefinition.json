@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PolicyDefinition",
     "description": "Manages a policy rule definition on a management group or your provider subscription.\n\nPolicy definitions do not take effect until they are assigned to a scope using a Policy Assignment.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PolicyDefinition/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

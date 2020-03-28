@@ -39,9 +39,11 @@ class ResourceModel(BaseResourceModel):
     Action: Optional[str]
     Description: Optional[str]
     DestinationName: Optional[str]
+    DestinationNamespace: Optional[str]
     Id: Optional[str]
     Meta: Optional[Sequence["_Meta"]]
     SourceName: Optional[str]
+    SourceNamespace: Optional[str]
 
     @classmethod
     def _deserialize(
@@ -55,9 +57,11 @@ class ResourceModel(BaseResourceModel):
             Action=json_data.get("Action"),
             Description=json_data.get("Description"),
             DestinationName=json_data.get("DestinationName"),
+            DestinationNamespace=json_data.get("DestinationNamespace"),
             Id=json_data.get("Id"),
             Meta=json_data.get("Meta"),
             SourceName=json_data.get("SourceName"),
+            SourceNamespace=json_data.get("SourceNamespace"),
         )
 
 

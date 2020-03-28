@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreIpsecConnectionTunnelManagement",
     "description": "This resource provides the Ip Sec Connection Tunnel Management resource in Oracle Cloud Infrastructure Core service.\n\nUpdates the specified tunnel. This operation lets you change tunnel attributes such as the\nrouting type (BGP dynamic routing or static routing). Here are some important notes:\n\n\t* If you change the tunnel's routing type or BGP session configuration, the tunnel will go\n\tdown while it's reprovisioned.\n\n\t* If you want to switch the tunnel's `routing` from `STATIC` to `BGP`, make sure the tunnel's\n\tBGP session configuration attributes have been set ([bgpSessionConfig](#/en/iaas/20160918/datatypes/BgpSessionInfo)).\n\n\t* If you want to switch the tunnel's `routing` from `BGP` to `STATIC`, make sure the\n\t[IPSecConnection](#/en/iaas/20160918/IPSecConnection/) already has at least one valid CIDR\n\tstatic route.\n\n** IMPORTANT **\nDestroying `the oci_core_ipsec_connection_tunnel_management` leaves the resource in its existing state. It will not destroy the tunnel and it will not return the tunnel to its default values.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreIpsecConnectionTunnelManagement/docs/README.md",
     "definitions": {
         "BgpSessionInfo": {
             "type": "object",

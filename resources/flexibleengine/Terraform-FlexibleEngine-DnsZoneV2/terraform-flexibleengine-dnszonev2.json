@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::DnsZoneV2",
     "description": "Manages a DNS zone in the FlexibleEngine DNS Service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-DnsZoneV2/docs/README.md",
     "definitions": {
         "Router": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::CsClusterV1",
     "description": "Cloud Stream Service cluster management",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-CsClusterV1/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::CdnProfile",
     "description": "Manages a CDN Profile to create a collection of CDN Endpoints.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-CdnProfile/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

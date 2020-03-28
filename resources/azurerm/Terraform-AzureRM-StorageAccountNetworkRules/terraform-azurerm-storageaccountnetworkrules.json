@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StorageAccountNetworkRules",
     "description": "CloudFormation equivalent of azurerm_storage_account_network_rules",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StorageAccountNetworkRules/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

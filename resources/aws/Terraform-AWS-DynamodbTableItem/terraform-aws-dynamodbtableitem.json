@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DynamodbTableItem",
     "description": "Provides a DynamoDB table item resource\n\n-> **Note:** This resource is not meant to be used for managing large amounts of data in your table, it is not designed to scale.\n  You should perform **regular backups** of all data in the table, see [AWS docs for more](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/BackupRestore.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DynamodbTableItem/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::LbAttachment",
     "description": "Provides a Load Balancer Attachment resource for attaching Load Balancer to UHost Instance, etc.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-LbAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

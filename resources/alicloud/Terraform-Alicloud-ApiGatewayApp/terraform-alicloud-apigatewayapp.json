@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::ApiGatewayApp",
     "description": "Provides an app resource.It must create an app before calling a third-party API because the app is the identity used to call the third-party API.\n\nFor information about Api Gateway App and how to use it, see [Create An APP](https://www.alibabacloud.com/help/doc-detail/43663.html)\n\n-> **NOTE:** Terraform will auto build api app while it uses `alicloud_api_gateway_app` to build api app.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-ApiGatewayApp/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

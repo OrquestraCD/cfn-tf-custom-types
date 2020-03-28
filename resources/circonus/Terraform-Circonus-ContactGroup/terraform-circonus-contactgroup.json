@@ -2,6 +2,7 @@
     "typeName": "Terraform::Circonus::ContactGroup",
     "description": "The ``circonus_contact_group`` resource creates and manages a\n[Circonus Contact Group](https://login.circonus.com/user/docs/Alerting/ContactGroups).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/circonus/Terraform-Circonus-ContactGroup/docs/README.md",
     "definitions": {
         "AlertOption": {
             "type": "object",

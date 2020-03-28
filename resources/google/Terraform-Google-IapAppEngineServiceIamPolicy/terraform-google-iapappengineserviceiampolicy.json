@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::IapAppEngineServiceIamPolicy",
     "description": "CloudFormation equivalent of google_iap_app_engine_service_iam_policy",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-IapAppEngineServiceIamPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

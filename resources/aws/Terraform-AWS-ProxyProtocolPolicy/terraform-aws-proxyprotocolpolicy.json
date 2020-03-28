@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ProxyProtocolPolicy",
     "description": "Provides a proxy protocol policy, which allows an ELB to carry a client connection information to a backend.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ProxyProtocolPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

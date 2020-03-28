@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::IdentityPlatformDefaultSupportedIdpConfig",
     "description": "Configurations options for authenticating with a the standard set of Identity Toolkit-trusted IDPs.\n\nYou must enable the\n[Google Identity Platform](https://console.cloud.google.com/marketplace/details/google-cloud-platform/customer-identity) in\nthe marketplace prior to using this resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-IdentityPlatformDefaultSupportedIdpConfig/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

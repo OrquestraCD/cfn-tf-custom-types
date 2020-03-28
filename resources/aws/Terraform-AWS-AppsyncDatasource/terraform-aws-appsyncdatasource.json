@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AppsyncDatasource",
     "description": "Provides an AppSync DataSource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AppsyncDatasource/docs/README.md",
     "definitions": {
         "DynamodbConfig": {
             "type": "object",

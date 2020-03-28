@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LightsailInstance",
     "description": "Provides a Lightsail Instance. Amazon Lightsail is a service to provide easy virtual private servers\nwith custom software already setup. See [What is Amazon Lightsail?](https://lightsail.aws.amazon.com/ls/docs/getting-started/article/what-is-amazon-lightsail)\nfor more information.\n\n~> **Note:** Lightsail is currently only supported in a limited number of AWS Regions, please see [\"Regions and Availability Zones in Amazon Lightsail\"](https://lightsail.aws.amazon.com/ls/docs/overview/article/understanding-regions-and-availability-zones-in-amazon-lightsail) for more details",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LightsailInstance/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

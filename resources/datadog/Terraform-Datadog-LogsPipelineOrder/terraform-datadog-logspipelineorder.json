@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::LogsPipelineOrder",
     "description": "Provides a Datadog [Logs Pipeline API](https://docs.datadoghq.com/api/?lang=python#logs-pipelines) resource, which is used to manage Datadog log pipelines order.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-LogsPipelineOrder/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

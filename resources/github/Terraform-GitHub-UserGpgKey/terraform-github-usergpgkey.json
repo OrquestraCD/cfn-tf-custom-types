@@ -2,6 +2,7 @@
     "typeName": "Terraform::GitHub::UserGpgKey",
     "description": "Provides a GitHub user's GPG key resource.\n\nThis resource allows you to add/remove GPG keys from your user account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/github/Terraform-GitHub-UserGpgKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

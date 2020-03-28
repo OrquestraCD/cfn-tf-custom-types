@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AutoscalingGroup",
     "description": "Provides an AutoScaling Group resource.\n\n-> **Note:** You must specify either `launch_configuration`, `launch_template`, or `mixed_instances_policy`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AutoscalingGroup/docs/README.md",
     "definitions": {
         "InitialLifecycleHook": {
             "type": "object",

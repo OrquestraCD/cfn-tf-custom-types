@@ -64,6 +64,7 @@ class ResourceModel(BaseResourceModel):
     IamInstanceProfile: Optional[Sequence["_IamInstanceProfile"]]
     InstanceMarketOptions: Optional[Sequence["_InstanceMarketOptions"]]
     LicenseSpecification: Optional[Sequence["_LicenseSpecification"]]
+    MetadataOptions: Optional[Sequence["_MetadataOptions"]]
     Monitoring: Optional[Sequence["_Monitoring"]]
     NetworkInterfaces: Optional[Sequence["_NetworkInterfaces"]]
     Placement: Optional[Sequence["_Placement"]]
@@ -109,6 +110,7 @@ class ResourceModel(BaseResourceModel):
             IamInstanceProfile=json_data.get("IamInstanceProfile"),
             InstanceMarketOptions=json_data.get("InstanceMarketOptions"),
             LicenseSpecification=json_data.get("LicenseSpecification"),
+            MetadataOptions=json_data.get("MetadataOptions"),
             Monitoring=json_data.get("Monitoring"),
             NetworkInterfaces=json_data.get("NetworkInterfaces"),
             Placement=json_data.get("Placement"),
@@ -417,6 +419,30 @@ class LicenseSpecification:
 
 # work around possible type aliasing issues when variable has same name as a model
 _LicenseSpecification = LicenseSpecification
+
+
+@dataclass
+class MetadataOptions:
+    HttpEndpoint: Optional[str]
+    HttpPutResponseHopLimit: Optional[float]
+    HttpTokens: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_MetadataOptions"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_MetadataOptions"]:
+        if not json_data:
+            return None
+        return cls(
+            HttpEndpoint=json_data.get("HttpEndpoint"),
+            HttpPutResponseHopLimit=json_data.get("HttpPutResponseHopLimit"),
+            HttpTokens=json_data.get("HttpTokens"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_MetadataOptions = MetadataOptions
 
 
 @dataclass

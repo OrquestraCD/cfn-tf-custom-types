@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::AlbServerAttachment",
     "description": "Provides an tencentcloud application load balancer servers attachment as a resource, to attach and detach instances from load balancer.\n\n~> **NOTE:** It has been deprecated and replaced by `tencentcloud_clb_attachment`.\n\n~> **NOTE:** Currently only support existing `loadbalancer_id` `listener_id` `location_id` and Application layer 7 load balancer",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-AlbServerAttachment/docs/README.md",
     "definitions": {
         "Backends": {
             "type": "object",

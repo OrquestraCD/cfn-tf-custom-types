@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::UdpnConnection",
     "description": "UDPN (UCloud Dedicated Private Network)\uff0cyou can use Dedicated Private Network to achieve high-speed, stable, secure, and dedicated communications between different data centers. The most frequent scenario is to create network connection of clusters across regions.\n\n~> **VPC Peering Connections with UDPN Connection** The cross-region Dedicated Private Network must be established if the two VPCs located in different regions are expected to be connected.\n\n~> **Note** The additional packet head will be added and included in the overall length of packet due to the tunneling UDPN adopted. Since the number of the bytes of packet head is fixed, the bigger data packet is, the less usage will be taken for the packet head.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-UdpnConnection/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

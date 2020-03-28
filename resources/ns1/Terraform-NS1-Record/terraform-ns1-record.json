@@ -2,6 +2,7 @@
     "typeName": "Terraform::NS1::Record",
     "description": "Provides a NS1 Record resource. This can be used to create, modify, and delete records.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ns1/Terraform-NS1-Record/docs/README.md",
     "definitions": {
         "Answers": {
             "type": "object",

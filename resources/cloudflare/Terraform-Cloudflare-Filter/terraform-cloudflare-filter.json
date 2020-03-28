@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::Filter",
     "description": "Filter expressions that can be referenced across multiple features, e.g. [Firewall Rule](firewall_rule.html). The expression format is similar to [Wireshark Display Filter](https://www.wireshark.org/docs/man-pages/wireshark-filter.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-Filter/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

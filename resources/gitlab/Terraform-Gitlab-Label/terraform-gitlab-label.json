@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::Label",
     "description": "This resource allows you to create and manage labels for your GitLab projects.\nFor further information on labels, consult the [gitlab\ndocumentation](https://docs.gitlab.com/ee/user/project/labels.html#project-labels).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-Label/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

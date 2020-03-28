@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreBootVolume",
     "description": "This resource provides the Boot Volume resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new boot volume in the specified compartment from an existing boot volume or a boot volume backup.\nFor general information about boot volumes, see [Boot Volumes](https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/bootvolumes.htm).\nYou may optionally specify a *display name* for the volume, which is simply a friendly name or\ndescription. It does not have to be unique, and you can change it. Avoid entering confidential information.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreBootVolume/docs/README.md",
     "definitions": {
         "SourceDetails": {
             "type": "object",

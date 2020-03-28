@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ElasticBeanstalkEnvironment",
     "description": "Provides an Elastic Beanstalk Environment Resource. Elastic Beanstalk allows\nyou to deploy and manage applications in the AWS cloud without worrying about\nthe infrastructure that runs those applications.\n\nEnvironments are often things such as `development`, `integration`, or\n`production`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ElasticBeanstalkEnvironment/docs/README.md",
     "definitions": {
         "Setting": {
             "type": "object",

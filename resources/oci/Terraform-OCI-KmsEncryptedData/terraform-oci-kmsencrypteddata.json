@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::KmsEncryptedData",
     "description": "This resource provides the Encrypted Data resource in Oracle Cloud Infrastructure Kms service.\n\nEncrypts data using the given [EncryptDataDetails](https://docs.cloud.oracle.com/iaas/api/#/en/key/release/datatypes/EncryptDataDetails) resource.\nPlaintext included in the example request is a base64-encoded value of a UTF-8 string.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-KmsEncryptedData/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

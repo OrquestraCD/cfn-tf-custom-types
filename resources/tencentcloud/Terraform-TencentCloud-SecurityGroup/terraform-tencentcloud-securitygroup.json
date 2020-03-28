@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::SecurityGroup",
     "description": "Provides a resource to create security group.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-SecurityGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

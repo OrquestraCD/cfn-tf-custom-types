@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::NetworkingPortSecgroupAssociateV2",
     "description": "Manages a V2 port's security groups within OpenStack. Useful, when the port was\ncreated not by Terraform (e.g. Manila or LBaaS). It should not be used, when the\nport was created directly within Terraform.\n\nWhen the resource is deleted, Terraform doesn't delete the port, but unsets the\nlist of user defined security group IDs.  However, if `enforce` is set to `true`\nand the resource is deleted, Terraform will remove all assigned security group\nIDs.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-NetworkingPortSecgroupAssociateV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

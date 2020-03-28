@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::File",
     "description": "The `vsphere_file` resource can be used to upload files (such as virtual disk\nfiles) from the host machine that Terraform is running on to a target\ndatastore.  The resource can also be used to copy files between datastores, or\nfrom one location to another on the same datastore.\n\nUpdates to destination parameters such as `datacenter`, `datastore`, or\n`destination_file` will move the managed file a new destination based on the\nvalues of the new settings.  If any source parameter is changed, such as\n`source_datastore`, `source_datacenter` or `source_file`), the resource will be\nre-created. Depending on if destination parameters are being changed as well,\nthis may result in the destination file either being overwritten or deleted at\nthe old location.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-File/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

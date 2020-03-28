@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseAutonomousDataWarehouse",
     "description": "This resource provides the Autonomous Data Warehouse resource in Oracle Cloud Infrastructure Database service.\n\nCreates a new Autonomous Data Warehouse.\n\n**IMPORTANT:** This resource is being **deprecated**, use `oci_database_autonomous_database` with `db_workload=DW` to provision Autonomous Data Warehouse.\nRefer to the [Deprecation Guide](#deprecation-guide) below on how to rename and migrate existing resources.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseAutonomousDataWarehouse/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

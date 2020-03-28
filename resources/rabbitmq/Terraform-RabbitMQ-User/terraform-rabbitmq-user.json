@@ -2,6 +2,7 @@
     "typeName": "Terraform::RabbitMQ::User",
     "description": "The ``rabbitmq_user`` resource creates and manages a user.\n\n~> **Note:** All arguments including username and password will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rabbitmq/Terraform-RabbitMQ-User/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

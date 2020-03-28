@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::ZoneLockdown",
     "description": "Provides a Cloudflare Zone Lockdown resource. Zone Lockdown allows you to define one or more URLs (with wildcard matching on the domain or path) that will only permit access if the request originates from an IP address that matches a safelist of one or more IP addresses and/or IP ranges.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-ZoneLockdown/docs/README.md",
     "definitions": {
         "Configurations": {
             "type": "object",

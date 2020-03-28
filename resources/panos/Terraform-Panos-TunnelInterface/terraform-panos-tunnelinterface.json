@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::TunnelInterface",
     "description": "This resource allows you to add/update/delete tunnel interfaces.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-TunnelInterface/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

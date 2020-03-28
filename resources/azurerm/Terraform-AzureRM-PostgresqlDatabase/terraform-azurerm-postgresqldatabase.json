@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PostgresqlDatabase",
     "description": "Manages a PostgreSQL Database within a PostgreSQL Server",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PostgresqlDatabase/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

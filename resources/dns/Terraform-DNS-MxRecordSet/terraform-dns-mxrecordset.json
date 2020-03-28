@@ -2,6 +2,7 @@
     "typeName": "Terraform::DNS::MxRecordSet",
     "description": "Creates an MX type DNS record set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/dns/Terraform-DNS-MxRecordSet/docs/README.md",
     "definitions": {
         "Mx": {
             "type": "object",

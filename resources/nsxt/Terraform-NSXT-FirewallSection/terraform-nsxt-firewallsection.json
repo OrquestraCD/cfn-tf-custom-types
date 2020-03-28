@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::FirewallSection",
     "description": "This resource provides a way to configure a firewall section on the NSX manager. A firewall section is a collection of firewall rules that are grouped together.\nOrder of firewall sections can be controlled with 'insert_before' attribute.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-FirewallSection/docs/README.md",
     "definitions": {
         "AppliedTo": {
             "type": "object",

@@ -1,0 +1,10 @@
+{
+    "typeName": "Terraform::AzureRM::MachineLearningWorkspace",
+    "language": "python37",
+    "runtime": "python3.7",
+    "entrypoint": "terraform_azurerm_machinelearningworkspace.handlers.resource",
+    "testEntrypoint": "terraform_azurerm_machinelearningworkspace.handlers.test_entrypoint",
+    "settings": {
+        "use_docker": true
+    }
+}

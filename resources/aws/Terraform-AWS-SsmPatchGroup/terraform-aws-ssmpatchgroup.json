@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SsmPatchGroup",
     "description": "Provides an SSM Patch Group resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SsmPatchGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

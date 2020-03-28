@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PublicIp",
     "description": "Manages a Public IP Address.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PublicIp/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

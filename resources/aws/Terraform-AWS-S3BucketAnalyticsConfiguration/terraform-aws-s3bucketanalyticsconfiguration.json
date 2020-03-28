@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::S3BucketAnalyticsConfiguration",
     "description": "Provides a S3 bucket [analytics configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/analytics-storage-class.html) resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-S3BucketAnalyticsConfiguration/docs/README.md",
     "definitions": {
         "Filter": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::WafPreciseprotectionRuleV1",
     "description": "Manages a WAF Precise Protection Rule resource within OpenTelekomCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-WafPreciseprotectionRuleV1/docs/README.md",
     "definitions": {
         "Conditions": {
             "type": "object",

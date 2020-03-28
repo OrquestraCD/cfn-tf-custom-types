@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::LogicalTier1Router",
     "description": "This resource provides a method for the management of a tier 1 logical router. A tier 1 logical router is often used for tenants, users and applications. There can be many tier 1 logical routers connected to a common tier 0 provider router.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-LogicalTier1Router/docs/README.md",
     "definitions": {
         "FirewallSections": {
             "type": "object",

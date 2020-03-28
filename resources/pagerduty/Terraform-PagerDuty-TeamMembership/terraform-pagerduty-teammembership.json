@@ -2,6 +2,7 @@
     "typeName": "Terraform::PagerDuty::TeamMembership",
     "description": "A [team membership](https://v2.developer.pagerduty.com/v2/page/api-reference#!/Teams/put_teams_id_users_user_id) manages memberships within a team.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/pagerduty/Terraform-PagerDuty-TeamMembership/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

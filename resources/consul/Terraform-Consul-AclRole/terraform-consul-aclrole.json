@@ -2,6 +2,7 @@
     "typeName": "Terraform::Consul::AclRole",
     "description": "Starting with Consul 1.5.0, the consul_acl_role can be used to managed Consul ACL roles.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/consul/Terraform-Consul-AclRole/docs/README.md",
     "definitions": {
         "ServiceIdentities": {
             "type": "object",
@@ -40,6 +41,10 @@
         "Name": {
             "type": "string",
             "description": "The name of the ACL role."
+        },
+        "Namespace": {
+            "type": "string",
+            "description": "The namespace to create the role within."
         },
         "Policies": {
             "type": "array",

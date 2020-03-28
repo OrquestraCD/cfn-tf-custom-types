@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::Timeboard",
     "description": "Provides a Datadog timeboard resource. This can be used to create and manage Datadog timeboards.\n\n~> **Note:**This resource is outdated. Use the new [`datadog_dashboard`](dashboard.html) resource instead.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-Timeboard/docs/README.md",
     "definitions": {
         "Graph": {
             "type": "object",

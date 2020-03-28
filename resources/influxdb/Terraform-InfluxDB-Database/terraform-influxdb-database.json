@@ -2,6 +2,7 @@
     "typeName": "Terraform::InfluxDB::Database",
     "description": "The database resource allows a database to be created on an InfluxDB server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/influxdb/Terraform-InfluxDB-Database/docs/README.md",
     "definitions": {
         "RetentionPolicies": {
             "type": "object",

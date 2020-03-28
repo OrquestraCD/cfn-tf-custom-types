@@ -2,6 +2,7 @@
     "typeName": "Terraform::Kubernetes::Service",
     "description": "A Service is an abstraction which defines a logical set of pods and a policy by which to access them - sometimes called a micro-service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/kubernetes/Terraform-Kubernetes-Service/docs/README.md",
     "definitions": {
         "Metadata": {
             "type": "object",

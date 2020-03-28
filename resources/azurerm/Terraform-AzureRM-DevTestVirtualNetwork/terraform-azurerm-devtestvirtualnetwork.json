@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DevTestVirtualNetwork",
     "description": "Manages a Virtual Network within a DevTest Lab.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DevTestVirtualNetwork/docs/README.md",
     "definitions": {
         "Subnet": {
             "type": "object",

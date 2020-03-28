@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::AsConfigurationV1",
     "description": "Manages a V1 AS Configuration resource within flexibleengine.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-AsConfigurationV1/docs/README.md",
     "definitions": {
         "InstanceConfig": {
             "type": "object",

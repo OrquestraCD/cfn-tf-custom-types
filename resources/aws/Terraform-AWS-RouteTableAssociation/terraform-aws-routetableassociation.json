@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::RouteTableAssociation",
     "description": "Provides a resource to create an association between a route table and a subnet or a route table and an\ninternet gateway or virtual private gateway.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-RouteTableAssociation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

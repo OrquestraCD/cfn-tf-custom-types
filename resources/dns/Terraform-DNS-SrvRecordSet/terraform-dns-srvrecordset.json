@@ -2,6 +2,7 @@
     "typeName": "Terraform::DNS::SrvRecordSet",
     "description": "Creates an SRV type DNS record set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/dns/Terraform-DNS-SrvRecordSet/docs/README.md",
     "definitions": {
         "Srv": {
             "type": "object",

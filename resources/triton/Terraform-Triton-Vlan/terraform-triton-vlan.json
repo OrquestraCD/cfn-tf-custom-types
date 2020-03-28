@@ -2,6 +2,7 @@
     "typeName": "Terraform::Triton::Vlan",
     "description": "The `triton_vlan` resource represents an Triton VLAN. A VLAN provides a low level way to segregate and subdivide the network. Traffic on one VLAN cannot, _on its own_, reach another VLAN.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/triton/Terraform-Triton-Vlan/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

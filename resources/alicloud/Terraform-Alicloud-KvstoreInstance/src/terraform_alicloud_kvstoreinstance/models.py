@@ -54,6 +54,7 @@ class ResourceModel(BaseResourceModel):
     Password: Optional[str]
     Period: Optional[float]
     PrivateIp: Optional[str]
+    SecurityGroupId: Optional[str]
     SecurityIps: Optional[Sequence[str]]
     Tags: Optional[Sequence["_Tags"]]
     VpcAuthMode: Optional[str]
@@ -88,6 +89,7 @@ class ResourceModel(BaseResourceModel):
             Password=json_data.get("Password"),
             Period=json_data.get("Period"),
             PrivateIp=json_data.get("PrivateIp"),
+            SecurityGroupId=json_data.get("SecurityGroupId"),
             SecurityIps=json_data.get("SecurityIps"),
             Tags=json_data.get("Tags"),
             VpcAuthMode=json_data.get("VpcAuthMode"),

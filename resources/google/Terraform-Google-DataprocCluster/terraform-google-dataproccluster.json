@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::DataprocCluster",
     "description": "Manages a Cloud Dataproc cluster resource within GCP. For more information see\n[the official dataproc documentation](https://cloud.google.com/dataproc/).\n\n\n!> **Warning:** Due to limitations of the API, all arguments except\n`labels`,`cluster_config.worker_config.num_instances` and `cluster_config.preemptible_worker_config.num_instances` are non-updatable. Changing others will cause recreation of the\nwhole cluster!",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-DataprocCluster/docs/README.md",
     "definitions": {
         "ClusterConfig": {
             "type": "object",

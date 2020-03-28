@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::ApproleAuthBackendRole",
     "description": "Manages an AppRole auth backend role in a Vault server. See the [Vault\ndocumentation](https://www.vaultproject.io/docs/auth/approle.html) for more\ninformation.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-ApproleAuthBackendRole/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

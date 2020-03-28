@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::MysqlDatabase",
     "description": "Manages a MySQL Database within a MySQL Server",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MysqlDatabase/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

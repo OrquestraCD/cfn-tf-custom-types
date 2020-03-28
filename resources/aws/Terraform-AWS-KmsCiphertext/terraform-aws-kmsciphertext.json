@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::KmsCiphertext",
     "description": "The KMS ciphertext resource allows you to encrypt plaintext into ciphertext\nby using an AWS KMS customer master key. The value returned by this resource\nis stable across every apply. For a changing ciphertext value each apply, see\nthe [`aws_kms_ciphertext` data source](/docs/providers/aws/d/kms_ciphertext.html).\n\n~> **Note:** All arguments including the plaintext be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-KmsCiphertext/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::GitHub::IssueLabel",
     "description": "Provides a GitHub issue label resource.\n\nThis resource allows you to create and manage issue labels within your\nGitHub organization.\n\nIssue labels are keyed off of their \"name\", so pre-existing issue labels result\nin a 422 HTTP error if they exist outside of Terraform. Normally this would not\nbe an issue, except new repositories are created with a \"default\" set of labels,\nand those labels easily conflict with custom ones.\n\nThis resource will first check if the label exists, and then issue an update,\notherwise it will create.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/github/Terraform-GitHub-IssueLabel/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

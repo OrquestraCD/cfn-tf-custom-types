@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::ProjectMembership",
     "description": "This resource allows you to add a current user to an existing project with a set access level.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-ProjectMembership/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

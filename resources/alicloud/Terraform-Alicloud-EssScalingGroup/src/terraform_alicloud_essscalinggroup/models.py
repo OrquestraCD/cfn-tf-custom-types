@@ -38,6 +38,7 @@ class ResourceModel(BaseResourceModel):
     tfcfnid: Optional[str]
     DbInstanceIds: Optional[Sequence[str]]
     DefaultCooldown: Optional[float]
+    DesiredCapacity: Optional[float]
     Id: Optional[str]
     LoadbalancerIds: Optional[Sequence[str]]
     MaxSize: Optional[float]
@@ -63,6 +64,7 @@ class ResourceModel(BaseResourceModel):
             tfcfnid=json_data.get("tfcfnid"),
             DbInstanceIds=json_data.get("DbInstanceIds"),
             DefaultCooldown=json_data.get("DefaultCooldown"),
+            DesiredCapacity=json_data.get("DesiredCapacity"),
             Id=json_data.get("Id"),
             LoadbalancerIds=json_data.get("LoadbalancerIds"),
             MaxSize=json_data.get("MaxSize"),

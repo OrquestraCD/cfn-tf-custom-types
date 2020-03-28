@@ -2,6 +2,7 @@
     "typeName": "Terraform::Triton::Snapshot",
     "description": "The `triton_snapshot` resource represents a snapshot of a Triton machine.\nSnapshots are not usable with other instances; they are a point-in-time snapshot of the current instance.\nSnapshots can also only be taken of instances that are not of brand `kvm`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/triton/Terraform-Triton-Snapshot/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

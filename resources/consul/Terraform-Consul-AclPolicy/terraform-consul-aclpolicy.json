@@ -2,6 +2,7 @@
     "typeName": "Terraform::Consul::AclPolicy",
     "description": "Starting with Consul 1.4.0, the consul_acl_policy can be used to managed Consul ACL policies.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/consul/Terraform-Consul-AclPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {
@@ -26,6 +27,10 @@
         "Name": {
             "type": "string",
             "description": "The name of the policy."
+        },
+        "Namespace": {
+            "type": "string",
+            "description": "The namespace to create the policy within."
         },
         "Rules": {
             "type": "string",

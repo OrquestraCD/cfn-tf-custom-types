@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ProjectOrganizationPolicy",
     "description": "Allows management of Organization policies for a Google Project. For more information see\n[the official\ndocumentation](https://cloud.google.com/resource-manager/docs/organization-policy/overview) and\n[API](https://cloud.google.com/resource-manager/reference/rest/v1/projects/setOrgPolicy).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ProjectOrganizationPolicy/docs/README.md",
     "definitions": {
         "BooleanPolicy": {
             "type": "object",

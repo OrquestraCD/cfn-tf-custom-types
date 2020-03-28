@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DnsTxtRecord",
     "description": "Enables you to manage DNS TXT Records within Azure DNS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DnsTxtRecord/docs/README.md",
     "definitions": {
         "Record": {
             "type": "object",

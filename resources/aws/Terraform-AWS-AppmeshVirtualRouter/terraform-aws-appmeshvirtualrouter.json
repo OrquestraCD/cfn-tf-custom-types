@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AppmeshVirtualRouter",
     "description": "Provides an AWS App Mesh virtual router resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AppmeshVirtualRouter/docs/README.md",
     "definitions": {
         "Spec": {
             "type": "object",

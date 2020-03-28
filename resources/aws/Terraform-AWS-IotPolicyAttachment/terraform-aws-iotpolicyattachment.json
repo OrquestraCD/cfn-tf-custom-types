@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IotPolicyAttachment",
     "description": "Provides an IoT policy attachment.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IotPolicyAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

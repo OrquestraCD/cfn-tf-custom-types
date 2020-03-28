@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::CcnBandwidthLimit",
     "description": "Provides a resource to limit CCN bandwidth.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-CcnBandwidthLimit/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

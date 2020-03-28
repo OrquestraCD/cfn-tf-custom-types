@@ -2,6 +2,7 @@
     "typeName": "Terraform::Heroku::Drain",
     "description": "Provides a Heroku Drain resource. This can be used to\ncreate and manage Log Drains on Heroku.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/heroku/Terraform-Heroku-Drain/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

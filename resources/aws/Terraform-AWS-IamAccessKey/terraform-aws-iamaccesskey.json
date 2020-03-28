@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IamAccessKey",
     "description": "Provides an IAM access key. This is a set of credentials that allow API requests to be made as an IAM user.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IamAccessKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

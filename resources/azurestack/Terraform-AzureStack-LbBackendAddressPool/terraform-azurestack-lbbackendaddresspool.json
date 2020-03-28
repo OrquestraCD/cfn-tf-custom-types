@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureStack::LbBackendAddressPool",
     "description": "Manages a LoadBalancer Backend Address Pool.\n\n~> **NOTE:** When using this resource, the LoadBalancer needs to have a FrontEnd IP Configuration Attached",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurestack/Terraform-AzureStack-LbBackendAddressPool/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

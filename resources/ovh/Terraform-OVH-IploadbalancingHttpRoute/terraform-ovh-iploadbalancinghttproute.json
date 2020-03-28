@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::IploadbalancingHttpRoute",
     "description": "Manage http route for a loadbalancer service",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-IploadbalancingHttpRoute/docs/README.md",
     "definitions": {
         "Action": {
             "type": "object",

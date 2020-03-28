@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::AsScalingGroup",
     "description": "Provides a resource to create a group of AS (Auto scaling) instances.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-AsScalingGroup/docs/README.md",
     "definitions": {
         "ForwardBalancerIds": {
             "type": "object",

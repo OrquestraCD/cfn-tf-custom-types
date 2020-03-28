@@ -2,6 +2,7 @@
     "typeName": "Terraform::Consul::AclToken",
     "description": "The `consul_acl_token` resource writes an ACL token into Consul.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/consul/Terraform-Consul-AclToken/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {
@@ -23,6 +24,10 @@
             "type": "boolean",
             "description": "The flag to set the token local to the current datacenter."
         },
+        "Namespace": {
+            "type": "string",
+            "description": "The namespace to create the token within."
+        },
         "Policies": {
             "type": "array",
             "insertionOrder": true,
@@ -30,6 +35,14 @@
                 "type": "string"
             },
             "description": "The list of policies attached to the token."
+        },
+        "Roles": {
+            "type": "array",
+            "insertionOrder": true,
+            "items": {
+                "type": "string"
+            },
+            "description": "The list of roles attached to the token."
         }
     },
     "additionalProperties": false,

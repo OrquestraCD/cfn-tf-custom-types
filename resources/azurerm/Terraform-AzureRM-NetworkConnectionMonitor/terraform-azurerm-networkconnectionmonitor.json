@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NetworkConnectionMonitor",
     "description": "CloudFormation equivalent of azurerm_network_connection_monitor",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NetworkConnectionMonitor/docs/README.md",
     "definitions": {
         "Destination": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeRouterNat",
     "description": "A NAT service created in a router.\n\n\nTo get more information about RouterNat, see:\n\n* [API documentation](https://cloud.google.com/compute/docs/reference/rest/v1/routers)\n* How-to Guides\n    * [Google Cloud Router](https://cloud.google.com/router/docs/)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeRouterNat/docs/README.md",
     "definitions": {
         "LogConfig": {
             "type": "object",

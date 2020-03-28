@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeInstance",
     "description": "Manages a VM instance resource within GCE. For more information see\n[the official documentation](https://cloud.google.com/compute/docs/instances)\nand\n[API](https://cloud.google.com/compute/docs/reference/latest/instances).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeInstance/docs/README.md",
     "definitions": {
         "AttachedDisk": {
             "type": "object",

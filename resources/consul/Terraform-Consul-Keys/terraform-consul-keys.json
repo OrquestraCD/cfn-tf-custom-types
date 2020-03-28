@@ -2,6 +2,7 @@
     "typeName": "Terraform::Consul::Keys",
     "description": "The `consul_keys` resource writes sets of individual values into Consul.\nThis is a powerful way to expose infrastructure details to clients.\n\nThis resource manages individual keys, and thus it can create, update\nand delete the keys explicitly given. However, it is not able to detect\nand remove additional keys that have been added by non-Terraform means.\nTo manage *all* keys sharing a common prefix, and thus have Terraform\nremove errant keys not present in the configuration, consider using the\n`consul_key_prefix` resource instead.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/consul/Terraform-Consul-Keys/docs/README.md",
     "definitions": {
         "Key": {
             "type": "object",
@@ -46,6 +47,10 @@
         },
         "Id": {
             "type": "string"
+        },
+        "Namespace": {
+            "type": "string",
+            "description": "The namespace to create the keys within."
         },
         "Token": {
             "type": "string",

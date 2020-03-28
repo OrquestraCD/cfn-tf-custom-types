@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::EipAssociation",
     "description": "Provides an EIP Association resource for associating Elastic IP to UHost Instance, Load Balancer, etc.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-EipAssociation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

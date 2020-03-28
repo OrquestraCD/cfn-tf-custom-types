@@ -2,6 +2,7 @@
     "typeName": "Terraform::NS1::Notifylist",
     "description": "Provides a NS1 Notify List resource. This can be used to create, modify, and delete notify lists.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ns1/Terraform-NS1-Notifylist/docs/README.md",
     "definitions": {
         "Notifications": {
             "type": "object",

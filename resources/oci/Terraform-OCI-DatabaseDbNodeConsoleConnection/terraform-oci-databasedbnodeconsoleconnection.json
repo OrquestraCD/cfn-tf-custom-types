@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseDbNodeConsoleConnection",
     "description": "This resource provides the Db Node Console Connection resource in Oracle Cloud Infrastructure Database service.\n\nCreates a new console connection to the specified dbNode.\nAfter the console connection has been created and is available,\nyou connect to the console using SSH.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseDbNodeConsoleConnection/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

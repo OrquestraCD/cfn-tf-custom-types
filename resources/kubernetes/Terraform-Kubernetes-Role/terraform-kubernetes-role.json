@@ -2,6 +2,7 @@
     "typeName": "Terraform::Kubernetes::Role",
     "description": "A role contains rules that represent a set of permissions. Permissions are purely additive (there are no \u201cdeny\u201d rules).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/kubernetes/Terraform-Kubernetes-Role/docs/README.md",
     "definitions": {
         "Metadata": {
             "type": "object",

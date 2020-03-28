@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::CceClusterV3",
     "description": "Provides a cluster resource (CCE).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-CceClusterV3/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

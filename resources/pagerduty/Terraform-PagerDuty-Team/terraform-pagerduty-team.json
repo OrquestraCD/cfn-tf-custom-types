@@ -2,6 +2,7 @@
     "typeName": "Terraform::PagerDuty::Team",
     "description": "A [team](https://v2.developer.pagerduty.com/v2/page/api-reference#!/Teams/get_teams) is a collection of users and escalation policies that represent a group of people within an organization.\n\nThe account must have the `teams` ability to use the following resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/pagerduty/Terraform-PagerDuty-Team/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

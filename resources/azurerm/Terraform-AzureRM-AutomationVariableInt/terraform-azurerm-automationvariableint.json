@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::AutomationVariableInt",
     "description": "Manages a integer variable in Azure Automation",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-AutomationVariableInt/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

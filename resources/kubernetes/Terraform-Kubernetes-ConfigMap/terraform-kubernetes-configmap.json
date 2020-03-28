@@ -2,6 +2,7 @@
     "typeName": "Terraform::Kubernetes::ConfigMap",
     "description": "The resource provides mechanisms to inject containers with configuration data while keeping containers agnostic of Kubernetes.\nConfig Map can be used to store fine-grained information like individual properties or coarse-grained information like entire config files or JSON blobs.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/kubernetes/Terraform-Kubernetes-ConfigMap/docs/README.md",
     "definitions": {
         "Metadata": {
             "type": "object",

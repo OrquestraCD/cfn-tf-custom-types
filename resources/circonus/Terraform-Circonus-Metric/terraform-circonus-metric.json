@@ -2,6 +2,7 @@
     "typeName": "Terraform::Circonus::Metric",
     "description": "The ``circonus_metric`` resource creates and manages a\nsingle [metric resource](https://login.circonus.com/resources/api/calls/metric)\nthat will be instantiated only once a referencing `circonus_check` has been\ncreated.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/circonus/Terraform-Circonus-Metric/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::IdentityIdpGroupMapping",
     "description": "This resource provides the Idp Group Mapping resource in Oracle Cloud Infrastructure Identity service.\n\nCreates a single mapping between an IdP group and an IAM Service\n[group](https://docs.cloud.oracle.com/iaas/api/#/en/identity/20160918/Group/).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-IdentityIdpGroupMapping/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

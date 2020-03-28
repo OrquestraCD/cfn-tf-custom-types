@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::CosmosdbAccount",
     "description": "Manages a CosmosDB (formally DocumentDB) Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-CosmosdbAccount/docs/README.md",
     "definitions": {
         "Capabilities": {
             "type": "object",

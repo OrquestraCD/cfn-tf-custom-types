@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::RateLimit",
     "description": "Provides a Cloudflare rate limit resource for a given zone. This can be used to limit the traffic you receive zone-wide, or matching more specific types of requests/responses.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-RateLimit/docs/README.md",
     "definitions": {
         "Action": {
             "type": "object",

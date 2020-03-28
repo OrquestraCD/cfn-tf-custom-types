@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SubnetNatGatewayAssociation",
     "description": "CloudFormation equivalent of azurerm_subnet_nat_gateway_association",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SubnetNatGatewayAssociation/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

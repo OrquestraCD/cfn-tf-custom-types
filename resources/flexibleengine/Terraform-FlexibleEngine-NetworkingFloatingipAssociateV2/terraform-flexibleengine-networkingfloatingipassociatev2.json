@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::NetworkingFloatingipAssociateV2",
     "description": "Associates a floating IP to a port. This is useful for situations\nwhere you have a pre-allocated floating IP or are unable to use the\n`flexibleengine_networking_floatingip_v2` resource to create a floating IP.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-NetworkingFloatingipAssociateV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

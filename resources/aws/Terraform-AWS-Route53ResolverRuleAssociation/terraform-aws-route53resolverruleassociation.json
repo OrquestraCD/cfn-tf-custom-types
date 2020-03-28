@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Route53ResolverRuleAssociation",
     "description": "Provides a Route53 Resolver rule association.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Route53ResolverRuleAssociation/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

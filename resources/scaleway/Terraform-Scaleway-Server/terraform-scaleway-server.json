@@ -2,6 +2,7 @@
     "typeName": "Terraform::Scaleway::Server",
     "description": "**DEPRECATED**: This resource is deprecated and will be removed in `v2.0+`.\nPlease use `scaleway_instance_server` instead.\n\nProvides servers. This allows servers to be created, updated and deleted.\nFor additional details please refer to [API documentation](https://developer.scaleway.com/#servers).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/scaleway/Terraform-Scaleway-Server/docs/README.md",
     "definitions": {
         "Volume": {
             "type": "object",

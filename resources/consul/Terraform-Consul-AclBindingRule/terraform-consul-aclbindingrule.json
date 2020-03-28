@@ -2,6 +2,7 @@
     "typeName": "Terraform::Consul::AclBindingRule",
     "description": "Starting with Consul 1.5.0, the consul_acl_binding_rule resource can be used to\nmanaged Consul ACL binding rules.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/consul/Terraform-Consul-AclBindingRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {
@@ -26,6 +27,10 @@
         },
         "Id": {
             "type": "string"
+        },
+        "Namespace": {
+            "type": "string",
+            "description": "The namespace to create the binding\nrule within."
         },
         "Selector": {
             "type": "string",

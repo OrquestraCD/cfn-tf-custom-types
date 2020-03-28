@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::IploadbalancingRefresh",
     "description": "Applies changes from other ovh_iploadbalancing_* resourcesto the production configuration of loadbalancers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-IploadbalancingRefresh/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::IntegrationGcp",
     "description": "Provides a Datadog - Google Cloud Platform integration resource. This can be used to create and manage Datadog - Google Cloud Platform integration.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-IntegrationGcp/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

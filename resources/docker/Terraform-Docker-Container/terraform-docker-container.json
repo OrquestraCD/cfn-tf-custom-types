@@ -2,6 +2,7 @@
     "typeName": "Terraform::Docker::Container",
     "description": "Manages the lifecycle of a Docker container.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/docker/Terraform-Docker-Container/docs/README.md",
     "definitions": {
         "Capabilities": {
             "type": "object",

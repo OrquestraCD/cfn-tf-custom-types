@@ -28,6 +28,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#password" title="Password">Password</a>" : <i>String</i>,
         "<a href="#period" title="Period">Period</a>" : <i>Double</i>,
         "<a href="#privateip" title="PrivateIp">PrivateIp</a>" : <i>String</i>,
+        "<a href="#securitygroupid" title="SecurityGroupId">SecurityGroupId</a>" : <i>String</i>,
         "<a href="#securityips" title="SecurityIps">SecurityIps</a>" : <i>[ String, ... ]</i>,
         "<a href="#tags" title="Tags">Tags</a>" : <i>[ <a href="tags.md">Tags</a>, ... ]</i>,
         "<a href="#vpcauthmode" title="VpcAuthMode">VpcAuthMode</a>" : <i>String</i>,
@@ -60,6 +61,7 @@ Properties:
     <a href="#password" title="Password">Password</a>: <i>String</i>
     <a href="#period" title="Period">Period</a>: <i>Double</i>
     <a href="#privateip" title="PrivateIp">PrivateIp</a>: <i>String</i>
+    <a href="#securitygroupid" title="SecurityGroupId">SecurityGroupId</a>: <i>String</i>
     <a href="#securityips" title="SecurityIps">SecurityIps</a>: <i>
       - String</i>
     <a href="#tags" title="Tags">Tags</a>: <i>
@@ -227,6 +229,16 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 #### PrivateIp
 
 Set the instance's private IP.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### SecurityGroupId
+
+The Security Group ID of ECS.
 
 _Required_: No
 

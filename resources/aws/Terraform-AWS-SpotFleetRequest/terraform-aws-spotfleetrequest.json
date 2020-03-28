@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SpotFleetRequest",
     "description": "Provides an EC2 Spot Fleet Request resource. This allows a fleet of Spot\ninstances to be requested on the Spot market.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SpotFleetRequest/docs/README.md",
     "definitions": {
         "LaunchSpecification": {
             "type": "object",

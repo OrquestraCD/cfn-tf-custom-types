@@ -2,6 +2,7 @@
     "typeName": "Terraform::Tfe::TeamAccess",
     "description": "Associate a team to permissions on a workspace.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tfe/Terraform-Tfe-TeamAccess/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

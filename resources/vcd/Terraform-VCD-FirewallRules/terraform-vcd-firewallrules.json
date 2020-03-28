@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::FirewallRules",
     "description": "Provides a vCloud Director Firewall resource. This can be used to create,\nmodify, and delete firewall settings and rules.\n\n~> **Note:** Please use the improved [`vcd_nsxv_firewall_rule`](/docs/providers/vcd/r/nsxv_firewall_rule.html)\nresource with advanced edge gateways (NSX-V).\n\n~> **Note:** Using this resource automatically enables default firewall rule logging. This may cause\n[`vcd_edgegateway`](/docs/providers/vcd/r/edgegateway.html) resource to report changes for field\n `fw_default_rule_logging_enabled` during `plan`/`apply` phases.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-FirewallRules/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

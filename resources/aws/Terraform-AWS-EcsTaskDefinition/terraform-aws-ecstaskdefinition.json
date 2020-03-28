@@ -2,7 +2,24 @@
     "typeName": "Terraform::AWS::EcsTaskDefinition",
     "description": "Manages a revision of an ECS task definition to be used in `aws_ecs_service`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EcsTaskDefinition/docs/README.md",
     "definitions": {
+        "InferenceAccelerator": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "DeviceName": {
+                    "type": "string"
+                },
+                "DeviceType": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "DeviceName",
+                "DeviceType"
+            ]
+        },
         "PlacementConstraints": {
             "type": "object",
             "additionalProperties": false,
@@ -223,6 +240,13 @@
         },
         "TaskRoleArn": {
             "type": "string"
+        },
+        "InferenceAccelerator": {
+            "type": "array",
+            "insertionOrder": true,
+            "items": {
+                "$ref": "#/definitions/InferenceAccelerator"
+            }
         },
         "PlacementConstraints": {
             "type": "array",

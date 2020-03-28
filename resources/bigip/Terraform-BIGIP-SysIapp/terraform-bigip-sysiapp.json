@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::SysIapp",
     "description": "`bigip_sys_iapp` resource helps you to deploy Application Services template that can be used to automate and orchestrate Layer 4-7 applications service deployments using F5 Network.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-SysIapp/docs/README.md",
     "definitions": {
         "Lists": {
             "type": "object",

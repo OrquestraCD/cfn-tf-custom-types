@@ -2,6 +2,7 @@
     "typeName": "Terraform::HCloud::SshKey",
     "description": "Provides a Hetzner Cloud SSH key resource to manage SSH keys for server access.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/hcloud/Terraform-HCloud-SshKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

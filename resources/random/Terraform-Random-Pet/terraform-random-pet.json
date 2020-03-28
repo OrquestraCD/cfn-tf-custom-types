@@ -2,6 +2,7 @@
     "typeName": "Terraform::Random::Pet",
     "description": "The resource `random_pet` generates random pet names that are intended to be\nused as unique identifiers for other resources.\n\nThis resource can be used in conjunction with resources that have\nthe `create_before_destroy` lifecycle flag set, to avoid conflicts with\nunique names during the brief period where both the old and new resources\nexist concurrently.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/random/Terraform-Random-Pet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AcmCertificate",
     "description": "The ACM certificate resource allows requesting and management of certificates\nfrom the Amazon Certificate Manager.\n\nIt deals with requesting certificates and managing their attributes and life-cycle.\nThis resource does not deal with validation of a certificate but can provide inputs\nfor other resources implementing the validation. It does not wait for a certificate to be issued.\nUse a [`aws_acm_certificate_validation`](acm_certificate_validation.html) resource for this.\n\nMost commonly, this resource is used to together with [`aws_route53_record`](route53_record.html) and\n[`aws_acm_certificate_validation`](acm_certificate_validation.html) to request a DNS validated certificate,\ndeploy the required validation records and wait for validation to complete.\n\nDomain validation through email is also supported but should be avoided as it requires a manual step outside\nof Terraform.\n\nIt's recommended to specify `create_before_destroy = true` in a [lifecycle][1] block to replace a certificate\nwhich is currently in use (eg, by [`aws_lb_listener`](lb_listener.html)).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AcmCertificate/docs/README.md",
     "definitions": {
         "Options": {
             "type": "object",

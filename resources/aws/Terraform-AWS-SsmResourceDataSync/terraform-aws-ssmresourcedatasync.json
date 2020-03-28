@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SsmResourceDataSync",
     "description": "Provides a SSM resource data sync.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SsmResourceDataSync/docs/README.md",
     "definitions": {
         "S3Destination": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OPC::ComputeStorageAttachment",
     "description": "CloudFormation equivalent of opc_compute_storage_attachment",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opc/Terraform-OPC-ComputeStorageAttachment/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

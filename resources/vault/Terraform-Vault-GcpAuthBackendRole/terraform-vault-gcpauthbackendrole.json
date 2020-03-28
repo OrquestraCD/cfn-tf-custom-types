@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::GcpAuthBackendRole",
     "description": "Provides a resource to create a role in an [GCP auth backend within Vault](https://www.vaultproject.io/docs/auth/gcp.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-GcpAuthBackendRole/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

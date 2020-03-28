@@ -2,6 +2,7 @@
     "typeName": "Terraform::Circonus::OverlaySet",
     "description": "CloudFormation equivalent of circonus_overlay_set",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/circonus/Terraform-Circonus-OverlaySet/docs/README.md",
     "definitions": {
         "Overlays": {
             "type": "object",

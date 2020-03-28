@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::SysProvision",
     "description": "`bigip_sys_provision` provides details bout how to enable \"ilx\", \"asm\" \"apm\" resource on BIG-IP",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-SysProvision/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

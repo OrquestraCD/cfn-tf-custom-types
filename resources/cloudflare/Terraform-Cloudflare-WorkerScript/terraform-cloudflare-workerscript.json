@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::WorkerScript",
     "description": "Provides a Cloudflare worker script resource. In order for a script to be active, you'll also need to setup a `cloudflare_worker_route`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-WorkerScript/docs/README.md",
     "definitions": {
         "KvNamespaceBinding": {
             "type": "object",

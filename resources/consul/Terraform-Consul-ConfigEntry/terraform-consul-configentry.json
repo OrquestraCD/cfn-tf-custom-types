@@ -2,6 +2,7 @@
     "typeName": "Terraform::Consul::ConfigEntry",
     "description": "The [Configuration Entry](https://www.consul.io/docs/agent/config_entries.html)\nresource can be used to provide cluster-wide defaults for various aspects of\nConsul.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/consul/Terraform-Consul-ConfigEntry/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

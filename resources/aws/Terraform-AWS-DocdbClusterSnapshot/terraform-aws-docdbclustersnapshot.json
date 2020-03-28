@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DocdbClusterSnapshot",
     "description": "Manages a DocDB database cluster snapshot for DocDB clusters.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DocdbClusterSnapshot/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

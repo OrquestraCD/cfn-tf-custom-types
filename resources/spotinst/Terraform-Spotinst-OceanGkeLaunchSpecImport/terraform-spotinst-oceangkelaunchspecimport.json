@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::OceanGkeLaunchSpecImport",
     "description": "Provides a custom Spotinst Ocean GKE Launch Spec Import resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-OceanGkeLaunchSpecImport/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

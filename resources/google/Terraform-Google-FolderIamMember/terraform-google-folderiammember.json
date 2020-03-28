@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::FolderIamMember",
     "description": "Allows creation and management of a single member for a single binding within\nthe IAM policy for an existing Google Cloud Platform folder.\n\n~> **Note:** This resource _must not_ be used in conjunction with\n   `google_folder_iam_policy` or they will fight over what your policy\n   should be. Similarly, roles controlled by `google_folder_iam_binding`\n   should not be assigned to using `google_folder_iam_member`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-FolderIamMember/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

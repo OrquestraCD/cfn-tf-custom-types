@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpsGenie::User",
     "description": "Manages a User within Opsgenie.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opsgenie/Terraform-OpsGenie-User/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

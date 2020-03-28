@@ -36,6 +36,9 @@ class ResourceHandlerRequest(BaseResourceHandlerRequest):
 @dataclass
 class ResourceModel(BaseResourceModel):
     tfcfnid: Optional[str]
+    ArgoSmartRouting: Optional[bool]
+    EdgeIpConnectivity: Optional[str]
+    EdgeIps: Optional[Sequence[str]]
     Id: Optional[str]
     IpFirewall: Optional[bool]
     OriginDirect: Optional[Sequence[str]]
@@ -57,6 +60,9 @@ class ResourceModel(BaseResourceModel):
             return None
         return cls(
             tfcfnid=json_data.get("tfcfnid"),
+            ArgoSmartRouting=json_data.get("ArgoSmartRouting"),
+            EdgeIpConnectivity=json_data.get("EdgeIpConnectivity"),
+            EdgeIps=json_data.get("EdgeIps"),
             Id=json_data.get("Id"),
             IpFirewall=json_data.get("IpFirewall"),
             OriginDirect=json_data.get("OriginDirect"),

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::LogicAppActionCustom",
     "description": "Manages a Custom Action within a Logic App Workflow",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-LogicAppActionCustom/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

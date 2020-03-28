@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CorePrivateIp",
     "description": "This resource provides the Private Ip resource in Oracle Cloud Infrastructure Core service.\n\nCreates a secondary private IP for the specified VNIC.\nFor more information about secondary private IPs, see\n[IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CorePrivateIp/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

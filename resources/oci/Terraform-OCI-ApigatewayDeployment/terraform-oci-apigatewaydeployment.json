@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::ApigatewayDeployment",
     "description": "This resource provides the Deployment resource in Oracle Cloud Infrastructure API Gateway service.\n\nCreates a new deployment.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-ApigatewayDeployment/docs/README.md",
     "definitions": {
         "Specification": {
             "type": "object",

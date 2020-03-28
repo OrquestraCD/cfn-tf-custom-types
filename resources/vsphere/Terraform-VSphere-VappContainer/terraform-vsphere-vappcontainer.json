@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::VappContainer",
     "description": "The `vsphere_vapp_container` resource can be used to create and manage\nvApps.\n\nFor more information on vSphere vApps, see [this\npage][ref-vsphere-vapp].\n\n[ref-vsphere-vapp]: https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.vm_admin.doc/GUID-2A95EBB8-1779-40FA-B4FB-4D0845750879.html",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-VappContainer/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DocdbCluster",
     "description": "Manages a DocDB Cluster.\n\nChanges to a DocDB Cluster can occur when you manually change a\nparameter, such as `port`, and are reflected in the next maintenance\nwindow. Because of this, Terraform may report a difference in its planning\nphase because a modification has not yet taken place. You can use the\n`apply_immediately` flag to instruct the service to apply the change immediately\n(see documentation below).\n\n~> **Note:** using `apply_immediately` can result in a brief downtime as the server reboots.\n~> **Note:** All arguments including the username and password will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DocdbCluster/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

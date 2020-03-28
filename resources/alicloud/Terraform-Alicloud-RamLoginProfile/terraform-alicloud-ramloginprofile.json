@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::RamLoginProfile",
     "description": "Provides a RAM User Login Profile resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-RamLoginProfile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

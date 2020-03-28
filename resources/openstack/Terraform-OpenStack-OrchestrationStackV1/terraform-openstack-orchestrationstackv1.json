@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::OrchestrationStackV1",
     "description": "Manages a V1 stack resource within OpenStack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-OrchestrationStackV1/docs/README.md",
     "definitions": {
         "Outputs": {
             "type": "object",

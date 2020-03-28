@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::StoragegatewayUploadBuffer",
     "description": "Manages an AWS Storage Gateway upload buffer.\n\n~> **NOTE:** The Storage Gateway API provides no method to remove an upload buffer disk. Destroying this Terraform resource does not perform any Storage Gateway actions.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-StoragegatewayUploadBuffer/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

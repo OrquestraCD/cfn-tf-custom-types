@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ElastictranscoderPreset",
     "description": "Provides an Elastic Transcoder preset resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ElastictranscoderPreset/docs/README.md",
     "definitions": {
         "Audio": {
             "type": "object",

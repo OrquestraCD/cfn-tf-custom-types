@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ContainerCluster",
     "description": "Manages a Google Kubernetes Engine (GKE) cluster. For more information see\n[the official documentation](https://cloud.google.com/container-engine/docs/clusters)\nand [the API reference](https://cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters).\n\n~> **Note:** All arguments and attributes, including basic auth username and\npasswords as well as certificate outputs will be stored in the raw state as\nplaintext. [Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ContainerCluster/docs/README.md",
     "definitions": {
         "AddonsConfig": {
             "type": "object",

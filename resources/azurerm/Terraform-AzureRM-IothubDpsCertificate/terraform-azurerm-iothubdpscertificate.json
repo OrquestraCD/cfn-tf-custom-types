@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::IothubDpsCertificate",
     "description": "Manages an IotHub Device Provisioning Service Certificate.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-IothubDpsCertificate/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

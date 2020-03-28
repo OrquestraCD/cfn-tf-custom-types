@@ -13,6 +13,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "Type" : "Terraform::AWS::AthenaWorkgroup",
     "Properties" : {
         "<a href="#description" title="Description">Description</a>" : <i>String</i>,
+        "<a href="#forcedestroy" title="ForceDestroy">ForceDestroy</a>" : <i>Boolean</i>,
         "<a href="#name" title="Name">Name</a>" : <i>String</i>,
         "<a href="#state" title="State">State</a>" : <i>String</i>,
         "<a href="#tags" title="Tags">Tags</a>" : <i>[ <a href="tags.md">Tags</a>, ... ]</i>,
@@ -29,6 +30,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 Type: Terraform::AWS::AthenaWorkgroup
 Properties:
     <a href="#description" title="Description">Description</a>: <i>String</i>
+    <a href="#forcedestroy" title="ForceDestroy">ForceDestroy</a>: <i>Boolean</i>
     <a href="#name" title="Name">Name</a>: <i>String</i>
     <a href="#state" title="State">State</a>: <i>String</i>
     <a href="#tags" title="Tags">Tags</a>: <i>
@@ -50,6 +52,16 @@ Description of the workgroup.
 _Required_: No
 
 _Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### ForceDestroy
+
+The option to delete the workgroup and its contents even if the workgroup contains any named queries.
+
+_Required_: No
+
+_Type_: Boolean
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

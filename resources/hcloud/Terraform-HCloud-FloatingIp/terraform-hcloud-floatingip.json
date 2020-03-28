@@ -2,6 +2,7 @@
     "typeName": "Terraform::HCloud::FloatingIp",
     "description": "Provides a Hetzner Cloud Floating IP to represent a publicly-accessible static IP address that can be mapped to one of your servers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/hcloud/Terraform-HCloud-FloatingIp/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

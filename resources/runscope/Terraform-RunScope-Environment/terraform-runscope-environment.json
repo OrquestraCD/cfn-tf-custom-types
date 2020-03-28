@@ -2,6 +2,7 @@
     "typeName": "Terraform::RunScope::Environment",
     "description": "An [environment](https://www.runscope.com/docs/api/environments) resource.\nAn [environment](https://www.runscope.com/docs/api-testing/environments)\nis is a group of configuration settings (initial variables, locations,\nnotifications, integrations, etc.) used when running a test.\nEvery test has at least one environment, but you can create additional\nenvironments as needed. For common settings (base URLs, API keys)\nthat you'd like to use across all tests within a bucket,\nuse a [Shared Environment](https://www.runscope.com/docs/api-testing/environments#shared).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/runscope/Terraform-RunScope-Environment/docs/README.md",
     "definitions": {
         "Emails": {
             "type": "object",

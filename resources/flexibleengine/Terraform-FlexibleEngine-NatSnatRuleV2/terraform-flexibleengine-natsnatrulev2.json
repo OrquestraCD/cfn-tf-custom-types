@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::NatSnatRuleV2",
     "description": "Manages a V2 snat rule resource within FlexibleEngine Nat",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-NatSnatRuleV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

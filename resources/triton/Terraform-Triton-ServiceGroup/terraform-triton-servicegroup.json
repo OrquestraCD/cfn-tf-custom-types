@@ -2,6 +2,7 @@
     "typeName": "Terraform::Triton::ServiceGroup",
     "description": "The `triton_service_group` resource represents a Triton Service Group.\n\n~> **NOTE:**  Triton Service Groups are in Preview and only supported in specific regions at this time. They will become Generally Available in the near future.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/triton/Terraform-Triton-ServiceGroup/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

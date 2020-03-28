@@ -23,6 +23,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#requirescompatibilities" title="RequiresCompatibilities">RequiresCompatibilities</a>" : <i>[ String, ... ]</i>,
         "<a href="#tags" title="Tags">Tags</a>" : <i>[ <a href="tags.md">Tags</a>, ... ]</i>,
         "<a href="#taskrolearn" title="TaskRoleArn">TaskRoleArn</a>" : <i>String</i>,
+        "<a href="#inferenceaccelerator" title="InferenceAccelerator">InferenceAccelerator</a>" : <i>[ <a href="inferenceaccelerator.md">InferenceAccelerator</a>, ... ]</i>,
         "<a href="#placementconstraints" title="PlacementConstraints">PlacementConstraints</a>" : <i>[ <a href="placementconstraints.md">PlacementConstraints</a>, ... ]</i>,
         "<a href="#proxyconfiguration" title="ProxyConfiguration">ProxyConfiguration</a>" : <i>[ <a href="proxyconfiguration.md">ProxyConfiguration</a>, ... ]</i>,
         "<a href="#volume" title="Volume">Volume</a>" : <i>[ <a href="volume.md">Volume</a>, ... ]</i>,
@@ -50,6 +51,8 @@ Properties:
     <a href="#tags" title="Tags">Tags</a>: <i>
       - <a href="tags.md">Tags</a></i>
     <a href="#taskrolearn" title="TaskRoleArn">TaskRoleArn</a>: <i>String</i>
+    <a href="#inferenceaccelerator" title="InferenceAccelerator">InferenceAccelerator</a>: <i>
+      - <a href="inferenceaccelerator.md">InferenceAccelerator</a></i>
     <a href="#placementconstraints" title="PlacementConstraints">PlacementConstraints</a>: <i>
       - <a href="placementconstraints.md">PlacementConstraints</a></i>
     <a href="#proxyconfiguration" title="ProxyConfiguration">ProxyConfiguration</a>: <i>
@@ -149,6 +152,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### InferenceAccelerator
+
+_Required_: No
+
+_Type_: List of <a href="inferenceaccelerator.md">InferenceAccelerator</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::VrackPubliccloudAttachment",
     "description": "~> __DEPRECATED:__ Use [`ovh_vrack_cloudproject`](./vrack_cloudproject.html) instead.\n\nAttach an existing PublicCloud project to an existing VRack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-VrackPubliccloudAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

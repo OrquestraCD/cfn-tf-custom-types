@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StorageShare",
     "description": "Manages a File Share within Azure Storage.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StorageShare/docs/README.md",
     "definitions": {
         "Acl": {
             "type": "object",
@@ -103,6 +104,9 @@
             "type": "number",
             "description": "The maximum size of the share, in gigabytes. For Standard storage accounts, this must be greater than 0 and less than 5120 GB (5 TB). For Premium FileStorage storage accounts, this must be greater than 100 GB and less than 102400 GB (100 TB). Default is 5120."
         },
+        "ResourceManagerId": {
+            "type": "string"
+        },
         "StorageAccountName": {
             "type": "string",
             "description": "Specifies the storage account in which to create the share.\nChanging this forces a new resource to be created."
@@ -136,6 +140,7 @@
     "readOnlyProperties": [
         "/properties/tfcfnid",
         "/properties/Id",
+        "/properties/ResourceManagerId",
         "/properties/Url"
     ],
     "primaryIdentifier": [

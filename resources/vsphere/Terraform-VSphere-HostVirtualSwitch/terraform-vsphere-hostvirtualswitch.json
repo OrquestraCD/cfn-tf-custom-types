@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::HostVirtualSwitch",
     "description": "The `vsphere_host_virtual_switch` resource can be used to manage vSphere\nstandard switches on an ESXi host. These switches can be used as a backing for\nstandard port groups, which can be managed by the\n[`vsphere_host_port_group`][host-port-group] resource.\n\nFor an overview on vSphere networking concepts, see [this\npage][ref-vsphere-net-concepts].\n\n[host-port-group]: /docs/providers/vsphere/r/host_port_group.html\n[ref-vsphere-net-concepts]: https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.networking.doc/GUID-2B11DBB8-CB3C-4AFF-8885-EFEA0FC562F4.html",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-HostVirtualSwitch/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

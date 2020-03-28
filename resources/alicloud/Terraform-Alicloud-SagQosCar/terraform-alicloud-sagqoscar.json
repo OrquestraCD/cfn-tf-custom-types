@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::SagQosCar",
     "description": "Provides a Sag qos car resource. \nYou need to create a QoS car to set priorities, rate limits, and quintuple rules for different messages.\n\nFor information about Sag Qos Car and how to use it, see [What is Qos Car](https://www.alibabacloud.com/help/doc-detail/140065.htm).\n\n-> **NOTE:** Available in 1.60.0+\n\n-> **NOTE:** Only the following regions support. [`cn-shanghai`, `cn-shanghai-finance-1`, `cn-hongkong`, `ap-southeast-1`, `ap-southeast-2`, `ap-southeast-3`, `ap-southeast-5`, `ap-northeast-1`, `eu-central-1`]",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-SagQosCar/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

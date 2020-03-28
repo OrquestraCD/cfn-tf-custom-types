@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::BgpAggregateSuppressFilter",
     "description": "This resource allows you to add/update/delete a route suppression filter for a\nBGP address aggregation rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-BgpAggregateSuppressFilter/docs/README.md",
     "definitions": {
         "AddressPrefix": {
             "type": "object",

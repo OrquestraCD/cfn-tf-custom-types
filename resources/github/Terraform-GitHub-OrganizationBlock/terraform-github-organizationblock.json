@@ -2,6 +2,7 @@
     "typeName": "Terraform::GitHub::OrganizationBlock",
     "description": "This resource allows you to create and manage blocks for GitHub organizations.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/github/Terraform-GitHub-OrganizationBlock/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

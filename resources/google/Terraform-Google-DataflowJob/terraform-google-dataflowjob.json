@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::DataflowJob",
     "description": "Creates a job on Dataflow, which is an implementation of Apache Beam running on Google Compute Engine. For more information see\nthe official documentation for\n[Beam](https://beam.apache.org) and [Dataflow](https://cloud.google.com/dataflow/).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-DataflowJob/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

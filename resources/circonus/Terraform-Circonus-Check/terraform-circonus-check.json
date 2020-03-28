@@ -2,6 +2,7 @@
     "typeName": "Terraform::Circonus::Check",
     "description": "The ``circonus_check`` resource creates and manages a\n[Circonus Check](https://login.circonus.com/resources/api/calls/check_bundle).\n\n~> **NOTE regarding `circonus_check` vs a Circonus Check Bundle:** The\n`circonus_check` resource is implemented in terms of a\n[Circonus Check Bundle](https://login.circonus.com/resources/api/calls/check_bundle).\nThe `circonus_check` creates a higher-level abstraction over the implementation\nof a Check Bundle.  As such, the naming and structure does not map 1:1 with the\nunderlying Circonus API.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/circonus/Terraform-Circonus-Check/docs/README.md",
     "definitions": {
         "Caql": {
             "type": "object",

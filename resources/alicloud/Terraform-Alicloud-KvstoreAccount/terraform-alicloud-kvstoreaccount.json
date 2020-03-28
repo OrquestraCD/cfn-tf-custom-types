@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::KvstoreAccount",
     "description": "Provides a kvstore account resource and used to manage databases.\n\n-> **NOTE:** Available in 1.66.0+",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-KvstoreAccount/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

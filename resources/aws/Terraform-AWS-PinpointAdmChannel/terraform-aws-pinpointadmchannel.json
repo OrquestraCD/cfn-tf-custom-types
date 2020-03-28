@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::PinpointAdmChannel",
     "description": "Provides a Pinpoint ADM (Amazon Device Messaging) Channel resource.\n\n~> **Note:** All arguments including the Client ID and Client Secret will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-PinpointAdmChannel/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

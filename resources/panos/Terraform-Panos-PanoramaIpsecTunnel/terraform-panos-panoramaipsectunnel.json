@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaIpsecTunnel",
     "description": "This resource allows you to add/update/delete Panorama IPSec tunnels\nfor templates.\n\nA large number of params have prefixes:\n\n* `ak` - Auto key\n* `mk` - Manual key\n* `gps` - GlobalProtect Satellite",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaIpsecTunnel/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

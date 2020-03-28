@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DbInstance",
     "description": "Provides an RDS instance resource.  A DB instance is an isolated database\nenvironment in the cloud.  A DB instance can contain multiple user-created\ndatabases.\n\nChanges to a DB instance can occur when you manually change a parameter, such as\n`allocated_storage`, and are reflected in the next maintenance window. Because\nof this, Terraform may report a difference in its planning phase because a\nmodification has not yet taken place. You can use the `apply_immediately` flag\nto instruct the service to apply the change immediately (see documentation\nbelow).\n\nWhen upgrading the major version of an engine, `allow_major_version_upgrade`\nmust be set to `true`.\n\n~> **Note:** using `apply_immediately` can result in a brief downtime as the\nserver reboots. See the AWS Docs on [RDS Maintenance][2] for more information.\n\n~> **Note:** All arguments including the username and password will be stored in\nthe raw state as plain-text. [Read more about sensitive data in\nstate](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DbInstance/docs/README.md",
     "definitions": {
         "S3Import": {
             "type": "object",

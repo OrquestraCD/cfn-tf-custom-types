@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::NetworkingRouterInterfaceV2",
     "description": "Manages a V2 router interface resource within HuaweiCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-NetworkingRouterInterfaceV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

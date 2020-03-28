@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::AwsAuthBackendIdentityWhitelist",
     "description": "Configures the periodic tidying operation of the whitelisted identity entries.\n\nFor more information, see the\n[Vault docs](https://www.vaultproject.io/api/auth/aws/index.html#configure-identity-whitelist-tidy-operation).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-AwsAuthBackendIdentityWhitelist/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

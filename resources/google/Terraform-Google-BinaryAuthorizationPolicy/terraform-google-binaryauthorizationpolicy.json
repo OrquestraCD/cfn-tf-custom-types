@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::BinaryAuthorizationPolicy",
     "description": "A policy for container image binary authorization.\n\n\nTo get more information about Policy, see:\n\n* [API documentation](https://cloud.google.com/binary-authorization/docs/reference/rest/)\n* How-to Guides\n    * [Official Documentation](https://cloud.google.com/binary-authorization/)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-BinaryAuthorizationPolicy/docs/README.md",
     "definitions": {
         "AdmissionWhitelistPatterns": {
             "type": "object",

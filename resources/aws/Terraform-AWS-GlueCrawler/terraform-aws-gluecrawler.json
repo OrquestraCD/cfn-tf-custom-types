@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GlueCrawler",
     "description": "Manages a Glue Crawler. More information can be found in the [AWS Glue Developer Guide](https://docs.aws.amazon.com/glue/latest/dg/add-crawler.html)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GlueCrawler/docs/README.md",
     "definitions": {
         "CatalogTarget": {
             "type": "object",

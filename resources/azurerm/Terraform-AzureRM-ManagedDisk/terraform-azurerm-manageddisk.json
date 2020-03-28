@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ManagedDisk",
     "description": "Manages a managed disk.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ManagedDisk/docs/README.md",
     "definitions": {
         "EncryptionSettings": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudScale::Volume",
     "description": "Provides a cloudscale.ch Volume (block storage) resource. This can be used to create, modify, and delete Volumes.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudscale/Terraform-CloudScale-Volume/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

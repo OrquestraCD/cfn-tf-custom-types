@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureStack::LbNatPool",
     "description": "Manages a Load Balancer NAT pool.\n\n~> **NOTE** When using this resource, the Load Balancer needs to have a FrontEnd IP Configuration Attached",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurestack/Terraform-AzureStack-LbNatPool/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

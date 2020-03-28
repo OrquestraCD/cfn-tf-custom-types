@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ConfigDeliveryChannel",
     "description": "Provides an AWS Config Delivery Channel.\n\n~> **Note:** Delivery Channel requires a [Configuration Recorder](/docs/providers/aws/r/config_configuration_recorder.html) to be present. Use of `depends_on` (as shown below) is recommended to avoid race conditions.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ConfigDeliveryChannel/docs/README.md",
     "definitions": {
         "SnapshotDeliveryProperties": {
             "type": "object",

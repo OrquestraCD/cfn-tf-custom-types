@@ -21,8 +21,10 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#action" title="Action">Action</a>" : <i>String</i>,
         "<a href="#description" title="Description">Description</a>" : <i>String</i>,
         "<a href="#destinationname" title="DestinationName">DestinationName</a>" : <i>String</i>,
+        "<a href="#destinationnamespace" title="DestinationNamespace">DestinationNamespace</a>" : <i>String</i>,
         "<a href="#meta" title="Meta">Meta</a>" : <i>[ <a href="meta.md">Meta</a>, ... ]</i>,
-        "<a href="#sourcename" title="SourceName">SourceName</a>" : <i>String</i>
+        "<a href="#sourcename" title="SourceName">SourceName</a>" : <i>String</i>,
+        "<a href="#sourcenamespace" title="SourceNamespace">SourceNamespace</a>" : <i>String</i>
     }
 }
 </pre>
@@ -35,9 +37,11 @@ Properties:
     <a href="#action" title="Action">Action</a>: <i>String</i>
     <a href="#description" title="Description">Description</a>: <i>String</i>
     <a href="#destinationname" title="DestinationName">DestinationName</a>: <i>String</i>
+    <a href="#destinationnamespace" title="DestinationNamespace">DestinationNamespace</a>: <i>String</i>
     <a href="#meta" title="Meta">Meta</a>: <i>
       - <a href="meta.md">Meta</a></i>
     <a href="#sourcename" title="SourceName">SourceName</a>: <i>String</i>
+    <a href="#sourcenamespace" title="SourceNamespace">SourceNamespace</a>: <i>String</i>
 </pre>
 
 ## Properties
@@ -74,6 +78,17 @@ _Type_: String
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
+#### DestinationNamespace
+
+The destination
+namespace of the intention.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
 #### Meta
 
 Key/value pairs that are opaque to Consul and are associated
@@ -91,6 +106,17 @@ The name of the source service for the intention. This
 service does not have to exist.
 
 _Required_: Yes
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### SourceNamespace
+
+The source namespace of the
+intention.
+
+_Required_: No
 
 _Type_: String
 

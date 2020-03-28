@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::LtmSnat",
     "description": "`bigip_ltm_snat` Manages a snat configuration\n\nFor resources should be named with their \"full path\". The full path is the combination of the partition + name of the resource. For example /Common/my-pool.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-LtmSnat/docs/README.md",
     "definitions": {
         "Origins": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayStage",
     "description": "Provides an API Gateway Stage.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayStage/docs/README.md",
     "definitions": {
         "AccessLogSettings": {
             "type": "object",

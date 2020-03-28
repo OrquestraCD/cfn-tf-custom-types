@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::BillingAccountIamMember",
     "description": "Allows creation and management of a single member for a single binding within\nthe IAM policy for an existing Google Cloud Platform Billing Account.\n\n~> **Note:** This resource __must not__ be used in conjunction with\n   `google_billing_account_iam_binding` for the __same role__ or they will fight over\n   what your policy should be.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-BillingAccountIamMember/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

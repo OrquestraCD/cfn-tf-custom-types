@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::ElastigroupAwsBeanstalk",
     "description": "Provides a Spotinst AWS group resource using Elastic Beanstalk.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-ElastigroupAwsBeanstalk/docs/README.md",
     "definitions": {
         "DeploymentPreferences": {
             "type": "object",

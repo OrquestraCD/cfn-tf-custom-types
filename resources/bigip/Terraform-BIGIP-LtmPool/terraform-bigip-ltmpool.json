@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::LtmPool",
     "description": "`bigip_ltm_pool` Manages a pool configuration.\n\nResources should be named with their \"full path\". The full path is the combination of the partition + name of the resource. For example /Common/my-pool.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-LtmPool/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

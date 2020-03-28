@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::MeInstallationTemplate",
     "description": "Use this resource to create a custom installation template available for dedicated servers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-MeInstallationTemplate/docs/README.md",
     "definitions": {
         "Customization": {
             "type": "object",

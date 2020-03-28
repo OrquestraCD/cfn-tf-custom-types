@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::CsKubernetesAutoscaler",
     "description": "This resource will help you to manager cluster-autoscaler in Kubernetes Cluster. \n\n-> **NOTE:** The scaling group must use CentOS7 or AliyunLinux2 as base image.\n\n-> **NOTE:** The cluster-autoscaler can only use the same size of instanceTypes in one scaling group. \n\n-> **NOTE:** Add Policy to RAM role of the node to deploy cluster-autoscaler if you need.\n\n-> **NOTE:** Available in 1.65.0+.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-CsKubernetesAutoscaler/docs/README.md",
     "definitions": {
         "Nodepools": {
             "type": "object",

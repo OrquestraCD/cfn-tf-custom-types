@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::ProjectShareGroup",
     "description": "This resource allows you to share a project with a group",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-ProjectShareGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

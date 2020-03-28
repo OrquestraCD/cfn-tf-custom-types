@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NetworkInterfaceNatRuleAssociation",
     "description": "Manages the association between a Network Interface and a Load Balancer's NAT Rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NetworkInterfaceNatRuleAssociation/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

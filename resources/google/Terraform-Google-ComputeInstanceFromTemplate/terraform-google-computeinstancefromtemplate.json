@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeInstanceFromTemplate",
     "description": "Manages a VM instance resource within GCE. For more information see\n[the official documentation](https://cloud.google.com/compute/docs/instances)\nand\n[API](https://cloud.google.com/compute/docs/reference/latest/instances).\n\nThis resource is specifically to create a compute instance from a given\n`source_instance_template`. To create an instance without a template, use the\n`google_compute_instance` resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeInstanceFromTemplate/docs/README.md",
     "definitions": {
         "BootDisk": {
             "type": "object",

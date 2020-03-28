@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::ImagesImageV2",
     "description": "Manages a V2 Image resource within FlexibleEngine Glance.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-ImagesImageV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

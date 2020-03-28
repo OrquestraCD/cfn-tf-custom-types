@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ApiManagementApiVersionSet",
     "description": "Manages an API Version Set within an API Management Service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ApiManagementApiVersionSet/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

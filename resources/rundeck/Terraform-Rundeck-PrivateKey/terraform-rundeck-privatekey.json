@@ -2,6 +2,7 @@
     "typeName": "Terraform::Rundeck::PrivateKey",
     "description": "The private key resource allows SSH private keys to be stored into Rundeck's key store.\nThe key store is where Rundeck keeps credentials that are needed to access the nodes on which\nit runs commands.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rundeck/Terraform-Rundeck-PrivateKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

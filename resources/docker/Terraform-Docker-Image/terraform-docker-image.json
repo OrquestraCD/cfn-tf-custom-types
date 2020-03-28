@@ -2,6 +2,7 @@
     "typeName": "Terraform::Docker::Image",
     "description": "Pulls a Docker image to a given Docker host from a Docker Registry.\n\nThis resource will *not* pull new layers of the image automatically unless used in\nconjunction with [`docker_registry_image`](/docs/providers/docker/d/registry_image.html)\ndata source to update the `pull_triggers` field.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/docker/Terraform-Docker-Image/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::DayuL4Rule",
     "description": "Use this resource to create dayu layer 4 rule\n\n~> **NOTE:** This resource only support resource Anti-DDoS of type `bgpip` and `net`",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-DayuL4Rule/docs/README.md",
     "definitions": {
         "SourceList": {
             "type": "object",

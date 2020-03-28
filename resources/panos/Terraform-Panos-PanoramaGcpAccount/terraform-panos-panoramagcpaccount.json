@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaGcpAccount",
     "description": "This resource allows you to add/update/delete GCP accounts on Panorama.\n\nThis resource requires that the GCP plugin be installed.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaGcpAccount/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

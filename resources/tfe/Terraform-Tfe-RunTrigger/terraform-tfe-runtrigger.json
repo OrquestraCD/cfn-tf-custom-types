@@ -2,6 +2,7 @@
     "typeName": "Terraform::Tfe::RunTrigger",
     "description": "Terraform Cloud provides a way to connect your workspace to one or more workspaces within your organization, known as \"source workspaces\". \nThese connections, called run triggers, allow runs to queue automatically in your workspace on successful apply of runs in any of the source workspaces. \nYou can connect your workspace to up to 20 source workspaces.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tfe/Terraform-Tfe-RunTrigger/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

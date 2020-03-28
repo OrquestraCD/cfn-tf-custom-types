@@ -127,6 +127,10 @@ Internal identifier for tracking resource changes. Do not use.
 
 Returns the <code>Id</code> value.
 
+#### ResourceManagerId
+
+Returns the <code>ResourceManagerId</code> value.
+
 #### Url
 
 Returns the <code>Url</code> value.

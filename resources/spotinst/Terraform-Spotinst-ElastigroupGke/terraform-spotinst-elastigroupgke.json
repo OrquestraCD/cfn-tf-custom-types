@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::ElastigroupGke",
     "description": "Provides a Spotinst Elastigroup GKE resource. Please see [Importing a GKE cluster](https://api.spotinst.com/elastigroup-for-google-cloud/tutorials/import-a-gke-cluster-as-an-elastigroup/) for detailed information.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-ElastigroupGke/docs/README.md",
     "definitions": {
         "BackendServices": {
             "type": "object",

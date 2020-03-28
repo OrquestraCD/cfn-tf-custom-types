@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::MultaiDeployment",
     "description": "Provides a Spotinst Multai Deployment.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-MultaiDeployment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

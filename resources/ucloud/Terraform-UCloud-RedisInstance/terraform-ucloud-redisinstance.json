@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::RedisInstance",
     "description": "The UCloud Redis instance is a key-value online storage service compatible with the Redis protocol.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-RedisInstance/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

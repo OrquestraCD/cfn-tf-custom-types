@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::ComputeInterfaceAttachV2",
     "description": "Attaches a Network Interface (a Port) to an Instance using the HuaweiCloud\nCompute (Nova) v2 API.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-ComputeInterfaceAttachV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

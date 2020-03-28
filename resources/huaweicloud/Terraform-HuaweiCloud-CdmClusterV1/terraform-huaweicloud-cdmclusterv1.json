@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::CdmClusterV1",
     "description": "cdm cluster management",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-CdmClusterV1/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

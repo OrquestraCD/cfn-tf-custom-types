@@ -2,6 +2,7 @@
     "typeName": "Terraform::OPC::ComputeIpReservation",
     "description": "The ``opc_compute_ip_reservation`` resource creates and manages an IP reservation in an Oracle Cloud Infrastructure Compute Classic identity domain for the Shared Network.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opc/Terraform-OPC-ComputeIpReservation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

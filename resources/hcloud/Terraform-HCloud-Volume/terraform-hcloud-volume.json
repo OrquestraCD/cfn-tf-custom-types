@@ -2,6 +2,7 @@
     "typeName": "Terraform::HCloud::Volume",
     "description": "Provides a Hetzner Cloud volume resource to manage volumes.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/hcloud/Terraform-HCloud-Volume/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

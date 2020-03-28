@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::KinesisFirehoseDeliveryStream",
     "description": "Provides a Kinesis Firehose Delivery Stream resource. Amazon Kinesis Firehose is a fully managed, elastic service to easily deliver real-time data streams to destinations such as Amazon S3 and Amazon Redshift.\n\nFor more details, see the [Amazon Kinesis Firehose Documentation][1].",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-KinesisFirehoseDeliveryStream/docs/README.md",
     "definitions": {
         "ElasticsearchConfiguration": {
             "type": "object",

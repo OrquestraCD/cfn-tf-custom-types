@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::LbOutboundRule",
     "description": "Manages a Load Balancer Outbound Rule.\n\n~> **NOTE** When using this resource, the Load Balancer needs to have a FrontEnd IP Configuration and a Backend Address Pool Attached.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-LbOutboundRule/docs/README.md",
     "definitions": {
         "FrontendIpConfiguration": {
             "type": "object",

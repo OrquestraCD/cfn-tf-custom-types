@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::PipelineTrigger",
     "description": "This resource allows you to create and manage pipeline triggers",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-PipelineTrigger/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

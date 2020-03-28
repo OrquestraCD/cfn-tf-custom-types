@@ -2,6 +2,7 @@
     "typeName": "Terraform::DNS::CnameRecord",
     "description": "Creates a CNAME type DNS record.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/dns/Terraform-DNS-CnameRecord/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

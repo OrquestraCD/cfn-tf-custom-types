@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::StoragegatewayCachedIscsiVolume",
     "description": "Manages an AWS Storage Gateway cached iSCSI volume.\n\n~> **NOTE:** The gateway must have cache added (e.g. via the [`aws_storagegateway_cache`](/docs/providers/aws/r/storagegateway_cache.html) resource) before creating volumes otherwise the Storage Gateway API will return an error.\n\n~> **NOTE:** The gateway must have an upload buffer added (e.g. via the [`aws_storagegateway_upload_buffer`](/docs/providers/aws/r/storagegateway_upload_buffer.html) resource) before the volume is operational to clients, however the Storage Gateway API will allow volume creation without error in that case and return volume status as `UPLOAD BUFFER NOT CONFIGURED`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-StoragegatewayCachedIscsiVolume/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

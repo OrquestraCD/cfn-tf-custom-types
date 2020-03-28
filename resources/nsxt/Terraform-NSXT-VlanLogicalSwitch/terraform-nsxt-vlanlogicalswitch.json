@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::VlanLogicalSwitch",
     "description": "This resource provides a method to create vlan logical switch in NSX. Virtual machines can then be connected to the appropriate logical switch for the desired topology and network connectivity.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-VlanLogicalSwitch/docs/README.md",
     "definitions": {
         "AddressBinding": {
             "type": "object",

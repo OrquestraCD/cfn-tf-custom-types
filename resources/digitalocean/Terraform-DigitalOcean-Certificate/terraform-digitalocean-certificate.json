@@ -2,6 +2,7 @@
     "typeName": "Terraform::DigitalOcean::Certificate",
     "description": "Provides a DigitalOcean Certificate resource that allows you to manage\ncertificates for configuring TLS termination in Load Balancers.\nCertificates created with this resource can be referenced in your\nLoad Balancer configuration via their ID. The certificate can either\nbe a custom one provided by you or automatically generated one with\nLet's Encrypt.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/digitalocean/Terraform-DigitalOcean-Certificate/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

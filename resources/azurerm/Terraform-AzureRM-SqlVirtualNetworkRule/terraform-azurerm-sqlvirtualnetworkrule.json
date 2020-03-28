@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SqlVirtualNetworkRule",
     "description": "Allows you to add, update, or remove an Azure SQL server to a subnet of a virtual network.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SqlVirtualNetworkRule/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

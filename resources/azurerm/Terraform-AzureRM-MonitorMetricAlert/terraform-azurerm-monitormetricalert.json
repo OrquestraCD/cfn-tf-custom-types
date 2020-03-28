@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::MonitorMetricAlert",
     "description": "Manages a Metric Alert within Azure Monitor.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MonitorMetricAlert/docs/README.md",
     "definitions": {
         "Action": {
             "type": "object",

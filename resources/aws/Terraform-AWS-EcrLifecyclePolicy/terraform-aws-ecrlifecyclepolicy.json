@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::EcrLifecyclePolicy",
     "description": "Manages an ECR repository lifecycle policy.\n\n~> **NOTE:** Only one `aws_ecr_lifecycle_policy` resource can be used with the same ECR repository. To apply multiple rules, they must be combined in the `policy` JSON.\n\n~> **NOTE:** The AWS ECR API seems to reorder rules based on `rulePriority`. If you define multiple rules that are not sorted in ascending `rulePriority` order in the Terraform code, the resource will be flagged for recreation every `terraform plan`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EcrLifecyclePolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

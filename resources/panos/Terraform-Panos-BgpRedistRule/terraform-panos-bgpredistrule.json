@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::BgpRedistRule",
     "description": "This resource allows you to add/update/delete a BGP redistribution rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-BgpRedistRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

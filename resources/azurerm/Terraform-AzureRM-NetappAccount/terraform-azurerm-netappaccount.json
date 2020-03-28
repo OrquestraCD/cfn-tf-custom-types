@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NetappAccount",
     "description": "Manages a NetApp Account.\n\n~> **NOTE:** Azure allows only one active directory can be joined to a single subscription at a time for NetApp Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NetappAccount/docs/README.md",
     "definitions": {
         "ActiveDirectory": {
             "type": "object",

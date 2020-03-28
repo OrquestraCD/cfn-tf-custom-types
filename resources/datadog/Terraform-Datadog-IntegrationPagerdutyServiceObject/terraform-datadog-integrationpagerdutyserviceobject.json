@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::IntegrationPagerdutyServiceObject",
     "description": "Provides access to individual Service Objects of Datadog - PagerDuty integrations. Note that the Datadog - PagerDuty integration must be activated (either manually in the Datadog UI or by using [datadog_integration_pagerduty](/docs/providers/datadog/r/integration_pagerduty.html)) in order for this resource to be usable.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-IntegrationPagerdutyServiceObject/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ServicebusSubscriptionRule",
     "description": "Manages a ServiceBus Subscription Rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ServicebusSubscriptionRule/docs/README.md",
     "definitions": {
         "CorrelationFilter": {
             "type": "object",

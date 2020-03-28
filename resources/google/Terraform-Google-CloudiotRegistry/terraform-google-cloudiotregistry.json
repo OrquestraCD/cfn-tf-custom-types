@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::CloudiotRegistry",
     "description": "Creates a device registry in Google's Cloud IoT Core platform. For more information see\n[the official documentation](https://cloud.google.com/iot/docs/) and\n[API](https://cloud.google.com/iot/docs/reference/cloudiot/rest/v1/projects.locations.registries).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-CloudiotRegistry/docs/README.md",
     "definitions": {
         "Credentials": {
             "type": "object",

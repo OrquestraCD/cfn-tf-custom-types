@@ -2,6 +2,7 @@
     "typeName": "Terraform::Rancher::Stack",
     "description": "Provides a Rancher Stack resource. This can be used to create and manage stacks on rancher.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rancher/Terraform-Rancher-Stack/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

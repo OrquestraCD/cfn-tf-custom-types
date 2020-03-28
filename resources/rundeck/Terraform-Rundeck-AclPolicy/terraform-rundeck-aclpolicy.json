@@ -2,6 +2,7 @@
     "typeName": "Terraform::Rundeck::AclPolicy",
     "description": "The acl policy resource allows Rundeck projects to be managed by Terraform.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rundeck/Terraform-Rundeck-AclPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

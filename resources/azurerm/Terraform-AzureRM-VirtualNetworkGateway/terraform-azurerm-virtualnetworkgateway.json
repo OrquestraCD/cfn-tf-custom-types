@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::VirtualNetworkGateway",
     "description": "Manages a Virtual Network Gateway to establish secure, cross-premises connectivity.\n\n-> **Note:** Please be aware that provisioning a Virtual Network Gateway takes a long time (between 30 minutes and 1 hour)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-VirtualNetworkGateway/docs/README.md",
     "definitions": {
         "BgpSettings": {
             "type": "object",

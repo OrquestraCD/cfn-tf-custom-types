@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PostgresqlConfiguration",
     "description": "Sets a PostgreSQL Configuration value on a PostgreSQL Server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PostgresqlConfiguration/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

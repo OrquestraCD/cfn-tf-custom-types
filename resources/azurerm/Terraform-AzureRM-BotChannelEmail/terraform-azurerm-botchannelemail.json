@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::BotChannelEmail",
     "description": "CloudFormation equivalent of azurerm_bot_channel_email",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-BotChannelEmail/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

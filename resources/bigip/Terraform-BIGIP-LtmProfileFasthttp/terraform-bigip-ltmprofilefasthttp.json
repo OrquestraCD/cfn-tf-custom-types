@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::LtmProfileFasthttp",
     "description": "`bigip_ltm_profile_fasthttp` Configures a custom profile_fasthttp for use by health checks.\n\nFor resources should be named with their \"full path\". The full path is the combination of the partition + name of the resource. For example /Common/my-pool.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-LtmProfileFasthttp/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

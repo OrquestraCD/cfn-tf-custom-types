@@ -18,6 +18,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#optionsjson" title="OptionsJson">OptionsJson</a>" : <i>String</i>,
         "<a href="#taskname" title="TaskName">TaskName</a>" : <i>String</i>,
         "<a href="#tasktype" title="TaskType">TaskType</a>" : <i>String</i>,
+        "<a href="#ispcities" title="IspCities">IspCities</a>" : <i>[ <a href="ispcities.md">IspCities</a>, ... ]</i>
     }
 }
 </pre>
@@ -34,6 +35,8 @@ Properties:
     <a href="#optionsjson" title="OptionsJson">OptionsJson</a>: <i>String</i>
     <a href="#taskname" title="TaskName">TaskName</a>: <i>String</i>
     <a href="#tasktype" title="TaskType">TaskType</a>: <i>String</i>
+    <a href="#ispcities" title="IspCities">IspCities</a>: <i>
+      - <a href="ispcities.md">IspCities</a></i>
 </pre>
 
 ## Properties
@@ -83,6 +86,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: Yes
 
 _Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### IspCities
+
+_Required_: No
+
+_Type_: List of <a href="ispcities.md">IspCities</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

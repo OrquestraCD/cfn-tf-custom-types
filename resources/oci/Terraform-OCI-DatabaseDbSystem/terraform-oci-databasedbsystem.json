@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseDbSystem",
     "description": "This resource provides the Db System resource in Oracle Cloud Infrastructure Database service.\n\nCreates a new DB system in the specified compartment and availability domain. The Oracle\nDatabase edition that you specify applies to all the databases on that DB system. The selected edition cannot be changed.\n\nAn initial database is created on the DB system based on the request parameters you provide and some default\noptions. For detailed information about default options, see the following:\n\n- [Bare metal and virtual machine DB system default options](https://docs.cloud.oracle.com/iaas/Content/Database/Tasks/creatingDBsystem.htm#DefaultOptionsfortheInitialDatabase)\n- [Exadata DB system default options](https://docs.cloud.oracle.com/iaas/Content/Database/Tasks/exacreatingDBsystem.htm#DefaultOptionsfortheInitialDatabase)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseDbSystem/docs/README.md",
     "definitions": {
         "DbHome": {
             "type": "object",

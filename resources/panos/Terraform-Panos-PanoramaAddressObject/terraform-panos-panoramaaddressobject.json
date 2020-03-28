@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaAddressObject",
     "description": "This resource allows you to add/update/delete address objects on Panorama.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaAddressObject/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

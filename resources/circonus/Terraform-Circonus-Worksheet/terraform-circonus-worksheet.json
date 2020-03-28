@@ -2,6 +2,7 @@
     "typeName": "Terraform::Circonus::Worksheet",
     "description": "The ``circonus_worksheet`` resource creates and manages a\n[Circonus Worksheet](https://login.circonus.com/resources/api/calls/worksheet).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/circonus/Terraform-Circonus-Worksheet/docs/README.md",
     "definitions": {
         "SmartQueries": {
             "type": "object",

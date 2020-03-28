@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreVnicAttachment",
     "description": "This resource provides the Vnic Attachment resource in Oracle Cloud Infrastructure Core service.\n\nCreates a secondary VNIC and attaches it to the specified instance.\nFor more information about secondary VNICs, see\n[Virtual Network Interface Cards (VNICs)](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingVNICs.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreVnicAttachment/docs/README.md",
     "definitions": {
         "CreateVnicDetails": {
             "type": "object",

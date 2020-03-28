@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaSecurityPolicyGroup",
     "description": "CloudFormation equivalent of panos_panorama_security_policy_group",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaSecurityPolicyGroup/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

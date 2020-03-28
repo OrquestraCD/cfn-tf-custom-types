@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::VirtualNetworkGatewayConnection",
     "description": "Manages a connection in an existing Virtual Network Gateway.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-VirtualNetworkGatewayConnection/docs/README.md",
     "definitions": {
         "IpsecPolicy": {
             "type": "object",

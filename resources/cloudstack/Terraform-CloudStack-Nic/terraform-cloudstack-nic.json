@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudStack::Nic",
     "description": "Creates an additional NIC to add a VM to the specified network.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudstack/Terraform-CloudStack-Nic/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

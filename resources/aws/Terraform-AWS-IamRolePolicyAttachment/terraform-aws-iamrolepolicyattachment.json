@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IamRolePolicyAttachment",
     "description": "Attaches a Managed IAM Policy to an IAM role\n\n~> **NOTE:** The usage of this resource conflicts with the `aws_iam_policy_attachment` resource and will permanently show a difference if both are defined.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IamRolePolicyAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

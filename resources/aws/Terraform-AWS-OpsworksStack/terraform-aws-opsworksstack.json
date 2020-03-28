@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OpsworksStack",
     "description": "Provides an OpsWorks stack resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OpsworksStack/docs/README.md",
     "definitions": {
         "CustomCookbooksSource": {
             "type": "object",

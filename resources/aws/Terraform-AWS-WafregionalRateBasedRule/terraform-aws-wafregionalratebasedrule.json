@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafregionalRateBasedRule",
     "description": "Provides a WAF Rate Based Rule Resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafregionalRateBasedRule/docs/README.md",
     "definitions": {
         "Predicate": {
             "type": "object",

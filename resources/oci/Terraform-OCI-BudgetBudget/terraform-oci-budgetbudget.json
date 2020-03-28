@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::BudgetBudget",
     "description": "This resource provides the Budget resource in Oracle Cloud Infrastructure Budget service.\n\nCreates a new Budget.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-BudgetBudget/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

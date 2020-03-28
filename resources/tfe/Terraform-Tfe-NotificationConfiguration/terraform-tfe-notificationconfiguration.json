@@ -2,6 +2,7 @@
     "typeName": "Terraform::Tfe::NotificationConfiguration",
     "description": "Terraform Cloud can be configured to send notifications for run state transitions. \nNotification configurations allow you to specify a URL, destination type, and what events will trigger the notification. \nEach workspace can have up to 20 notification configurations, and they apply to all runs for that workspace.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tfe/Terraform-Tfe-NotificationConfiguration/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

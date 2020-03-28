@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GlueConnection",
     "description": "Provides a Glue Connection resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GlueConnection/docs/README.md",
     "definitions": {
         "PhysicalConnectionRequirements": {
             "type": "object",

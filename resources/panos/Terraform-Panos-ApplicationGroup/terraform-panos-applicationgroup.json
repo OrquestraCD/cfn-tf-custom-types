@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::ApplicationGroup",
     "description": "This resource allows you to add/update/delete application groups.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-ApplicationGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

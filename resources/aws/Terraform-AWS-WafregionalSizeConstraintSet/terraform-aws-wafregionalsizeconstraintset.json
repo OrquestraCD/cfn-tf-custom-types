@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafregionalSizeConstraintSet",
     "description": "Provides a WAF Regional Size Constraint Set Resource for use with Application Load Balancer.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafregionalSizeConstraintSet/docs/README.md",
     "definitions": {
         "SizeConstraints": {
             "type": "object",

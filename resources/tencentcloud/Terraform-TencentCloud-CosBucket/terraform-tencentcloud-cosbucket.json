@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::CosBucket",
     "description": "Provides a COS resource to create a COS bucket and set its attributes.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-CosBucket/docs/README.md",
     "definitions": {
         "CorsRules": {
             "type": "object",

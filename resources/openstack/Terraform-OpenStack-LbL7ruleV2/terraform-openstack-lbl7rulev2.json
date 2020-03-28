@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::LbL7ruleV2",
     "description": "Manages a V2 L7 Rule resource within OpenStack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-LbL7ruleV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

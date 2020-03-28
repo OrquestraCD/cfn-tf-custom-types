@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Ec2TrafficMirrorFilterRule",
     "description": "Provides an Traffic mirror filter rule.  \nRead [limits and considerations](https://docs.aws.amazon.com/vpc/latest/mirroring/traffic-mirroring-considerations.html) for traffic mirroring",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Ec2TrafficMirrorFilterRule/docs/README.md",
     "definitions": {
         "DestinationPortRange": {
             "type": "object",

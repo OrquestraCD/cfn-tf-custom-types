@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::CmDevicegroup",
     "description": "`bigip_cm_devicegroup` A device group is a collection of BIG-IP devices that are configured to securely synchronize their BIG-IP configuration data, and fail over when needed.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-CmDevicegroup/docs/README.md",
     "definitions": {
         "Device": {
             "type": "object",

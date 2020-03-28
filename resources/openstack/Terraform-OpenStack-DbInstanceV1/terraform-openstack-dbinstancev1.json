@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::DbInstanceV1",
     "description": "Manages a V1 DB instance resource within OpenStack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-DbInstanceV1/docs/README.md",
     "definitions": {
         "Database": {
             "type": "object",

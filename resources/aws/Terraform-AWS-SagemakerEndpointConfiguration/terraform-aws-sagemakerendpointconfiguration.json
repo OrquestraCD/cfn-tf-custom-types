@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SagemakerEndpointConfiguration",
     "description": "Provides a SageMaker endpoint configuration resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SagemakerEndpointConfiguration/docs/README.md",
     "definitions": {
         "ProductionVariants": {
             "type": "object",

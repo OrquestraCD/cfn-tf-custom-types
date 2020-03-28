@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::PinpointEventStream",
     "description": "Provides a Pinpoint Event Stream resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-PinpointEventStream/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

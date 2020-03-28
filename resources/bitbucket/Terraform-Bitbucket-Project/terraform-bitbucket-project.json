@@ -2,6 +2,7 @@
     "typeName": "Terraform::Bitbucket::Project",
     "description": "This resource allows you to manage your projects in your bitbucket team. \n\n# Example Usage\n\n```hcl\n# Manage your repository\nresource \"bitbucket_project\" \"devops\" {\n  owner = \"my-team\"\n  name  = \"devops\"\n  key = \"DEVOPS\"\n}\n```",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bitbucket/Terraform-Bitbucket-Project/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

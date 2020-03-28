@@ -2,6 +2,7 @@
     "typeName": "Terraform::Chef::Role",
     "description": "A [role](http://docs.chef.io/roles.html) is a set of standard configuration\nthat can apply across multiple nodes that perform the same function.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/chef/Terraform-Chef-Role/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

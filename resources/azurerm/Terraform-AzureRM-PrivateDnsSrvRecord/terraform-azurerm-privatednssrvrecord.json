@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PrivateDnsSrvRecord",
     "description": "Enables you to manage DNS SRV Records within Azure Private DNS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PrivateDnsSrvRecord/docs/README.md",
     "definitions": {
         "Record": {
             "type": "object",

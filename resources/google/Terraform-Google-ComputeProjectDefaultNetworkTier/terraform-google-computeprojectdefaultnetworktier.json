@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeProjectDefaultNetworkTier",
     "description": "Configures the Google Compute Engine\n[Default Network Tier](https://cloud.google.com/network-tiers/docs/using-network-service-tiers#setting_the_tier_for_all_resources_in_a_project)\nfor a project.\n\nFor more information, see,\n[the Project API documentation](https://cloud.google.com/compute/docs/reference/rest/v1/projects/setDefaultNetworkTier).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeProjectDefaultNetworkTier/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

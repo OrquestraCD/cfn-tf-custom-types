@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DbClusterSnapshot",
     "description": "Manages a RDS database cluster snapshot for Aurora clusters. For managing RDS database instance snapshots, see the [`aws_db_snapshot` resource](/docs/providers/aws/r/db_snapshot.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DbClusterSnapshot/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

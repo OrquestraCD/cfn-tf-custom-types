@@ -2,6 +2,7 @@
     "typeName": "Terraform::Scaleway::RdbInstanceBeta",
     "description": "-> **Note:** This terraform resource is flagged beta and might include breaking change in future releases.\n\nCreates and manages Scaleway Database Instances. For more information, see [the documentation](https://developers.scaleway.com/en/products/rdb/api).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/scaleway/Terraform-Scaleway-RdbInstanceBeta/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

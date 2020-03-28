@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::CtsTrackerV1",
     "description": "Allows you to collect, store, and query cloud resource operation records.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-CtsTrackerV1/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

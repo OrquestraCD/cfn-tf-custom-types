@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GuarddutyThreatintelset",
     "description": "Provides a resource to manage a GuardDuty ThreatIntelSet.\n\n~> **Note:** Currently in GuardDuty, users from member accounts cannot upload and further manage ThreatIntelSets. ThreatIntelSets that are uploaded by the master account are imposed on GuardDuty functionality in its member accounts. See the [GuardDuty API Documentation](https://docs.aws.amazon.com/guardduty/latest/ug/create-threat-intel-set.html)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GuarddutyThreatintelset/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

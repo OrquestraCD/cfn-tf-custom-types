@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafregionalSqlInjectionMatchSet",
     "description": "Provides a WAF Regional SQL Injection Match Set Resource for use with Application Load Balancer.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafregionalSqlInjectionMatchSet/docs/README.md",
     "definitions": {
         "SqlInjectionMatchTuple": {
             "type": "object",

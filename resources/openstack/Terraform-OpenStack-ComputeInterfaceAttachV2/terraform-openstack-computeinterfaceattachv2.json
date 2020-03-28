@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::ComputeInterfaceAttachV2",
     "description": "Attaches a Network Interface (a Port) to an Instance using the OpenStack\nCompute (Nova) v2 API.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-ComputeInterfaceAttachV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

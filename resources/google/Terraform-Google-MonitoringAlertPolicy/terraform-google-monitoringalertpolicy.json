@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::MonitoringAlertPolicy",
     "description": "A description of the conditions under which some aspect of your system is\nconsidered to be \"unhealthy\" and the ways to notify people or services\nabout this state.\n\n\nTo get more information about AlertPolicy, see:\n\n* [API documentation](https://cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.alertPolicies)\n* How-to Guides\n    * [Official Documentation](https://cloud.google.com/monitoring/alerts/)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-MonitoringAlertPolicy/docs/README.md",
     "definitions": {
         "Conditions": {
             "type": "object",

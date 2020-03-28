@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ServiceFabricCluster",
     "description": "Manages a Service Fabric Cluster.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ServiceFabricCluster/docs/README.md",
     "definitions": {
         "AzureActiveDirectory": {
             "type": "object",
@@ -67,6 +68,26 @@
             },
             "required": [
                 "X509StoreName"
+            ]
+        },
+        "ClientCertificateCommonName": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "CommonName": {
+                    "type": "string"
+                },
+                "IsAdmin": {
+                    "type": "boolean",
+                    "description": "Does the Client Certificate have Admin Access to the cluster? Non-admin clients can only perform read only operations on the cluster."
+                },
+                "IssuerThumbprint": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "CommonName",
+                "IsAdmin"
             ]
         },
         "ClientCertificateThumbprint": {
@@ -443,6 +464,13 @@
                 "$ref": "#/definitions/CertificateCommonNames"
             },
             "maxItems": 1
+        },
+        "ClientCertificateCommonName": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/ClientCertificateCommonName"
+            }
         },
         "ClientCertificateThumbprint": {
             "type": "array",

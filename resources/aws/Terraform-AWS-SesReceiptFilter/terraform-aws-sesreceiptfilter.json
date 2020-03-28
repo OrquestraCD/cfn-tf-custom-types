@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SesReceiptFilter",
     "description": "Provides an SES receipt filter resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SesReceiptFilter/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

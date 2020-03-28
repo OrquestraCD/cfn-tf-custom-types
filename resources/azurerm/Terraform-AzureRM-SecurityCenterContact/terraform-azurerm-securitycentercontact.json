@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SecurityCenterContact",
     "description": "Manages the subscription's Security Center Contact.\n\n~> **NOTE:** Owner access permission is required.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SecurityCenterContact/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

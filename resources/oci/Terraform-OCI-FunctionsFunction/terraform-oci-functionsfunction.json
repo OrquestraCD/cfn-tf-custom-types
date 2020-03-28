@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::FunctionsFunction",
     "description": "This resource provides the Function resource in Oracle Cloud Infrastructure Functions service.\n\nCreates a new function.\n\n**NOTE:** Terraform will take 40 minutes after destroying a function due to a known service issue. Refer [here](https://docs.cloud.oracle.com/iaas/Content/Functions/Tasks/functionsdeleting.htm)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-FunctionsFunction/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

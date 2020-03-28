@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudStack::Instance",
     "description": "Creates and automatically starts a virtual machine based on a service offering,\ndisk offering, and template.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudstack/Terraform-CloudStack-Instance/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

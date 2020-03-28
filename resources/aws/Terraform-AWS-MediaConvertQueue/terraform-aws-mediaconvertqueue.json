@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::MediaConvertQueue",
     "description": "Provides an AWS Elemental MediaConvert Queue.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-MediaConvertQueue/docs/README.md",
     "definitions": {
         "ReservationPlanSettings": {
             "type": "object",

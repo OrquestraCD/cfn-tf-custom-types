@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::SecurityPolicy",
     "description": "This resource allows you to manage the full security posture.\n\n-> **Note:** `panos_security_policies` is known as `panos_security_policy`.\n\nThis resource manages the full set of security rules in a vsys, enforcing both\nthe contents of individual rules as well as their ordering.  Rules are defined\nin a `rule` config block.\n\n!> **Note**: This resource will remove any security rule not defined in your plan file.\n\nFor each security rule, there are three styles of profile settings:\n\n* `None` (the default)\n* `Group`\n* `Profiles`\n\nThe Profile Setting is implicitly chosen based on what params are configured\nfor the security rule.  If you want a Profile Setting of `Group`, then the\n`group` param should be set to the desired Group Profile.  If you want a\nProfile Setting of `Profiles`, then you will need to specify one or more of\nthe following params:\n\n* `virus`\n* `spyware`\n* `vulnerability`\n* `url_filtering`\n* `file_blocking`\n* `wildfire_analysis`\n* `data_filtering`\n\nIf the `group` param and none of the `Profiles` params are specified, then\nthe Profile Setting is set to `None`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-SecurityPolicy/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

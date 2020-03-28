@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DevTestWindowsVirtualMachine",
     "description": "Manages a Windows Virtual Machine within a Dev Test Lab.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DevTestWindowsVirtualMachine/docs/README.md",
     "definitions": {
         "GalleryImageReference": {
             "type": "object",

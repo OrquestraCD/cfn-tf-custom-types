@@ -2,11 +2,21 @@
     "typeName": "Terraform::Cloudflare::AccessPolicy",
     "description": "Provides a Cloudflare Access Policy resource. Access Policies are used\nin conjunction with Access Applications to restrict access to a\nparticular resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-AccessPolicy/docs/README.md",
     "definitions": {
         "Exclude": {
             "type": "object",
             "additionalProperties": false,
             "properties": {
+                "AnyValidServiceToken": {
+                    "type": "boolean"
+                },
+                "Certificate": {
+                    "type": "boolean"
+                },
+                "CommonName": {
+                    "type": "string"
+                },
                 "Email": {
                     "type": "array",
                     "insertionOrder": false,
@@ -24,11 +34,60 @@
                 "Everyone": {
                     "type": "boolean"
                 },
+                "Group": {
+                    "type": "array",
+                    "insertionOrder": false,
+                    "items": {
+                        "type": "string"
+                    }
+                },
                 "Ip": {
                     "type": "array",
                     "insertionOrder": false,
                     "items": {
                         "type": "string"
+                    }
+                },
+                "ServiceToken": {
+                    "type": "array",
+                    "insertionOrder": false,
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "Azure": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Azure"
+                    }
+                },
+                "Github": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Github"
+                    }
+                },
+                "Gsuite": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Gsuite"
+                    }
+                },
+                "Okta": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Okta"
+                    }
+                },
+                "Saml": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Saml"
                     }
                 }
             },
@@ -38,6 +97,15 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
+                "AnyValidServiceToken": {
+                    "type": "boolean"
+                },
+                "Certificate": {
+                    "type": "boolean"
+                },
+                "CommonName": {
+                    "type": "string"
+                },
                 "Email": {
                     "type": "array",
                     "insertionOrder": false,
@@ -55,11 +123,60 @@
                 "Everyone": {
                     "type": "boolean"
                 },
+                "Group": {
+                    "type": "array",
+                    "insertionOrder": false,
+                    "items": {
+                        "type": "string"
+                    }
+                },
                 "Ip": {
                     "type": "array",
                     "insertionOrder": false,
                     "items": {
                         "type": "string"
+                    }
+                },
+                "ServiceToken": {
+                    "type": "array",
+                    "insertionOrder": false,
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "Azure": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Azure"
+                    }
+                },
+                "Github": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Github"
+                    }
+                },
+                "Gsuite": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Gsuite"
+                    }
+                },
+                "Okta": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Okta"
+                    }
+                },
+                "Saml": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Saml"
                     }
                 }
             },
@@ -69,6 +186,15 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
+                "AnyValidServiceToken": {
+                    "type": "boolean"
+                },
+                "Certificate": {
+                    "type": "boolean"
+                },
+                "CommonName": {
+                    "type": "string"
+                },
                 "Email": {
                     "type": "array",
                     "insertionOrder": false,
@@ -86,12 +212,129 @@
                 "Everyone": {
                     "type": "boolean"
                 },
+                "Group": {
+                    "type": "array",
+                    "insertionOrder": false,
+                    "items": {
+                        "type": "string"
+                    }
+                },
                 "Ip": {
                     "type": "array",
                     "insertionOrder": false,
                     "items": {
                         "type": "string"
                     }
+                },
+                "ServiceToken": {
+                    "type": "array",
+                    "insertionOrder": false,
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "Azure": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Azure"
+                    }
+                },
+                "Github": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Github"
+                    }
+                },
+                "Gsuite": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Gsuite"
+                    }
+                },
+                "Okta": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Okta"
+                    }
+                },
+                "Saml": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/Saml"
+                    }
+                }
+            },
+            "required": []
+        },
+        "Azure": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Id": {
+                    "type": "string"
+                },
+                "IdentityProviderId": {
+                    "type": "string"
+                }
+            },
+            "required": []
+        },
+        "Github": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "IdentityProviderId": {
+                    "type": "string"
+                },
+                "Name": {
+                    "type": "string"
+                }
+            },
+            "required": []
+        },
+        "Gsuite": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Email": {
+                    "type": "string"
+                },
+                "IdentityProviderId": {
+                    "type": "string"
+                }
+            },
+            "required": []
+        },
+        "Okta": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "IdentityProviderId": {
+                    "type": "string"
+                },
+                "Name": {
+                    "type": "string"
+                }
+            },
+            "required": []
+        },
+        "Saml": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "AttributeName": {
+                    "type": "string"
+                },
+                "AttributeValue": {
+                    "type": "string"
+                },
+                "IdentityProviderId": {
+                    "type": "string"
                 }
             },
             "required": []
@@ -145,6 +388,41 @@
             "insertionOrder": false,
             "items": {
                 "$ref": "#/definitions/Require"
+            }
+        },
+        "Azure": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/Azure"
+            }
+        },
+        "Github": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/Github"
+            }
+        },
+        "Gsuite": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/Gsuite"
+            }
+        },
+        "Okta": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/Okta"
+            }
+        },
+        "Saml": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/Saml"
             }
         }
     },

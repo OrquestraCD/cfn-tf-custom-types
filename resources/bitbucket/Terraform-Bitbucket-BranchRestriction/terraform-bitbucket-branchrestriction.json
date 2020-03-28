@@ -2,6 +2,7 @@
     "typeName": "Terraform::Bitbucket::BranchRestriction",
     "description": "Provides a Bitbucket branch restriction resource.\n\nThis allows you for setting up branch restrictions for your repository.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bitbucket/Terraform-Bitbucket-BranchRestriction/docs/README.md",
     "definitions": {
         "Groups": {
             "type": "object",

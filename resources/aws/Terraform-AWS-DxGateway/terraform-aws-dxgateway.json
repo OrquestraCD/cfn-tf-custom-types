@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DxGateway",
     "description": "Provides a Direct Connect Gateway.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DxGateway/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

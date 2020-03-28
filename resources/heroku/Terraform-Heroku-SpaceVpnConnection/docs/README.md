@@ -69,7 +69,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 #### Space
 
-The name of the Heroku Private Space where the VPN connection will be established.
+The `UUID` of the Heroku Private Space where the VPN connection will be established.
 
 _Required_: Yes
 

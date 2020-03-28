@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::DatastoreCluster",
     "description": "The `vsphere_datastore_cluster` resource can be used to create and manage\ndatastore clusters. This can be used to create groups of datastores with a\nshared management interface, allowing for resource control and load balancing\nthrough Storage DRS.\n\nFor more information on vSphere datastore clusters and Storage DRS, see [this\npage][ref-vsphere-datastore-clusters].\n\n[ref-vsphere-datastore-clusters]: https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.resmgmt.doc/GUID-598DF695-107E-406B-9C95-0AF961FC227A.html\n\n~> **NOTE:** This resource requires vCenter and is not available on direct ESXi\nconnections.\n\n~> **NOTE:** Storage DRS requires a vSphere Enterprise Plus license.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-DatastoreCluster/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::IntegrationPagerduty",
     "description": "Provides a Datadog - PagerDuty resource. This can be used to create and manage Datadog - PagerDuty integration.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-IntegrationPagerduty/docs/README.md",
     "definitions": {
         "Services": {
             "type": "object",

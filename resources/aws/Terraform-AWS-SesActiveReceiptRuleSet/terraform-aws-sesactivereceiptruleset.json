@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SesActiveReceiptRuleSet",
     "description": "Provides a resource to designate the active SES receipt rule set",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SesActiveReceiptRuleSet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

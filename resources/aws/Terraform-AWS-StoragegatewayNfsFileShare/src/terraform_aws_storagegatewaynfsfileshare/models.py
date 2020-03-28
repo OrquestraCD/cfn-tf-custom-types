@@ -47,6 +47,7 @@ class ResourceModel(BaseResourceModel):
     KmsKeyArn: Optional[str]
     LocationArn: Optional[str]
     ObjectAcl: Optional[str]
+    Path: Optional[str]
     ReadOnly: Optional[bool]
     RequesterPays: Optional[bool]
     RoleArn: Optional[str]
@@ -75,6 +76,7 @@ class ResourceModel(BaseResourceModel):
             KmsKeyArn=json_data.get("KmsKeyArn"),
             LocationArn=json_data.get("LocationArn"),
             ObjectAcl=json_data.get("ObjectAcl"),
+            Path=json_data.get("Path"),
             ReadOnly=json_data.get("ReadOnly"),
             RequesterPays=json_data.get("RequesterPays"),
             RoleArn=json_data.get("RoleArn"),

@@ -2,6 +2,7 @@
     "typeName": "Terraform::DigitalOcean::KubernetesCluster",
     "description": "Provides a DigitalOcean Kubernetes cluster resource. This can be used to create, delete, and modify clusters. For more information see the [official documentation](https://www.digitalocean.com/docs/kubernetes/).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/digitalocean/Terraform-DigitalOcean-KubernetesCluster/docs/README.md",
     "definitions": {
         "NodePool": {
             "type": "object",

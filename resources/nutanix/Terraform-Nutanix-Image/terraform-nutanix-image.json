@@ -2,6 +2,7 @@
     "typeName": "Terraform::Nutanix::Image",
     "description": "Provides a Nutanix Image resource to Create a image.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nutanix/Terraform-Nutanix-Image/docs/README.md",
     "definitions": {
         "Categories": {
             "type": "object",

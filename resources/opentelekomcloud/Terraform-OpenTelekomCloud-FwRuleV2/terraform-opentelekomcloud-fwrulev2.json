@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::FwRuleV2",
     "description": "Manages a v2 firewall rule resource within OpenTelekomCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-FwRuleV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

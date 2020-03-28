@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Ec2ClientVpnNetworkAssociation",
     "description": "Provides network associations for AWS Client VPN endpoints. For more information on usage, please see the \n[AWS Client VPN Administrator's Guide](https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Ec2ClientVpnNetworkAssociation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::DigitalOcean::ProjectResources",
     "description": "Assign resources to a DigitalOcean Project. This is useful if you need to assign resources\nmanaged in Terraform to a DigitalOcean Project managed outside of Terraform.\n\nThe following resource types can be associated with a project:\n\n* Database Clusters\n* Domains\n* Droplets\n* Floating IP\n* Load Balancers\n* Spaces Bucket\n* Volume",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/digitalocean/Terraform-DigitalOcean-ProjectResources/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

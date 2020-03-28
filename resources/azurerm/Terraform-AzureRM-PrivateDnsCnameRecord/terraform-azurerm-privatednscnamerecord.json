@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PrivateDnsCnameRecord",
     "description": "Enables you to manage DNS CNAME Records within Azure Private DNS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PrivateDnsCnameRecord/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

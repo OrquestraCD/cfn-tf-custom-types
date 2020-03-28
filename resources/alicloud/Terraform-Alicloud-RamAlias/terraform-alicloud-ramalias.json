@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::RamAlias",
     "description": "-> **NOTE:** This resource has been deprecated from [v1.3.2](https://github.com/alibaba/terraform-provider/releases/tag/V1.3.2). New resource `alicloud_ram_account_alias` will replace.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-RamAlias/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Route53ResolverEndpoint",
     "description": "Provides a Route 53 Resolver endpoint resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Route53ResolverEndpoint/docs/README.md",
     "definitions": {
         "IpAddress": {
             "type": "object",

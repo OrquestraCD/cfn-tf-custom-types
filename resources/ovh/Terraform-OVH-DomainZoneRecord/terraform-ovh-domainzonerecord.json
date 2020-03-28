@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::DomainZoneRecord",
     "description": "Provides a OVH domain zone record.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-DomainZoneRecord/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

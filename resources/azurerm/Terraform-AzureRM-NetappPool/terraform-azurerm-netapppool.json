@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NetappPool",
     "description": "Manages a Pool within a NetApp Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NetappPool/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::NetworkAclRule",
     "description": "Creates an entry (a rule) in a network ACL with the specified rule number.\n\n~> **NOTE on Network ACLs and Network ACL Rules:** Terraform currently\nprovides both a standalone Network ACL Rule resource and a [Network ACL](network_acl.html) resource with rules\ndefined in-line. At this time you cannot use a Network ACL with in-line rules\nin conjunction with any Network ACL Rule resources. Doing so will cause\na conflict of rule settings and will overwrite rules.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-NetworkAclRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

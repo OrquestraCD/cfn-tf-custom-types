@@ -2,6 +2,7 @@
     "typeName": "Terraform::MySQL::User",
     "description": "The ``mysql_user`` resource creates and manages a user on a MySQL\nserver.\n\n~> **Note:** The password for the user is provided in plain text, and is\nobscured by an unsalted hash in the state\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).\nCare is required when using this resource, to avoid disclosing the password.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/mysql/Terraform-MySQL-User/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

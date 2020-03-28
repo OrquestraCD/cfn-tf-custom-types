@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::AuthBackend",
     "description": "CloudFormation equivalent of vault_auth_backend",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-AuthBackend/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

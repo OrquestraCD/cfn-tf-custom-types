@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OpsworksInstance",
     "description": "Provides an OpsWorks instance resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OpsworksInstance/docs/README.md",
     "definitions": {
         "EbsBlockDevice": {
             "type": "object",

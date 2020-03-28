@@ -2,6 +2,7 @@
     "typeName": "Terraform::Brightbox::OrbitContainer",
     "description": "Provides a Brightbox Orbit Container resource. This can be used to create,\nmodify, and delete Containers in Orbit.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/brightbox/Terraform-Brightbox-OrbitContainer/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

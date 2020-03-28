@@ -2,6 +2,7 @@
     "typeName": "Terraform::Kubernetes::RoleBinding",
     "description": "A RoleBinding may be used to grant permission at the namespace level",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/kubernetes/Terraform-Kubernetes-RoleBinding/docs/README.md",
     "definitions": {
         "Metadata": {
             "type": "object",

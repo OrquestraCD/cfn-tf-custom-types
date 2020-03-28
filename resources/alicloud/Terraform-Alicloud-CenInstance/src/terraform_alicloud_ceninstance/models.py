@@ -39,6 +39,7 @@ class ResourceModel(BaseResourceModel):
     Description: Optional[str]
     Id: Optional[str]
     Name: Optional[str]
+    ProtectionLevel: Optional[str]
     Timeouts: Optional["_Timeouts"]
 
     @classmethod
@@ -53,6 +54,7 @@ class ResourceModel(BaseResourceModel):
             Description=json_data.get("Description"),
             Id=json_data.get("Id"),
             Name=json_data.get("Name"),
+            ProtectionLevel=json_data.get("ProtectionLevel"),
             Timeouts=Timeouts._deserialize(json_data.get("Timeouts")),
         )
 

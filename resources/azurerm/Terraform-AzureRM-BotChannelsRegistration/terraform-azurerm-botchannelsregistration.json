@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::BotChannelsRegistration",
     "description": "Manages a Bot Channels Registration.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-BotChannelsRegistration/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

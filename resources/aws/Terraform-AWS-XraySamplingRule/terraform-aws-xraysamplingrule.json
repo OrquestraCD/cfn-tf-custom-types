@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::XraySamplingRule",
     "description": "Creates and manages an AWS XRay Sampling Rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-XraySamplingRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

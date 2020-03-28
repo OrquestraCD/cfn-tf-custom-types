@@ -2,6 +2,7 @@
     "typeName": "Terraform::RabbitMQ::Vhost",
     "description": "The ``rabbitmq_vhost`` resource creates and manages a vhost.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rabbitmq/Terraform-RabbitMQ-Vhost/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

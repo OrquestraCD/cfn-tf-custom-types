@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::VpcPeeringConnectionV2",
     "description": "Provides a resource to manage a VPC Peering Connection resource.\n\n-> **Note:** For cross-tenant (requester's tenant differs from the accepter's tenant) VPC Peering Connections, use the `opentelekomcloud_vpc_peering_connection_v2` resource to manage the requester's side of the connection and use the `opentelekomcloud_vpc_peering_connection_accepter_v2` resource to manage the accepter's side of the connection.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-VpcPeeringConnectionV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

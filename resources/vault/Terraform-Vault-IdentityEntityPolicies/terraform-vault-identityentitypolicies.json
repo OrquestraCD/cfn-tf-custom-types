@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::IdentityEntityPolicies",
     "description": "Manages policies for an Identity Entity for Vault. The [Identity secrets engine](https://www.vaultproject.io/docs/secrets/identity/index.html) is the identity management solution for Vault.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-IdentityEntityPolicies/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

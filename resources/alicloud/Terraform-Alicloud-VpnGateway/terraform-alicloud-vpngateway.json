@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::VpnGateway",
     "description": "Provides a VPN gateway resource.\n\n-> **NOTE:** Terraform will auto build vpn instance  while it uses `alicloud_vpn_gateway` to build a vpn resource.\n\n-> Currently International-Site account can open `PostPaid` VPN gateway and China-Site account can open `PrePaid` VPN gateway.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-VpnGateway/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

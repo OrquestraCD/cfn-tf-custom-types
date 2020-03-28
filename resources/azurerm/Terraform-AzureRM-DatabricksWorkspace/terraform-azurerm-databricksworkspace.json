@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DatabricksWorkspace",
     "description": "Manages a Databricks Workspace",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DatabricksWorkspace/docs/README.md",
     "definitions": {
         "CustomParameters": {
             "type": "object",

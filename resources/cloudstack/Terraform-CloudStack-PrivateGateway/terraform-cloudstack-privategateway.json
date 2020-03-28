@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudStack::PrivateGateway",
     "description": "Creates a private gateway for the given VPC.\n\n*NOTE: private gateway can only be created using a ROOT account!*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudstack/Terraform-CloudStack-PrivateGateway/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

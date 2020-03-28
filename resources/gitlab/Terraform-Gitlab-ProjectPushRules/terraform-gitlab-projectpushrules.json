@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::ProjectPushRules",
     "description": "This resource allows you to create and manage push rules for your GitLab projects.\nFor further information on push rules, consult the [gitlab\ndocumentation](https://docs.gitlab.com/ce/push_rules/push_rules.html#push-rules).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-ProjectPushRules/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

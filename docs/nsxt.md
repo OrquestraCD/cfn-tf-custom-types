@@ -33,16 +33,8 @@ To configure this resource, you must create an AWS Secrets Manager secret with t
   The default for this flag is false.
 * `tolerate_partial_success` - (Optional) Setting this flag to true would treat
   partially succesful realization as valid state and not fail apply.
-* `vmc_token` - (Optional) Long-lived API token for authenticating with VMware
-  Cloud Services APIs. This token will be used to short-lived token that is
-  needed to communicate with NSX Manager in VMC environment.
-  Note that only subset of policy resources are supported with VMC environment.
-* `vmc_auth_host` - (Optional) URL for VMC authorization service that is used
-  to obtain short-lived token for NSX manager access. Defaults to VMC
-  console authorization URL.
 * `enforcement_point` - (Optional) Enforcement point, mostly relevant for policy
-  data sources. For VMC environment, this should be set to `vmc-enforcementpoint`.
-  For on-prem deployments, this setting should not be specified.
+  data sources.
 
 
 ## Supported Resources

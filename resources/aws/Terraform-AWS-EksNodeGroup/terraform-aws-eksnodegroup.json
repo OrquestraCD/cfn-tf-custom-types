@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::EksNodeGroup",
     "description": "Manages an EKS Node Group, which can provision and optionally update an Auto Scaling Group of Kubernetes worker nodes compatible with EKS. Additional documentation about this functionality can be found in the [EKS User Guide](https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EksNodeGroup/docs/README.md",
     "definitions": {
         "RemoteAccess": {
             "type": "object",

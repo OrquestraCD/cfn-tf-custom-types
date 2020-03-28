@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DataFactoryDatasetPostgresql",
     "description": "Manages a PostgreSQL Dataset inside a Azure Data Factory.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DataFactoryDatasetPostgresql/docs/README.md",
     "definitions": {
         "SchemaColumn": {
             "type": "object",

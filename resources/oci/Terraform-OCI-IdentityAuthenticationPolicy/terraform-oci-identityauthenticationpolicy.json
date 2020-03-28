@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::IdentityAuthenticationPolicy",
     "description": "This resource provides the Authentication Policy resource in Oracle Cloud Infrastructure Identity service.\n\nUpdates authentication policy for the specified tenancy",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-IdentityAuthenticationPolicy/docs/README.md",
     "definitions": {
         "PasswordPolicy": {
             "type": "object",

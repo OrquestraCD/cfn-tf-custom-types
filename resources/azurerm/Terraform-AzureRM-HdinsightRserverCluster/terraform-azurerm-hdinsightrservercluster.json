@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::HdinsightRserverCluster",
     "description": "Manages a HDInsight RServer Cluster.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-HdinsightRserverCluster/docs/README.md",
     "definitions": {
         "Gateway": {
             "type": "object",

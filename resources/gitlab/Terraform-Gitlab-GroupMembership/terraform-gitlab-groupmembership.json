@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::GroupMembership",
     "description": "This resource allows you to add a user to an existing group.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-GroupMembership/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Rundeck::PublicKey",
     "description": "The public key resource allows SSH public keys to be stored into Rundeck's key store.\nThe key store is where Rundeck keeps credentials that are needed to access the nodes on which\nit runs commands.\n\nThis resource also allows the retrieval of an existing public key from the store, so that it\nmay be used in the configuration of other resources such as ``aws_key_pair``.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rundeck/Terraform-Rundeck-PublicKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

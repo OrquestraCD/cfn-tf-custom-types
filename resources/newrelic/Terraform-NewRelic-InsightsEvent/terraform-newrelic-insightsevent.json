@@ -2,6 +2,7 @@
     "typeName": "Terraform::NewRelic::InsightsEvent",
     "description": "Use this resource to create one or more Insights events during a terraform run.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/newrelic/Terraform-NewRelic-InsightsEvent/docs/README.md",
     "definitions": {
         "Event": {
             "type": "object",

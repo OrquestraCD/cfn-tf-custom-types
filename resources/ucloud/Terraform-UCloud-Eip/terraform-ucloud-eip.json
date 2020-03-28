@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::Eip",
     "description": "Provides an Elastic IP resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-Eip/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

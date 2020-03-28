@@ -2,6 +2,7 @@
     "typeName": "Terraform::Bitbucket::DefaultReviewers",
     "description": "Provides support for setting up default reviewers for your repository. You must however have the UUID of the user available. Since Bitbucket has removed usernames from its APIs the best case is to use the UUID via the data provider.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bitbucket/Terraform-Bitbucket-DefaultReviewers/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

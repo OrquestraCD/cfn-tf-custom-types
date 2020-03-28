@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::OrgVdc",
     "description": "Provides a vCloud Director Organization VDC resource. This can be used to create and delete an Organization VDC.\nRequires system administrator privileges.\n\nSupported in provider *v2.2+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-OrgVdc/docs/README.md",
     "definitions": {
         "ComputeCapacity": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureStack::VirtualNetworkGatewayConnection",
     "description": "Manages a connection in an existing Virtual Network Gateway.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurestack/Terraform-AzureStack-VirtualNetworkGatewayConnection/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Nomad::AclPolicy",
     "description": "Manages an ACL policy registered in Nomad.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nomad/Terraform-Nomad-AclPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

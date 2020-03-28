@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::Havip",
     "description": "Provides a HaVip resource.\n\n-> **NOTE:** Terraform will auto build havip instance  while it uses `alicloud_havip` to build a havip resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-Havip/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

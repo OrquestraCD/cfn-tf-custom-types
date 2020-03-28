@@ -2,7 +2,25 @@
     "typeName": "Terraform::Skytap::Project",
     "description": "Provides a Skytap Project resource. Projects are an access permissions model used to share environments, \ntemplates, and assets with other users.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
-    "definitions": {},
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/skytap/Terraform-Skytap-Project/docs/README.md",
+    "definitions": {
+        "Timeouts": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Create": {
+                    "type": "string"
+                },
+                "Delete": {
+                    "type": "string"
+                },
+                "Update": {
+                    "type": "string"
+                }
+            },
+            "required": []
+        }
+    },
     "properties": {
         "tfcfnid": {
             "description": "Internal identifier for tracking resource changes. Do not use.",
@@ -26,6 +44,9 @@
         "Summary": {
             "type": "string",
             "description": "User-defined description of project."
+        },
+        "Timeouts": {
+            "$ref": "#/definitions/Timeouts"
         }
     },
     "additionalProperties": false,

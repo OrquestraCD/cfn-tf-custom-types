@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::ProjectCluster",
     "description": "This resource allows you to create and manage project clusters for your GitLab projects.\nFor further information on clusters, consult the [gitlab\ndocumentation](https://docs.gitlab.com/ce/user/project/clusters/index.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-ProjectCluster/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

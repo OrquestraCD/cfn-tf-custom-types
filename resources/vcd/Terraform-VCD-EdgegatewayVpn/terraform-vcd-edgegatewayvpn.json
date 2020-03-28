@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::EdgegatewayVpn",
     "description": "Provides a vCloud Director IPsec VPN. This can be used to create,\nmodify, and delete VPN settings and rules.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-EdgegatewayVpn/docs/README.md",
     "definitions": {
         "LocalSubnets": {
             "type": "object",

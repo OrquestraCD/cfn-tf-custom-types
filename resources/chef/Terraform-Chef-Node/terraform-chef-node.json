@@ -2,6 +2,7 @@
     "typeName": "Terraform::Chef::Node",
     "description": "A [node](http://docs.chef.io/nodes.html) is a computer whose\nconfiguration is managed by Chef.\n\nAlthough this resource allows a node to be registered, it does not actually\nconfigure the computer in question to interact with Chef. In most cases it\nis better to use [the `chef` provisioner](/docs/provisioners/chef.html) to\nconfigure the Chef client on a computer and have it register itself with the\nChef server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/chef/Terraform-Chef-Node/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

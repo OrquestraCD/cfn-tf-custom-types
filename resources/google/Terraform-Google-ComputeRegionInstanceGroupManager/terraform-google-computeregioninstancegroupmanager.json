@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeRegionInstanceGroupManager",
     "description": "The Google Compute Engine Regional Instance Group Manager API creates and manages pools\nof homogeneous Compute Engine virtual machine instances from a common instance\ntemplate. For more information, see [the official documentation](https://cloud.google.com/compute/docs/instance-groups/distributing-instances-with-regional-instance-groups)\nand [API](https://cloud.google.com/compute/docs/reference/latest/regionInstanceGroupManagers)\n\n~> **Note:** Use [google_compute_instance_group_manager](/docs/providers/google/r/compute_instance_group_manager.html) to create a single-zone instance group manager.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeRegionInstanceGroupManager/docs/README.md",
     "definitions": {
         "AutoHealingPolicies": {
             "type": "object",

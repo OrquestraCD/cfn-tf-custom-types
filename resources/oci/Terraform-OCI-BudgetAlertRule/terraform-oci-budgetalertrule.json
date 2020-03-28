@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::BudgetAlertRule",
     "description": "This resource provides the Alert Rule resource in Oracle Cloud Infrastructure Budget service.\n\nCreates a new Alert Rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-BudgetAlertRule/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

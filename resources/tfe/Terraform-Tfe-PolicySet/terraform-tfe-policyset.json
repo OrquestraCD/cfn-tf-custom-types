@@ -2,6 +2,7 @@
     "typeName": "Terraform::Tfe::PolicySet",
     "description": "Sentinel Policy as Code is an embedded policy as code framework integrated\nwith Terraform Enterprise.\n\nPolicy sets are groups of policies that are applied together to related workspaces.\nBy using policy sets, you can group your policies by attributes such as environment\nor region. Individual policies that are members of policy sets will only be checked\nfor workspaces that the policy set is attached to.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tfe/Terraform-Tfe-PolicySet/docs/README.md",
     "definitions": {
         "VcsRepo": {
             "type": "object",

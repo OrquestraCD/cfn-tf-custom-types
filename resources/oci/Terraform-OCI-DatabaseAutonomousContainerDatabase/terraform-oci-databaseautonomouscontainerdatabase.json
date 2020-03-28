@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseAutonomousContainerDatabase",
     "description": "This resource provides the Autonomous Container Database resource in Oracle Cloud Infrastructure Database service.\n\nCreate a new Autonomous Container Database in the specified Autonomous Exadata Infrastructure.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseAutonomousContainerDatabase/docs/README.md",
     "definitions": {
         "BackupConfig": {
             "type": "object",

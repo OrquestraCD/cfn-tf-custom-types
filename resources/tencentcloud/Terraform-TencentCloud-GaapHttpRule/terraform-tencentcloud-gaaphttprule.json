@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::GaapHttpRule",
     "description": "Provides a resource to create a forward rule of layer7 listener.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-GaapHttpRule/docs/README.md",
     "definitions": {
         "Realservers": {
             "type": "object",

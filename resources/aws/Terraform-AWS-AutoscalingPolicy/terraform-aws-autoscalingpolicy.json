@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AutoscalingPolicy",
     "description": "Provides an AutoScaling Scaling Policy resource.\n\n~> **NOTE:** You may want to omit `desired_capacity` attribute from attached `aws_autoscaling_group`\nwhen using autoscaling policies. It's good practice to pick either\n[manual](https://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-manual-scaling.html)\nor [dynamic](https://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-scale-based-on-demand.html)\n(policy-based) scaling.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AutoscalingPolicy/docs/README.md",
     "definitions": {
         "StepAdjustment": {
             "type": "object",

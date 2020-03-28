@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::DnsGroup",
     "description": "Provides a DNS Group resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-DnsGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

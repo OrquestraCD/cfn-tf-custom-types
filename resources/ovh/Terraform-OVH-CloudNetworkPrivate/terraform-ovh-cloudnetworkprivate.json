@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::CloudNetworkPrivate",
     "description": "Creates a private network in a public cloud project.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-CloudNetworkPrivate/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

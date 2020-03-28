@@ -2,6 +2,7 @@
     "typeName": "Terraform::GitHub::RepositoryDeployKey",
     "description": "Provides a GitHub repository deploy key resource.\n\nA deploy key is an SSH key that is stored on your server and grants\naccess to a single GitHub repository. This key is attached directly to the repository instead of to a personal user\naccount.\n\nThis resource allows you to add/remove repository deploy keys.\n\nFurther documentation on GitHub repository deploy keys:\n- [About deploy keys](https://developer.github.com/guides/managing-deploy-keys/#deploy-keys)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/github/Terraform-GitHub-RepositoryDeployKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

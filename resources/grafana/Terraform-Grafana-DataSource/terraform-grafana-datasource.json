@@ -2,6 +2,7 @@
     "typeName": "Terraform::Grafana::DataSource",
     "description": "The data source resource allows a data source to be created on a Grafana server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/grafana/Terraform-Grafana-DataSource/docs/README.md",
     "definitions": {
         "JsonData": {
             "type": "object",

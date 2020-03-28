@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SubnetRouteTableAssociation",
     "description": "Associates a [Route Table](route_table.html) with a [Subnet](subnet.html) within a [Virtual Network](virtual_network.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SubnetRouteTableAssociation/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

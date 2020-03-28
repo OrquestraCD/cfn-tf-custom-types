@@ -2,6 +2,7 @@
     "typeName": "Terraform::Brightbox::LoadBalancer",
     "description": "Provides a Brightbox Load Balancer resource. This can be used to create,\nmodify, and delete Load Balancers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/brightbox/Terraform-Brightbox-LoadBalancer/docs/README.md",
     "definitions": {
         "Healthcheck": {
             "type": "object",

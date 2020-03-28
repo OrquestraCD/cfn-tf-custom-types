@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::IntegrationIntegrationInstance",
     "description": "This resource provides the Integration Instance resource in Oracle Cloud Infrastructure Integration service.\n\nCreates a new Integration Instance.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-IntegrationIntegrationInstance/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

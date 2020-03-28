@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::EcsCapacityProvider",
     "description": "Provides an ECS cluster capacity provider. More information can be found on the [ECS Developer Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-capacity-providers.html).\n\n~> **NOTE:** The AWS API does not currently support deleting ECS cluster capacity providers. Removing this Terraform resource will only remove the Terraform state for it.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EcsCapacityProvider/docs/README.md",
     "definitions": {
         "AutoScalingGroupProvider": {
             "type": "object",

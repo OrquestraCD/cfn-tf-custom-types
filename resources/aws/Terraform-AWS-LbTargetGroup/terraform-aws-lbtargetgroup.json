@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LbTargetGroup",
     "description": "Provides a Target Group resource for use with Load Balancer resources.\n\n~> **Note:** `aws_alb_target_group` is known as `aws_lb_target_group`. The functionality is identical.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LbTargetGroup/docs/README.md",
     "definitions": {
         "HealthCheck": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::BotChannelDirectline",
     "description": "CloudFormation equivalent of azurerm_bot_channel_directline",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-BotChannelDirectline/docs/README.md",
     "definitions": {
         "Site": {
             "type": "object",

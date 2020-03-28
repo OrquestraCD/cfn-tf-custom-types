@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::BastionHost",
     "description": "Manages a Bastion Host.\n\n~> **Note:** Bastion Hosts are a preview feature in Azure, and therefore are only supported in a select number of regions. [Read more](https://docs.microsoft.com/en-us/azure/bastion/bastion-faq).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-BastionHost/docs/README.md",
     "definitions": {
         "IpConfiguration": {
             "type": "object",

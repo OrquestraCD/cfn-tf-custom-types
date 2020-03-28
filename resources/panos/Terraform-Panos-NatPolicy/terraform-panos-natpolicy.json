@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::NatPolicy",
     "description": "CloudFormation equivalent of panos_nat_policy",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-NatPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

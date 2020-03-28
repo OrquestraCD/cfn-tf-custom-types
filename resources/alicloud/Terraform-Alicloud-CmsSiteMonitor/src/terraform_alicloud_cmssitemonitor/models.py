@@ -46,6 +46,7 @@ class ResourceModel(BaseResourceModel):
     TaskState: Optional[str]
     TaskType: Optional[str]
     UpdateTime: Optional[str]
+    IspCities: Optional[Sequence["_IspCities"]]
 
     @classmethod
     def _deserialize(
@@ -66,10 +67,33 @@ class ResourceModel(BaseResourceModel):
             TaskState=json_data.get("TaskState"),
             TaskType=json_data.get("TaskType"),
             UpdateTime=json_data.get("UpdateTime"),
+            IspCities=json_data.get("IspCities"),
         )
 
 
 # work around possible type aliasing issues when variable has same name as a model
 _ResourceModel = ResourceModel
+
+
+@dataclass
+class IspCities:
+    City: Optional[str]
+    Isp: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_IspCities"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_IspCities"]:
+        if not json_data:
+            return None
+        return cls(
+            City=json_data.get("City"),
+            Isp=json_data.get("Isp"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_IspCities = IspCities
 
 

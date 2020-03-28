@@ -13,7 +13,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "Type" : "Terraform::Skytap::IcnrTunnel",
     "Properties" : {
         "<a href="#source" title="Source">Source</a>" : <i>Double</i>,
-        "<a href="#target" title="Target">Target</a>" : <i>Double</i>
+        "<a href="#target" title="Target">Target</a>" : <i>Double</i>,
+        "<a href="#timeouts" title="Timeouts">Timeouts</a>" : <i><a href="timeouts.md">Timeouts</a></i>
     }
 }
 </pre>
@@ -25,6 +26,7 @@ Type: Terraform::Skytap::IcnrTunnel
 Properties:
     <a href="#source" title="Source">Source</a>: <i>Double</i>
     <a href="#target" title="Target">Target</a>: <i>Double</i>
+    <a href="#timeouts" title="Timeouts">Timeouts</a>: <i><a href="timeouts.md">Timeouts</a></i>
 </pre>
 
 ## Properties
@@ -46,6 +48,14 @@ Target network to which the connection was made. The network needs to be “tunn
 _Required_: Yes
 
 _Type_: Double
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Timeouts
+
+_Required_: No
+
+_Type_: <a href="timeouts.md">Timeouts</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

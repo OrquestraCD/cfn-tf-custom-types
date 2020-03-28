@@ -2,6 +2,7 @@
     "typeName": "Terraform::Packet::VolumeAttachment",
     "description": "Provides attachment of Packet Block Storage Volume to Devices.\n\nDevice and volume must be in the same location (facility).\n\nOnce attached by Terraform, they must then be mounted using the `packet-block-storage-attach` and `packet-block-storage-detach` scripts, which are presinstalled on most OS images. They can also be found in [https://github.com/packethost/packet-block-storage](https://github.com/packethost/packet-block-storage).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/packet/Terraform-Packet-VolumeAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

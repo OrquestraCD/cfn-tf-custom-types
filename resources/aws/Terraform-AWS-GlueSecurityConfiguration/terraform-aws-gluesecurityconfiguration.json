@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::GlueSecurityConfiguration",
     "description": "Manages a Glue Security Configuration.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-GlueSecurityConfiguration/docs/README.md",
     "definitions": {
         "EncryptionConfiguration": {
             "type": "object",

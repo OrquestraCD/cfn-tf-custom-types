@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::WafRule",
     "description": "Provides a Cloudflare WAF rule resource for a particular zone. This can be used to configure firewall behaviour for pre-defined firewall rules.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-WafRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::DayuCcHttpsPolicy",
     "description": "Use this resource to create a dayu CC self-define https policy\n\n~> **NOTE:** creating CC self-define https policy need a valid resource `tencentcloud_dayu_l7_rule`; The resource only support Anti-DDoS of resource type `bgpip`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-DayuCcHttpsPolicy/docs/README.md",
     "definitions": {
         "RuleList": {
             "type": "object",

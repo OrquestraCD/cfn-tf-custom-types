@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::BgpConditionalAdv",
     "description": "This resource allows you to add/update/delete a Panorama BGP conditional advertisement.\n\n~> **Note:** In the PAN-OS GUI, this resource cannot be created without also\ncreating at least one non-exist filter and one advertise filter.  The API behaves\na little differently:  you can create the conditional advertisement itself, but\nthe API will start throwing errors if you try to update it and there is not at\nleast one non-exist filter and one advertise filter.  In order for a conditional\nadvertisement to be valid, you must specify at least one non-exist and one\nadvertise filter.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-BgpConditionalAdv/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

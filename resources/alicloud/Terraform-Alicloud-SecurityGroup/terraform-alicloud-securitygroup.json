@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::SecurityGroup",
     "description": "Provides a security group resource.\n\n-> **NOTE:** `alicloud_security_group` is used to build and manage a security group, and `alicloud_security_group_rule` can define ingress or egress rules for it.\n\n-> **NOTE:** From version 1.7.2, `alicloud_security_group` has supported to segregate different ECS instance in which the same security group.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-SecurityGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

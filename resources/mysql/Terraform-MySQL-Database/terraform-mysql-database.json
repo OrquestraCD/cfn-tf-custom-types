@@ -2,6 +2,7 @@
     "typeName": "Terraform::MySQL::Database",
     "description": "The ``mysql_database`` resource creates and manages a database on a MySQL\nserver.\n\n~> **Caution:** The ``mysql_database`` resource can completely delete your\ndatabase just as easily as it can create it. To avoid costly accidents,\nconsider setting\n[``prevent_destroy``](/docs/configuration/resources.html#prevent_destroy)\non your database resources as an extra safety measure.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/mysql/Terraform-MySQL-Database/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

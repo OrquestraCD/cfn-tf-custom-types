@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::KmsCryptoKeyIamBinding",
     "description": "CloudFormation equivalent of google_kms_crypto_key_iam_binding",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-KmsCryptoKeyIamBinding/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::SesReceiptRuleSet",
     "description": "Provides an SES receipt rule set resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-SesReceiptRuleSet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

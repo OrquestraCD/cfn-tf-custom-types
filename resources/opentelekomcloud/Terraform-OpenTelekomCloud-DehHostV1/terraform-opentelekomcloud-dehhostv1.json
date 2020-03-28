@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::DehHostV1",
     "description": "Allocates a Dedicated Host to a tenant and set minimum required parameters for this Dedicated Host.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-DehHostV1/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

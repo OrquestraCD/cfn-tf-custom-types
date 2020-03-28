@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::Snapshot",
     "description": "Manages a Disk Snapshot.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-Snapshot/docs/README.md",
     "definitions": {
         "EncryptionSettings": {
             "type": "object",

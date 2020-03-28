@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LbSslNegotiationPolicy",
     "description": "Provides a load balancer SSL negotiation policy, which allows an ELB to control the ciphers and protocols that are supported during SSL negotiations between a client and a load balancer.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LbSslNegotiationPolicy/docs/README.md",
     "definitions": {
         "Attribute": {
             "type": "object",

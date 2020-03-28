@@ -44,6 +44,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#creditspecification" title="CreditSpecification">CreditSpecification</a>" : <i>[ <a href="creditspecification.md">CreditSpecification</a>, ... ]</i>,
         "<a href="#ebsblockdevice" title="EbsBlockDevice">EbsBlockDevice</a>" : <i>[ <a href="ebsblockdevice.md">EbsBlockDevice</a>, ... ]</i>,
         "<a href="#ephemeralblockdevice" title="EphemeralBlockDevice">EphemeralBlockDevice</a>" : <i>[ <a href="ephemeralblockdevice.md">EphemeralBlockDevice</a>, ... ]</i>,
+        "<a href="#metadataoptions" title="MetadataOptions">MetadataOptions</a>" : <i>[ <a href="metadataoptions.md">MetadataOptions</a>, ... ]</i>,
         "<a href="#networkinterface" title="NetworkInterface">NetworkInterface</a>" : <i>[ <a href="networkinterface.md">NetworkInterface</a>, ... ]</i>,
         "<a href="#rootblockdevice" title="RootBlockDevice">RootBlockDevice</a>" : <i>[ <a href="rootblockdevice.md">RootBlockDevice</a>, ... ]</i>,
         "<a href="#timeouts" title="Timeouts">Timeouts</a>" : <i><a href="timeouts.md">Timeouts</a></i>
@@ -95,6 +96,8 @@ Properties:
       - <a href="ebsblockdevice.md">EbsBlockDevice</a></i>
     <a href="#ephemeralblockdevice" title="EphemeralBlockDevice">EphemeralBlockDevice</a>: <i>
       - <a href="ephemeralblockdevice.md">EphemeralBlockDevice</a></i>
+    <a href="#metadataoptions" title="MetadataOptions">MetadataOptions</a>: <i>
+      - <a href="metadataoptions.md">MetadataOptions</a></i>
     <a href="#networkinterface" title="NetworkInterface">NetworkInterface</a>: <i>
       - <a href="networkinterface.md">NetworkInterface</a></i>
     <a href="#rootblockdevice" title="RootBlockDevice">RootBlockDevice</a>: <i>
@@ -418,6 +421,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: List of <a href="ephemeralblockdevice.md">EphemeralBlockDevice</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### MetadataOptions
+
+_Required_: No
+
+_Type_: List of <a href="metadataoptions.md">MetadataOptions</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::SecurityGroupRule",
     "description": "Provides a resource to create security group rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-SecurityGroupRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

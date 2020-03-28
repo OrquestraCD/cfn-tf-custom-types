@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::LogicalTier0Router",
     "description": "This resource provides a method for the management of a tier 0 logical router.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-LogicalTier0Router/docs/README.md",
     "definitions": {
         "FirewallSections": {
             "type": "object",

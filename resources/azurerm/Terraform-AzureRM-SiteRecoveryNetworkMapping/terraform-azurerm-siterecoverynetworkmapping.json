@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SiteRecoveryNetworkMapping",
     "description": "Manages a site recovery network mapping on Azure. A network mapping decides how to translate connected netwroks when a VM is migrated from one region to another.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SiteRecoveryNetworkMapping/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

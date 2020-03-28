@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IamUserSshKey",
     "description": "Uploads an SSH public key and associates it with the specified IAM user.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IamUserSshKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

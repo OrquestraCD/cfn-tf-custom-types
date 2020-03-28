@@ -2,6 +2,7 @@
     "typeName": "Terraform::Gitlab::GroupVariable",
     "description": "This resource allows you to create and manage CI/CD variables for your GitLab groups.\nFor further information on variables, consult the [gitlab\ndocumentation](https://docs.gitlab.com/ce/ci/variables/README.html#variables).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/gitlab/Terraform-Gitlab-GroupVariable/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

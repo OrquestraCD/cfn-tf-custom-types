@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeInstanceGroup",
     "description": "Creates a group of dissimilar Compute Engine virtual machine instances.\nFor more information, see [the official documentation](https://cloud.google.com/compute/docs/instance-groups/#unmanaged_instance_groups)\nand [API](https://cloud.google.com/compute/docs/reference/latest/instanceGroups)\n\n-> Recreating an instance group that's in use by another resource will give a\n`resourceInUseByAnotherResource` error. You can avoid this error with a\nTerraform `lifecycle` block as outlined in the example below.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeInstanceGroup/docs/README.md",
     "definitions": {
         "NamedPort": {
             "type": "object",

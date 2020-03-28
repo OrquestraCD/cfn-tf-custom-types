@@ -2,6 +2,7 @@
     "typeName": "Terraform::DNS::NsRecordSet",
     "description": "Creates a NS type DNS record set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/dns/Terraform-DNS-NsRecordSet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

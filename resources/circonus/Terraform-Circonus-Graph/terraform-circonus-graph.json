@@ -2,6 +2,7 @@
     "typeName": "Terraform::Circonus::Graph",
     "description": "The ``circonus_graph`` resource creates and manages a\n[Circonus Graph](https://login.circonus.com/user/docs/Visualization/Graph/Create).\n\nhttps://login.circonus.com/resources/api/calls/graph).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/circonus/Terraform-Circonus-Graph/docs/README.md",
     "definitions": {
         "Guide": {
             "type": "object",

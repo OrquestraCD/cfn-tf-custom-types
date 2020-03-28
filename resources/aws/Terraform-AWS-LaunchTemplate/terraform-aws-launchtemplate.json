@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LaunchTemplate",
     "description": "Provides an EC2 launch template resource. Can be used to create instances or auto scaling groups.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LaunchTemplate/docs/README.md",
     "definitions": {
         "BlockDeviceMappings": {
             "type": "object",
@@ -134,6 +135,22 @@
             "required": [
                 "LicenseConfigurationArn"
             ]
+        },
+        "MetadataOptions": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "HttpEndpoint": {
+                    "type": "string"
+                },
+                "HttpPutResponseHopLimit": {
+                    "type": "number"
+                },
+                "HttpTokens": {
+                    "type": "string"
+                }
+            },
+            "required": []
         },
         "Monitoring": {
             "type": "object",
@@ -486,6 +503,14 @@
             "items": {
                 "$ref": "#/definitions/LicenseSpecification"
             }
+        },
+        "MetadataOptions": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/MetadataOptions"
+            },
+            "maxItems": 1
         },
         "Monitoring": {
             "type": "array",

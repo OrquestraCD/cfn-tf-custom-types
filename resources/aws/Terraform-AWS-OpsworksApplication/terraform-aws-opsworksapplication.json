@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OpsworksApplication",
     "description": "Provides an OpsWorks application resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OpsworksApplication/docs/README.md",
     "definitions": {
         "AppSource": {
             "type": "object",

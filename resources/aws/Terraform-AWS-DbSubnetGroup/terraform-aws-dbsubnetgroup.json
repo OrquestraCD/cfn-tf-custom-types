@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DbSubnetGroup",
     "description": "Provides an RDS DB subnet group resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DbSubnetGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

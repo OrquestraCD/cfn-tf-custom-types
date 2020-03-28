@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::Screenboard",
     "description": "Provides a Datadog screenboard resource. This can be used to create and manage Datadog screenboards.\n\n~> **Note:** This resource is outdated. Use the new [`datadog_dashboard`](dashboard.html) resource instead.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-Screenboard/docs/README.md",
     "definitions": {
         "TemplateVariable": {
             "type": "object",

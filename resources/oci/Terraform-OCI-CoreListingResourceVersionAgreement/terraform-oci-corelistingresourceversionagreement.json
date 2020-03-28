@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreListingResourceVersionAgreement",
     "description": "CloudFormation equivalent of oci_core_listing_resource_version_agreement",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreListingResourceVersionAgreement/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

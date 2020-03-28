@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::MnsQueue",
     "description": "Provides a MNS queue resource.\n\n-> **NOTE:** Terraform will auto build a mns queue  while it uses `alicloud_mns_queue` to build a mns queue resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-MnsQueue/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

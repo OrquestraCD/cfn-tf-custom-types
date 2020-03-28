@@ -2,6 +2,7 @@
     "typeName": "Terraform::Icinga2::Checkcommand",
     "description": "Configures an Icinga2 checkcommand resource. This allows checkcommands to be configured, updated,\nand deleted.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/icinga2/Terraform-Icinga2-Checkcommand/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

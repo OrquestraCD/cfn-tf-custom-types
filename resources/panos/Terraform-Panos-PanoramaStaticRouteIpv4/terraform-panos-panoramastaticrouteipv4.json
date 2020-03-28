@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaStaticRouteIpv4",
     "description": "This resource allows you to add/update/delete Panorama IPv4 static routes on a\nvirtual router for either a template or a template stack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaStaticRouteIpv4/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

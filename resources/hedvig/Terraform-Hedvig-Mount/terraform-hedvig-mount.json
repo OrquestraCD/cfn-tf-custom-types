@@ -2,6 +2,7 @@
     "typeName": "Terraform::Hedvig::Mount",
     "description": "A Hedvig Mount mounts a vdisk resource with a particular controller. It can then be used to connect ACL access resources to the vdisk as well.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/hedvig/Terraform-Hedvig-Mount/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

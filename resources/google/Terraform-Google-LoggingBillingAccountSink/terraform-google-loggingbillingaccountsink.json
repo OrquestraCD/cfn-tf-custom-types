@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::LoggingBillingAccountSink",
     "description": "Manages a billing account logging sink. For more information see\n[the official documentation](https://cloud.google.com/logging/docs/) and\n[Exporting Logs in the API](https://cloud.google.com/logging/docs/api/tasks/exporting-logs).\n\n~> **Note** You must have the \"Logs Configuration Writer\" IAM role (`roles/logging.configWriter`)\n[granted on the billing account](https://cloud.google.com/billing/reference/rest/v1/billingAccounts/getIamPolicy) to\nthe credentials used with Terraform. [IAM roles granted on a billing account](https://cloud.google.com/billing/docs/how-to/billing-access) are separate from the\ntypical IAM roles granted on a project.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-LoggingBillingAccountSink/docs/README.md",
     "definitions": {
         "BigqueryOptions": {
             "type": "object",

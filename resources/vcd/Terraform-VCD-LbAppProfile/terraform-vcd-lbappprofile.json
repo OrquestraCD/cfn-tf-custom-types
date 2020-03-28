@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::LbAppProfile",
     "description": "Provides a vCloud Director Edge Gateway Load Balancer Application Profile resource. An application\nprofile defines the behavior of the load balancer for a particular type of network traffic. After\nconfiguring a profile, you associate it with a virtual server. The virtual server then processes\ntraffic according to the values specified in the profile.\n\n~> **Note:** This resource does not currently support attaching  Pool and Virtual\nServer certificates. The `enable_pool_side_ssl` only toggles the option, but does not setup\ncertificates.\n\n~> **Note:** To make load balancing work one must ensure that load balancing is enabled on edge\ngateway (edge gateway must be advanced).\nThis depends on NSX version to work properly. Please refer to [VMware Product Interoperability\nMatrices](https://www.vmware.com/resources/compatibility/sim/interop_matrix.php#interop&29=&93=) \nto check supported vCloud director and NSX for vSphere configurations.\n\n~> **Note:** The vCloud Director API for NSX supports a subset of the operations and objects defined\nin the NSX vSphere API Guide. The API supports NSX 6.2, 6.3, and 6.4.\n\nSupported in provider *v2.4+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-LbAppProfile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

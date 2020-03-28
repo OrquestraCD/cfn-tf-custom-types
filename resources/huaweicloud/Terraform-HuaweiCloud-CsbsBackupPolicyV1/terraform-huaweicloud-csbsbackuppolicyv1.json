@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::CsbsBackupPolicyV1",
     "description": "Provides an HuaweiCloud Backup Policy of Resources.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-CsbsBackupPolicyV1/docs/README.md",
     "definitions": {
         "Resource": {
             "type": "object",

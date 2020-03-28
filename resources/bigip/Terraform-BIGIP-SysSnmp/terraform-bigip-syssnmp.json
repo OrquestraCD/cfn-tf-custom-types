@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::SysSnmp",
     "description": "`bigip_sys_snmp` provides details bout how to enable \"ilx\", \"asm\" \"apm\" resource on BIG-IP",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-SysSnmp/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::HavipAttachment",
     "description": "Provides an Alicloud HaVip Attachment resource for associating HaVip to ECS Instance.\n\n-> **NOTE:** Terraform will auto build havip attachment while it uses `alicloud_havip_attachment` to build a havip attachment resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-HavipAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

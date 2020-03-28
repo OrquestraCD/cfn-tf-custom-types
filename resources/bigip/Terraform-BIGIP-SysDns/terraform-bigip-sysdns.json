@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::SysDns",
     "description": "`bigip_sys_dns` Configures DNS server on F5 BIG-IP",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-SysDns/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

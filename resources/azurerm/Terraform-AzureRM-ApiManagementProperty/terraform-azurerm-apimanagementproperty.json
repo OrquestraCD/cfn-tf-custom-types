@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ApiManagementProperty",
     "description": "Manages an API Management Property.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ApiManagementProperty/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

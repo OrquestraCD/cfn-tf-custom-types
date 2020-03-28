@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::BackupSelection",
     "description": "Manages selection conditions for AWS Backup plan resources.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-BackupSelection/docs/README.md",
     "definitions": {
         "SelectionTag": {
             "type": "object",

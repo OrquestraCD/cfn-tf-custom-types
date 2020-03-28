@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::KmsKey",
     "description": "Provides a KMS customer master key.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-KmsKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

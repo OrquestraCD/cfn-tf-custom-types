@@ -19,6 +19,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#logdestinationtype" title="LogDestinationType">LogDestinationType</a>" : <i>String</i>,
         "<a href="#logformat" title="LogFormat">LogFormat</a>" : <i>String</i>,
         "<a href="#loggroupname" title="LogGroupName">LogGroupName</a>" : <i>String</i>,
+        "<a href="#maxaggregationinterval" title="MaxAggregationInterval">MaxAggregationInterval</a>" : <i>Double</i>,
         "<a href="#subnetid" title="SubnetId">SubnetId</a>" : <i>String</i>,
         "<a href="#tags" title="Tags">Tags</a>" : <i>[ <a href="tags.md">Tags</a>, ... ]</i>,
         "<a href="#traffictype" title="TrafficType">TrafficType</a>" : <i>String</i>,
@@ -38,6 +39,7 @@ Properties:
     <a href="#logdestinationtype" title="LogDestinationType">LogDestinationType</a>: <i>String</i>
     <a href="#logformat" title="LogFormat">LogFormat</a>: <i>String</i>
     <a href="#loggroupname" title="LogGroupName">LogGroupName</a>: <i>String</i>
+    <a href="#maxaggregationinterval" title="MaxAggregationInterval">MaxAggregationInterval</a>: <i>Double</i>
     <a href="#subnetid" title="SubnetId">SubnetId</a>: <i>String</i>
     <a href="#tags" title="Tags">Tags</a>: <i>
       - <a href="tags.md">Tags</a></i>
@@ -104,6 +106,19 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### MaxAggregationInterval
+
+The maximum interval of time
+during which a flow of packets is captured and aggregated into a flow
+log record. Valid Values: `60` seconds (1 minute) or `600` seconds (10
+minutes). Default: `600`.
+
+_Required_: No
+
+_Type_: Double
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

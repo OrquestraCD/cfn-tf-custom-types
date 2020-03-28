@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ServicebusNamespace",
     "description": "Manages a ServiceBus Namespace.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ServicebusNamespace/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

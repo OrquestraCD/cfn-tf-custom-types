@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::SslCertificate",
     "description": "`bigip_ssl_certificate` This resource will import SSL certificates on BIG-IP LTM. \nCertificates can be imported from certificate files on the local disk, in PEM format",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-SslCertificate/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

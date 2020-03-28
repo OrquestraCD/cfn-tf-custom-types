@@ -2,6 +2,7 @@
     "typeName": "Terraform::Random::Integer",
     "description": "The resource `random_integer` generates random values from a given range, described by the `min` and `max` attributes of a given resource.\n\nThis resource can be used in conjunction with resources that have\nthe `create_before_destroy` lifecycle flag set, to avoid conflicts with\nunique names during the brief period where both the old and new resources\nexist concurrently.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/random/Terraform-Random-Integer/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

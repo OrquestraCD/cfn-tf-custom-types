@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OrganizationsPolicyAttachment",
     "description": "Provides a resource to attach an AWS Organizations policy to an organization account, root, or unit.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OrganizationsPolicyAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

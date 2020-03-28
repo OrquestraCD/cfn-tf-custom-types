@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Apigatewayv2Api",
     "description": "Manages an Amazon API Gateway Version 2 API.\n\n-> **Note:** Amazon API Gateway Version 2 resources are used for creating and deploying WebSocket and HTTP APIs. To create and deploy REST APIs, use Amazon API Gateway Version 1 [resources](https://www.terraform.io/docs/providers/aws/r/api_gateway_rest_api.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Apigatewayv2Api/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

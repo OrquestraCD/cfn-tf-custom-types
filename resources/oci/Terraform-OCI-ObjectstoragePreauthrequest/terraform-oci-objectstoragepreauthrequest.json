@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::ObjectstoragePreauthrequest",
     "description": "This resource provides the Preauthenticated Request resource in Oracle Cloud Infrastructure Object Storage service.\n\nCreates a pre-authenticated request specific to the bucket.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-ObjectstoragePreauthrequest/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

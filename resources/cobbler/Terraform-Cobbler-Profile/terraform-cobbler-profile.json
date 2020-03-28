@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cobbler::Profile",
     "description": "Manages a Profile within Cobbler.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cobbler/Terraform-Cobbler-Profile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::DnsPtrrecordV2",
     "description": "Manages a DNS PTR record in the HuaweiCloud DNS Service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-DnsPtrrecordV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

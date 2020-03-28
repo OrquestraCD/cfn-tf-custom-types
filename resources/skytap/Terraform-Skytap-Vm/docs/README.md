@@ -29,6 +29,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#disk" title="Disk">Disk</a>" : <i>[ <a href="disk.md">Disk</a>, ... ]</i>,
         "<a href="#label" title="Label">Label</a>" : <i>[ <a href="label.md">Label</a>, ... ]</i>,
         "<a href="#networkinterface" title="NetworkInterface">NetworkInterface</a>" : <i>[ <a href="networkinterface.md">NetworkInterface</a>, ... ]</i>,
+        "<a href="#timeouts" title="Timeouts">Timeouts</a>" : <i><a href="timeouts.md">Timeouts</a></i>,
         "<a href="#publishedservice" title="PublishedService">PublishedService</a>" : <i>[ <a href="publishedservice.md">PublishedService</a>, ... ]</i>
     }
 }
@@ -53,6 +54,7 @@ Properties:
       - <a href="label.md">Label</a></i>
     <a href="#networkinterface" title="NetworkInterface">NetworkInterface</a>: <i>
       - <a href="networkinterface.md">NetworkInterface</a></i>
+    <a href="#timeouts" title="Timeouts">Timeouts</a>: <i><a href="timeouts.md">Timeouts</a></i>
     <a href="#publishedservice" title="PublishedService">PublishedService</a>: <i>
       - <a href="publishedservice.md">PublishedService</a></i>
 </pre>
@@ -161,6 +163,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: List of <a href="networkinterface.md">NetworkInterface</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Timeouts
+
+_Required_: No
+
+_Type_: <a href="timeouts.md">Timeouts</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreRouteTableAttachment",
     "description": "This resource provides the ability to associate a route table for a subnet in Oracle Cloud Infrastructure Core service.\n\nAttaches the specified `route table` to the specified `subnet`.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreRouteTableAttachment/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

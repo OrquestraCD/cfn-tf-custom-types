@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::DataprocJob",
     "description": "Manages a job resource within a Dataproc cluster within GCE. For more information see\n[the official dataproc documentation](https://cloud.google.com/dataproc/).\n\n!> **Note:** This resource does not support 'update' and changing any attributes will cause the resource to be recreated.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-DataprocJob/docs/README.md",
     "definitions": {
         "HadoopConfig": {
             "type": "object",

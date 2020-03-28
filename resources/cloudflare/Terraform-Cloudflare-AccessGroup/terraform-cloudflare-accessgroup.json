@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::AccessGroup",
     "description": "Provides a Cloudflare Access Group resource. Access Groups are used\nin conjunction with Access Policies to restrict access to a\nparticular resource based on group membership.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-AccessGroup/docs/README.md",
     "definitions": {
         "Exclude": {
             "type": "object",

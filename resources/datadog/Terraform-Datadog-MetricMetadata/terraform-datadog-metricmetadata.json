@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::MetricMetadata",
     "description": "Provides a Datadog metric_metadata resource. This can be used to manage a metric's metadata.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-MetricMetadata/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

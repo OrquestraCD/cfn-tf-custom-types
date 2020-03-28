@@ -2,6 +2,7 @@
     "typeName": "Terraform::LogicMonitor::CollectorGroup",
     "description": "Provides a LogicMonitor collector group resource. This can be used to create and manage LogicMonitor collector groups",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/logicmonitor/Terraform-LogicMonitor-CollectorGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

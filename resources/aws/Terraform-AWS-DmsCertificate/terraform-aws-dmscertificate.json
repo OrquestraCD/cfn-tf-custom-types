@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DmsCertificate",
     "description": "Provides a DMS (Data Migration Service) certificate resource. DMS certificates can be created, deleted, and imported.\n\n~> **Note:** All arguments including the PEM encoded certificate will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DmsCertificate/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

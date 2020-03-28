@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::LbNatPool",
     "description": "Manages a Load Balancer NAT pool.\n\n-> **NOTE:** This resource cannot be used with with virtual machines, instead use the `azurerm_lb_nat_rule` resource.\n\n~> **NOTE** When using this resource, the Load Balancer needs to have a FrontEnd IP Configuration Attached",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-LbNatPool/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

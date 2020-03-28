@@ -2,6 +2,7 @@
     "typeName": "Terraform::Netlify::Hook",
     "description": "An [outgoing webhook](https://www.netlify.com/docs/webhooks/#outgoing-webhooks-and-notifications), typically used to notify a third party service about deploys.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/netlify/Terraform-Netlify-Hook/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

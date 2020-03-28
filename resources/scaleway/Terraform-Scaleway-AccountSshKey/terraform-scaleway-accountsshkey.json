@@ -2,6 +2,7 @@
     "typeName": "Terraform::Scaleway::AccountSshKey",
     "description": "Manages user SSH keys to access servers provisioned on Scaleway.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/scaleway/Terraform-Scaleway-AccountSshKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

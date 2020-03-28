@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::BatchPool",
     "description": "Manages an Azure Batch pool.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-BatchPool/docs/README.md",
     "definitions": {
         "AutoScale": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::LoadBalancerBackend",
     "description": "This resource provides the Backend resource in Oracle Cloud Infrastructure Load Balancer service.\n\nAdds a backend server to a backend set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-LoadBalancerBackend/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

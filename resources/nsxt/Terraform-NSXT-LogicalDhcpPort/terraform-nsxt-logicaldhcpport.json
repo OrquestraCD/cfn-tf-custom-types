@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::LogicalDhcpPort",
     "description": "This resource provides a resource to configure a logical port on a logical switch, and attach it to a DHCP server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-LogicalDhcpPort/docs/README.md",
     "definitions": {
         "Tag": {
             "type": "object",

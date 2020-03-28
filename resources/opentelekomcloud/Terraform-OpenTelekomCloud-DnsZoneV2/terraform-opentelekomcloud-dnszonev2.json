@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::DnsZoneV2",
     "description": "Manages a DNS zone in the OpenTelekomCloud DNS Service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-DnsZoneV2/docs/README.md",
     "definitions": {
         "Router": {
             "type": "object",

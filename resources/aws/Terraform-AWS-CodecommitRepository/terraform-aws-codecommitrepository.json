@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CodecommitRepository",
     "description": "Provides a CodeCommit Repository Resource.\n\n~> **NOTE on CodeCommit Availability**: The CodeCommit is not yet rolled out\nin all regions - available regions are listed\n[the AWS Docs](https://docs.aws.amazon.com/general/latest/gr/rande.html#codecommit_region).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CodecommitRepository/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

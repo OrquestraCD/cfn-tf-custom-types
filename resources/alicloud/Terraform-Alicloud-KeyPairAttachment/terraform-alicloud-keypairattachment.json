@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::KeyPairAttachment",
     "description": "Provides a key pair attachment resource to bind key pair for several ECS instances.\n\n-> **NOTE:** After the key pair is attached with sone instances, there instances must be rebooted to make the key pair affect.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-KeyPairAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

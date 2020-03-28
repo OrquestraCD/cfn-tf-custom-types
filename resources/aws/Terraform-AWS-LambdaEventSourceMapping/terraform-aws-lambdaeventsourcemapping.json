@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LambdaEventSourceMapping",
     "description": "Provides a Lambda event source mapping. This allows Lambda functions to get events from Kinesis, DynamoDB and SQS.\n\nFor information about Lambda and how to use it, see [What is AWS Lambda?][1].\nFor information about event source mappings, see [CreateEventSourceMapping][2] in the API docs.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LambdaEventSourceMapping/docs/README.md",
     "definitions": {
         "DestinationConfig": {
             "type": "object",

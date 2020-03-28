@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AccessanalyzerAnalyzer",
     "description": "Manages an Access Analyzer Analyzer. More information can be found in the [Access Analyzer User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AccessanalyzerAnalyzer/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

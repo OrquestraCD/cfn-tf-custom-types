@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LbCookieStickinessPolicy",
     "description": "Provides a load balancer cookie stickiness policy, which allows an ELB to control the sticky session lifetime of the browser.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LbCookieStickinessPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

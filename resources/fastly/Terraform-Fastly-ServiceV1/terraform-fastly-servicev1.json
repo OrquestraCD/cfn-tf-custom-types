@@ -2,6 +2,7 @@
     "typeName": "Terraform::Fastly::ServiceV1",
     "description": "Provides a Fastly Service, representing the configuration for a website, app,\nAPI, or anything else to be served through Fastly. A Service encompasses Domains\nand Backends.\n\nThe Service resource requires a domain name that is correctly set up to direct\ntraffic to the Fastly service. See Fastly's guide on [Adding CNAME Records][fastly-cname]\non their documentation site for guidance.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/fastly/Terraform-Fastly-ServiceV1/docs/README.md",
     "definitions": {
         "Acl": {
             "type": "object",

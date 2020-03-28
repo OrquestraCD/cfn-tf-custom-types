@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpsGenie::NotificationPolicy",
     "description": "Manages a Notification Policy within Opsgenie.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opsgenie/Terraform-OpsGenie-NotificationPolicy/docs/README.md",
     "definitions": {
         "AutoCloseAction": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CodebuildWebhook",
     "description": "Manages a CodeBuild webhook, which is an endpoint accepted by the CodeBuild service to trigger builds from source code repositories. Depending on the source type of the CodeBuild project, the CodeBuild service may also automatically create and delete the actual repository webhook as well.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CodebuildWebhook/docs/README.md",
     "definitions": {
         "FilterGroup": {
             "type": "object",

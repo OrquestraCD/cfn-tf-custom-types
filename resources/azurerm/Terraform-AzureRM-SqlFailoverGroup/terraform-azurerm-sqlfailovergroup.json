@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SqlFailoverGroup",
     "description": "Create a failover group of databases on a collection of Azure SQL servers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SqlFailoverGroup/docs/README.md",
     "definitions": {
         "PartnerServers": {
             "type": "object",

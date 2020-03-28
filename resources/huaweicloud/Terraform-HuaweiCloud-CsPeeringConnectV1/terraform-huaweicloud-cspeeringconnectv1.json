@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::CsPeeringConnectV1",
     "description": "Cloud Stream Service cluster peering connect management",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-CsPeeringConnectV1/docs/README.md",
     "definitions": {
         "TargetVpcInfo": {
             "type": "object",

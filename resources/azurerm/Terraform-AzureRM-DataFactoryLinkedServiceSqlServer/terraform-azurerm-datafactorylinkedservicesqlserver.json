@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DataFactoryLinkedServiceSqlServer",
     "description": "Manages a Linked Service (connection) between a SQL Server and Azure Data Factory.\n\n~> **Note:** All arguments including the client secret will be stored in the raw state as plain-text. [Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DataFactoryLinkedServiceSqlServer/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

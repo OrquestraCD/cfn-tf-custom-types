@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::CfsFileSystem",
     "description": "Provides a resource to create a cloud file system(CFS).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-CfsFileSystem/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -39,7 +39,7 @@ Properties:
 
 #### App
 
-The name of the app for this coupling.
+A Heroku app's `UUID`. Can also be the name of the Heroku app but `UUID` is preferred as it is idempotent.
 
 _Required_: Yes
 

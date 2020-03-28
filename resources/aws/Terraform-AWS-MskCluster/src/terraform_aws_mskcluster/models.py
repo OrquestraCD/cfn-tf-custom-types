@@ -51,10 +51,15 @@ class ResourceModel(BaseResourceModel):
     ClientAuthentication: Optional[Sequence["_ClientAuthentication"]]
     ConfigurationInfo: Optional[Sequence["_ConfigurationInfo"]]
     EncryptionInfo: Optional[Sequence["_EncryptionInfo"]]
+    LoggingInfo: Optional[Sequence["_LoggingInfo"]]
     OpenMonitoring: Optional[Sequence["_OpenMonitoring"]]
     Tls: Optional[Sequence["_Tls"]]
     EncryptionInTransit: Optional[Sequence["_EncryptionInTransit"]]
+    BrokerLogs: Optional[Sequence["_BrokerLogs"]]
     Prometheus: Optional[Sequence["_Prometheus"]]
+    CloudwatchLogs: Optional[Sequence["_CloudwatchLogs"]]
+    Firehose: Optional[Sequence["_Firehose"]]
+    S3: Optional[Sequence["_S3"]]
     JmxExporter: Optional[Sequence["_JmxExporter"]]
     NodeExporter: Optional[Sequence["_NodeExporter"]]
 
@@ -82,10 +87,15 @@ class ResourceModel(BaseResourceModel):
             ClientAuthentication=json_data.get("ClientAuthentication"),
             ConfigurationInfo=json_data.get("ConfigurationInfo"),
             EncryptionInfo=json_data.get("EncryptionInfo"),
+            LoggingInfo=json_data.get("LoggingInfo"),
             OpenMonitoring=json_data.get("OpenMonitoring"),
             Tls=json_data.get("Tls"),
             EncryptionInTransit=json_data.get("EncryptionInTransit"),
+            BrokerLogs=json_data.get("BrokerLogs"),
             Prometheus=json_data.get("Prometheus"),
+            CloudwatchLogs=json_data.get("CloudwatchLogs"),
+            Firehose=json_data.get("Firehose"),
+            S3=json_data.get("S3"),
             JmxExporter=json_data.get("JmxExporter"),
             NodeExporter=json_data.get("NodeExporter"),
         )
@@ -249,6 +259,118 @@ class EncryptionInTransit:
 
 # work around possible type aliasing issues when variable has same name as a model
 _EncryptionInTransit = EncryptionInTransit
+
+
+@dataclass
+class LoggingInfo:
+    BrokerLogs: Optional[Sequence["_BrokerLogs"]]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_LoggingInfo"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_LoggingInfo"]:
+        if not json_data:
+            return None
+        return cls(
+            BrokerLogs=json_data.get("BrokerLogs"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_LoggingInfo = LoggingInfo
+
+
+@dataclass
+class BrokerLogs:
+    CloudwatchLogs: Optional[Sequence["_CloudwatchLogs"]]
+    Firehose: Optional[Sequence["_Firehose"]]
+    S3: Optional[Sequence["_S3"]]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_BrokerLogs"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_BrokerLogs"]:
+        if not json_data:
+            return None
+        return cls(
+            CloudwatchLogs=json_data.get("CloudwatchLogs"),
+            Firehose=json_data.get("Firehose"),
+            S3=json_data.get("S3"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_BrokerLogs = BrokerLogs
+
+
+@dataclass
+class CloudwatchLogs:
+    Enabled: Optional[bool]
+    LogGroup: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_CloudwatchLogs"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_CloudwatchLogs"]:
+        if not json_data:
+            return None
+        return cls(
+            Enabled=json_data.get("Enabled"),
+            LogGroup=json_data.get("LogGroup"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_CloudwatchLogs = CloudwatchLogs
+
+
+@dataclass
+class Firehose:
+    DeliveryStream: Optional[str]
+    Enabled: Optional[bool]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_Firehose"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_Firehose"]:
+        if not json_data:
+            return None
+        return cls(
+            DeliveryStream=json_data.get("DeliveryStream"),
+            Enabled=json_data.get("Enabled"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_Firehose = Firehose
+
+
+@dataclass
+class S3:
+    Bucket: Optional[str]
+    Enabled: Optional[bool]
+    Prefix: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_S3"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_S3"]:
+        if not json_data:
+            return None
+        return cls(
+            Bucket=json_data.get("Bucket"),
+            Enabled=json_data.get("Enabled"),
+            Prefix=json_data.get("Prefix"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_S3 = S3
 
 
 @dataclass

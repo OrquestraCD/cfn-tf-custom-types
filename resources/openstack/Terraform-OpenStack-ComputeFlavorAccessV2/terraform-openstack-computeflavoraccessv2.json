@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::ComputeFlavorAccessV2",
     "description": "Manages a project access for flavor V2 resource within OpenStack.\n\nNote: You _must_ have admin privileges in your OpenStack cloud to use\nthis resource.\n\n---",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-ComputeFlavorAccessV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

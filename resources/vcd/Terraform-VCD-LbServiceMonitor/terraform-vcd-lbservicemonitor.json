@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::LbServiceMonitor",
     "description": "Provides a vCloud Director Edge Gateway Load Balancer Service Monitor resource. A service monitor \ndefines health check parameters for a particular type of network traffic. It can be associated with\na pool. Pool members are monitored according to the service monitor parameters. \n\n~> **Note:** To make load balancing work one must ensure that load balancing is enabled on edge gateway (edge gateway must be advanced).\nThis depends on NSX version to work properly. Please refer to [VMware Product Interoperability Matrices](https://www.vmware.com/resources/compatibility/sim/interop_matrix.php#interop&29=&93=) \nto check supported vCloud director and NSX for vSphere configurations.\n\n~> **Note:** The vCloud Director API for NSX supports a subset of the operations and objects defined in the NSX vSphere \nAPI Guide. The API supports NSX 6.2, 6.3, and 6.4.\n\nSupported in provider *v2.4+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-LbServiceMonitor/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

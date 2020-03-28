@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::LbUdpVirtualServer",
     "description": "Provides a resource to configure lb udp virtual server on NSX-T manager\n\n~> **NOTE:** This resource requires NSX version 2.3 or higher.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-LbUdpVirtualServer/docs/README.md",
     "definitions": {
         "Tag": {
             "type": "object",

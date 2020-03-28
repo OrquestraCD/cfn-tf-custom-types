@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::AccessIdentityProvider",
     "description": "Provides a Cloudflare Access Identity Provider resource. Identity Providers are\nused as an authentication or authorisation source within Access.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-AccessIdentityProvider/docs/README.md",
     "definitions": {
         "Config": {
             "type": "object",

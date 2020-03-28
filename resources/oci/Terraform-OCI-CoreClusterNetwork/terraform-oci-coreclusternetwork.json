@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreClusterNetwork",
     "description": "This resource provides the Cluster Network resource in Oracle Cloud Infrastructure Core service.\n\nCreates a cluster network. For more information about cluster networks, see\n[Managing Cluster Networks](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/managingclusternetworks.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreClusterNetwork/docs/README.md",
     "definitions": {
         "InstancePools": {
             "type": "object",

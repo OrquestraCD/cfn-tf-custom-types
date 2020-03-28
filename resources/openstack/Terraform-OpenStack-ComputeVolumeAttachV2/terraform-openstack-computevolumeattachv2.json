@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::ComputeVolumeAttachV2",
     "description": "Attaches a Block Storage Volume to an Instance using the OpenStack\nCompute (Nova) v2 API.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-ComputeVolumeAttachV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

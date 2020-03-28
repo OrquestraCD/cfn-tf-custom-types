@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::LambdaFunctionEventInvokeConfig",
     "description": "Manages an asynchronous invocation configuration for a Lambda Function or Alias. More information about asynchronous invocations and the configurable values can be found in the [Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-LambdaFunctionEventInvokeConfig/docs/README.md",
     "definitions": {
         "DestinationConfig": {
             "type": "object",

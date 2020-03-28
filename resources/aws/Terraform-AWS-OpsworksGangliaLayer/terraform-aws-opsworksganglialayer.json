@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OpsworksGangliaLayer",
     "description": "Provides an OpsWorks Ganglia layer resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OpsworksGangliaLayer/docs/README.md",
     "definitions": {
         "EbsVolume": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::FirewallRule",
     "description": "Define Firewall rules using filter expressions for more control over how traffic is matched to the rule.\nA filter expression permits selecting traffic by multiple criteria allowing greater freedom in rule creation.\n\nFilter expressions needs to be created first before using Firewall Rule. See [Filter](filter.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-FirewallRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

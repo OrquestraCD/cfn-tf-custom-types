@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::RedshiftSecurityGroup",
     "description": "Creates a new Amazon Redshift security group. You use security groups to control access to non-VPC clusters",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-RedshiftSecurityGroup/docs/README.md",
     "definitions": {
         "Ingress": {
             "type": "object",

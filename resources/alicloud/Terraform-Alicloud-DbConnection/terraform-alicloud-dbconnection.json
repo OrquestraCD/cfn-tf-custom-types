@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::DbConnection",
     "description": "Provides an RDS connection resource to allocate an Internet connection string for RDS instance.\n\n-> **NOTE:** Each RDS instance will allocate a intranet connnection string automatically and its prifix is RDS instance ID.\n To avoid unnecessary conflict, please specified a internet connection prefix before applying the resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-DbConnection/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::PanoramaBgpDampeningProfile",
     "description": "This resource allows you to add/update/delete a Panorama BGP dampening profile.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-PanoramaBgpDampeningProfile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

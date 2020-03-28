@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DirectoryServiceDirectory",
     "description": "Provides a Simple or Managed Microsoft directory in AWS Directory Service.\n\n~> **Note:** All arguments including the password and customer username will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DirectoryServiceDirectory/docs/README.md",
     "definitions": {
         "ConnectSettings": {
             "type": "object",

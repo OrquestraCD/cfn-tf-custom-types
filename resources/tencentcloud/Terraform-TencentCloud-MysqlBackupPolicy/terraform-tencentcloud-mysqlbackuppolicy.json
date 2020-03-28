@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::MysqlBackupPolicy",
     "description": "Provides a mysql policy resource to create a backup policy.\n\n~> **NOTE:** This attribute `backup_model` only support 'physical' in Terraform TencentCloud provider version 1.16.2",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-MysqlBackupPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

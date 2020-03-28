@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SiteRecoveryReplicationPolicy",
     "description": "Manages a Azure Site Recovery replication policy within a recovery vault. Replication policies define the frequency at which recovery points are created and how long they are stored.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SiteRecoveryReplicationPolicy/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

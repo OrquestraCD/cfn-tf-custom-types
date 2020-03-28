@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::KmsCryptoKeyIamPolicy",
     "description": "CloudFormation equivalent of google_kms_crypto_key_iam_policy",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-KmsCryptoKeyIamPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

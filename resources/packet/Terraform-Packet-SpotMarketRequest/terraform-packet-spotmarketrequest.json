@@ -2,6 +2,7 @@
     "typeName": "Terraform::Packet::SpotMarketRequest",
     "description": "Provides a Packet Spot Market Request resource to allow you to\nmanage spot market requests on your account. For more detail on Spot Market, see [this article in Packing documentaion](https://www.packet.com/developers/docs/getting-started/deployment-options/spot-market/).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/packet/Terraform-Packet-SpotMarketRequest/docs/README.md",
     "definitions": {
         "InstanceParameters": {
             "type": "object",

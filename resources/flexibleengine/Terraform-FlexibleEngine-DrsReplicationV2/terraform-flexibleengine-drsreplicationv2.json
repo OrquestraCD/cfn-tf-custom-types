@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::DrsReplicationV2",
     "description": "Manages a V2 replication resource within FlexibleEngine.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-DrsReplicationV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

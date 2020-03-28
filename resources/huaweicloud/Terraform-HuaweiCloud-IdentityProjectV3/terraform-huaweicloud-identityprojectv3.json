@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::IdentityProjectV3",
     "description": "Manages a Project resource within HuaweiCloud Identity And Access \nManagement service.\n\nNote: You _must_ have security admin privileges in your HuaweiCloud \ncloud to use this resource. please refer to [User Management Model](\nhttps://docs.otc.t-systems.com/en-us/usermanual/iam/iam_01_0034.html)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-IdentityProjectV3/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

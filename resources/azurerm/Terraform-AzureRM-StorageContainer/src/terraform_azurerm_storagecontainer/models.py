@@ -42,6 +42,7 @@ class ResourceModel(BaseResourceModel):
     Id: Optional[str]
     Metadata: Optional[Sequence["_Metadata"]]
     Name: Optional[str]
+    ResourceManagerId: Optional[str]
     StorageAccountName: Optional[str]
     Timeouts: Optional["_Timeouts"]
 
@@ -60,6 +61,7 @@ class ResourceModel(BaseResourceModel):
             Id=json_data.get("Id"),
             Metadata=json_data.get("Metadata"),
             Name=json_data.get("Name"),
+            ResourceManagerId=json_data.get("ResourceManagerId"),
             StorageAccountName=json_data.get("StorageAccountName"),
             Timeouts=Timeouts._deserialize(json_data.get("Timeouts")),
         )

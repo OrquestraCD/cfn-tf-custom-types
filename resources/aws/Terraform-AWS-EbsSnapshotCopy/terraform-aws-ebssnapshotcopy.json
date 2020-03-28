@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::EbsSnapshotCopy",
     "description": "Creates a Snapshot of a snapshot.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EbsSnapshotCopy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

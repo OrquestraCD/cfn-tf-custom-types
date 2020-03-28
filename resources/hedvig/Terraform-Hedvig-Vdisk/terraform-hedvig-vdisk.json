@@ -2,6 +2,7 @@
     "typeName": "Terraform::Hedvig::Vdisk",
     "description": "Manages a Vdisk resource on a Hedvig cluster. For more information, visit [Hedvig's webpage](http://hedvig.io).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/hedvig/Terraform-Hedvig-Vdisk/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

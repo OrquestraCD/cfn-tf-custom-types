@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::FileStorageExportSet",
     "description": "This resource provides the Export Set resource in Oracle Cloud Infrastructure File Storage service.\n\nThe export set resource can neither be directly created, nor destroyed.\n\nAn export set is created by the service automatically when a mount target is created.\nWhen a mount target is deleted, the export set associated with it is also deleted automatically.\n\nHowever, export sets expose a few attributes that can be updated.\n\nHence we provide this resource for managing the already created export set from within Terraform.\nOnly one export set resource should be created per mount target.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-FileStorageExportSet/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::BackupPolicyFileShare",
     "description": "Manages an Azure File Share Backup Policy within a Recovery Services vault.\n\n-> **NOTE:** Azure Backup for Azure File Shares is currently in public preview. During the preview, the service is subject to additional limitations and unsupported backup scenarios. [Read More](https://docs.microsoft.com/en-us/azure/backup/backup-azure-files#limitations-for-azure-file-share-backup-during-preview)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-BackupPolicyFileShare/docs/README.md",
     "definitions": {
         "Backup": {
             "type": "object",

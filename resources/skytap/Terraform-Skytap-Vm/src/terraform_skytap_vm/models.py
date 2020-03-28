@@ -52,6 +52,7 @@ class ResourceModel(BaseResourceModel):
     Disk: Optional[Sequence["_Disk"]]
     Label: Optional[Sequence["_Label"]]
     NetworkInterface: Optional[Sequence["_NetworkInterface"]]
+    Timeouts: Optional["_Timeouts"]
     PublishedService: Optional[Sequence["_PublishedService"]]
 
     @classmethod
@@ -79,6 +80,7 @@ class ResourceModel(BaseResourceModel):
             Disk=json_data.get("Disk"),
             Label=json_data.get("Label"),
             NetworkInterface=json_data.get("NetworkInterface"),
+            Timeouts=Timeouts._deserialize(json_data.get("Timeouts")),
             PublishedService=json_data.get("PublishedService"),
         )
 
@@ -223,5 +225,29 @@ class PublishedService:
 
 # work around possible type aliasing issues when variable has same name as a model
 _PublishedService = PublishedService
+
+
+@dataclass
+class Timeouts:
+    Create: Optional[str]
+    Delete: Optional[str]
+    Update: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_Timeouts"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_Timeouts"]:
+        if not json_data:
+            return None
+        return cls(
+            Create=json_data.get("Create"),
+            Delete=json_data.get("Delete"),
+            Update=json_data.get("Update"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_Timeouts = Timeouts
 
 

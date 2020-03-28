@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::KubernetesAuthBackendConfig",
     "description": "Manages an Kubernetes auth backend config in a Vault server. See the [Vault\ndocumentation](https://www.vaultproject.io/docs/auth/kubernetes.html) for more\ninformation.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-KubernetesAuthBackendConfig/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

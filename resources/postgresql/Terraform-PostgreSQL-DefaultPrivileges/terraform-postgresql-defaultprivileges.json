@@ -2,6 +2,7 @@
     "typeName": "Terraform::PostgreSQL::DefaultPrivileges",
     "description": "The ``postgresql_default_privileges`` resource creates and manages default privileges given to a user for a database schema.\n\n~> **Note:** This resource needs Postgresql version 9 or above.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/postgresql/Terraform-PostgreSQL-DefaultPrivileges/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

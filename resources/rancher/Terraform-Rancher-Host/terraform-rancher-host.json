@@ -2,6 +2,7 @@
     "typeName": "Terraform::Rancher::Host",
     "description": "Provides a Rancher Host resource. This can be used to manage and delete hosts on Rancher.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rancher/Terraform-Rancher-Host/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

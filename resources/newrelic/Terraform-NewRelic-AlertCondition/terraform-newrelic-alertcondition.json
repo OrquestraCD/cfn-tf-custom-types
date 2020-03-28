@@ -2,6 +2,7 @@
     "typeName": "Terraform::NewRelic::AlertCondition",
     "description": "Use this resource to create and manage alert conditions for APM, Browser, and Mobile in New Relic.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/newrelic/Terraform-NewRelic-AlertCondition/docs/README.md",
     "definitions": {
         "Term": {
             "type": "object",

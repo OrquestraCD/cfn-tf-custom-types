@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::PvtzZone",
     "description": "Provides a Private Zone resource.\n\n-> **NOTE:** Terraform will auto Create a Private Zone while it uses `alicloud_pvtz_zone` to build a Private Zone resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-PvtzZone/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

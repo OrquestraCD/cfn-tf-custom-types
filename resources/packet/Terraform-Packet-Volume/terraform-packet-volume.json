@@ -2,6 +2,7 @@
     "typeName": "Terraform::Packet::Volume",
     "description": "Provides a Packet Block Storage Volume resource to allow you to\nmanage block volumes on your account.\nOnce created by Terraform, they must then be attached and mounted\nusing the api and `packet_block_attach` and `packet_block_detach`\nscripts.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/packet/Terraform-Packet-Volume/docs/README.md",
     "definitions": {
         "SnapshotPolicies": {
             "type": "object",

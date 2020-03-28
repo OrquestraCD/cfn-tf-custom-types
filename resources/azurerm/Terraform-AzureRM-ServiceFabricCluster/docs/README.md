@@ -25,6 +25,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#azureactivedirectory" title="AzureActiveDirectory">AzureActiveDirectory</a>" : <i>[ <a href="azureactivedirectory.md">AzureActiveDirectory</a>, ... ]</i>,
         "<a href="#certificate" title="Certificate">Certificate</a>" : <i>[ <a href="certificate.md">Certificate</a>, ... ]</i>,
         "<a href="#certificatecommonnames" title="CertificateCommonNames">CertificateCommonNames</a>" : <i>[ <a href="certificatecommonnames.md">CertificateCommonNames</a>, ... ]</i>,
+        "<a href="#clientcertificatecommonname" title="ClientCertificateCommonName">ClientCertificateCommonName</a>" : <i>[ <a href="clientcertificatecommonname.md">ClientCertificateCommonName</a>, ... ]</i>,
         "<a href="#clientcertificatethumbprint" title="ClientCertificateThumbprint">ClientCertificateThumbprint</a>" : <i>[ <a href="clientcertificatethumbprint.md">ClientCertificateThumbprint</a>, ... ]</i>,
         "<a href="#diagnosticsconfig" title="DiagnosticsConfig">DiagnosticsConfig</a>" : <i>[ <a href="diagnosticsconfig.md">DiagnosticsConfig</a>, ... ]</i>,
         "<a href="#fabricsettings" title="FabricSettings">FabricSettings</a>" : <i>[ <a href="fabricsettings.md">FabricSettings</a>, ... ]</i>,
@@ -61,6 +62,8 @@ Properties:
       - <a href="certificate.md">Certificate</a></i>
     <a href="#certificatecommonnames" title="CertificateCommonNames">CertificateCommonNames</a>: <i>
       - <a href="certificatecommonnames.md">CertificateCommonNames</a></i>
+    <a href="#clientcertificatecommonname" title="ClientCertificateCommonName">ClientCertificateCommonName</a>: <i>
+      - <a href="clientcertificatecommonname.md">ClientCertificateCommonName</a></i>
     <a href="#clientcertificatethumbprint" title="ClientCertificateThumbprint">ClientCertificateThumbprint</a>: <i>
       - <a href="clientcertificatethumbprint.md">ClientCertificateThumbprint</a></i>
     <a href="#diagnosticsconfig" title="DiagnosticsConfig">DiagnosticsConfig</a>: <i>
@@ -203,6 +206,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: List of <a href="certificatecommonnames.md">CertificateCommonNames</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### ClientCertificateCommonName
+
+_Required_: No
+
+_Type_: List of <a href="clientcertificatecommonname.md">ClientCertificateCommonName</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

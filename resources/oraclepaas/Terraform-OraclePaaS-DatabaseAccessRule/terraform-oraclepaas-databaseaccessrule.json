@@ -2,6 +2,7 @@
     "typeName": "Terraform::OraclePaaS::DatabaseAccessRule",
     "description": "The `oraclepaas_database_access_rule` resource creates and manages a Database Access Rule for an Oracle Database Cloud service instance.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oraclepaas/Terraform-OraclePaaS-DatabaseAccessRule/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

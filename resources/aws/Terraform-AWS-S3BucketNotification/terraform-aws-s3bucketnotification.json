@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::S3BucketNotification",
     "description": "Manages a S3 Bucket Notification Configuration. For additional information, see the [Configuring S3 Event Notifications section in the Amazon S3 Developer Guide](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html).\n\n~> **NOTE:** S3 Buckets only support a single notification configuration. Declaring multiple `aws_s3_bucket_notification` resources to the same S3 Bucket will cause a perpetual difference in configuration. See the example \"Trigger multiple Lambda functions\" for an option.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-S3BucketNotification/docs/README.md",
     "definitions": {
         "LambdaFunction": {
             "type": "object",

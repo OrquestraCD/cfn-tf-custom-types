@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatacatalogCatalog",
     "description": "This resource provides the Catalog resource in Oracle Cloud Infrastructure Data Catalog service.\n\nCreates a new data catalog instance that includes a console and an API URL for managing metadata operations.\nFor more information, please see the documentation.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatacatalogCatalog/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

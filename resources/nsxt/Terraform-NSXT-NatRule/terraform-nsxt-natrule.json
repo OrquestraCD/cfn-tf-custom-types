@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::NatRule",
     "description": "This resource provides a means to configure a NAT rule in NSX. NAT provides network address translation between one IP address space and another IP address space. NAT rules can be destination NAT or source NAT rules.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-NatRule/docs/README.md",
     "definitions": {
         "Tag": {
             "type": "object",

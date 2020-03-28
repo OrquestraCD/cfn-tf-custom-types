@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Instance",
     "description": "Provides an EC2 instance resource. This allows instances to be created, updated,\nand deleted. Instances also support [provisioning](/docs/provisioners/index.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Instance/docs/README.md",
     "definitions": {
         "CreditSpecification": {
             "type": "object",
@@ -63,6 +64,22 @@
             "required": [
                 "DeviceName"
             ]
+        },
+        "MetadataOptions": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "HttpEndpoint": {
+                    "type": "string"
+                },
+                "HttpPutResponseHopLimit": {
+                    "type": "number"
+                },
+                "HttpTokens": {
+                    "type": "string"
+                }
+            },
+            "required": []
         },
         "NetworkInterface": {
             "type": "object",
@@ -336,6 +353,14 @@
             "items": {
                 "$ref": "#/definitions/EphemeralBlockDevice"
             }
+        },
+        "MetadataOptions": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/MetadataOptions"
+            },
+            "maxItems": 1
         },
         "NetworkInterface": {
             "type": "array",

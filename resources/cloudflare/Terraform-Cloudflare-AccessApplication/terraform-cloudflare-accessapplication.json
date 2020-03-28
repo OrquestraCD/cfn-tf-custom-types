@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::AccessApplication",
     "description": "Provides a Cloudflare Access Application resource. Access Applications\nare used to restrict access to a whole application using an\nauthorisation gateway managed by Cloudflare.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-AccessApplication/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

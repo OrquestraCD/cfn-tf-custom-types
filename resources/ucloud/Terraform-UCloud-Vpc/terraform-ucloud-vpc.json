@@ -2,6 +2,7 @@
     "typeName": "Terraform::UCloud::Vpc",
     "description": "Provides a VPC resource.\n\n~> **Note**  The network segment can only be created or deleted, can not perform both of them at the same time.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ucloud/Terraform-UCloud-Vpc/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

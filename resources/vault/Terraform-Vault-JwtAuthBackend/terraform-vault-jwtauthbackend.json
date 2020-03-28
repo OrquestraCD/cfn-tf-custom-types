@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::JwtAuthBackend",
     "description": "Provides a resource for managing an\n[JWT auth backend within Vault](https://www.vaultproject.io/docs/auth/jwt.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-JwtAuthBackend/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

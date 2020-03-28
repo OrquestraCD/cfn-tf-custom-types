@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafregionalWebAcl",
     "description": "Provides a WAF Regional Web ACL Resource for use with Application Load Balancer.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafregionalWebAcl/docs/README.md",
     "definitions": {
         "DefaultAction": {
             "type": "object",

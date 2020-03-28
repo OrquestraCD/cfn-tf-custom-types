@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::LogStore",
     "description": "The log store is a unit in Log Service to collect, store, and query the log data. Each log store belongs to a project,\nand each project can create multiple Logstores. [Refer to details](https://www.alibabacloud.com/help/doc-detail/48874.htm)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-LogStore/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::ElastigroupGcp",
     "description": "Provides a Spotinst elastigroup GCP resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-ElastigroupGcp/docs/README.md",
     "definitions": {
         "BackendServices": {
             "type": "object",

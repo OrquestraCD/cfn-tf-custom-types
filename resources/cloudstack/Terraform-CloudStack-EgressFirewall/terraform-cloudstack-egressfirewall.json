@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudStack::EgressFirewall",
     "description": "Creates egress firewall rules for a given network.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudstack/Terraform-CloudStack-EgressFirewall/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

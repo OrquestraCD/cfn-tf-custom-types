@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::VpcPeeringConnection",
     "description": "Provides a resource to manage a VPC peering connection.\n\n~> **NOTE on VPC Peering Connections and VPC Peering Connection Options:** Terraform provides\nboth a standalone [VPC Peering Connection Options](vpc_peering_connection_options.html) and a VPC Peering Connection\nresource with `accepter` and `requester` attributes. Do not manage options for the same VPC peering\nconnection in both a VPC Peering Connection resource and a VPC Peering Connection Options resource.\nDoing so will cause a conflict of options and will overwrite the options.\nUsing a VPC Peering Connection Options resource decouples management of the connection options from\nmanagement of the VPC Peering Connection and allows options to be set correctly in cross-account scenarios.\n\n-> **Note:** For cross-account (requester's AWS account differs from the accepter's AWS account) or inter-region\nVPC Peering Connections use the `aws_vpc_peering_connection` resource to manage the requester's side of the\nconnection and use the `aws_vpc_peering_connection_accepter` resource to manage the accepter's side of the connection.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-VpcPeeringConnection/docs/README.md",
     "definitions": {
         "Accepter": {
             "type": "object",

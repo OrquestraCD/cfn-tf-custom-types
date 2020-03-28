@@ -2,6 +2,7 @@
     "typeName": "Terraform::DigitalOcean::Domain",
     "description": "Provides a DigitalOcean domain resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/digitalocean/Terraform-DigitalOcean-Domain/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

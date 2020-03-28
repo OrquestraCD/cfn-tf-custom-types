@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::SecurityGroupLiteRule",
     "description": "Provide a resource to create security group some lite rules quickly.\n\n-> **NOTE:** It can't be used with tencentcloud_security_group_rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-SecurityGroupLiteRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

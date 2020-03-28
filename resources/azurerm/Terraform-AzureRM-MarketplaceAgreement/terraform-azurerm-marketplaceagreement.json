@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::MarketplaceAgreement",
     "description": "Allows accepting the Legal Terms for a Marketplace Image.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MarketplaceAgreement/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

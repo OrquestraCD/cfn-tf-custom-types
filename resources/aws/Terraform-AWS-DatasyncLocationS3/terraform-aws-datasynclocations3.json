@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DatasyncLocationS3",
     "description": "Manages an S3 Location within AWS DataSync.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DatasyncLocationS3/docs/README.md",
     "definitions": {
         "S3Config": {
             "type": "object",

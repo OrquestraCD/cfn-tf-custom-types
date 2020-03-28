@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::KmsGeneratedKey",
     "description": "This resource provides the Generated Key resource in Oracle Cloud Infrastructure Kms service.\n\nGenerates a key that you can use to encrypt or decrypt data.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-KmsGeneratedKey/docs/README.md",
     "definitions": {
         "KeyShape": {
             "type": "object",

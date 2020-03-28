@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::WorkersKvNamespace",
     "description": "Provides a Workers KV Namespace",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-WorkersKvNamespace/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::PostgreSQL::Grant",
     "description": "The ``postgresql_grant`` resource creates and manages privileges given to a user for a database schema.\n\n~> **Note:** This resource needs Postgresql version 9 or above.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/postgresql/Terraform-PostgreSQL-Grant/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

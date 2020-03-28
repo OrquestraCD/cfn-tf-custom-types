@@ -2,6 +2,7 @@
     "typeName": "Terraform::DNSimple::Record",
     "description": "Provides a DNSimple record resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/dnsimple/Terraform-DNSimple-Record/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

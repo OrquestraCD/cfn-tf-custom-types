@@ -47,8 +47,10 @@ class ResourceModel(BaseResourceModel):
     Name: Optional[str]
     Period: Optional[float]
     RetentionPeriod: Optional[float]
+    SecurityGroupId: Optional[str]
     SecurityIpList: Optional[Sequence[str]]
     StorageEngine: Optional[str]
+    TdeStatus: Optional[str]
     VswitchId: Optional[str]
     ZoneId: Optional[str]
     MongoList: Optional[Sequence["_MongoList"]]
@@ -74,8 +76,10 @@ class ResourceModel(BaseResourceModel):
             Name=json_data.get("Name"),
             Period=json_data.get("Period"),
             RetentionPeriod=json_data.get("RetentionPeriod"),
+            SecurityGroupId=json_data.get("SecurityGroupId"),
             SecurityIpList=json_data.get("SecurityIpList"),
             StorageEngine=json_data.get("StorageEngine"),
+            TdeStatus=json_data.get("TdeStatus"),
             VswitchId=json_data.get("VswitchId"),
             ZoneId=json_data.get("ZoneId"),
             MongoList=json_data.get("MongoList"),

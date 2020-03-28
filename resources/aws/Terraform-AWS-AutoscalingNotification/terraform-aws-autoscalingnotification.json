@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AutoscalingNotification",
     "description": "Provides an AutoScaling Group with Notification support, via SNS Topics. Each of\nthe `notifications` map to a [Notification Configuration][2] inside Amazon Web\nServices, and are applied to each AutoScaling Group you supply.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AutoscalingNotification/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

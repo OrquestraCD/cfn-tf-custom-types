@@ -2,6 +2,7 @@
     "typeName": "Terraform::NSXT::IpPoolAllocationIpAddress",
     "description": "Provides a resource to allocate an IP address from an IP pool on NSX-T manager",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nsxt/Terraform-NSXT-IpPoolAllocationIpAddress/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

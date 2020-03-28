@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::Host",
     "description": "Provides a VMware vSphere host resource. This represents an ESXi host that\ncan be used either as part of a Compute Cluster or Standalone.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-Host/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

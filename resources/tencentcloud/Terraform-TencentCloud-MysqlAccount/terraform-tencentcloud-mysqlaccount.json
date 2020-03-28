@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::MysqlAccount",
     "description": "Provides a MySQL account resource for database management. A MySQL instance supports multiple database account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-MysqlAccount/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::ImagesImageV2",
     "description": "Manages a V2 Image resource within HuaweiCloud IMS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-ImagesImageV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

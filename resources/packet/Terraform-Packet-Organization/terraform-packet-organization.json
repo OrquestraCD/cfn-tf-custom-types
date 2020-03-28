@@ -2,6 +2,7 @@
     "typeName": "Terraform::Packet::Organization",
     "description": "Provides a resource to manage organization resource in Packet.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/packet/Terraform-Packet-Organization/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

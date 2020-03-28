@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::CoreInstanceConsoleConnection",
     "description": "This resource provides the Instance Console Connection resource in Oracle Cloud Infrastructure Core service.\n\nCreates a new console connection to the specified instance.\nAfter the console connection has been created and is available,\nyou connect to the console using SSH.\n\nFor more information about console access, see [Accessing the Console](https://docs.cloud.oracle.com/iaas/Content/Compute/References/serialconsole.htm).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-CoreInstanceConsoleConnection/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

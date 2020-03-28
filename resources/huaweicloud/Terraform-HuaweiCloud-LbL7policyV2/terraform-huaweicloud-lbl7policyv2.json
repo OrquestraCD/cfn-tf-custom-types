@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::LbL7policyV2",
     "description": "Manages a Load Balancer L7 Policy resource within HuaweiCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-LbL7policyV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

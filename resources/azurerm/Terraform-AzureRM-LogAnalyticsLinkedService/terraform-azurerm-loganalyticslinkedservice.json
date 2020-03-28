@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::LogAnalyticsLinkedService",
     "description": "Links a Log Analytics (formally Operational Insights) Workspace to another resource. The (currently) only linkable service is an Azure Automation Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-LogAnalyticsLinkedService/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

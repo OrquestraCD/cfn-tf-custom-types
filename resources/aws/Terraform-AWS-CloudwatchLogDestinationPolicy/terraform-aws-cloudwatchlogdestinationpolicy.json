@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CloudwatchLogDestinationPolicy",
     "description": "Provides a CloudWatch Logs destination policy resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CloudwatchLogDestinationPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

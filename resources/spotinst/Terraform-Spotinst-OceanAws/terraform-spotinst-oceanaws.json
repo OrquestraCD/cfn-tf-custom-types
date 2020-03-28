@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::OceanAws",
     "description": "Provides a Spotinst Ocean AWS resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-OceanAws/docs/README.md",
     "definitions": {
         "Autoscaler": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IamInstanceProfile",
     "description": "Provides an IAM instance profile.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IamInstanceProfile/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

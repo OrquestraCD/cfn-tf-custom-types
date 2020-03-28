@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::EgpPolicy",
     "description": "Provides a resource to manage Endpoint Governing Policy (EGP) via [Sentinel](https://www.vaultproject.io/docs/enterprise/sentinel/index.html).\n\n**Note** this feature is available only with Vault Enterprise.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-EgpPolicy/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

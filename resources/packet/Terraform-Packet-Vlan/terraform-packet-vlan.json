@@ -2,6 +2,7 @@
     "typeName": "Terraform::Packet::Vlan",
     "description": "Provides a resource to allow users to manage Virtual Networks in their projects.\n\nTo learn more about Layer 2 networking in Packet, refer to\n* https://www.packet.com/resources/guides/layer-2-configurations/\n* https://www.packet.com/developers/docs/network/advanced/layer-2/",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/packet/Terraform-Packet-Vlan/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -17,6 +17,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#bindname" title="BindName">BindName</a>" : <i>String</i>,
         "<a href="#bindtype" title="BindType">BindType</a>" : <i>String</i>,
         "<a href="#description" title="Description">Description</a>" : <i>String</i>,
+        "<a href="#namespace" title="Namespace">Namespace</a>" : <i>String</i>,
         "<a href="#selector" title="Selector">Selector</a>" : <i>String</i>
     }
 }
@@ -31,6 +32,7 @@ Properties:
     <a href="#bindname" title="BindName">BindName</a>: <i>String</i>
     <a href="#bindtype" title="BindType">BindType</a>: <i>String</i>
     <a href="#description" title="Description">Description</a>: <i>String</i>
+    <a href="#namespace" title="Namespace">Namespace</a>: <i>String</i>
     <a href="#selector" title="Selector">Selector</a>: <i>String</i>
 </pre>
 
@@ -71,6 +73,17 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 A free form human readable description of the
 binding rule.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Namespace
+
+The namespace to create the binding
+rule within.
 
 _Required_: No
 

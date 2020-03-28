@@ -2,6 +2,7 @@
     "typeName": "Terraform::Brightbox::ApiClient",
     "description": "Provides a Brightbox API Client resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/brightbox/Terraform-Brightbox-ApiClient/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

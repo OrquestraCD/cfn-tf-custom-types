@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Ec2ClientVpnEndpoint",
     "description": "Provides an AWS Client VPN endpoint for OpenVPN clients. For more information on usage, please see the\n[AWS Client VPN Administrator's Guide](https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Ec2ClientVpnEndpoint/docs/README.md",
     "definitions": {
         "AuthenticationOptions": {
             "type": "object",

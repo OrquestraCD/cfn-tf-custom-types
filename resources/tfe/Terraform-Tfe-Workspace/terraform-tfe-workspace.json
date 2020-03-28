@@ -2,6 +2,7 @@
     "typeName": "Terraform::Tfe::Workspace",
     "description": "Provides a workspace resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tfe/Terraform-Tfe-Workspace/docs/README.md",
     "definitions": {
         "VcsRepo": {
             "type": "object",

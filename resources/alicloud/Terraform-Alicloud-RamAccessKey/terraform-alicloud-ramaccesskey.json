@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::RamAccessKey",
     "description": "Provides a RAM User access key resource.\n\n-> **NOTE:**  You should set the `secret_file` if you want to get the access key.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-RamAccessKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

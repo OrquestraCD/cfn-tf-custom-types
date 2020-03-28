@@ -2,6 +2,7 @@
     "typeName": "Terraform::Linode::ObjectStorageKey",
     "description": "Provides a Linode Object Storage Key resource. This can be used to create, modify, and delete Linodes Object Storage Keys.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/linode/Terraform-Linode-ObjectStorageKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

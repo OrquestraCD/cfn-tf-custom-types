@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::IdentityOidc",
     "description": "Configure the [Identity Tokens Backend](https://www.vaultproject.io/docs/secrets/identity/index.html#identity-tokens).\n\nThe Identity secrets engine is the identity management solution for Vault. It internally maintains\nthe clients who are recognized by Vault.\n\n~> **NOTE:** Each Vault server may only have one Identity Tokens Backend configuration. Multiple configurations of the resource against the same Vault server will cause a perpetual difference.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-IdentityOidc/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

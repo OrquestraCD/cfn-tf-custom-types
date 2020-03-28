@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpsGenie::Team",
     "description": "Manages a Team within Opsgenie.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opsgenie/Terraform-OpsGenie-Team/docs/README.md",
     "definitions": {
         "Member": {
             "type": "object",

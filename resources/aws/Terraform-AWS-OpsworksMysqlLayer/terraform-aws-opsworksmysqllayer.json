@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OpsworksMysqlLayer",
     "description": "Provides an OpsWorks MySQL layer resource.\n\n~> **Note:** All arguments including the root password will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OpsworksMysqlLayer/docs/README.md",
     "definitions": {
         "EbsVolume": {
             "type": "object",

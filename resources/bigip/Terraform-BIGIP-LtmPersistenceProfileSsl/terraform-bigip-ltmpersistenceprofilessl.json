@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::LtmPersistenceProfileSsl",
     "description": "Configures an SSL persistence profile",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-LtmPersistenceProfileSsl/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

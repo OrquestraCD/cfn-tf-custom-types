@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::ContainerClusterInstance",
     "description": "Provides a TencentCloud Container Cluster Instance resource.\n\n~> **NOTE:** It has been deprecated and replaced by  tencentcloud_kubernetes_scale_worker.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-ContainerClusterInstance/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

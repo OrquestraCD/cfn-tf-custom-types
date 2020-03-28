@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::LogAnalyticsSolution",
     "description": "Manages a Log Analytics (formally Operational Insights) Solution.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-LogAnalyticsSolution/docs/README.md",
     "definitions": {
         "Plan": {
             "type": "object",

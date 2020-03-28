@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeRouterInterface",
     "description": "Manages a Cloud Router interface. For more information see\n[the official documentation](https://cloud.google.com/compute/docs/cloudrouter)\nand\n[API](https://cloud.google.com/compute/docs/reference/latest/routers).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeRouterInterface/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

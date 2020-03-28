@@ -32,7 +32,7 @@ Properties:
 
 #### Space
 
-The name of the space.
+The `UUID` of the space.
 
 _Required_: Yes
 

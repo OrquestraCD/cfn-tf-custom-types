@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudScale::ServerGroup",
     "description": "Provides a cloudscale.ch Server Group resource. This can be used to create, and delete server groups.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudscale/Terraform-CloudScale-ServerGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

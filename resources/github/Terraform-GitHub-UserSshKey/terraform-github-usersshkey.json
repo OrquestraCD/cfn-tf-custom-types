@@ -2,6 +2,7 @@
     "typeName": "Terraform::GitHub::UserSshKey",
     "description": "Provides a GitHub user's SSH key resource.\n\nThis resource allows you to add/remove SSH keys from your user account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/github/Terraform-GitHub-UserSshKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

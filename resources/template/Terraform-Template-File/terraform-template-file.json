@@ -2,6 +2,7 @@
     "typeName": "Terraform::Template::File",
     "description": "CloudFormation equivalent of template_file",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/template/Terraform-Template-File/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

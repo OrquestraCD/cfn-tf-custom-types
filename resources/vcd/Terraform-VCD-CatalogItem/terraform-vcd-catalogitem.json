@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::CatalogItem",
     "description": "Provides a vCloud Director catalog item resource. This can be used to upload OVA to catalog and delete it.\n\nSupported in provider *v2.0+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-CatalogItem/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

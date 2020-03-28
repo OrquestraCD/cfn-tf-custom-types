@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::SpatialAnchorsAccount",
     "description": "Manages an Azure Spatial Anchors Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-SpatialAnchorsAccount/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

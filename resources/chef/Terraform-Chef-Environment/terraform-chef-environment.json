@@ -2,6 +2,7 @@
     "typeName": "Terraform::Chef::Environment",
     "description": "An [environment](http://docs.chef.io/environments.html) is a container for\nChef nodes that share a set of attribute values and may have a set of version\nconstraints for which cookbook versions may be used on its nodes.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/chef/Terraform-Chef-Environment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

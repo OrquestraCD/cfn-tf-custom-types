@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenTelekomCloud::KmsKeyV1",
     "description": "Manages a V1 key resource within KMS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opentelekomcloud/Terraform-OpenTelekomCloud-KmsKeyV1/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

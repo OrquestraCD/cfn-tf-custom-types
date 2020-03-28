@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CognitoIdentityProvider",
     "description": "Provides a Cognito User Identity Provider resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CognitoIdentityProvider/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

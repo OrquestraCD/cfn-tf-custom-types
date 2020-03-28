@@ -2,6 +2,7 @@
     "typeName": "Terraform::BIGIP::LtmNode",
     "description": "`bigip_ltm_node` Manages a node configuration\n\nFor resources should be named with their \"full path\". The full path is the combination of the partition + name of the resource. For example /Common/my-pool.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bigip/Terraform-BIGIP-LtmNode/docs/README.md",
     "definitions": {
         "Fqdn": {
             "type": "object",

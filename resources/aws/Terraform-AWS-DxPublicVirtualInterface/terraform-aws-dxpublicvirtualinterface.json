@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DxPublicVirtualInterface",
     "description": "Provides a Direct Connect public virtual interface resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DxPublicVirtualInterface/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

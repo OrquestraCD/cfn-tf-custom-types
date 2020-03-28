@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Ami",
     "description": "The AMI resource allows the creation and management of a completely-custom\n*Amazon Machine Image* (AMI).\n\nIf you just want to duplicate an existing AMI, possibly copying it to another\nregion, it's better to use `aws_ami_copy` instead.\n\nIf you just want to share an existing AMI with another AWS account,\nit's better to use `aws_ami_launch_permission` instead.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Ami/docs/README.md",
     "definitions": {
         "EbsBlockDevice": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ServicebusTopic",
     "description": "Manages a ServiceBus Topic.\n\n**Note** Topics can only be created in Namespaces with an SKU of `standard` or higher.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ServicebusTopic/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

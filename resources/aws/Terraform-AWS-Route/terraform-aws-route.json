@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::Route",
     "description": "Provides a resource to create a routing table entry (a route) in a VPC routing table.\n\n~> **NOTE on Route Tables and Routes:** Terraform currently\nprovides both a standalone Route resource and a [Route Table](route_table.html) resource with routes\ndefined in-line. At this time you cannot use a Route Table with in-line routes\nin conjunction with any Route resources. Doing so will cause\na conflict of rule settings and will overwrite rules.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-Route/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

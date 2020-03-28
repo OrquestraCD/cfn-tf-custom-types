@@ -38,6 +38,7 @@ class ResourceModel(BaseResourceModel):
     tfcfnid: Optional[str]
     Datacenter: Optional[str]
     Id: Optional[str]
+    Namespace: Optional[str]
     PathPrefix: Optional[str]
     Subkeys: Optional[Sequence["_Subkeys"]]
     Token: Optional[str]
@@ -54,6 +55,7 @@ class ResourceModel(BaseResourceModel):
             tfcfnid=json_data.get("tfcfnid"),
             Datacenter=json_data.get("Datacenter"),
             Id=json_data.get("Id"),
+            Namespace=json_data.get("Namespace"),
             PathPrefix=json_data.get("PathPrefix"),
             Subkeys=json_data.get("Subkeys"),
             Token=json_data.get("Token"),

@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::ComputeInterfaceAttachV2",
     "description": "Attaches a Network Interface (a Port) to an Instance using the FlexibleEngine\nCompute (Nova) v2 API.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-ComputeInterfaceAttachV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

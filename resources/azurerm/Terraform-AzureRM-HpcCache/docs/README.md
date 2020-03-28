@@ -129,3 +129,7 @@ Internal identifier for tracking resource changes. Do not use.
 
 Returns the <code>Id</code> value.
 
+#### MountAddresses
+
+Returns the <code>MountAddresses</code> value.
+

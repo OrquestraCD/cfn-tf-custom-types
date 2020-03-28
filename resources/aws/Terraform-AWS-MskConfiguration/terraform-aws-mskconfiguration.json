@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::MskConfiguration",
     "description": "Manages an Amazon Managed Streaming for Kafka configuration. More information can be found on the [MSK Developer Guide](https://docs.aws.amazon.com/msk/latest/developerguide/msk-configuration.html).\n\n~> **NOTE:** The API does not support deleting MSK configurations. Removing this Terraform resource will only remove the Terraform state for it.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-MskConfiguration/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

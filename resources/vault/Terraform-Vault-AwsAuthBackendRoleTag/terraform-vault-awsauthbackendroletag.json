@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::AwsAuthBackendRoleTag",
     "description": "Reads role tag information from an AWS auth backend in Vault.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-AwsAuthBackendRoleTag/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

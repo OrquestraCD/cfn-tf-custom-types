@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::NetworkRouted",
     "description": "Provides a vCloud Director Org VDC routed Network. This can be used to create,\nmodify, and delete internal networks for vApps to connect.\n\nSupported in provider *v2.0+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-NetworkRouted/docs/README.md",
     "definitions": {
         "DhcpPool": {
             "type": "object",

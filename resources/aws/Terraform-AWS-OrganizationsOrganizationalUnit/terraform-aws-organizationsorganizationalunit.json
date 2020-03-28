@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OrganizationsOrganizationalUnit",
     "description": "Provides a resource to create an organizational unit.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OrganizationsOrganizationalUnit/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

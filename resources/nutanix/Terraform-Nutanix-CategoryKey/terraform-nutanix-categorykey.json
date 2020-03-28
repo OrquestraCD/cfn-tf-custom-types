@@ -2,6 +2,7 @@
     "typeName": "Terraform::Nutanix::CategoryKey",
     "description": "Provides a Nutanix Category key resource to Create a category key name.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nutanix/Terraform-Nutanix-CategoryKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

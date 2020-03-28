@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayMethod",
     "description": "Provides a HTTP Method for an API Gateway Resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayMethod/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

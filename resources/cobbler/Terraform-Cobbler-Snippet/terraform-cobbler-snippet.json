@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cobbler::Snippet",
     "description": "Manages a Snippet within Cobbler.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cobbler/Terraform-Cobbler-Snippet/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

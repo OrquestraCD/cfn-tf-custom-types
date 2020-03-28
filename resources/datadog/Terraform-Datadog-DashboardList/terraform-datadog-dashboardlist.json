@@ -2,6 +2,7 @@
     "typeName": "Terraform::Datadog::DashboardList",
     "description": "Provides a Datadog dashboard_list resource. This can be used to create and manage Datadog Dashboard Lists and the individual dashboards within them.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/datadog/Terraform-Datadog-DashboardList/docs/README.md",
     "definitions": {
         "DashItem": {
             "type": "object",

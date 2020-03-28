@@ -2,6 +2,7 @@
     "typeName": "Terraform::Scaleway::K8sClusterBeta",
     "description": "Creates and manages Scaleway Kubernetes clusters. For more information, see [the documentation](https://developers.scaleway.com/en/products/k8s/api/).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/scaleway/Terraform-Scaleway-K8sClusterBeta/docs/README.md",
     "definitions": {
         "AutoUpgrade": {
             "type": "object",

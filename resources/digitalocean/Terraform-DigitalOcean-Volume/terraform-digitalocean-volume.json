@@ -2,6 +2,7 @@
     "typeName": "Terraform::DigitalOcean::Volume",
     "description": "Provides a DigitalOcean Block Storage volume which can be attached to a Droplet in order to provide expanded storage.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/digitalocean/Terraform-DigitalOcean-Volume/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

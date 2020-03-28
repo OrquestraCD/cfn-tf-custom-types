@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::SecurityGroupRule",
     "description": "Provides a security group rule resource.\nRepresents a single `ingress` or `egress` group rule, which can be added to external Security Groups.\n\n-> **NOTE:**  `nic_type` should set to `intranet` when security group type is `vpc` or specifying the `source_security_group_id`. In this situation it does not distinguish between intranet and internet, the rule is effective on them both.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-SecurityGroupRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

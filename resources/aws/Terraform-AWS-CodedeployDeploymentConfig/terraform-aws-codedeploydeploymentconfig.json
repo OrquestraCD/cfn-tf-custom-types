@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CodedeployDeploymentConfig",
     "description": "Provides a CodeDeploy deployment config for an application",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CodedeployDeploymentConfig/docs/README.md",
     "definitions": {
         "MinimumHealthyHosts": {
             "type": "object",

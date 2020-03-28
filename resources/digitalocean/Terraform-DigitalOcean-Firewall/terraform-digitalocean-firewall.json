@@ -2,6 +2,7 @@
     "typeName": "Terraform::DigitalOcean::Firewall",
     "description": "Provides a DigitalOcean Cloud Firewall resource. This can be used to create,\nmodify, and delete Firewalls.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/digitalocean/Terraform-DigitalOcean-Firewall/docs/README.md",
     "definitions": {
         "InboundRule": {
             "type": "object",

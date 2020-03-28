@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatabaseVmClusterNetwork",
     "description": "This resource provides the Vm Cluster Network resource in Oracle Cloud Infrastructure Database service.\n\nCreates the VM cluster network.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatabaseVmClusterNetwork/docs/README.md",
     "definitions": {
         "Scans": {
             "type": "object",

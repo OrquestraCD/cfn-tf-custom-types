@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::DatahubTopic",
     "description": "The topic is the basic unit of Datahub data source and is used to define one kind of data or stream. It contains a set of subscriptions. You can manage the datahub source of an application by using topics. [Refer to details](https://help.aliyun.com/document_detail/47440.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-DatahubTopic/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

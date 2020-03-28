@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::InsertedMedia",
     "description": "Provides a vCloud Director resource for inserting or ejecting media (ISO) file for the VM. Create this resource for inserting the media, and destroy it for ejecting.\n\nSupported in provider *v2.0+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-InsertedMedia/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

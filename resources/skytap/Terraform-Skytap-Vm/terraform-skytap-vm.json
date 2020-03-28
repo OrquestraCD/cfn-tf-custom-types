@@ -2,6 +2,7 @@
     "typeName": "Terraform::Skytap::Vm",
     "description": "Provides a Skytap Virtual Machine (VM) resource. The environment VM resource represents an image of a single virtual machine.\n\n~> **NOTE:**\n* VMs do not exist outside of environments or templates.\n* An environment or template can have multiple VMs.\n* Each VM is a unique resource. Therefore, a VM in a template will have a different ID than a VM in an environment created from that template.\n* The VM will be run immediately after creation.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/skytap/Terraform-Skytap-Vm/docs/README.md",
     "definitions": {
         "Disk": {
             "type": "object",
@@ -67,6 +68,22 @@
                 "Ip",
                 "NetworkId"
             ]
+        },
+        "Timeouts": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Create": {
+                    "type": "string"
+                },
+                "Delete": {
+                    "type": "string"
+                },
+                "Update": {
+                    "type": "string"
+                }
+            },
+            "required": []
         },
         "PublishedService": {
             "type": "object",
@@ -191,6 +208,9 @@
             "items": {
                 "$ref": "#/definitions/NetworkInterface"
             }
+        },
+        "Timeouts": {
+            "$ref": "#/definitions/Timeouts"
         },
         "PublishedService": {
             "type": "array",

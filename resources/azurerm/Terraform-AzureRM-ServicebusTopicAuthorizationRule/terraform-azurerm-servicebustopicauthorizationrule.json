@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ServicebusTopicAuthorizationRule",
     "description": "Manages a ServiceBus Topic authorization Rule within a ServiceBus Topic.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ServicebusTopicAuthorizationRule/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

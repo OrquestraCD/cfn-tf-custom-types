@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::CbsStorageAttachment",
     "description": "Provides a CBS storage attachment resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-CbsStorageAttachment/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ServiceNetworkingConnection",
     "description": "Manages a private VPC connection with a GCP service provider. For more information see\n[the official documentation](https://cloud.google.com/vpc/docs/configure-private-services-access#creating-connection)\nand\n[API](https://cloud.google.com/service-infrastructure/docs/service-networking/reference/rest/v1/services.connections).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ServiceNetworkingConnection/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

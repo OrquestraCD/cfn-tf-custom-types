@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::VpnConnectionRoute",
     "description": "Provides a static route between a VPN connection and a customer gateway.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-VpnConnectionRoute/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

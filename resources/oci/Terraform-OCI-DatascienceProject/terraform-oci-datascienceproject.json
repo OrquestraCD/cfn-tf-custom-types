@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::DatascienceProject",
     "description": "This resource provides the Project resource in Oracle Cloud Infrastructure Datascience service.\n\nCreates a new project.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-DatascienceProject/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

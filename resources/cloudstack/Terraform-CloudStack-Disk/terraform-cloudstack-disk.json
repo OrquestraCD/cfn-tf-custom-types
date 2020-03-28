@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudStack::Disk",
     "description": "Creates a disk volume from a disk offering. This disk volume will be attached to\na virtual machine if the optional parameters are configured.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudstack/Terraform-CloudStack-Disk/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

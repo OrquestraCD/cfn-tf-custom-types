@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::StorageDrsVmOverride",
     "description": "The `vsphere_storage_drs_vm_override` resource can be used to add a Storage DRS\noverride to a datastore cluster for a specific virtual machine. With this\nresource, one can enable or disable Storage DRS, and control the automation\nlevel and disk affinity for a single virtual machine without affecting the rest\nof the datastore cluster.\n\nFor more information on vSphere datastore clusters and Storage DRS, see [this\npage][ref-vsphere-datastore-clusters].\n\n[ref-vsphere-datastore-clusters]: https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.resmgmt.doc/GUID-598DF695-107E-406B-9C95-0AF961FC227A.html",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-StorageDrsVmOverride/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

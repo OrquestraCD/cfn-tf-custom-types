@@ -49,6 +49,7 @@ class ResourceModel(BaseResourceModel):
     TemplateId: Optional[str]
     UserData: Optional[str]
     Label: Optional[Sequence["_Label"]]
+    Timeouts: Optional["_Timeouts"]
 
     @classmethod
     def _deserialize(
@@ -72,6 +73,7 @@ class ResourceModel(BaseResourceModel):
             TemplateId=json_data.get("TemplateId"),
             UserData=json_data.get("UserData"),
             Label=json_data.get("Label"),
+            Timeouts=Timeouts._deserialize(json_data.get("Timeouts")),
         )
 
 
@@ -99,5 +101,29 @@ class Label:
 
 # work around possible type aliasing issues when variable has same name as a model
 _Label = Label
+
+
+@dataclass
+class Timeouts:
+    Create: Optional[str]
+    Delete: Optional[str]
+    Update: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_Timeouts"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_Timeouts"]:
+        if not json_data:
+            return None
+        return cls(
+            Create=json_data.get("Create"),
+            Delete=json_data.get("Delete"),
+            Update=json_data.get("Update"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_Timeouts = Timeouts
 
 

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::Firewall",
     "description": "Manages an Azure Firewall.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-Firewall/docs/README.md",
     "definitions": {
         "IpConfiguration": {
             "type": "object",

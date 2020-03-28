@@ -2,6 +2,7 @@
     "typeName": "Terraform::Heroku::TeamCollaborator",
     "description": "A [Heroku Team Collaborator](https://devcenter.heroku.com/articles/platform-api-reference#team-app-collaborator) receives access to a specific Team-owned app.\n\nTo create a Heroku Team, use the [New Team](https://dashboard.heroku.com/teams/new) feature of Heroku Dashboard. For Heroku Enterprise accounts, new Teams may be created within the account by users with the right permissions.\n\nA Heroku \"team\" was originally called an \"organization\", and that is still the identifier used elsewhere in this provider. For [`heroku_app`](app.html) & [`heroku_space`](space.html) resources, set the Heroku Team name as the \"organization\".\n\n~> **NOTE:** This resource only works for Team-owned apps",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/heroku/Terraform-Heroku-TeamCollaborator/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

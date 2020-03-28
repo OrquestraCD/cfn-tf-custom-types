@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::PostgresqlVirtualNetworkRule",
     "description": "Manages a PostgreSQL Virtual Network Rule.\n\n-> **NOTE:** PostgreSQL Virtual Network Rules [can only be used with SKU Tiers of `GeneralPurpose` or `MemoryOptimized`](https://docs.microsoft.com/en-us/azure/postgresql/concepts-data-access-and-security-vnet)",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-PostgresqlVirtualNetworkRule/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

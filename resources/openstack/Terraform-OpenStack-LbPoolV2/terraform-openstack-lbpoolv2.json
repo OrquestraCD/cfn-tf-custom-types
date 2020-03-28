@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::LbPoolV2",
     "description": "Manages a V2 pool resource within OpenStack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-LbPoolV2/docs/README.md",
     "definitions": {
         "Persistence": {
             "type": "object",

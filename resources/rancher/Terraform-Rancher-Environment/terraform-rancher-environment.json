@@ -2,6 +2,7 @@
     "typeName": "Terraform::Rancher::Environment",
     "description": "Provides a Rancher Environment resource. This can be used to create and manage environments on rancher.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rancher/Terraform-Rancher-Environment/docs/README.md",
     "definitions": {
         "Member": {
             "type": "object",

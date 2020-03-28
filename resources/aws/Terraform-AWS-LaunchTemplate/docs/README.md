@@ -36,6 +36,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#iaminstanceprofile" title="IamInstanceProfile">IamInstanceProfile</a>" : <i>[ <a href="iaminstanceprofile.md">IamInstanceProfile</a>, ... ]</i>,
         "<a href="#instancemarketoptions" title="InstanceMarketOptions">InstanceMarketOptions</a>" : <i>[ <a href="instancemarketoptions.md">InstanceMarketOptions</a>, ... ]</i>,
         "<a href="#licensespecification" title="LicenseSpecification">LicenseSpecification</a>" : <i>[ <a href="licensespecification.md">LicenseSpecification</a>, ... ]</i>,
+        "<a href="#metadataoptions" title="MetadataOptions">MetadataOptions</a>" : <i>[ <a href="metadataoptions.md">MetadataOptions</a>, ... ]</i>,
         "<a href="#monitoring" title="Monitoring">Monitoring</a>" : <i>[ <a href="monitoring.md">Monitoring</a>, ... ]</i>,
         "<a href="#networkinterfaces" title="NetworkInterfaces">NetworkInterfaces</a>" : <i>[ <a href="networkinterfaces.md">NetworkInterfaces</a>, ... ]</i>,
         "<a href="#placement" title="Placement">Placement</a>" : <i>[ <a href="placement.md">Placement</a>, ... ]</i>,
@@ -88,6 +89,8 @@ Properties:
       - <a href="instancemarketoptions.md">InstanceMarketOptions</a></i>
     <a href="#licensespecification" title="LicenseSpecification">LicenseSpecification</a>: <i>
       - <a href="licensespecification.md">LicenseSpecification</a></i>
+    <a href="#metadataoptions" title="MetadataOptions">MetadataOptions</a>: <i>
+      - <a href="metadataoptions.md">MetadataOptions</a></i>
     <a href="#monitoring" title="Monitoring">Monitoring</a>: <i>
       - <a href="monitoring.md">Monitoring</a></i>
     <a href="#networkinterfaces" title="NetworkInterfaces">NetworkInterfaces</a>: <i>
@@ -328,6 +331,14 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 _Required_: No
 
 _Type_: List of <a href="licensespecification.md">LicenseSpecification</a>
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### MetadataOptions
+
+_Required_: No
+
+_Type_: List of <a href="metadataoptions.md">MetadataOptions</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

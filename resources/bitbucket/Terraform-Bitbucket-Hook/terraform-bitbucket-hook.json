@@ -2,6 +2,7 @@
     "typeName": "Terraform::Bitbucket::Hook",
     "description": "Provides a Bitbucket hook resource.\n\nThis allows you to manage your webhooks on a repository.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/bitbucket/Terraform-Bitbucket-Hook/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpenStack::ObjectstorageTempurlV1",
     "description": "Use this resource to generate an OpenStack Object Storage temporary URL.\n\nThe temporary URL will be valid for as long as TTL is set to (in seconds).\nOnce the URL has expired, it will no longer be valid, but the resource\nwill remain in place. If you wish to automatically regenerate a URL, set\nthe `regenerate` argument to `true`. This will create a new resource with\na new ID and URL.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/openstack/Terraform-OpenStack-ObjectstorageTempurlV1/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

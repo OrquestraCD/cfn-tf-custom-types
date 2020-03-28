@@ -30,8 +30,10 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#kmsencryptioncontext" title="KmsEncryptionContext">KmsEncryptionContext</a>" : <i>[ <a href="kmsencryptioncontext.md">KmsEncryptionContext</a>, ... ]</i>,
         "<a href="#name" title="Name">Name</a>" : <i>String</i>,
         "<a href="#period" title="Period">Period</a>" : <i>Double</i>,
+        "<a href="#securitygroupid" title="SecurityGroupId">SecurityGroupId</a>" : <i>String</i>,
         "<a href="#securityiplist" title="SecurityIpList">SecurityIpList</a>" : <i>[ String, ... ]</i>,
         "<a href="#storageengine" title="StorageEngine">StorageEngine</a>" : <i>String</i>,
+        "<a href="#tdestatus" title="TdeStatus">TdeStatus</a>" : <i>String</i>,
         "<a href="#vswitchid" title="VswitchId">VswitchId</a>" : <i>String</i>,
         "<a href="#zoneid" title="ZoneId">ZoneId</a>" : <i>String</i>,
         "<a href="#mongolist" title="MongoList">MongoList</a>" : <i>[ <a href="mongolist.md">MongoList</a>, ... ]</i>,
@@ -56,9 +58,11 @@ Properties:
       - <a href="kmsencryptioncontext.md">KmsEncryptionContext</a></i>
     <a href="#name" title="Name">Name</a>: <i>String</i>
     <a href="#period" title="Period">Period</a>: <i>Double</i>
+    <a href="#securitygroupid" title="SecurityGroupId">SecurityGroupId</a>: <i>String</i>
     <a href="#securityiplist" title="SecurityIpList">SecurityIpList</a>: <i>
       - String</i>
     <a href="#storageengine" title="StorageEngine">StorageEngine</a>: <i>String</i>
+    <a href="#tdestatus" title="TdeStatus">TdeStatus</a>: <i>String</i>
     <a href="#vswitchid" title="VswitchId">VswitchId</a>: <i>String</i>
     <a href="#zoneid" title="ZoneId">ZoneId</a>: <i>String</i>
     <a href="#mongolist" title="MongoList">MongoList</a>: <i>
@@ -159,6 +163,16 @@ _Type_: Double
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
+#### SecurityGroupId
+
+The Security Group ID of ECS.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
 #### SecurityIpList
 
 List of IP addresses allowed to access all databases of an instance. The list contains up to 1,000 IP addresses, separated by commas. Supported formats include 0.0.0.0/0, 10.23.12.24 (IP), and 10.23.12.24/24 (Classless Inter-Domain Routing (CIDR) mode. /24 represents the length of the prefix in an IP address. The range of the prefix length is [1,32]). System default to `["127.0.0.1"]`.
@@ -170,6 +184,16 @@ _Type_: List of String
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### StorageEngine
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### TdeStatus
+
+The TDE(Transparent Data Encryption) status.
 
 _Required_: No
 

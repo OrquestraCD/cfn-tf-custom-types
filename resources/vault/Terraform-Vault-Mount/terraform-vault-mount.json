@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::Mount",
     "description": "CloudFormation equivalent of vault_mount",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-Mount/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::RabbitMQ::Policy",
     "description": "The ``rabbitmq_policy`` resource creates and manages policies for exchanges\nand queues.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rabbitmq/Terraform-RabbitMQ-Policy/docs/README.md",
     "definitions": {
         "Policy": {
             "type": "object",

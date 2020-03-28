@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureStack::VirtualMachine",
     "description": "Manages a virtual machine.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurestack/Terraform-AzureStack-VirtualMachine/docs/README.md",
     "definitions": {
         "BootDiagnostics": {
             "type": "object",

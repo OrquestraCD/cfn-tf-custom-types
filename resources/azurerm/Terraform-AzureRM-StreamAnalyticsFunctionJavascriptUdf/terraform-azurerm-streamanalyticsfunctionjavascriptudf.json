@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StreamAnalyticsFunctionJavascriptUdf",
     "description": "Manages a JavaScript UDF Function within Stream Analytics Streaming Job.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StreamAnalyticsFunctionJavascriptUdf/docs/README.md",
     "definitions": {
         "Input": {
             "type": "object",

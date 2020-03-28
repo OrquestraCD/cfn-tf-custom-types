@@ -2,6 +2,7 @@
     "typeName": "Terraform::VSphere::DatastoreClusterVmAntiAffinityRule",
     "description": "The `vsphere_datastore_cluster_vm_anti_affinity_rule` resource can be used to\nmanage VM anti-affinity rules in a datastore cluster, either created by the\n[`vsphere_datastore_cluster`][tf-vsphere-datastore-cluster-resource] resource or looked up\nby the [`vsphere_datastore_cluster`][tf-vsphere-datastore-cluster-data-source] data source.\n\n[tf-vsphere-datastore-cluster-resource]: /docs/providers/vsphere/r/datastore_cluster.html\n[tf-vsphere-datastore-cluster-data-source]: /docs/providers/vsphere/d/datastore_cluster.html\n\nThis rule can be used to tell a set to virtual machines to run on different\ndatastores within a cluster, useful for preventing single points of failure in\napplication cluster scenarios. When configured, Storage DRS will make a best effort to\nensure that the virtual machines run on different datastores, or prevent any\noperation that would keep that from happening, depending on the value of the\n[`mandatory`](#mandatory) flag.\n\n~> **NOTE:** This resource requires vCenter and is not available on direct ESXi\nconnections.\n\n~> **NOTE:** Storage DRS requires a vSphere Enterprise Plus license.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vsphere/Terraform-VSphere-DatastoreClusterVmAntiAffinityRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

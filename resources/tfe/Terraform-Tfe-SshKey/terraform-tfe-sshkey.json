@@ -2,6 +2,7 @@
     "typeName": "Terraform::Tfe::SshKey",
     "description": "This resource represents an SSH key which includes a name and the SSH private\nkey. An organization can have multiple SSH keys available.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tfe/Terraform-Tfe-SshKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

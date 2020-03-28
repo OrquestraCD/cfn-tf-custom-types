@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DefaultVpc",
     "description": "Provides a resource to manage the [default AWS VPC](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/default-vpc.html)\nin the current region.\n\nFor AWS accounts created after 2013-12-04, each region comes with a Default VPC.\n**This is an advanced resource**, and has special caveats to be aware of when\nusing it. Please read this document in its entirety before using this resource.\n\nThe `aws_default_vpc` behaves differently from normal resources, in that\nTerraform does not _create_ this resource, but instead \"adopts\" it\ninto management.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DefaultVpc/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

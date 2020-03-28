@@ -2,7 +2,25 @@
     "typeName": "Terraform::Alicloud::CmsSiteMonitor",
     "description": "CloudFormation equivalent of alicloud_cms_site_monitor",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
-    "definitions": {},
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-CmsSiteMonitor/docs/README.md",
+    "definitions": {
+        "IspCities": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "City": {
+                    "type": "string"
+                },
+                "Isp": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "City",
+                "Isp"
+            ]
+        }
+    },
     "properties": {
         "tfcfnid": {
             "description": "Internal identifier for tracking resource changes. Do not use.",
@@ -41,6 +59,13 @@
         },
         "UpdateTime": {
             "type": "string"
+        },
+        "IspCities": {
+            "type": "array",
+            "insertionOrder": true,
+            "items": {
+                "$ref": "#/definitions/IspCities"
+            }
         }
     },
     "additionalProperties": false,

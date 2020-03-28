@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::BatchComputeEnvironment",
     "description": "Creates a AWS Batch compute environment. Compute environments contain the Amazon ECS container instances that are used to run containerized batch jobs.\n\nFor information about AWS Batch, see [What is AWS Batch?][1] .\nFor information about compute environment, see [Compute Environments][2] .\n\n~> **Note:** To prevent a race condition during environment deletion, make sure to set `depends_on` to the related `aws_iam_role_policy_attachment`;\notherwise, the policy may be destroyed too soon and the compute environment will then get stuck in the `DELETING` state, see [Troubleshooting AWS Batch][3] .",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-BatchComputeEnvironment/docs/README.md",
     "definitions": {
         "ComputeResources": {
             "type": "object",

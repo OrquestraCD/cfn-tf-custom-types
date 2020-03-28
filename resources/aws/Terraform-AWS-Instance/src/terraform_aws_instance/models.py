@@ -76,6 +76,7 @@ class ResourceModel(BaseResourceModel):
     CreditSpecification: Optional[Sequence["_CreditSpecification"]]
     EbsBlockDevice: Optional[Sequence["_EbsBlockDevice"]]
     EphemeralBlockDevice: Optional[Sequence["_EphemeralBlockDevice"]]
+    MetadataOptions: Optional[Sequence["_MetadataOptions"]]
     NetworkInterface: Optional[Sequence["_NetworkInterface"]]
     RootBlockDevice: Optional[Sequence["_RootBlockDevice"]]
     Timeouts: Optional["_Timeouts"]
@@ -129,6 +130,7 @@ class ResourceModel(BaseResourceModel):
             CreditSpecification=json_data.get("CreditSpecification"),
             EbsBlockDevice=json_data.get("EbsBlockDevice"),
             EphemeralBlockDevice=json_data.get("EphemeralBlockDevice"),
+            MetadataOptions=json_data.get("MetadataOptions"),
             NetworkInterface=json_data.get("NetworkInterface"),
             RootBlockDevice=json_data.get("RootBlockDevice"),
             Timeouts=Timeouts._deserialize(json_data.get("Timeouts")),
@@ -259,6 +261,30 @@ class EphemeralBlockDevice:
 
 # work around possible type aliasing issues when variable has same name as a model
 _EphemeralBlockDevice = EphemeralBlockDevice
+
+
+@dataclass
+class MetadataOptions:
+    HttpEndpoint: Optional[str]
+    HttpPutResponseHopLimit: Optional[float]
+    HttpTokens: Optional[str]
+
+    @classmethod
+    def _deserialize(
+        cls: Type["_MetadataOptions"],
+        json_data: Optional[Mapping[str, Any]],
+    ) -> Optional["_MetadataOptions"]:
+        if not json_data:
+            return None
+        return cls(
+            HttpEndpoint=json_data.get("HttpEndpoint"),
+            HttpPutResponseHopLimit=json_data.get("HttpPutResponseHopLimit"),
+            HttpTokens=json_data.get("HttpTokens"),
+        )
+
+
+# work around possible type aliasing issues when variable has same name as a model
+_MetadataOptions = MetadataOptions
 
 
 @dataclass

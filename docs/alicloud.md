@@ -210,6 +210,7 @@ Nested `endpoints` block supports the following:
 * [Terraform::Alicloud::KeyPair](../resources/alicloud/Terraform-Alicloud-KeyPair/docs/README.md)
 * [Terraform::Alicloud::KmsCiphertext](../resources/alicloud/Terraform-Alicloud-KmsCiphertext/docs/README.md)
 * [Terraform::Alicloud::KmsKey](../resources/alicloud/Terraform-Alicloud-KmsKey/docs/README.md)
+* [Terraform::Alicloud::KmsSecret](../resources/alicloud/Terraform-Alicloud-KmsSecret/docs/README.md)
 * [Terraform::Alicloud::KvstoreAccount](../resources/alicloud/Terraform-Alicloud-KvstoreAccount/docs/README.md)
 * [Terraform::Alicloud::KvstoreBackupPolicy](../resources/alicloud/Terraform-Alicloud-KvstoreBackupPolicy/docs/README.md)
 * [Terraform::Alicloud::KvstoreInstance](../resources/alicloud/Terraform-Alicloud-KvstoreInstance/docs/README.md)

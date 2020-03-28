@@ -2,6 +2,7 @@
     "typeName": "Terraform::Docker::Volume",
     "description": "Creates and destroys a volume in Docker. This can be used alongside\n[docker\\_container](/docs/providers/docker/r/container.html)\nto prepare volumes that can be shared across containers.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/docker/Terraform-Docker-Volume/docs/README.md",
     "definitions": {
         "Labels": {
             "type": "object",

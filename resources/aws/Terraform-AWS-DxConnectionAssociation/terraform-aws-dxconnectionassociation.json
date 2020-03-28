@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DxConnectionAssociation",
     "description": "Associates a Direct Connect Connection with a LAG.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DxConnectionAssociation/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

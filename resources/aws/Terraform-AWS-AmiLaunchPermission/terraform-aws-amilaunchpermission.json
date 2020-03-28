@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AmiLaunchPermission",
     "description": "Adds launch permission to Amazon Machine Image (AMI) from another AWS account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AmiLaunchPermission/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

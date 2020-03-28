@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::DomainZoneRedirection",
     "description": "Provides a OVH domain zone redirection.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-DomainZoneRedirection/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

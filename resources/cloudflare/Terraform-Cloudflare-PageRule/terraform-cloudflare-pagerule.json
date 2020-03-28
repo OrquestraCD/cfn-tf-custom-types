@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::PageRule",
     "description": "Provides a Cloudflare page rule resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-PageRule/docs/README.md",
     "definitions": {
         "Actions": {
             "type": "object",

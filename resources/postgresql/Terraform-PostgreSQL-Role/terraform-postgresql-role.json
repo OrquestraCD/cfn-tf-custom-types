@@ -2,6 +2,7 @@
     "typeName": "Terraform::PostgreSQL::Role",
     "description": "The ``postgresql_role`` resource creates and manages a role on a PostgreSQL\nserver.\n\nWhen a ``postgresql_role`` resource is removed, the PostgreSQL ROLE will\nautomatically run a [`REASSIGN\nOWNED`](https://www.postgresql.org/docs/current/static/sql-reassign-owned.html)\nand [`DROP\nOWNED`](https://www.postgresql.org/docs/current/static/sql-drop-owned.html) to\nthe `CURRENT_USER` (normally the connected user for the provider).  If the\nspecified PostgreSQL ROLE owns objects in multiple PostgreSQL databases in the\nsame PostgreSQL Cluster, one PostgreSQL provider per database must be created\nand all but the final ``postgresql_role`` must specify a `skip_drop_role`.\n\n~> **Note:** All arguments including role name and password will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/postgresql/Terraform-PostgreSQL-Role/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

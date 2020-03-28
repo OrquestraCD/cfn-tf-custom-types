@@ -2,7 +2,25 @@
     "typeName": "Terraform::Skytap::Network",
     "description": "Provides a Skytap Network resource. Networks are not top-level elements of the Skytap API.\nRather, they are elements properly contained within an environment.\nOperations on them are implicitly on the containing environment.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
-    "definitions": {},
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/skytap/Terraform-Skytap-Network/docs/README.md",
+    "definitions": {
+        "Timeouts": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Create": {
+                    "type": "string"
+                },
+                "Delete": {
+                    "type": "string"
+                },
+                "Update": {
+                    "type": "string"
+                }
+            },
+            "required": []
+        }
+    },
     "properties": {
         "tfcfnid": {
             "description": "Internal identifier for tracking resource changes. Do not use.",
@@ -34,6 +52,9 @@
         "Tunnelable": {
             "type": "boolean",
             "description": "If true, this network can be connected to other networks."
+        },
+        "Timeouts": {
+            "$ref": "#/definitions/Timeouts"
         }
     },
     "additionalProperties": false,

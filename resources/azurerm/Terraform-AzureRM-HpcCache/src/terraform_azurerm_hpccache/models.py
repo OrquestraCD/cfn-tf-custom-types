@@ -39,6 +39,7 @@ class ResourceModel(BaseResourceModel):
     CacheSizeInGb: Optional[float]
     Id: Optional[str]
     Location: Optional[str]
+    MountAddresses: Optional[Sequence[str]]
     Name: Optional[str]
     ResourceGroupName: Optional[str]
     SkuName: Optional[str]
@@ -57,6 +58,7 @@ class ResourceModel(BaseResourceModel):
             CacheSizeInGb=json_data.get("CacheSizeInGb"),
             Id=json_data.get("Id"),
             Location=json_data.get("Location"),
+            MountAddresses=json_data.get("MountAddresses"),
             Name=json_data.get("Name"),
             ResourceGroupName=json_data.get("ResourceGroupName"),
             SkuName=json_data.get("SkuName"),

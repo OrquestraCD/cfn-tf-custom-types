@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::Namespace",
     "description": "Provides a resource to manage [Namespaces](https://www.vaultproject.io/docs/enterprise/namespaces/index.html).\n\n**Note** this feature is available only with Vault Enterprise.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-Namespace/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

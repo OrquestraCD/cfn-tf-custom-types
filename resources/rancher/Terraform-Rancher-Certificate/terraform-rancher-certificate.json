@@ -2,6 +2,7 @@
     "typeName": "Terraform::Rancher::Certificate",
     "description": "Provides a Rancher Certificate resource. This can be used to create certificates for rancher environments and retrieve their information.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rancher/Terraform-Rancher-Certificate/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

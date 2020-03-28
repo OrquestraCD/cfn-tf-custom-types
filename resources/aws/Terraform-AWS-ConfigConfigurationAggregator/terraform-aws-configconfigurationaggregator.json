@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ConfigConfigurationAggregator",
     "description": "Manages an AWS Config Configuration Aggregator",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ConfigConfigurationAggregator/docs/README.md",
     "definitions": {
         "AccountAggregationSource": {
             "type": "object",

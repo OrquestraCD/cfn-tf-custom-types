@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::KmsKey",
     "description": "This resource provides the Key resource in Oracle Cloud Infrastructure Kms service.\n\nCreates a new master encryption key.\n\nAs a management operation, this call is subject to a Key Management limit that applies to the total \nnumber of requests across all management write operations. Key Management might throttle this call \nto reject an otherwise valid request when the total rate of management write operations exceeds 10 \nrequests per second for a given tenancy.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-KmsKey/docs/README.md",
     "definitions": {
         "KeyShape": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::LoggingOrganizationExclusion",
     "description": "Manages an organization-level logging exclusion. For more information see\n[the official documentation](https://cloud.google.com/logging/docs/) and\n[Excluding Logs](https://cloud.google.com/logging/docs/exclusions).\n\nNote that you must have the \"Logs Configuration Writer\" IAM role (`roles/logging.configWriter`)\ngranted to the credentials used with Terraform.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-LoggingOrganizationExclusion/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

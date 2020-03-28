@@ -1,0 +1,10 @@
+{
+    "typeName": "Terraform::AzureRM::PolicyRemediation",
+    "language": "python37",
+    "runtime": "python3.7",
+    "entrypoint": "terraform_azurerm_policyremediation.handlers.resource",
+    "testEntrypoint": "terraform_azurerm_policyremediation.handlers.test_entrypoint",
+    "settings": {
+        "use_docker": true
+    }
+}

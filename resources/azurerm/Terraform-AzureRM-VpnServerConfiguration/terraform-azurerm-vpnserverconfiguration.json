@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::VpnServerConfiguration",
     "description": "Manages a VPN Server Configuration.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-VpnServerConfiguration/docs/README.md",
     "definitions": {
         "AzureActiveDirectoryAuthentication": {
             "type": "object",

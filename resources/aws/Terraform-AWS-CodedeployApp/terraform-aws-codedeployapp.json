@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::CodedeployApp",
     "description": "Provides a CodeDeploy application to be used as a basis for deployments",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-CodedeployApp/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

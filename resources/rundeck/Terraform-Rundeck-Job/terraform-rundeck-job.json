@@ -2,6 +2,7 @@
     "typeName": "Terraform::Rundeck::Job",
     "description": "The job resource allows Rundeck jobs to be managed by Terraform. In Rundeck a job is a particular\nnamed set of steps that can be executed against one or more of the nodes configured for its\nassociated project.\n\nEach job belongs to a project. A project can be created with the `rundeck_project` resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/rundeck/Terraform-Rundeck-Job/docs/README.md",
     "definitions": {
         "Command": {
             "type": "object",

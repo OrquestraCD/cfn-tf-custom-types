@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::MonitorScheduledQueryRulesAlert",
     "description": "Manages an AlertingAction Scheduled Query Rules resource within Azure Monitor.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-MonitorScheduledQueryRulesAlert/docs/README.md",
     "definitions": {
         "Action": {
             "type": "object",

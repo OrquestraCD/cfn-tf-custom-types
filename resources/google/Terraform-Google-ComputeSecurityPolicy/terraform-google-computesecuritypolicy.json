@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeSecurityPolicy",
     "description": "A Security Policy defines an IP blacklist or whitelist that protects load balanced Google Cloud services by denying or permitting traffic from specified IP ranges. For more information\nsee the [official documentation](https://cloud.google.com/armor/docs/configure-security-policies)\nand the [API](https://cloud.google.com/compute/docs/reference/rest/beta/securityPolicies).\n\nSecurity Policy is used by [`google_compute_backend_service`](https://www.terraform.io/docs/providers/google/r/compute_backend_service.html#security_policy).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeSecurityPolicy/docs/README.md",
     "definitions": {
         "Rule": {
             "type": "object",

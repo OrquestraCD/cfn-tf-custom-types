@@ -2,6 +2,7 @@
     "typeName": "Terraform::OpsGenie::ApiIntegration",
     "description": "Manages an API Integration within Opsgenie.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/opsgenie/Terraform-OpsGenie-ApiIntegration/docs/README.md",
     "definitions": {
         "Responders": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::DayuL7Rule",
     "description": "Use this resource to create dayu layer 7 rule\n\n~> **NOTE:** This resource only support resource Anti-DDoS of type `bgpip`",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-DayuL7Rule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OVH::VrackDedicatedServer",
     "description": "Attach a dedicated server to a VRack.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/ovh/Terraform-OVH-VrackDedicatedServer/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

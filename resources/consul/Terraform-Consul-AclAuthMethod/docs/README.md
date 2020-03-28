@@ -16,6 +16,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
         "<a href="#config" title="Config">Config</a>" : <i>[ <a href="config.md">Config</a>, ... ]</i>,
         "<a href="#description" title="Description">Description</a>" : <i>String</i>,
         "<a href="#name" title="Name">Name</a>" : <i>String</i>,
+        "<a href="#namespace" title="Namespace">Namespace</a>" : <i>String</i>,
         "<a href="#type" title="Type">Type</a>" : <i>String</i>
     }
 }
@@ -30,6 +31,7 @@ Properties:
       - <a href="config.md">Config</a></i>
     <a href="#description" title="Description">Description</a>: <i>String</i>
     <a href="#name" title="Name">Name</a>: <i>String</i>
+    <a href="#namespace" title="Namespace">Namespace</a>: <i>String</i>
     <a href="#type" title="Type">Type</a>: <i>String</i>
 </pre>
 
@@ -60,6 +62,16 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 The name of the ACL auth method.
 
 _Required_: Yes
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Namespace
+
+The namespace to create the policy within.
+
+_Required_: No
 
 _Type_: String
 

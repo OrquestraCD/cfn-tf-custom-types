@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DataFactoryIntegrationRuntimeManaged",
     "description": "Manages an Azure Data Factory Managed Integration Runtime.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DataFactoryIntegrationRuntimeManaged/docs/README.md",
     "definitions": {
         "CatalogInfo": {
             "type": "object",

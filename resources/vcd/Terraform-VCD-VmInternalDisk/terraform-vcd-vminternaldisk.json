@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::VmInternalDisk",
     "description": "This can be used to create, update and delete VM internal disks on already created VMs.\n\n~> **Note:** To adjust disk parameters when creating a new VM, please use [override_template_disk](/docs/providers/vcd/r/vapp_vm.html#override-template-disk).\n\nTo manage disks which already exist inside a VM, please [import](#importing) them first.\n\n~> **Note:** Managing disks in VM is possible only when VDC fast provisioned is disabled.\n\nSupported in provider *v2.7+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-VmInternalDisk/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

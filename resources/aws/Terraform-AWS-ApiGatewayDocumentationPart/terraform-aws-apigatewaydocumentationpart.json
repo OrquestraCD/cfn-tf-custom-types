@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::ApiGatewayDocumentationPart",
     "description": "Provides a settings of an API Gateway Documentation Part.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-ApiGatewayDocumentationPart/docs/README.md",
     "definitions": {
         "Location": {
             "type": "object",

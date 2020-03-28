@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NetworkDdosProtectionPlan",
     "description": "Manages an AzureNetwork DDoS Protection Plan.\n\n-> **NOTE** Azure only allows `one` DDoS Protection Plan per region.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NetworkDdosProtectionPlan/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::MacieS3BucketAssociation",
     "description": "Associates an S3 resource with Amazon Macie for monitoring and data classification.\n\n~> **NOTE:** Before using Amazon Macie for the first time it must be enabled manually. Instructions are [here](https://docs.aws.amazon.com/macie/latest/userguide/macie-setting-up.html#macie-setting-up-enable).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-MacieS3BucketAssociation/docs/README.md",
     "definitions": {
         "ClassificationType": {
             "type": "object",

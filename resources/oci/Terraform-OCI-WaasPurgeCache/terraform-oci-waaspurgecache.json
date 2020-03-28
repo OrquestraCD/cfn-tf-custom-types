@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::WaasPurgeCache",
     "description": "This resource provides the Purge Cache resource in Oracle Cloud Infrastructure Web Application Acceleration and Security service.\n\nPerforms a purge of the cache for each specified resource. If no resources are passed, the cache for the entire Web Application Firewall will be purged.\nFor more information, see [Caching Rules](https://docs.cloud.oracle.com/iaas/Content/WAF/Tasks/cachingrules.htm#purge).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-WaasPurgeCache/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeTargetPool",
     "description": "Manages a Target Pool within GCE. This is a collection of instances used as\ntarget of a network load balancer (Forwarding Rule). For more information see\n[the official\ndocumentation](https://cloud.google.com/compute/docs/load-balancing/network/target-pools)\nand [API](https://cloud.google.com/compute/docs/reference/latest/targetPools).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeTargetPool/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

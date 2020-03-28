@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::EssScheduledTask",
     "description": "Provides a ESS schedule resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-EssScheduledTask/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

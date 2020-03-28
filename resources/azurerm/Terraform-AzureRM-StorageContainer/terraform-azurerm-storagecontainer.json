@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::StorageContainer",
     "description": "Manages a Container within an Azure Storage Account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-StorageContainer/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",
@@ -66,6 +67,9 @@
             "type": "string",
             "description": "The name of the Container which should be created within the Storage Account."
         },
+        "ResourceManagerId": {
+            "type": "string"
+        },
         "StorageAccountName": {
             "type": "string",
             "description": "The name of the Storage Account where the Container should be created."
@@ -83,7 +87,8 @@
         "/properties/tfcfnid",
         "/properties/HasImmutabilityPolicy",
         "/properties/HasLegalHold",
-        "/properties/Id"
+        "/properties/Id",
+        "/properties/ResourceManagerId"
     ],
     "primaryIdentifier": [
         "/properties/tfcfnid"

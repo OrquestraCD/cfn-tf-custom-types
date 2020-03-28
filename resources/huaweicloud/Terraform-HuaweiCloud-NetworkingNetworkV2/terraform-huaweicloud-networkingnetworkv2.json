@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::NetworkingNetworkV2",
     "description": "Manages a V2 Neutron network resource within HuaweiCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-NetworkingNetworkV2/docs/README.md",
     "definitions": {
         "Segments": {
             "type": "object",

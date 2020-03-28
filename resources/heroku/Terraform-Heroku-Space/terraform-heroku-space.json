@@ -2,6 +2,7 @@
     "typeName": "Terraform::Heroku::Space",
     "description": "Provides a Heroku Private Space resource for running apps in isolated, highly available, secure app execution environments.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/heroku/Terraform-Heroku-Space/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

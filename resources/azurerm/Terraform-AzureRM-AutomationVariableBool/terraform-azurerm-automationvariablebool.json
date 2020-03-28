@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::AutomationVariableBool",
     "description": "Manages a boolean variable in Azure Automation",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-AutomationVariableBool/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

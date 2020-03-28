@@ -2,6 +2,7 @@
     "typeName": "Terraform::Scaleway::SecurityGroupRule",
     "description": "**DEPRECATED**: This resource is deprecated and will be removed in `v2.0+`.\nPlease use `scaleway_instance_security_group_rule` instead.\n\nProvides security group rules. This allows security group rules to be created, updated and deleted.\nFor additional details please refer to [API documentation](https://developer.scaleway.com/#security-groups-manage-rules).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/scaleway/Terraform-Scaleway-SecurityGroupRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

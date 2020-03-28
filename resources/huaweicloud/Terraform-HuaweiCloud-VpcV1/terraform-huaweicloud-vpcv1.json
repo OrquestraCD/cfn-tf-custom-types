@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::VpcV1",
     "description": "Manages a VPC resource within HuaweiCloud.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-VpcV1/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

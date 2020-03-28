@@ -2,6 +2,7 @@
     "typeName": "Terraform::NewRelic::ApplicationLabel",
     "description": "CloudFormation equivalent of newrelic_application_label",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/newrelic/Terraform-NewRelic-ApplicationLabel/docs/README.md",
     "definitions": {
         "Links": {
             "type": "object",

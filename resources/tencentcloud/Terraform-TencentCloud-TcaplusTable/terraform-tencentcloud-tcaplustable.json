@@ -2,6 +2,7 @@
     "typeName": "Terraform::TencentCloud::TcaplusTable",
     "description": "Use this resource to create tcaplus table",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tencentcloud/Terraform-TencentCloud-TcaplusTable/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

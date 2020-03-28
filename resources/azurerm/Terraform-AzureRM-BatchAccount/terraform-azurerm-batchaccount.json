@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::BatchAccount",
     "description": "Manages an Azure Batch account.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-BatchAccount/docs/README.md",
     "definitions": {
         "KeyVaultReference": {
             "type": "object",

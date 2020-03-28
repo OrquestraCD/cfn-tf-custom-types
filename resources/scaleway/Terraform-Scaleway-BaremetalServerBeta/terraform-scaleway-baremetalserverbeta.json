@@ -2,6 +2,7 @@
     "typeName": "Terraform::Scaleway::BaremetalServerBeta",
     "description": "Creates and manages Scaleway Compute Baremetal servers. For more information, see [the documentation](https://developers.scaleway.com/en/products/baremetal/api).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/scaleway/Terraform-Scaleway-BaremetalServerBeta/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

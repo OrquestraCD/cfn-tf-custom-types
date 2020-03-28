@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::IotThing",
     "description": "Creates and manages an AWS IoT Thing.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-IotThing/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

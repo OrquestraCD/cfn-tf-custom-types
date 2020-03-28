@@ -2,6 +2,7 @@
     "typeName": "Terraform::TLS::SelfSignedCert",
     "description": "Generates a *self-signed* TLS certificate in PEM format, which is the typical\nformat used to configure TLS server software.\n\nSelf-signed certificates are generally not trusted by client software such\nas web browsers. Therefore clients are likely to generate trust warnings when\nconnecting to a server that has a self-signed certificate. Self-signed certificates\nare usually used only in development environments or apps deployed internally\nto an organization.\n\nThis resource is intended to be used in conjunction with a Terraform provider\nthat has a resource that requires a TLS certificate, such as:\n\n* ``aws_iam_server_certificate`` to register certificates for use with AWS *Elastic\nLoad Balancer*, *Elastic Beanstalk*, *CloudFront* or *OpsWorks*.\n\n* ``heroku_cert`` to register certificates for applications deployed on Heroku.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/tls/Terraform-TLS-SelfSignedCert/docs/README.md",
     "definitions": {
         "Subject": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::WaasHttpRedirect",
     "description": "This resource provides the Http Redirect resource in Oracle Cloud Infrastructure Web Application Acceleration and Security service.\n\nCreates a new HTTP Redirect on the WAF edge.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-WaasHttpRedirect/docs/README.md",
     "definitions": {
         "Target": {
             "type": "object",

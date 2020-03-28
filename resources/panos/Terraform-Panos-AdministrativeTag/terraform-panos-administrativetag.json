@@ -2,6 +2,7 @@
     "typeName": "Terraform::Panos::AdministrativeTag",
     "description": "This resource allows you to add/update/delete administrative tags.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/panos/Terraform-Panos-AdministrativeTag/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::LinuxVirtualMachineScaleSet",
     "description": "Manages a Linux Virtual Machine Scale Set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-LinuxVirtualMachineScaleSet/docs/README.md",
     "definitions": {
         "AdditionalCapabilities": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::PinpointGcmChannel",
     "description": "Provides a Pinpoint GCM Channel resource.\n\n~> **Note:** Api Key argument will be stored in the raw state as plain-text.\n[Read more about sensitive data in state](/docs/state/sensitive-data.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-PinpointGcmChannel/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

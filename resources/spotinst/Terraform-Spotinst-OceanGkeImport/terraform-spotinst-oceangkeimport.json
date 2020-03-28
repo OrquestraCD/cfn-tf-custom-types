@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::OceanGkeImport",
     "description": "Provides a Spotinst Ocean GKE import resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-OceanGkeImport/docs/README.md",
     "definitions": {
         "BackendServices": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Nutanix::VirtualMachine",
     "description": "Provides a Nutanix Virtual Machine resource to Create a virtual machine.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/nutanix/Terraform-Nutanix-VirtualMachine/docs/README.md",
     "definitions": {
         "Categories": {
             "type": "object",

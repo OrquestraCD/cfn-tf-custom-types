@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::AppmeshVirtualNode",
     "description": "Provides an AWS App Mesh virtual node resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-AppmeshVirtualNode/docs/README.md",
     "definitions": {
         "Spec": {
             "type": "object",

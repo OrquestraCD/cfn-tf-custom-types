@@ -2,6 +2,7 @@
     "typeName": "Terraform::CloudStack::LoadbalancerRule",
     "description": "Creates a loadbalancer rule.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudstack/Terraform-CloudStack-LoadbalancerRule/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

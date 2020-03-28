@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::ManagementLock",
     "description": "Manages a Management Lock which is scoped to a Subscription, Resource Group or Resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-ManagementLock/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

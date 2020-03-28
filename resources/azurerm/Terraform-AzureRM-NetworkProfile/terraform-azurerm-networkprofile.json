@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::NetworkProfile",
     "description": "Manages a Network Profile.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-NetworkProfile/docs/README.md",
     "definitions": {
         "ContainerNetworkInterface": {
             "type": "object",

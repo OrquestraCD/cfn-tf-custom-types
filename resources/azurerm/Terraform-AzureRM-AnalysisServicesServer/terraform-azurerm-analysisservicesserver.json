@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::AnalysisServicesServer",
     "description": "Manages an Analysis Services Server.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-AnalysisServicesServer/docs/README.md",
     "definitions": {
         "Ipv4FirewallRule": {
             "type": "object",
@@ -115,7 +116,7 @@
         },
         "Ipv4FirewallRule": {
             "type": "array",
-            "insertionOrder": false,
+            "insertionOrder": true,
             "items": {
                 "$ref": "#/definitions/Ipv4FirewallRule"
             }

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::DevTestPolicy",
     "description": "Manages a Policy within a Dev Test Policy Set.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-DevTestPolicy/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

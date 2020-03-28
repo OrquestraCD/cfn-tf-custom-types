@@ -2,6 +2,7 @@
     "typeName": "Terraform::Vault::AwsAuthBackendLogin",
     "description": "Logs into a Vault server using an AWS auth backend. Login can be\naccomplished using a signed identity request from IAM or using ec2\ninstance metadata. For more information, see the [Vault\ndocumentation](https://www.vaultproject.io/docs/auth/aws.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vault/Terraform-Vault-AwsAuthBackendLogin/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

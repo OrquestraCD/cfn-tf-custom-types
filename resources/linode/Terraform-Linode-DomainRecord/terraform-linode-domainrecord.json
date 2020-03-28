@@ -2,6 +2,7 @@
     "typeName": "Terraform::Linode::DomainRecord",
     "description": "CloudFormation equivalent of linode_domain_record",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/linode/Terraform-Linode-DomainRecord/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

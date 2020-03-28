@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::PlacementGroup",
     "description": "Provides an EC2 placement group. Read more about placement groups\nin [AWS Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-PlacementGroup/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

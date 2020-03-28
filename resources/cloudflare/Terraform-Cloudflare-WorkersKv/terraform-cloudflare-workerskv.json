@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::WorkersKv",
     "description": "Provides a Workers KV Pair.  *NOTE:*  This resource uses the Cloudflare account APIs.  This requires setting the `CLOUDFLARE_ACCOUNT_ID` environment variable or `account_id` provider argument.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-WorkersKv/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

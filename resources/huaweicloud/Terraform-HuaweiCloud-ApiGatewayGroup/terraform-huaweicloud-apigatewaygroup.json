@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::ApiGatewayGroup",
     "description": "Provides an API gateway group resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-ApiGatewayGroup/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

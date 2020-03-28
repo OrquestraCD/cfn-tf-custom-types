@@ -2,6 +2,7 @@
     "typeName": "Terraform::Cloudflare::LoadBalancerMonitor",
     "description": "If you're using Cloudflare's Load Balancing to load-balance across multiple origin servers or data centers, you configure one of these Monitors to actively check the availability of those servers over HTTP(S) or TCP.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/cloudflare/Terraform-Cloudflare-LoadBalancerMonitor/docs/README.md",
     "definitions": {
         "Header": {
             "type": "object",

@@ -14,7 +14,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "<a href="#port" title="Port">Port</a>" : <i>Double</i>,
     "<a href="#protocol" title="Protocol">Protocol</a>" : <i>String</i>,
     "<a href="#timeoutinseconds" title="TimeoutInSeconds">TimeoutInSeconds</a>" : <i>Double</i>,
-    "<a href="#toleratednumberoffailures" title="ToleratedNumberOfFailures">ToleratedNumberOfFailures</a>" : <i>Double</i>
+    "<a href="#toleratednumberoffailures" title="ToleratedNumberOfFailures">ToleratedNumberOfFailures</a>" : <i>Double</i>,
+    "<a href="#customheader" title="CustomHeader">CustomHeader</a>" : <i>[ <a href="monitorconfig-customheader.md">CustomHeader</a>, ... ]</i>
 }
 </pre>
 
@@ -29,6 +30,8 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 <a href="#protocol" title="Protocol">Protocol</a>: <i>String</i>
 <a href="#timeoutinseconds" title="TimeoutInSeconds">TimeoutInSeconds</a>: <i>Double</i>
 <a href="#toleratednumberoffailures" title="ToleratedNumberOfFailures">ToleratedNumberOfFailures</a>: <i>Double</i>
+<a href="#customheader" title="CustomHeader">CustomHeader</a>: <i>
+      - <a href="monitorconfig-customheader.md">CustomHeader</a></i>
 </pre>
 
 ## Properties
@@ -100,6 +103,14 @@ The number of failures a Traffic Manager probing agent tolerates before marking 
 _Required_: No
 
 _Type_: Double
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### CustomHeader
+
+_Required_: No
+
+_Type_: List of <a href="monitorconfig-customheader.md">CustomHeader</a>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 

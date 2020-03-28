@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureStack::StorageBlob",
     "description": "Manages an Azure Storage Blob.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurestack/Terraform-AzureStack-StorageBlob/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

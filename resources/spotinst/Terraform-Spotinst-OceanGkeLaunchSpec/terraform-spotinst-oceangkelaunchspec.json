@@ -2,6 +2,7 @@
     "typeName": "Terraform::Spotinst::OceanGkeLaunchSpec",
     "description": "Provides a custom Spotinst Ocean GKE Launch Spec resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/spotinst/Terraform-Spotinst-OceanGkeLaunchSpec/docs/README.md",
     "definitions": {
         "AutoscaleHeadrooms": {
             "type": "object",

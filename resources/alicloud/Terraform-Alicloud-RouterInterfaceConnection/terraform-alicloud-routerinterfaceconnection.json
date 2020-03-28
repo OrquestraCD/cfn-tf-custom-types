@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::RouterInterfaceConnection",
     "description": "Provides a VPC router interface connection resource to connect two router interfaces which are in two different VPCs.\nAfter that, all of the two router interfaces will be active.\n\n-> **NOTE:** At present, Router interface does not support changing opposite router interface, the connection delete action is only deactivating it to inactive, not modifying the connection to empty.\n\n-> **NOTE:** If you want to changing opposite router interface, you can delete router interface and re-build them.\n\n-> **NOTE:** A integrated router interface connection tunnel requires both InitiatingSide and AcceptingSide configuring opposite router interface.\n\n-> **NOTE:** Please remember to add a `depends_on` clause in the router interface connection from the InitiatingSide to the AcceptingSide, because the connection from the AcceptingSide to the InitiatingSide must be done first.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-RouterInterfaceConnection/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

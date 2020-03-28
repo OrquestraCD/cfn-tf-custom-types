@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::OpsworksStaticWebLayer",
     "description": "Provides an OpsWorks static web server layer resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-OpsworksStaticWebLayer/docs/README.md",
     "definitions": {
         "EbsVolume": {
             "type": "object",

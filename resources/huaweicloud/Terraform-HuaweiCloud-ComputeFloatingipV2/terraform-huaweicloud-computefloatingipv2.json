@@ -2,6 +2,7 @@
     "typeName": "Terraform::HuaweiCloud::ComputeFloatingipV2",
     "description": "Manages a V2 floating IP resource within HuaweiCloud Nova (compute)\nthat can be used for compute instances.\n\nPlease note that managing floating IPs through the HuaweiCloud Compute API has\nbeen deprecated. Unless you are using an older HuaweiCloud environment, it is\nrecommended to use the [`huaweicloud_networking_floatingip_v2`](networking_floatingip_v2.html)\nresource instead, which uses the HuaweiCloud Networking API.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/huaweicloud/Terraform-HuaweiCloud-ComputeFloatingipV2/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

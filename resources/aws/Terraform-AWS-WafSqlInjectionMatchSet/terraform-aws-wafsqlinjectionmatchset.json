@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::WafSqlInjectionMatchSet",
     "description": "Provides a WAF SQL Injection Match Set Resource",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-WafSqlInjectionMatchSet/docs/README.md",
     "definitions": {
         "SqlInjectionMatchTuples": {
             "type": "object",

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::Vpc",
     "description": "Provides a VPC resource.\n\n-> **NOTE:** Terraform will auto build a router and a route table while it uses `alicloud_vpc` to build a vpc resource.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-Vpc/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::RuntimeconfigConfig",
     "description": "Manages a RuntimeConfig resource in Google Cloud. For more information, see the\n[official documentation](https://cloud.google.com/deployment-manager/runtime-configurator/),\nor the\n[JSON API](https://cloud.google.com/deployment-manager/runtime-configurator/reference/rest/).",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-RuntimeconfigConfig/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

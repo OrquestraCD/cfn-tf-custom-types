@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::BackupProtectedFileShare",
     "description": "Manages an Azure Backup Protected File Share to enable backups for file shares within an Azure Storage Account\n\n-> **NOTE:** Azure Backup for Azure File Shares is currently in public preview. During the preview, the service is subject to additional limitations and unsupported backup scenarios. [Read More](https://docs.microsoft.com/en-us/azure/backup/backup-azure-files#limitations-for-azure-file-share-backup-during-preview)\n\n-> **NOTE** Azure Backup for Azure File Shares does not support Soft Delete at this time. Deleting this resource will also delete all associated backup data. Please exercise caution. Consider using [`prevent_destroy`](https://www.terraform.io/docs/configuration/resources.html#prevent_destroy) to guard against accidental deletion.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-BackupProtectedFileShare/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

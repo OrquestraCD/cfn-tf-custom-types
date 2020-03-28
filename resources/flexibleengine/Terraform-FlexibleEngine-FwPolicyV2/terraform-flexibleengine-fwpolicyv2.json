@@ -2,6 +2,7 @@
     "typeName": "Terraform::FlexibleEngine::FwPolicyV2",
     "description": "Manages a v2 firewall policy resource within FlexibleEngine.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/flexibleengine/Terraform-FlexibleEngine-FwPolicyV2/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

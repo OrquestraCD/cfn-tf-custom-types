@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::EbsDefaultKmsKey",
     "description": "Provides a resource to manage the default customer master key (CMK) that your AWS account uses to encrypt EBS volumes.\n\nYour AWS account has an AWS-managed default CMK that is used for encrypting an EBS volume when no CMK is specified in the API call that creates the volume.\nBy using the `aws_ebs_default_kms_key` resource, you can specify a customer-managed CMK to use in place of the AWS-managed default CMK.\n\n~> **NOTE:** Creating an `aws_ebs_default_kms_key` resource does not enable default EBS encryption. Use the [`aws_ebs_encryption_by_default`](ebs_encryption_by_default.html) to enable default EBS encryption.\n\n~> **NOTE:** Destroying this resource will reset the default CMK to the account's AWS-managed default CMK for EBS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-EbsDefaultKmsKey/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

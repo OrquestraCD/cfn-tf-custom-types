@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::OsmanagementSoftwareSource",
     "description": "This resource provides the Software Source resource in Oracle Cloud Infrastructure Osmanagement service.\n\nCreates a new custom Software Source on the management system.\nThis will not contain any packages after it is first created,\nand they must be added later.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-OsmanagementSoftwareSource/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

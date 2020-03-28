@@ -2,6 +2,7 @@
     "typeName": "Terraform::GitHub::RepositoryWebhook",
     "description": "This resource allows you to create and manage webhooks for repositories within your\nGitHub organization.\n\nThis resource cannot currently be used to manage webhooks for *personal* repositories,\noutside of organizations.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/github/Terraform-GitHub-RepositoryWebhook/docs/README.md",
     "definitions": {
         "Configuration": {
             "type": "object",

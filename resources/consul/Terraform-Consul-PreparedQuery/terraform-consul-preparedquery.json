@@ -2,6 +2,7 @@
     "typeName": "Terraform::Consul::PreparedQuery",
     "description": "Allows Terraform to manage a Consul prepared query.\n\nManaging prepared queries is done using Consul's REST API. This resource is\nuseful to provide a consistent and declarative way of managing prepared\nqueries in your Consul cluster using Terraform.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/consul/Terraform-Consul-PreparedQuery/docs/README.md",
     "definitions": {
         "Dns": {
             "type": "object",

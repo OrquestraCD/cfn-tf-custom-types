@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::VappNetwork",
     "description": "Allows to provision a vApp network and optionally connect it to an existing Org VDC network.\n\nSupported in provider *v2.1+*",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-VappNetwork/docs/README.md",
     "definitions": {
         "DhcpPool": {
             "type": "object",

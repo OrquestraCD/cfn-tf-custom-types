@@ -2,6 +2,7 @@
     "typeName": "Terraform::Kubernetes::ClusterRoleBinding",
     "description": "A ClusterRoleBinding may be used to grant permission at the cluster level and in all namespaces",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/kubernetes/Terraform-Kubernetes-ClusterRoleBinding/docs/README.md",
     "definitions": {
         "Metadata": {
             "type": "object",

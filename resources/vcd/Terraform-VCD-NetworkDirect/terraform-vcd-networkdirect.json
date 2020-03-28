@@ -2,6 +2,7 @@
     "typeName": "Terraform::VCD::NetworkDirect",
     "description": "Provides a vCloud Director Org VDC Network directly connected to an external network. This can be used to create,\nmodify, and delete internal networks for vApps to connect.\n\nSupported in provider *v2.0+*\n\n~> **Note:** Only `System Administrator` can create an organization virtual datacenter network that connects\ndirectly to an external network. You must use `System Adminstrator` account in `provider` configuration\nand then provide `org` and `vdc` arguments for direct networks to work.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/vcd/Terraform-VCD-NetworkDirect/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

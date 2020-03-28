@@ -2,6 +2,7 @@
     "typeName": "Terraform::Google::ComputeInterconnectAttachment",
     "description": "Represents an InterconnectAttachment (VLAN attachment) resource. For more\ninformation, see Creating VLAN Attachments.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/Terraform-Google-ComputeInterconnectAttachment/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

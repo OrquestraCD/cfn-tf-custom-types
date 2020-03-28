@@ -2,6 +2,7 @@
     "typeName": "Terraform::Alicloud::DbDatabase",
     "description": "Provides an RDS database resource. A DB database deployed in a DB instance. A DB instance can own multiple databases.\n\n-> **NOTE:** This resource does not support creating 'PPAS' database. You have to login RDS instance to create manually.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/alicloud/Terraform-Alicloud-DbDatabase/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {

@@ -2,6 +2,7 @@
     "typeName": "Terraform::OCI::AuditConfiguration",
     "description": "This resource provides the Configuration resource in Oracle Cloud Infrastructure Audit service.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/oci/Terraform-OCI-AuditConfiguration/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

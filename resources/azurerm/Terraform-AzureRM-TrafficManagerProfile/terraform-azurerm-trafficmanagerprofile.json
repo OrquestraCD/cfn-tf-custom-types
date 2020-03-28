@@ -2,6 +2,7 @@
     "typeName": "Terraform::AzureRM::TrafficManagerProfile",
     "description": "Manages a Traffic Manager Profile to which multiple endpoints can be attached.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/azurerm/Terraform-AzureRM-TrafficManagerProfile/docs/README.md",
     "definitions": {
         "DnsConfig": {
             "type": "object",
@@ -56,6 +57,13 @@
                 "ToleratedNumberOfFailures": {
                     "type": "number",
                     "description": "The number of failures a Traffic Manager probing agent tolerates before marking that endpoint as unhealthy. Valid values are between `0` and `9`. The default value is `3`."
+                },
+                "CustomHeader": {
+                    "type": "array",
+                    "insertionOrder": true,
+                    "items": {
+                        "$ref": "#/definitions/CustomHeader"
+                    }
                 }
             },
             "required": [
@@ -81,6 +89,24 @@
                 }
             },
             "required": []
+        },
+        "CustomHeader": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Name": {
+                    "type": "string",
+                    "description": "The name of the custom header."
+                },
+                "Value": {
+                    "type": "string",
+                    "description": "The value of custom header. Applicable for Http and Https protocol."
+                }
+            },
+            "required": [
+                "Name",
+                "Value"
+            ]
         }
     },
     "properties": {
@@ -151,6 +177,13 @@
         },
         "Timeouts": {
             "$ref": "#/definitions/Timeouts"
+        },
+        "CustomHeader": {
+            "type": "array",
+            "insertionOrder": false,
+            "items": {
+                "$ref": "#/definitions/CustomHeader"
+            }
         }
     },
     "additionalProperties": false,

@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DbSecurityGroup",
     "description": "Provides an RDS security group resource. This is only for DB instances in the\nEC2-Classic Platform. For instances inside a VPC, use the\n[`aws_db_instance.vpc_security_group_ids`](/docs/providers/aws/r/db_instance.html#vpc_security_group_ids)\nattribute instead.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DbSecurityGroup/docs/README.md",
     "definitions": {
         "Ingress": {
             "type": "object",

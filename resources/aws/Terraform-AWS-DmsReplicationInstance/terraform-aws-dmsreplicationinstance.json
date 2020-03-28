@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::DmsReplicationInstance",
     "description": "Provides a DMS (Data Migration Service) replication instance resource. DMS replication instances can be created, updated, deleted, and imported.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-DmsReplicationInstance/docs/README.md",
     "definitions": {
         "Timeouts": {
             "type": "object",

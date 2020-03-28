@@ -2,6 +2,7 @@
     "typeName": "Terraform::AWS::FlowLog",
     "description": "Provides a VPC/Subnet/ENI Flow Log to capture IP traffic for a specific network\ninterface, subnet, or VPC. Logs are sent to a CloudWatch Log Group or a S3 Bucket.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/aws/Terraform-AWS-FlowLog/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {
@@ -34,6 +35,10 @@
         "LogGroupName": {
             "type": "string",
             "description": "*Deprecated:* Use `log_destination` instead. The name of the CloudWatch log group."
+        },
+        "MaxAggregationInterval": {
+            "type": "number",
+            "description": "The maximum interval of time\nduring which a flow of packets is captured and aggregated into a flow\nlog record. Valid Values: `60` seconds (1 minute) or `600` seconds (10\nminutes). Default: `600`."
         },
         "SubnetId": {
             "type": "string",

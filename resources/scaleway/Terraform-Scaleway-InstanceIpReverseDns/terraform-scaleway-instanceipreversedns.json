@@ -2,6 +2,7 @@
     "typeName": "Terraform::Scaleway::InstanceIpReverseDns",
     "description": "Manages Scaleway Compute Instance IPs Reverse DNS.",
     "sourceUrl": "https://github.com/iann0036/cfn-tf-custom-types.git",
+    "documentationUrl": "https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/scaleway/Terraform-Scaleway-InstanceIpReverseDns/docs/README.md",
     "definitions": {},
     "properties": {
         "tfcfnid": {
