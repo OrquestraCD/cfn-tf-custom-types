@@ -546,29 +546,44 @@
     "handlers": {
         "create": {
             "permissions": [
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:GetObject",
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "read": {
-            "permissions": []
+            "permissions": [
+                "s3:GetObject"
+            ]
         },
         "update": {
             "permissions": [
                 "s3:GetObject",
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "delete": {
             "permissions": [
                 "s3:GetObject",
                 "s3:DeleteObject",
-                "secretsmanager:GetSecretValue"
+                "lambda:InvokeFunction"
             ]
         },
         "list": {
             "permissions": []
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/definitions/Certificate/CertificatePassword",
+        "/definitions/Certificate/EncodedCertificate",
+        "/definitions/Management/Certificate",
+        "/definitions/Management/CertificatePassword",
+        "/definitions/Portal/Certificate",
+        "/definitions/Portal/CertificatePassword",
+        "/definitions/Proxy/Certificate",
+        "/definitions/Proxy/CertificatePassword",
+        "/definitions/Scm/Certificate",
+        "/definitions/Scm/CertificatePassword"
+    ]
 }

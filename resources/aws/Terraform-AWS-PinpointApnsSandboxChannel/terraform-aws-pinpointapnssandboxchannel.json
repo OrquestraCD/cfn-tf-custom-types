@@ -86,5 +86,13 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/BundleId",
+        "/properties/Certificate",
+        "/properties/PrivateKey",
+        "/properties/TeamId",
+        "/properties/TokenKey",
+        "/properties/TokenKeyId"
+    ]
 }

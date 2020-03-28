@@ -63,5 +63,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/ApiKey"
+    ]
 }

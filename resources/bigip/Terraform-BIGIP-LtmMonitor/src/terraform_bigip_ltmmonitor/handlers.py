@@ -1,4 +1,7 @@
 import logging
+import json
+import os
+from uuid import uuid4
 from typing import Any, MutableMapping, Optional
 
 from cloudformation_cli_python_lib import (
@@ -21,6 +24,46 @@ resource = Resource(TYPE_NAME, ResourceModel)
 test_entrypoint = resource.test_entrypoint
 
 
+def check_progress(operationid, trackingid, progress, session):
+    LOG.warn("Retrieving existing operation status ({})".format(operationid))
+
+    s3client = session.client('s3')
+    stsclient = session.client('sts')
+    
+    callerid = stsclient.get_caller_identity()
+    statebucketname = "cfntf-{}-{}".format(os.environ['AWS_REGION'], callerid.get('Account'))
+
+    try:
+        result = json.loads(s3client.get_object(Bucket=statebucketname, Key="status/{}.json".format(operationid))['Body'].read())
+        s3client.delete_object(Bucket=statebucketname, Key="status/{}.json".format(operationid))
+
+        if result['status'] == 'completed':
+            progress.status = OperationStatus.SUCCESS
+
+            # retrieve model
+            try:
+                model_state = json.loads(s3client.get_object(Bucket=statebucketname, Key="state/{}.model.json".format(trackingid))['Body'].read())
+                
+                for k,v in model_state.items():
+                    setattr(progress.resourceModel, k, v)
+            except Exception as e:
+                LOG.warn(str(e))
+
+            LOG.warn("Action complete")
+        else:
+            progress.status = OperationStatus.FAILED
+            if 'error' in result:
+                progress.message = result['error']
+    except:
+        progress.callbackDelaySeconds = 20
+        progress.callbackContext = {
+            'trackingid': trackingid,
+            'operationid': operationid,
+        }
+    
+    return progress
+
+
 @resource.handler(Action.CREATE)
 def create_handler(
     session: Optional[SessionProxy],
@@ -32,19 +75,48 @@ def create_handler(
         status=OperationStatus.IN_PROGRESS,
         resourceModel=model,
     )
-    # TODO: put code here
 
-    # Example:
+    if callback_context.get('operationid'):
+        return check_progress(callback_context.get('operationid'), callback_context.get('trackingid'), progress, session)
+
+    LOG.warn("Starting create action")
+    
     try:
-        if isinstance(session, SessionProxy):
-            client = session.client("s3")
-        # Setting Status to success will signal to cfn that the operation is complete
-        progress.status = OperationStatus.SUCCESS
-    except TypeError as e:
-        # exceptions module lets CloudFormation know the type of failure that occurred
-        raise exceptions.InternalFailure(f"was not expecting type {e}")
-        # this can also be done by returning a failed progress event
-        # return ProgressEvent.failed(HandlerErrorCode.InternalFailure, f"was not expecting type {e}")
+        lambdaclient = session.client("lambda")
+
+        trackingid = str(uuid4())
+        operationid = str(uuid4())
+
+        resolved_model = None
+        if model: # potentially no properties set
+            resolved_model = {}
+            for prop, value in vars(model).items():
+                resolved_model[prop] = value
+        
+        lambdaclient.invoke(
+            FunctionName="cfntf-executor",
+            InvocationType="Event",
+            Payload=json.dumps({
+                'action': 'CREATE',
+                'trackingId': trackingid,
+                'operationId': operationid,
+                'model': resolved_model,
+                'logicalId': request.logicalResourceIdentifier,
+                'providerTypeName': 'bigip',
+                'terraformTypeName': 'bigip_ltm_monitor',
+                'returnValues': ["Id"],
+            }).encode(),
+        )
+
+        progress.resourceModel.tfcfnid = trackingid
+        progress.callbackDelaySeconds = 20
+        progress.callbackContext = {
+            'trackingid': trackingid,
+            'operationid': operationid,
+        }
+    except Exception as e:
+        progress.message = str(e)
+        progress.status = OperationStatus.FAILED
     return progress
 
 
@@ -59,7 +131,48 @@ def update_handler(
         status=OperationStatus.IN_PROGRESS,
         resourceModel=model,
     )
-    # TODO: put code here
+
+    if callback_context.get('operationid'):
+        return check_progress(callback_context.get('operationid'), callback_context.get('trackingid'), progress, session)
+
+    LOG.warn("Starting update action")
+    
+    try:
+        lambdaclient = session.client("lambda")
+
+        trackingid = model.tfcfnid
+        operationid = str(uuid4())
+        
+        resolved_model = None
+        if model: # potentially no properties set
+            resolved_model = {}
+            for prop, value in vars(model).items():
+                resolved_model[prop] = value
+        
+        lambdaclient.invoke(
+            FunctionName="cfntf-executor",
+            InvocationType="Event",
+            Payload=json.dumps({
+                'action': 'UPDATE',
+                'trackingId': trackingid,
+                'operationId': operationid,
+                'model': resolved_model,
+                'logicalId': request.logicalResourceIdentifier,
+                'providerTypeName': 'bigip',
+                'terraformTypeName': 'bigip_ltm_monitor',
+                'returnValues': ["Id"],
+            }).encode(),
+        )
+
+        progress.resourceModel.tfcfnid = trackingid
+        progress.callbackDelaySeconds = 20
+        progress.callbackContext = {
+            'trackingid': trackingid,
+            'operationid': operationid,
+        }
+    except Exception as e:
+        progress.message = str(e)
+        progress.status = OperationStatus.FAILED
     return progress
 
 
@@ -74,7 +187,48 @@ def delete_handler(
         status=OperationStatus.IN_PROGRESS,
         resourceModel=model,
     )
-    # TODO: put code here
+
+    if callback_context.get('operationid'):
+        return check_progress(callback_context.get('operationid'), callback_context.get('trackingid'), progress, session)
+
+    LOG.warn("Starting delete action")
+    
+    try:
+        lambdaclient = session.client("lambda")
+
+        trackingid = model.tfcfnid
+        operationid = str(uuid4())
+        
+        resolved_model = None
+        if model: # potentially no properties set
+            resolved_model = {}
+            for prop, value in vars(model).items():
+                resolved_model[prop] = value
+        
+        lambdaclient.invoke(
+            FunctionName="cfntf-executor",
+            InvocationType="Event",
+            Payload=json.dumps({
+                'action': 'DELETE',
+                'trackingId': trackingid,
+                'operationId': operationid,
+                'model': resolved_model,
+                'logicalId': request.logicalResourceIdentifier,
+                'providerTypeName': 'bigip',
+                'terraformTypeName': 'bigip_ltm_monitor',
+                'returnValues': ["Id"],
+            }).encode(),
+        )
+
+        progress.resourceModel.tfcfnid = trackingid
+        progress.callbackDelaySeconds = 20
+        progress.callbackContext = {
+            'trackingid': trackingid,
+            'operationid': operationid,
+        }
+    except Exception as e:
+        progress.message = str(e)
+        progress.status = OperationStatus.FAILED
     return progress
 
 
@@ -85,9 +239,29 @@ def read_handler(
     callback_context: MutableMapping[str, Any],
 ) -> ProgressEvent:
     model = request.desiredResourceState
-    # TODO: put code here
+
+    s3client = session.client('s3')
+    stsclient = session.client('sts')
+    
+    callerid = stsclient.get_caller_identity()
+    statebucketname = "cfntf-{}-{}".format(os.environ['AWS_REGION'], callerid.get('Account'))
+    
+    # retrieve model
+    try:
+        model_state = json.loads(s3client.get_object(Bucket=statebucketname, Key="state/{}.model.json".format(model.tfcfnid))['Body'].read())
+        
+        for k,v in model_state.items():
+            setattr(model, k, v)
+        
+        return ProgressEvent(
+            status=OperationStatus.SUCCESS,
+            resourceModel=model,
+        )
+    except Exception as e:
+        LOG.warn(str(e))
+
     return ProgressEvent(
-        status=OperationStatus.SUCCESS,
+        status=OperationStatus.FAILED,
         resourceModel=model,
     )
 

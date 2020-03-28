@@ -351,5 +351,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/definitions/AuthenticateOidc/ClientSecret"
+    ]
 }

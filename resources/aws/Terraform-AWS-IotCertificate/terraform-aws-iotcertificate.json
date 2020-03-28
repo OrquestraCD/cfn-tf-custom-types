@@ -74,5 +74,10 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/CertificatePem",
+        "/properties/PrivateKey",
+        "/properties/PublicKey"
+    ]
 }

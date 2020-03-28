@@ -1,6 +1,8 @@
 # Terraform::BIGIP::LtmMonitor
 
-An example resource schema demonstrating some basic constructs and validation rules.
+`bigip_ltm_monitor` Configures a custom monitor for use by health checks.
+
+For resources should be named with their "full path". The full path is the combination of the partition + name of the resource. For example /Common/my-pool.
 
 ## Syntax
 
@@ -12,14 +14,28 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 {
     "Type" : "Terraform::BIGIP::LtmMonitor",
     "Properties" : {
-        "<a href="#title" title="Title">Title</a>" : <i>String</i>,
-        "<a href="#coversheetincluded" title="CoverSheetIncluded">CoverSheetIncluded</a>" : <i>Boolean</i>,
-        "<a href="#duedate" title="DueDate">DueDate</a>" : <i>String</i>,
-        "<a href="#approvaldate" title="ApprovalDate">ApprovalDate</a>" : <i>String</i>,
-        "<a href="#memo" title="Memo">Memo</a>" : <i><a href="secondcopyofmemo.md">SecondCopyOfMemo</a></i>,
-        "<a href="#secondcopyofmemo" title="SecondCopyOfMemo">SecondCopyOfMemo</a>" : <i><a href="secondcopyofmemo.md">SecondCopyOfMemo</a></i>,
-        "<a href="#testcode" title="TestCode">TestCode</a>" : <i>String</i>,
-        "<a href="#authors" title="Authors">Authors</a>" : <i>[ String, ... ]</i>
+        "<a href="#adaptive" title="Adaptive">Adaptive</a>" : <i>String</i>,
+        "<a href="#adaptivelimit" title="AdaptiveLimit">AdaptiveLimit</a>" : <i>Double</i>,
+        "<a href="#compatibility" title="Compatibility">Compatibility</a>" : <i>String</i>,
+        "<a href="#database" title="Database">Database</a>" : <i>String</i>,
+        "<a href="#defaultsfrom" title="DefaultsFrom">DefaultsFrom</a>" : <i>String</i>,
+        "<a href="#destination" title="Destination">Destination</a>" : <i>String</i>,
+        "<a href="#filename" title="Filename">Filename</a>" : <i>String</i>,
+        "<a href="#interval" title="Interval">Interval</a>" : <i>Double</i>,
+        "<a href="#ipdscp" title="IpDscp">IpDscp</a>" : <i>Double</i>,
+        "<a href="#manualresume" title="ManualResume">ManualResume</a>" : <i>String</i>,
+        "<a href="#mode" title="Mode">Mode</a>" : <i>String</i>,
+        "<a href="#name" title="Name">Name</a>" : <i>String</i>,
+        "<a href="#parent" title="Parent">Parent</a>" : <i>String</i>,
+        "<a href="#password" title="Password">Password</a>" : <i>String</i>,
+        "<a href="#receive" title="Receive">Receive</a>" : <i>String</i>,
+        "<a href="#receivedisable" title="ReceiveDisable">ReceiveDisable</a>" : <i>String</i>,
+        "<a href="#reverse" title="Reverse">Reverse</a>" : <i>String</i>,
+        "<a href="#send" title="Send">Send</a>" : <i>String</i>,
+        "<a href="#timeuntilup" title="TimeUntilUp">TimeUntilUp</a>" : <i>Double</i>,
+        "<a href="#timeout" title="Timeout">Timeout</a>" : <i>Double</i>,
+        "<a href="#transparent" title="Transparent">Transparent</a>" : <i>String</i>,
+        "<a href="#username" title="Username">Username</a>" : <i>String</i>
     }
 }
 </pre>
@@ -29,90 +45,229 @@ To declare this entity in your AWS CloudFormation template, use the following sy
 <pre>
 Type: Terraform::BIGIP::LtmMonitor
 Properties:
-    <a href="#title" title="Title">Title</a>: <i>String</i>
-    <a href="#coversheetincluded" title="CoverSheetIncluded">CoverSheetIncluded</a>: <i>Boolean</i>
-    <a href="#duedate" title="DueDate">DueDate</a>: <i>String</i>
-    <a href="#approvaldate" title="ApprovalDate">ApprovalDate</a>: <i>String</i>
-    <a href="#memo" title="Memo">Memo</a>: <i><a href="secondcopyofmemo.md">SecondCopyOfMemo</a></i>
-    <a href="#secondcopyofmemo" title="SecondCopyOfMemo">SecondCopyOfMemo</a>: <i><a href="secondcopyofmemo.md">SecondCopyOfMemo</a></i>
-    <a href="#testcode" title="TestCode">TestCode</a>: <i>String</i>
-    <a href="#authors" title="Authors">Authors</a>: <i>
-      - String</i>
+    <a href="#adaptive" title="Adaptive">Adaptive</a>: <i>String</i>
+    <a href="#adaptivelimit" title="AdaptiveLimit">AdaptiveLimit</a>: <i>Double</i>
+    <a href="#compatibility" title="Compatibility">Compatibility</a>: <i>String</i>
+    <a href="#database" title="Database">Database</a>: <i>String</i>
+    <a href="#defaultsfrom" title="DefaultsFrom">DefaultsFrom</a>: <i>String</i>
+    <a href="#destination" title="Destination">Destination</a>: <i>String</i>
+    <a href="#filename" title="Filename">Filename</a>: <i>String</i>
+    <a href="#interval" title="Interval">Interval</a>: <i>Double</i>
+    <a href="#ipdscp" title="IpDscp">IpDscp</a>: <i>Double</i>
+    <a href="#manualresume" title="ManualResume">ManualResume</a>: <i>String</i>
+    <a href="#mode" title="Mode">Mode</a>: <i>String</i>
+    <a href="#name" title="Name">Name</a>: <i>String</i>
+    <a href="#parent" title="Parent">Parent</a>: <i>String</i>
+    <a href="#password" title="Password">Password</a>: <i>String</i>
+    <a href="#receive" title="Receive">Receive</a>: <i>String</i>
+    <a href="#receivedisable" title="ReceiveDisable">ReceiveDisable</a>: <i>String</i>
+    <a href="#reverse" title="Reverse">Reverse</a>: <i>String</i>
+    <a href="#send" title="Send">Send</a>: <i>String</i>
+    <a href="#timeuntilup" title="TimeUntilUp">TimeUntilUp</a>: <i>Double</i>
+    <a href="#timeout" title="Timeout">Timeout</a>: <i>Double</i>
+    <a href="#transparent" title="Transparent">Transparent</a>: <i>String</i>
+    <a href="#username" title="Username">Username</a>: <i>String</i>
 </pre>
 
 ## Properties
 
-#### Title
+#### Adaptive
 
-The title of the TPS report is a mandatory element.
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### AdaptiveLimit
+
+_Required_: No
+
+_Type_: Double
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Compatibility
+
+Specifies, when enabled, that the SSL options setting (in OpenSSL) is set to ALL. Accepts 'enabled' or 'disabled' values, the default value is 'enabled'.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Database
+
+Specifies the database in which the user is created.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### DefaultsFrom
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Destination
+
+Specify an alias address for monitoring.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Filename
+
+Specifies the full path and file name of the file that the system attempts to download. The health check is successful if the system can download the file.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Interval
+
+Check interval in seconds.
+
+_Required_: No
+
+_Type_: Double
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### IpDscp
+
+_Required_: No
+
+_Type_: Double
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### ManualResume
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Mode
+
+Specifies the data transfer process (DTP) mode. The default value is passive. The options are passive (Specifies that the monitor sends a data transfer request to the FTP server. When the FTP server receives the request, the FTP server then initiates and establishes the data connection.) and active (Specifies that the monitor initiates and establishes the data connection with the FTP server.).
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Name
 
 _Required_: Yes
 
 _Type_: String
 
-_Minimum_: <code>20</code>
-
-_Maximum_: <code>250</code>
-
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
-#### CoverSheetIncluded
+#### Parent
 
-Required for all TPS Reports submitted after 2/19/1999
-
-_Required_: No
-
-_Type_: Boolean
-
-_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
-
-#### DueDate
-
-_Required_: No
-
-_Type_: String
-
-_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
-
-#### ApprovalDate
-
-_Required_: No
-
-_Type_: String
-
-_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
-
-#### Memo
-
-_Required_: No
-
-_Type_: <a href="secondcopyofmemo.md">SecondCopyOfMemo</a>
-
-_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
-
-#### SecondCopyOfMemo
-
-_Required_: No
-
-_Type_: <a href="secondcopyofmemo.md">SecondCopyOfMemo</a>
-
-_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
-
-#### TestCode
+Existing LTM monitor to inherit from.
 
 _Required_: Yes
 
 _Type_: String
 
-_Allowed Values_: <code>NOT_STARTED</code> | <code>CANCELLED</code>
-
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
-#### Authors
+#### Password
+
+Specifies the password if the monitored target requires authentication.
 
 _Required_: No
 
-_Type_: List of String
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Receive
+
+Expected response string.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### ReceiveDisable
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Reverse
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Send
+
+Request string to send.
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### TimeUntilUp
+
+_Required_: No
+
+_Type_: Double
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Timeout
+
+Timeout in seconds.
+
+_Required_: No
+
+_Type_: Double
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Transparent
+
+_Required_: No
+
+_Type_: String
+
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
+
+#### Username
+
+Specifies the user name if the monitored target requires authentication.
+
+_Required_: No
+
+_Type_: String
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
@@ -120,7 +275,7 @@ _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormati
 
 ### Ref
 
-When you pass the logical ID of this resource to the intrinsic `Ref` function, Ref returns the TPSCode.
+When you pass the logical ID of this resource to the intrinsic `Ref` function, Ref returns the tfcfnid.
 
 ### Fn::GetAtt
 
@@ -128,7 +283,11 @@ The `Fn::GetAtt` intrinsic function returns a value for a specified attribute of
 
 For more information about using the `Fn::GetAtt` intrinsic function, see [Fn::GetAtt](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html).
 
-#### TPSCode
+#### tfcfnid
 
-A TPS Code is automatically generated on creation and assigned as the unique identifier.
+Internal identifier for tracking resource changes. Do not use.
+
+#### Id
+
+Returns the <code>Id</code> value.
 

@@ -963,5 +963,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/definitions/RedshiftConfiguration/Password"
+    ]
 }

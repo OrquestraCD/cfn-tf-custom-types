@@ -144,5 +144,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/definitions/AuthenticationConfiguration/SecretToken"
+    ]
 }

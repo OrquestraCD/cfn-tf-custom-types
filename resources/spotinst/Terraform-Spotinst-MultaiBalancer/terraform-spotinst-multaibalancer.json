@@ -44,8 +44,7 @@
             "insertionOrder": false,
             "items": {
                 "type": "string"
-            },
-            "description": null
+            }
         },
         "Id": {
             "type": "string"
@@ -55,8 +54,7 @@
             "description": "The balancer name. May contain only alphanumeric characters or hyphens, and must not begin or end with a hyphen."
         },
         "Scheme": {
-            "type": "string",
-            "description": null
+            "type": "string"
         },
         "ConnectionTimeouts": {
             "type": "array",
@@ -88,25 +86,28 @@
     "handlers": {
         "create": {
             "permissions": [
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:GetObject",
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "read": {
-            "permissions": []
+            "permissions": [
+                "s3:GetObject"
+            ]
         },
         "update": {
             "permissions": [
                 "s3:GetObject",
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "delete": {
             "permissions": [
                 "s3:GetObject",
                 "s3:DeleteObject",
-                "secretsmanager:GetSecretValue"
+                "lambda:InvokeFunction"
             ]
         },
         "list": {

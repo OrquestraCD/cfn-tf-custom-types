@@ -170,29 +170,47 @@
     "handlers": {
         "create": {
             "permissions": [
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:GetObject",
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "read": {
-            "permissions": []
+            "permissions": [
+                "s3:GetObject"
+            ]
         },
         "update": {
             "permissions": [
                 "s3:GetObject",
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "delete": {
             "permissions": [
                 "s3:GetObject",
                 "s3:DeleteObject",
-                "secretsmanager:GetSecretValue"
+                "lambda:InvokeFunction"
             ]
         },
         "list": {
             "permissions": []
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/Configuration",
+        "/definitions/Config/ApiKey",
+        "/definitions/Config/AuthPassword",
+        "/definitions/Config/AuthType",
+        "/definitions/Config/BaseUrl",
+        "/definitions/Config/Headers",
+        "/definitions/Config/HeadersString",
+        "/definitions/Config/Key",
+        "/definitions/Config/Payload",
+        "/definitions/Config/PayloadString",
+        "/definitions/Config/RouteKey",
+        "/definitions/Config/ServiceKey",
+        "/definitions/Config/Url"
+    ]
 }

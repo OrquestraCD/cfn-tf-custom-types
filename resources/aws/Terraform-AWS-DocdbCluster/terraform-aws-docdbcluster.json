@@ -211,5 +211,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/MasterPassword"
+    ]
 }

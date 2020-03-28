@@ -50,8 +50,7 @@
             "description": "- Custom domain of the site, must be configured using a CNAME in accordance with [Netlify's docs](https://www.netlify.com/docs/custom-domains). (e.g. `www.example.com`)."
         },
         "DeployUrl": {
-            "type": "string",
-            "description": null
+            "type": "string"
         },
         "Id": {
             "type": "string"
@@ -83,25 +82,28 @@
     "handlers": {
         "create": {
             "permissions": [
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:GetObject",
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "read": {
-            "permissions": []
+            "permissions": [
+                "s3:GetObject"
+            ]
         },
         "update": {
             "permissions": [
                 "s3:GetObject",
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "delete": {
             "permissions": [
                 "s3:GetObject",
                 "s3:DeleteObject",
-                "secretsmanager:GetSecretValue"
+                "lambda:InvokeFunction"
             ]
         },
         "list": {

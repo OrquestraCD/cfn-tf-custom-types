@@ -35,15 +35,14 @@ class ResourceHandlerRequest(BaseResourceHandlerRequest):
 
 @dataclass
 class ResourceModel(BaseResourceModel):
-    TPSCode: Optional[str]
-    Title: Optional[str]
-    CoverSheetIncluded: Optional[bool]
-    DueDate: Optional[str]
-    ApprovalDate: Optional[str]
-    Memo: Optional["_Memo"]
-    SecondCopyOfMemo: Optional["_Memo"]
-    TestCode: Optional[str]
-    Authors: Optional[Sequence[str]]
+    tfcfnid: Optional[str]
+    AccountName: Optional[str]
+    AccountSlug: Optional[str]
+    CustomDomain: Optional[str]
+    DeployUrl: Optional[str]
+    Id: Optional[str]
+    Name: Optional[str]
+    Repo: Optional[Sequence["_Repo"]]
 
     @classmethod
     def _deserialize(
@@ -53,15 +52,14 @@ class ResourceModel(BaseResourceModel):
         if not json_data:
             return None
         return cls(
-            TPSCode=json_data.get("TPSCode"),
-            Title=json_data.get("Title"),
-            CoverSheetIncluded=json_data.get("CoverSheetIncluded"),
-            DueDate=json_data.get("DueDate"),
-            ApprovalDate=json_data.get("ApprovalDate"),
-            Memo=Memo._deserialize(json_data.get("Memo")),
-            SecondCopyOfMemo=Memo._deserialize(json_data.get("SecondCopyOfMemo")),
-            TestCode=json_data.get("TestCode"),
-            Authors=json_data.get("Authors"),
+            tfcfnid=json_data.get("tfcfnid"),
+            AccountName=json_data.get("AccountName"),
+            AccountSlug=json_data.get("AccountSlug"),
+            CustomDomain=json_data.get("CustomDomain"),
+            DeployUrl=json_data.get("DeployUrl"),
+            Id=json_data.get("Id"),
+            Name=json_data.get("Name"),
+            Repo=json_data.get("Repo"),
         )
 
 
@@ -70,24 +68,32 @@ _ResourceModel = ResourceModel
 
 
 @dataclass
-class Memo:
-    Heading: Optional[str]
-    Body: Optional[str]
+class Repo:
+    Command: Optional[str]
+    DeployKeyId: Optional[str]
+    Dir: Optional[str]
+    Provider: Optional[str]
+    RepoBranch: Optional[str]
+    RepoPath: Optional[str]
 
     @classmethod
     def _deserialize(
-        cls: Type["_Memo"],
+        cls: Type["_Repo"],
         json_data: Optional[Mapping[str, Any]],
-    ) -> Optional["_Memo"]:
+    ) -> Optional["_Repo"]:
         if not json_data:
             return None
         return cls(
-            Heading=json_data.get("Heading"),
-            Body=json_data.get("Body"),
+            Command=json_data.get("Command"),
+            DeployKeyId=json_data.get("DeployKeyId"),
+            Dir=json_data.get("Dir"),
+            Provider=json_data.get("Provider"),
+            RepoBranch=json_data.get("RepoBranch"),
+            RepoPath=json_data.get("RepoPath"),
         )
 
 
 # work around possible type aliasing issues when variable has same name as a model
-_Memo = Memo
+_Repo = Repo
 
 

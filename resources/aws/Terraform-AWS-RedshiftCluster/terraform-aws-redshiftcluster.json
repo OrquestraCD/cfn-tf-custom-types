@@ -294,5 +294,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/MasterPassword"
+    ]
 }

@@ -66,5 +66,9 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/CertificatePem",
+        "/properties/CertificateWallet"
+    ]
 }

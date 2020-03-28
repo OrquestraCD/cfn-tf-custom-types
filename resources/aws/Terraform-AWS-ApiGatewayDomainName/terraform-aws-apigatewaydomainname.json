@@ -156,5 +156,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/CertificatePrivateKey"
+    ]
 }

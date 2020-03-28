@@ -1242,29 +1242,44 @@
     "handlers": {
         "create": {
             "permissions": [
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:GetObject",
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "read": {
-            "permissions": []
+            "permissions": [
+                "s3:GetObject"
+            ]
         },
         "update": {
             "permissions": [
                 "s3:GetObject",
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "delete": {
             "permissions": [
                 "s3:GetObject",
                 "s3:DeleteObject",
-                "secretsmanager:GetSecretValue"
+                "lambda:InvokeFunction"
             ]
         },
         "list": {
             "permissions": []
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/definitions/Backend/SslClientCert",
+        "/definitions/Backend/SslClientKey",
+        "/definitions/Bigquerylogging/Email",
+        "/definitions/Bigquerylogging/SecretKey",
+        "/definitions/Blobstoragelogging/SasToken",
+        "/definitions/Gcslogging/SecretKey",
+        "/definitions/S3logging/S3AccessKey",
+        "/definitions/S3logging/S3SecretKey",
+        "/definitions/Splunk/Token",
+        "/definitions/Syslog/TlsClientKey"
+    ]
 }

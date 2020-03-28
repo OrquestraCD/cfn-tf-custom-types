@@ -649,5 +649,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/definitions/Auth/Resource"
+    ]
 }

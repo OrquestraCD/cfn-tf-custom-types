@@ -68,5 +68,9 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/ClientId",
+        "/properties/ClientSecret"
+    ]
 }

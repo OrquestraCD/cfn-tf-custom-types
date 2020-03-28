@@ -244,5 +244,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/AuthToken"
+    ]
 }

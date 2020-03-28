@@ -365,5 +365,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/Password"
+    ]
 }

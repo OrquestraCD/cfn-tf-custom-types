@@ -202,5 +202,9 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/Tunnel1PresharedKey",
+        "/properties/Tunnel2PresharedKey"
+    ]
 }

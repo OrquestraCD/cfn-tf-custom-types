@@ -66,5 +66,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/Key"
+    ]
 }

@@ -42,12 +42,10 @@
             "description": "Check interval in seconds."
         },
         "IpDscp": {
-            "type": "number",
-            "description": null
+            "type": "number"
         },
         "ManualResume": {
-            "type": "string",
-            "description": null
+            "type": "string"
         },
         "Mode": {
             "type": "string",
@@ -69,28 +67,24 @@
             "description": "Expected response string."
         },
         "ReceiveDisable": {
-            "type": "string",
-            "description": null
+            "type": "string"
         },
         "Reverse": {
-            "type": "string",
-            "description": null
+            "type": "string"
         },
         "Send": {
             "type": "string",
             "description": "Request string to send."
         },
         "TimeUntilUp": {
-            "type": "number",
-            "description": null
+            "type": "number"
         },
         "Timeout": {
             "type": "number",
             "description": "Timeout in seconds."
         },
         "Transparent": {
-            "type": "string",
-            "description": null
+            "type": "string"
         },
         "Username": {
             "type": "string",
@@ -112,25 +106,28 @@
     "handlers": {
         "create": {
             "permissions": [
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:GetObject",
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "read": {
-            "permissions": []
+            "permissions": [
+                "s3:GetObject"
+            ]
         },
         "update": {
             "permissions": [
                 "s3:GetObject",
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "delete": {
             "permissions": [
                 "s3:GetObject",
                 "s3:DeleteObject",
-                "secretsmanager:GetSecretValue"
+                "lambda:InvokeFunction"
             ]
         },
         "list": {

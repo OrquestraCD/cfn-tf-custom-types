@@ -211,5 +211,10 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/definitions/AppSource/Password",
+        "/definitions/AppSource/SshKey",
+        "/definitions/SslConfiguration/PrivateKey"
+    ]
 }

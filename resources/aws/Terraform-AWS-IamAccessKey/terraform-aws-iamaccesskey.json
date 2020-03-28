@@ -82,5 +82,10 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/Secret",
+        "/properties/SesSmtpPassword",
+        "/properties/SesSmtpPasswordV4"
+    ]
 }

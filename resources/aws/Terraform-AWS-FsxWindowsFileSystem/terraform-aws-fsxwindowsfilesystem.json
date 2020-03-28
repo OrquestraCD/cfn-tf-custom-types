@@ -208,5 +208,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/definitions/SelfManagedActiveDirectory/Password"
+    ]
 }

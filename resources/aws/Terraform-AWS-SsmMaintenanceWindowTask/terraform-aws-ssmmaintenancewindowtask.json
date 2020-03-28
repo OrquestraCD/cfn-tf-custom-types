@@ -9,16 +9,13 @@
             "additionalProperties": false,
             "properties": {
                 "S3BucketName": {
-                    "type": "string",
-                    "description": null
+                    "type": "string"
                 },
                 "S3BucketPrefix": {
-                    "type": "string",
-                    "description": null
+                    "type": "string"
                 },
                 "S3Region": {
-                    "type": "string",
-                    "description": null
+                    "type": "string"
                 }
             },
             "required": [
@@ -90,16 +87,14 @@
             "additionalProperties": false,
             "properties": {
                 "Name": {
-                    "type": "string",
-                    "description": null
+                    "type": "string"
                 },
                 "Values": {
                     "type": "array",
                     "insertionOrder": false,
                     "items": {
                         "type": "string"
-                    },
-                    "description": null
+                    }
                 }
             },
             "required": [
@@ -420,5 +415,9 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/definitions/LambdaParameters/Payload",
+        "/definitions/StepFunctionsParameters/Input"
+    ]
 }

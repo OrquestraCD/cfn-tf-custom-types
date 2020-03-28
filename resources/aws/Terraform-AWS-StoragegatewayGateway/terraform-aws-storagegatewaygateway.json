@@ -157,5 +157,9 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/SmbGuestPassword",
+        "/definitions/SmbActiveDirectorySettings/Password"
+    ]
 }

@@ -772,29 +772,41 @@
     "handlers": {
         "create": {
             "permissions": [
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:GetObject",
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "read": {
-            "permissions": []
+            "permissions": [
+                "s3:GetObject"
+            ]
         },
         "update": {
             "permissions": [
                 "s3:GetObject",
-                "s3:PutObject",
-                "secretsmanager:GetSecretValue"
+                "s3:DeleteObject",
+                "lambda:InvokeFunction"
             ]
         },
         "delete": {
             "permissions": [
                 "s3:GetObject",
                 "s3:DeleteObject",
-                "secretsmanager:GetSecretValue"
+                "lambda:InvokeFunction"
             ]
         },
         "list": {
             "permissions": []
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/definitions/ConnectionString/Value",
+        "/definitions/ActiveDirectory/ClientSecret",
+        "/definitions/Facebook/AppSecret",
+        "/definitions/Google/ClientSecret",
+        "/definitions/Microsoft/ClientSecret",
+        "/definitions/Twitter/ConsumerSecret",
+        "/definitions/AzureBlobStorage/SasUrl"
+    ]
 }

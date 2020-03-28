@@ -109,5 +109,8 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/KeyMaterialBase64"
+    ]
 }

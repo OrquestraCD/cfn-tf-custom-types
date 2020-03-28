@@ -68,5 +68,9 @@
                 "*"
             ]
         }
-    }
+    },
+    "writeOnlyProperties": [
+        "/properties/ApiKey",
+        "/properties/SecretKey"
+    ]
 }
